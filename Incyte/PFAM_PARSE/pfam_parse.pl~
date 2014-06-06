@@ -1,0 +1,110 @@
+#!/usr/local/bin/perl -w
+#
+# works with hmmpfam results
+# e.g. cat *.hmmpfam | hmmpfam_parse.pl
+
+use Getopt::Std;
+use strict;
+
+my $usage = "Usage: pfam_parse.pl pfam_out_file [-h] [-b] [-f] File
+
+\t-h          help
+\t-b          Brief Output
+\tdefault     Full Output
+
+
+Brief Output is space separated: QueryId PfamModelId Score Evalue
+Full Output is tab separated: 
+QueryId DomainStats PfamModelId QStart Qend SeqThing HmmStart HmmEnd HmmThing Score Evalue
+
+\n";
+
+#unless ( $ARGV[0] ) { die $usage }
+
+### command line options ###
+my (%opts, $brief, $full);
+
+getopts('hbf', \%opts);
+defined $opts{"h"} and die $usage;
+defined $opts{"b"} and $brief++;
+
+$/ = "//";
+$| = 1;
+
+my @result_lines = ();
+my @results = ();
+my @array = ();
+
+READ_LOOP: while (<>)
+{
+  unless (/threshold/)
+  {
+    @result_lines = ();
+    @result_lines = split(/\n/, $_);
+    push (@results, [@result_lines]);
+  }
+  next READ_LOOP;
+}
+
+$/ = "\n";
+my $cutoffDir = '/home2/mlyne/USEFUL';
+my $file = "pfam_model_TrustedCutoffs_0501";
+
+open(CUTOFFS, "< $cutoffDir/$file") || die "Couldn't open $file: $!\n";
+
+my ($pfId, $singCO, $multCO);
+my %pfHash;
+
+while (<CUTOFFS>)
+{
+  chomp;
+  ($pfId, $singCO, $multCO) = split(/\t/, $_);
+  $pfHash{$pfId} = [$singCO, $multCO];
+}
+
+my $query;
+my ($id, $domStat, $seqStart, $seqEnd, $seqThing, 
+   $hmmStart, $hmmEnd, $hmmThing, $score, $eVal, $orient);
+my ($domCnt, $domTot);
+my $cutoff;
+my ($derefsingCO, $derefMultCO);
+
+foreach my $results_ref (@results)
+{
+  for my $i (0 .. $#{ $results_ref })
+  {
+    if (@{ $results_ref}[$i] =~ /Query:\s+(\S+)\s.*?$/)
+    {
+      $query = $1;
+    }
+
+    if (@{ $results_ref}[$i] =~ m{/} && @{ $results_ref}[$i] =~ m{(\[|\]|\.\.)} )
+    {
+      ($id, $domStat, $seqStart, $seqEnd, $seqThing, $hmmStart, 
+       $hmmEnd, $hmmThing, $score, $eVal, $orient) = split(/\s+/, @{ $results_ref}[$i]);
+
+      if ($domStat =~ m{(\d+)/(\d+)})
+      {
+	$domCnt = $1;
+	$domTot = $2;
+      }
+
+
+      if (exists($pfHash{$id}))
+      {
+	($derefsingCO, $derefMultCO) = @{ $pfHash{$id} };
+
+	$cutoff = ($domTot > 1) ? $derefMultCO : $derefsingCO;
+
+	if ($score >= $cutoff)
+	{
+	  if ($brief) {
+	    print "$query $id $score $eVal\n";
+	  } else {
+	    print "$query\t$id\t$domStat\t$seqStart\t$seqEnd\t$seqThing\t$hmmStart\t$hmmEnd\t$hmmThing\t$score\t$eVal\n";
+	  }
+	}
+      }
+    }
+  }
+}

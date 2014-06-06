@@ -1,0 +1,19 @@
+#!/usr/local/bin/perl5
+
+# selects the n lines with the highest #s in the first column, for each
+#	value of the 3rd column.
+
+# INPUT MUST BE SORTED by STAT, AND 
+#	HAVE 4 TOKENS PER LINE (STAT, FRQ, SRC, TARGET)
+
+# output is just filter of input, so the order of lines remains constant
+
+$numstats = shift(@ARGV);
+
+while (<>) {
+	($val, $frq, $c3, @rest) = split;
+	if ($sofar{$c3} < $numstats) {
+		$sofar{$c3}++;
+		print $_;
+	};
+};

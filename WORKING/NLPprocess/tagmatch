@@ -1,0 +1,35 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# Author:  I. Dan Melamed
+# Computes:	filters out lines where the two present tags don't match
+# Streams:	lines containing two instances of ::{tag}, the first
+#                     followed by some whitespace
+#######################################################################
+
+while (<>) {
+    m/::([^ ]+)\s.*::([^ ]+)\n/;
+    if (&tagmatch($1, $2)) {
+	print;
+    };
+};
+
+
+sub tagmatch {
+    my($tagA, $tagB) = @_;
+
+    return ($tagA eq $tagB
+            || (" J VBN VBG " =~ $tagA && " J VBN VBG " =~ $tagB
+                && $tagA ne "V" && $tagB ne "V"
+                && $tagA ne "N" && $tagB ne "N" )
+            || ($tagA eq "RP" && $tagB eq "IN")
+            || ($tagB eq "RP" && $tagA eq "IN")
+            || ($tagA eq "NP" && $tagB eq "N")
+            || ($tagB eq "NP" && $tagA eq "N")
+            || ($tagA eq "CD" && $tagB eq "D")
+            || ($tagB eq "CD" && $tagA eq "D")
+            || ($tagA eq "P" && $tagB eq "D")
+            || ($tagB eq "P" && $tagA eq "D")
+            || $tagA eq "UK"
+            || $tagB eq "UK");
+};

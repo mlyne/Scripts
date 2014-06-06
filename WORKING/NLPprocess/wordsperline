@@ -1,0 +1,8 @@
+#!/usr/local/bin/perl5 -n
+
+# counts the number of words per line and prints the counts 
+
+$count = scalar split;
+print "$count\n";
+
+

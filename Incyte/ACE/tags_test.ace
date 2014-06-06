@@ -1,0 +1,13 @@
+// data dumped from keyset display
+
+Locus : "APM2"
+Full_name	 "clone_4824992"
+Drugable_class	 secreted-geneseq
+FL_id	 "5992251"
+CA2_id	 "6213438CA2"
+RefSeq_id	 "NM_006829"
+Remark	 "CA2ordered 16.05.01 6213438CA2"
+cDNA_link_objects	 "APM2_link_cdna"
+Positive_bin	 "T2D_2.3"
+Positive_bin	 "level_II_t2d"
+

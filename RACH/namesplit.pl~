@@ -1,0 +1,33 @@
+#!/usr/local/bin/perl -w
+#
+#
+#
+
+$usage = "Usage:namesplit.pl file_to_split";
+
+ READ_LOOP: while (<>) 
+{
+ 
+  chomp $_;
+
+  @names = split(/,/, $_);
+
+  foreach $name (@names) {
+
+    if ($name =~ m/SP(ABC)(CP)/) 
+    {
+      print "A systematic!\n";
+      push (@systematic, $name);
+    }
+    else 
+    { 
+      push (@symbol, $name); 
+    }
+
+    print join(",", @symbol);
+    print join(",", @systematic);
+
+  }    
+  next READ_LOOP;
+} 
+

@@ -1,0 +1,141 @@
+Adipose Tissue
+Animals
+Dietary Fats
+Disease Progression
+Fatty Acid-Binding Proteins
+Fatty Liver
+Hyperinsulinism
+Inflammation
+Lipogenesis
+Liver
+Male
+Mice
+Mice, Inbred C57BL
+Organ Size
+Overnutrition
+PPAR gamma
+Absorptiometry, Photon
+Animals
+Blotting, Western
+Cell Line
+Ceramides
+Diacylglycerol O-Acyltransferase
+Diglycerides
+Echocardiography
+Enzyme Inhibitors
+Gene Expression
+Glucose
+Lipoproteins, VLDL
+Male
+Mice
+Mice, Knockout
+Muscle, Skeletal
+Myoblasts
+Myocardium
+Myocytes, Cardiac
+Organ Size
+Palmitic Acid
+Peroxisome Proliferator-Activated Receptors
+Polymerase Chain Reaction
+Adipocytes
+Adipose Tissue
+Animals
+Cell Fractionation
+Cells, Cultured
+Diet
+Flow Cytometry
+Gene Expression Profiling
+Inflammation
+Insulin Resistance
+Lipid Metabolism
+Macrophages
+Mice
+Mice, Obese
+Obesity
+Oligonucleotide Array Sequence Analysis
+Animals
+Apoptosis
+Blood Glucose
+Blotting, Western
+Cell Line
+Diabetes Mellitus
+Diet, Carbohydrate-Restricted
+Forkhead Transcription Factors
+Glucose
+Homeodomain Proteins
+Hyperglycemia
+Immunohistochemistry
+Insulin
+Insulin-Secreting Cells
+Islets of Langerhans
+Maf Transcription Factors, Large
+Male
+Mice
+Obesity
+Phosphorylation
+Trans-Activators
+Acyl Coenzyme A
+Apoptosis
+Cell Line
+Endoplasmic Reticulum
+Fatty Acids
+Hepatocytes
+Humans
+Liver
+Triglycerides
+Animals
+Cardiomyopathies
+Cells, Cultured
+Diacylglycerol O-Acyltransferase
+Fatty Acids
+Lipid Metabolism
+Mice
+Mice, Transgenic
+Models, Biological
+Myocardium
+Myocytes, Cardiac
+Obesity
+Triglycerides
+AMP-Activated Protein Kinases
+Animals
+Cell Shape
+Cells, Cultured
+Chromones
+Deoxyglucose
+Enzyme Inhibitors
+Gene Expression
+Ghrelin
+Glucose
+Glucose Transporter Type 4
+Insulin Resistance
+Male
+Morpholines
+Myocytes, Cardiac
+PPAR gamma
+Palmitic Acid
+Phosphatidylinositol 3-Kinases
+Phosphorylation
+Proto-Oncogene Proteins c-akt
+Rats
+Rats, Sprague-Dawley
+Signal Transduction
+Animals
+Cell Culture Techniques
+Cell Survival
+DNA Primers
+Extracellular Matrix
+Fluoresceins
+Hep G2 Cells
+Humans
+Hydrogen Peroxide
+Immunohistochemistry
+Insulin-Secreting Cells
+Islets of Langerhans
+Lentivirus
+Male
+Oxidative Stress
+Peroxisomes
+Polymerase Chain Reaction
+Rats
+Rats, Inbred Lew
+Receptors, Cytoplasmic and Nuclear

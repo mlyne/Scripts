@@ -1,0 +1,3 @@
+b1	(Scope 1)
+b2	(Scope 2)
+b3	(Scope 3)

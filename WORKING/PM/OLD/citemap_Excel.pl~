@@ -1,0 +1,311 @@
+#!/usr/bin/perl -w
+
+use LWP;
+use DateTime;
+use Spreadsheet::WriteExcel::Big;
+use strict;
+
+my $usage = "Usage:citemap_pm.pl (TermFile1 TermFile2) TermFile3  out_file > err.txt
+
+File format:
+rowName \t expression
+
+Contents of F1 & F2 are concatenated --> matrix rows
+F3 --> matrix headers
+
+Writes Excel with two sheets: 
+Link - Hit Counts hyperlinked to results in pubmed
+Filter - Plain text worksheet for filtering
+
+Also produces matrix as plain text file
+
+Note: check for additional constraints - eg. 2008:2012[dp]
+
+\n";
+
+unless ( $ARGV[3] ) { die $usage }
+
+# Take input from the command line
+my $indic_file = $ARGV[0];
+my $scope_file = $ARGV[1];
+my $country_file = $ARGV[2];
+my $out_file = $ARGV[3];
+
+my $dispmax = 1;
+
+### Configuring an Excel Workbook ###
+my $workbook  = Spreadsheet::WriteExcel::Big->new("$out_file.xls");
+my $worksheet = $workbook->add_worksheet('Link');
+my $worksheet2 = $workbook->add_worksheet('Filter');
+
+# Add a sample format
+my $format = $workbook->add_format();
+$format->set_size(12);
+$format->set_bold();
+$format->set_color('blue');
+$format->set_underline();
+
+### End Config ###
+
+# Open Indic, Scope & Country files
+open(IFILE, "< $indic_file") || die "cannot open $indic_file: $!\n";
+open(SFILE, "< $scope_file") || die "cannot open $scope_file: $!\n";
+open(QFILE, "< $country_file") || die "cannot open $country_file: $!\n";
+open(OUT_FILE, "> $out_file.txt") || die "cannot open $out_file: $!\n";
+
+# Read scope into an array
+chomp (my @scope = <SFILE>); 
+
+# Read queries into an array
+chomp (my @country = <QFILE>); 
+
+# Start position of results matrix
+my $matrix_row = 4; 
+
+# Start position of Drugs header
+my $SearchNameColHeadStart = "A"; 
+my $SearchExprColHeadStart = "B"; 
+
+# Saving space - used for the hyperlink to PubMed and MeSH
+my $pubMed = "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&term=";
+my $link = "+AND+";
+my $date = "+AND+2008:2012[dp]";
+my $noRev = "+NOT+review[pt]";
+my $constraint = "$date$noRev";
+#my $mesh = "http://www.nlm.nih.gov/cgi/mesh/2004/MB_cgi?term=";
+
+# Get local time and write to file
+my $stamp = DateTime->now( time_zone => 'Europe/London' );
+print OUT_FILE "# ", $stamp->dmy, "\t", $stamp->hms, "\t", "Additional Terms: ", $constraint, "\n";
+
+### Timestamp for Excel
+$worksheet->write("A1", $stamp->dmy);
+$worksheet2->write("A1", $stamp->dmy);
+$worksheet->write("B1", $stamp->hms);
+$worksheet2->write("B1", $stamp->hms);
+$worksheet->write("C1", "Additional Terms: $constraint");
+$worksheet2->write("C1", "Additional Terms: $constraint");
+
+
+### Header for column 1 & 2
+$worksheet->write("A2", "SearchLINK");
+$worksheet2->write("A2", "SearchLINK");
+$worksheet->write("B2", "RowTerms");
+$worksheet2->write("B2", "RowTerms");
+#print OUT_FILE "SearchLITE";
+
+### Header for column 1
+print OUT_FILE "SearchLINK\tRowSearch";
+
+### This section sets co-ordinates for the Country headers ###
+# Start country headers at C - A & B are taken by indic & Term headers
+my $countryColHeadStart = "C"; 
+
+# Loop over Query file with counter to plot header co-ordinates
+for my $country_header (@country)
+{	
+	my $countryRowHeadStart = 2;
+	my ($country_h, $countrExpr) = split /\t/, $country_header;
+	print OUT_FILE "\t", $country_h;
+
+	$worksheet->write("$countryColHeadStart$countryRowHeadStart", "$country_h");
+	$worksheet2->write("$countryColHeadStart$countryRowHeadStart", "$country_h");
+	$countryColHeadStart++;
+	
+}
+# End of line for text file country headers
+print OUT_FILE "\n";
+
+# Search terms header line
+### Header for Row Terms 1 & 2
+$worksheet->write("A3", "SearchName");
+$worksheet2->write("A3", "SearchSearch");
+$worksheet->write("B3", "ColTerms");
+$worksheet2->write("B3", "ColTerms");
+
+print OUT_FILE "ColSearch\tSearch";
+
+$countryColHeadStart = "C";
+
+for my $country_term (@country)
+{	
+	my ($coutryID, $countryExpr) = split /\t/, $country_term;
+	print OUT_FILE "\t", $countryExpr;
+	
+	my $countryRowHeadStart = 3;
+	$worksheet->write("$countryColHeadStart$countryRowHeadStart", "$pubMed$countryExpr", "$countryExpr");
+	$worksheet2->write("$countryColHeadStart$countryRowHeadStart", "$countryExpr");
+	$countryColHeadStart++;
+
+}
+
+# End of line for text file search terms
+print OUT_FILE "\n";
+
+# Loops through Indic file
+READ_INDIC_LOOP:while (<IFILE>)
+{
+	chomp; # remove newlines
+	
+	# Assign Indic query
+	my ($indID, $indicExp) = split /\t/, $_;
+	
+	my $indicName = $indID;
+	print $indicName, "\n";
+
+	# Check the time ###
+### ***	Time_Check(); ### take out for testing
+        	
+ 	READ_SCOPE_LOOP:for my $scopeLine (@scope)
+ 	{
+ 		#chomp; # remove newlines
+
+ 		my ($scopeID, $scopeExp) = split /\t/, $scopeLine;
+ 		#print "POOP ", $scopeID, "\n";
+ 		my $termID = join "_", $indicName, $scopeID;
+ 		my $filler = " AND ";
+ 		my $combExp = $indicExp . $filler . $scopeExp;
+ 		print "TERM: ", $termID, "\n";
+ 		print "EXPR: ", $combExp, "\n";
+
+# Assigns a start column co-ordinate for results
+		my $matrix_col = "C";
+
+# Write Search name & combined expression to Excel
+		$worksheet->write("$SearchNameColHeadStart$matrix_row",  "$termID");
+		$worksheet2->write("$SearchNameColHeadStart$matrix_row",  "$termID");
+		$worksheet->write("$SearchExprColHeadStart$matrix_row",  "$pubMed$combExp", "$combExp");
+		$worksheet2->write("$SearchExprColHeadStart$matrix_row",  "$combExp");		
+
+# Write Indic names to text file
+		print OUT_FILE $termID, "\t", $combExp;
+
+# Write our Indic names in the first column of the spreadsheet
+# Start at row #2 as row #1 has country headers
+	
+	# Loops over array of Countries
+	READ_COUNTRY_LOOP: for my $terr (@country)
+	{
+	  my ($countryID, $countryExp) = split /\t/, $terr;
+#	  my $finalExpr = "stuff__" . $combExp . "+AND+" . $countryExp, "+2008:2012[dp]+NOT+review[pt]" . 
+#	  "&tool=eSearchTool" .
+#	  "&email=mlyne\.careers\@gmail.com";
+#	  print "EXPR: ", $finalExpr, "\n";
+
+# Write search params to Log file
+	  my $tp = DateTime->now( time_zone => 'Europe/London' );
+	  print $tp->hms, " (UK) : ", $countryExp, "\n";        
+ 		
+# Make use of LWP to make call to PubMed query website
+
+	  my $url = "http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?&db=pubmed&rettype=count&term=" . $combExp  . # test URL 2
+	  "+AND+" . $countryExp . "+2008:2012[dp]+NOT+review[pt]" .
+	  "&tool=eSearchTool" .
+	  "&email=mlyne\.careers\@gmail.com";
+	  
+#	  print "URL: ", $url, "\n";
+                
+	  my $agent    = LWP::UserAgent->new;
+	  my $request  = HTTP::Request->new(GET => $url);
+	  my $response = $agent->request($request);
+	  $response->is_success or print "$combExp: $countryExp\tError: " . 
+	  $response->code . " " . $response->message, "\n";
+	  select(undef, undef, undef, 0.1); # PubMed requires that we have no more than 3 requests / second so delay half second
+        
+	  my $res; # Declare array for results processing
+
+# Results are slurped back in HTML format- we only want the Summary Text data
+# Split each line into the array
+
+	  $res = $response->content;
+	  #print $response->content, "\n";
+	  my $valid = "true" if ($res =~ m/eSearchResult/);
+
+# Then use grep to retrieve the line with reference info
+# feed into $entry
+
+	  my ($hitCount) = defined $valid ? ($res =~ m/\<Count\>(\d+)\</) : ("12321");
+
+# Write Co-oc frequencies & links to Excel file
+#	  print "$hitCount", " ", "$pubMed$combExp$link$countryExp$date$noRev", "\n";
+#	  $worksheet->write("$matrix_col$matrix_row", "$pubMed$combExp$link$countryExp$date$noRev", "$hitCount");
+	  my $hitLink = " $hitCount";
+	  $worksheet->write("$matrix_col$matrix_row", "$pubMed$combExp$link$countryExp$date$noRev", "$hitLink");
+	  $worksheet2->write("$matrix_col$matrix_row", "$hitCount");
+
+# Write Co-oc frequencies to Text file
+	  print OUT_FILE "\t", $hitCount;
+#	print OUT_FILE "\t", "RESULT";
+
+# Add to column co-ordinates to assign next result position		
+	  $matrix_col++;
+
+	}# End COUNTRY_LOOP
+	print "\n";
+
+# Write end of line to text file
+	print OUT_FILE "\n";
+	$matrix_row++;
+	
+	}# End SCOPE_LOOP
+	
+	# Add to row co-ordinates to assign next result position		
+#	$matrix_row++;
+	
+}# End INDIC_LOOP
+
+
+# Close the file we've opened
+close(IFILE);
+close(SFILE);
+close(QFILE);
+close(OUT_FILE);
+
+
+### Subroutines ####
+###  Time_Check  ###
+
+sub Time_Check {
+        
+        my $early = "2100";
+	my $late = "0500";
+        #my $late = "0220"; 
+
+	my$locTime = localtime();
+	print "Local Time: ", $locTime, "\n";
+        
+        my $t = DateTime->now( time_zone => 'America/New_York' ); # Change zone to Eastern Time
+        print $t->hms, " : Eastern Time\n";
+
+        my @ltime = split(/:/, $t->hms);
+        my $hour = $ltime[0];
+	#$hour +=4; # Fiddle factor to get over the midnight bridge
+	my $min = $ltime[1];
+	my $time = "$hour$min";
+        #my $time = "$ltime[0]$ltime[1]";
+	#print "time ", $time, "\n";
+        #print "hour ", $hour, "\n";
+
+        my $dayNum = $t->wday; # 1-7 (Monday is 1) - 
+        print "day ", $dayNum, " (Monday is 1)\n";
+
+        #unless (($dayNum < 2) || ($dayNum > 5)) {
+	unless ( $dayNum > 5 ) {
+
+                while ($time <= $early && $time >= $late) {
+                        print $t->hms, " Eastern Time: time to sleep ($time)\n";
+                        sleep 60;
+                        
+                        $t = DateTime->now( time_zone => 'America/New_York' );
+        		@ltime = split(/:/, $t->hms);
+        		$hour = $ltime[0];
+			#$hour +=4; # Fiddle factor to get over the midnight bridge
+			$min = $ltime[1];
+			$time = "$hour$min";
+                        
+                }
+	#$dayNum = $t->wday; # 1-7 (Monday is 1)
+        }
+                
+}
+

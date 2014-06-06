@@ -1,0 +1,42 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# trivial POS tagger for a give column of data
+# uses a list of tagged words; words not in the list are tagged ::O (other)
+# Current POS tags, if any, are removed.
+########################################################################
+
+#check for correct usage
+if ($#ARGV < 0) {
+        print "usage: $_ <column> <word-list> [<input-file>]\n";
+        exit;
+};
+
+$col = shift;
+$col--;
+
+open(K, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+while (<K>) {
+    # word list can have comments
+    if (not /^\#/) {
+	chop;
+	if (/(.*)::(.*)/) {
+	    $tag{$1} = $2;
+	} else {
+	    die "Problem in word list: $_";
+	};
+    };
+};
+close(K);
+shift;
+
+while (<>) {
+    @tok = split;
+    $tok[$col] =~ s/::[^ :]+//;
+    if (defined $tag{$tok[$col]}) {
+	$tok[$col] .= "::" . $tag{$tok[$col]};
+    } else {
+	$tok[$col] .= "::" . "O";
+    };
+    print join(' ', @tok), "\n";
+};

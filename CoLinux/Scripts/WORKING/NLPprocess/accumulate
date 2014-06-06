@@ -1,0 +1,41 @@
+#!/usr/local/bin/perl
+
+# replaces numeric columns with their running totals
+# a non-numeric entry in a column resets that column's running total to zero
+
+$TRUE = 1;
+$FALSE = 0;
+
+while (<>) {
+    undef(@line);
+    s/^\s*//;
+    @col = split;
+    for ($i = 0; $i < @col; $i++) {
+	if ($num[$i]) {
+	    if (! &numeric($col[$i])) {
+		$num[$i] = $FALSE;
+		$sum[$i] = 0;
+		push(@line, $col[$i]);
+	    } else {
+		$sum[$i] += $col[$i];
+		push(@line, $sum[$i]);
+	    };
+	} else {
+	    if (&numeric($col[$i])) {
+		$sum[$i] += $col[$i];
+		push(@line, $sum[$i]);
+	    } else {
+		push(@line, $col[$i]);
+	    };
+	};
+    };
+    print join(' ', @line);
+    print "\n";
+};
+
+
+sub numeric {
+        local($x) = @_;
+	$z = $x;
+        return ($z + 0 != 0 || $x eq "0" || $x eq "0.0");
+};

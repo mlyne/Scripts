@@ -1,0 +1,19 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# Author:  I. Dan Melamed
+# Computes:	subtracts one \n from all sequences of \n, except the
+#                       at end of file; turns single \n into spaces
+# Loads:	whole text
+#######################################################################
+
+undef $/;
+
+$_ = <>;
+
+s/\n\n+/<MULTINL_MARker>/gso;
+s/\n\Z/<MULTINL_MARker>/so;
+s/\n/ /gso;
+s/<MULTINL_MARker>/\n/gso;
+
+print;

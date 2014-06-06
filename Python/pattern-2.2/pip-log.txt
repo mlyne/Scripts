@@ -1,0 +1,777 @@
+Downloading/unpacking pattern
+  Getting page http://pypi.python.org/simple/pattern
+  URLs to search for versions for pattern:
+  * http://pypi.python.org/simple/pattern
+  Getting page http://www.clips.ua.ac.be/pages/pattern
+  Skipping page http://www.clips.ua.ac.be/media/pattern-1.5.zip (from http://pypi.python.org/simple/Pattern/) because of Content-Type: application/zip
+  Skipping page http://www.clips.ua.ac.be/media/pattern-2.3.zip (from http://pypi.python.org/simple/Pattern/) because of Content-Type: application/zip
+  Skipping page http://www.clips.ua.ac.be/media/pattern-2.0.zip (from http://pypi.python.org/simple/Pattern/) because of Content-Type: application/zip
+  Skipping page http://www.clips.ua.ac.be/media/pattern-1.8.zip (from http://pypi.python.org/simple/Pattern/) because of Content-Type: application/zip
+  Skipping page http://www.clips.ua.ac.be/media/pattern-2.2.zip (from http://pypi.python.org/simple/Pattern/) because of Content-Type: application/zip
+  Analyzing links from page http://pypi.python.org/simple/Pattern/
+    Skipping link http://www.clips.ua.ac.be/pages/pattern (from http://pypi.python.org/simple/Pattern/); not a file
+    Found link http://www.clips.ua.ac.be/media/pattern-1.5.zip (from http://pypi.python.org/simple/Pattern/), version: 1.5
+    Found link http://www.clips.ua.ac.be/media/pattern-2.3.zip (from http://pypi.python.org/simple/Pattern/), version: 2.3
+    Found link http://www.clips.ua.ac.be/media/pattern-2.0.zip (from http://pypi.python.org/simple/Pattern/), version: 2.0
+    Found link http://www.clips.ua.ac.be/media/pattern-1.8.zip (from http://pypi.python.org/simple/Pattern/), version: 1.8
+    Found link http://www.clips.ua.ac.be/media/pattern-2.2.zip (from http://pypi.python.org/simple/Pattern/), version: 2.2
+  Analyzing links from page http://www.clips.ua.ac.be/pages/pattern
+    Skipping link http://www.clips.ua.ac.be/news/feed (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/sites/all/themes/clips/favicon.ico (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .ico
+    Skipping link http://www.clips.ua.ac.be/sites/default/files/css/css_8a6abac31684ebc12a4c4d8c76bc4761.css (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .css
+    Skipping link http://www.clips.ua.ac.be/sites/default/files/css/css_aa9408f2736552d2f1aaa15b935df4a9.css (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .css
+    Skipping link http://www.clips.ua.ac.be/sites/all/themes/zen/zen/ie.css?w (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .css
+    Skipping link http://www.clips.ua.ac.be/pages/pattern#navigation (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/ (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Found link http://www.clips.ua.ac.be/media/pattern-2.3.zip (from http://www.clips.ua.ac.be/pages/pattern), version: 2.3
+    Skipping link http://www.linfo.org/bsdlicense.html (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .html
+    Found link http://www.clips.ua.ac.be/media/pattern-2.2.zip (from http://www.clips.ua.ac.be/pages/pattern), version: 2.2
+    Found link http://www.clips.ua.ac.be/media/pattern-2.1.zip (from http://www.clips.ua.ac.be/pages/pattern), version: 2.1
+    Found link http://www.clips.ua.ac.be/media/pattern-2.0.zip (from http://www.clips.ua.ac.be/pages/pattern), version: 2.0
+    Found link http://www.clips.ua.ac.be/media/pattern-1.9.zip (from http://www.clips.ua.ac.be/pages/pattern), version: 1.9
+    Skipping link http://twitter.com/share (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-web (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-db (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-en (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-nl (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-search (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-vector (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-graph (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-metrics (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-canvas (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-shell (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-dev (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link https://github.com/clips/pattern (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://groups.google.com/group/pattern-for-python (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://numpy.scipy.org/ (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/MBSP (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/media/pattern-graph (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-examples-elections (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-examples-100days (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/news (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/projects (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/people (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/demos (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/software (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/public-scripts (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/publications (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/talks (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/contact (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/user/password (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/computational-linguistics (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/language-acquisition (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/language-processing (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://ilk.uvt.nl/timbl/ (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/ctrs (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://ilk.uvt.nl/mblp/ (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/archive (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/colloquia (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/atila-2011 (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://clif.esat.kuleuven.be/ (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link mailto:walter.daelemans@ua.ac.be (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .be
+    Skipping link mailto:steven.gillis@ua.ac.be (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .be
+    Skipping link mailto:dominiek.sandra@ua.ac.be (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .be
+    Skipping link http://drupal.org (from http://www.clips.ua.ac.be/pages/pattern); not a file
+  Analyzing links from page http://www.clips.ua.ac.be/pages/pattern
+    Skipping link http://www.clips.ua.ac.be/news/feed (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/sites/all/themes/clips/favicon.ico (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .ico
+    Skipping link http://www.clips.ua.ac.be/sites/default/files/css/css_8a6abac31684ebc12a4c4d8c76bc4761.css (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .css
+    Skipping link http://www.clips.ua.ac.be/sites/default/files/css/css_aa9408f2736552d2f1aaa15b935df4a9.css (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .css
+    Skipping link http://www.clips.ua.ac.be/sites/all/themes/zen/zen/ie.css?w (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .css
+    Skipping link http://www.clips.ua.ac.be/pages/pattern#navigation (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/ (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Found link http://www.clips.ua.ac.be/media/pattern-2.3.zip (from http://www.clips.ua.ac.be/pages/pattern), version: 2.3
+    Skipping link http://www.linfo.org/bsdlicense.html (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .html
+    Found link http://www.clips.ua.ac.be/media/pattern-2.2.zip (from http://www.clips.ua.ac.be/pages/pattern), version: 2.2
+    Found link http://www.clips.ua.ac.be/media/pattern-2.1.zip (from http://www.clips.ua.ac.be/pages/pattern), version: 2.1
+    Found link http://www.clips.ua.ac.be/media/pattern-2.0.zip (from http://www.clips.ua.ac.be/pages/pattern), version: 2.0
+    Found link http://www.clips.ua.ac.be/media/pattern-1.9.zip (from http://www.clips.ua.ac.be/pages/pattern), version: 1.9
+    Skipping link http://twitter.com/share (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-web (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-db (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-en (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-nl (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-search (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-vector (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-graph (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-metrics (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-canvas (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-shell (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-dev (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link https://github.com/clips/pattern (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://groups.google.com/group/pattern-for-python (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://numpy.scipy.org/ (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/MBSP (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/media/pattern-graph (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-examples-elections (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-examples-100days (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/news (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/projects (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/people (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/demos (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/software (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/public-scripts (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/publications (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/talks (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/contact (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/user/password (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/computational-linguistics (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/language-acquisition (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/language-processing (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://ilk.uvt.nl/timbl/ (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/ctrs (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://ilk.uvt.nl/mblp/ (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/archive (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/colloquia (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/atila-2011 (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://clif.esat.kuleuven.be/ (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link mailto:walter.daelemans@ua.ac.be (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .be
+    Skipping link mailto:steven.gillis@ua.ac.be (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .be
+    Skipping link mailto:dominiek.sandra@ua.ac.be (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .be
+    Skipping link http://drupal.org (from http://www.clips.ua.ac.be/pages/pattern); not a file
+  Analyzing links from page http://www.clips.ua.ac.be/pages/pattern
+    Skipping link http://www.clips.ua.ac.be/news/feed (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/sites/all/themes/clips/favicon.ico (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .ico
+    Skipping link http://www.clips.ua.ac.be/sites/default/files/css/css_8a6abac31684ebc12a4c4d8c76bc4761.css (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .css
+    Skipping link http://www.clips.ua.ac.be/sites/default/files/css/css_aa9408f2736552d2f1aaa15b935df4a9.css (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .css
+    Skipping link http://www.clips.ua.ac.be/sites/all/themes/zen/zen/ie.css?w (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .css
+    Skipping link http://www.clips.ua.ac.be/pages/pattern#navigation (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/ (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Found link http://www.clips.ua.ac.be/media/pattern-2.3.zip (from http://www.clips.ua.ac.be/pages/pattern), version: 2.3
+    Skipping link http://www.linfo.org/bsdlicense.html (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .html
+    Found link http://www.clips.ua.ac.be/media/pattern-2.2.zip (from http://www.clips.ua.ac.be/pages/pattern), version: 2.2
+    Found link http://www.clips.ua.ac.be/media/pattern-2.1.zip (from http://www.clips.ua.ac.be/pages/pattern), version: 2.1
+    Found link http://www.clips.ua.ac.be/media/pattern-2.0.zip (from http://www.clips.ua.ac.be/pages/pattern), version: 2.0
+    Found link http://www.clips.ua.ac.be/media/pattern-1.9.zip (from http://www.clips.ua.ac.be/pages/pattern), version: 1.9
+    Skipping link http://twitter.com/share (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-web (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-db (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-en (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-nl (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-search (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-vector (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-graph (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-metrics (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-canvas (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-shell (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-dev (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link https://github.com/clips/pattern (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://groups.google.com/group/pattern-for-python (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://numpy.scipy.org/ (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/MBSP (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/media/pattern-graph (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-examples-elections (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-examples-100days (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/news (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/projects (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/people (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/demos (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/software (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/public-scripts (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/publications (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/talks (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/contact (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/user/password (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/computational-linguistics (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/language-acquisition (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/language-processing (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://ilk.uvt.nl/timbl/ (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/ctrs (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://ilk.uvt.nl/mblp/ (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/archive (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/colloquia (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/atila-2011 (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://clif.esat.kuleuven.be/ (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link mailto:walter.daelemans@ua.ac.be (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .be
+    Skipping link mailto:steven.gillis@ua.ac.be (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .be
+    Skipping link mailto:dominiek.sandra@ua.ac.be (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .be
+    Skipping link http://drupal.org (from http://www.clips.ua.ac.be/pages/pattern); not a file
+  Analyzing links from page http://www.clips.ua.ac.be/pages/pattern
+    Skipping link http://www.clips.ua.ac.be/news/feed (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/sites/all/themes/clips/favicon.ico (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .ico
+    Skipping link http://www.clips.ua.ac.be/sites/default/files/css/css_8a6abac31684ebc12a4c4d8c76bc4761.css (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .css
+    Skipping link http://www.clips.ua.ac.be/sites/default/files/css/css_aa9408f2736552d2f1aaa15b935df4a9.css (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .css
+    Skipping link http://www.clips.ua.ac.be/sites/all/themes/zen/zen/ie.css?w (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .css
+    Skipping link http://www.clips.ua.ac.be/pages/pattern#navigation (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/ (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Found link http://www.clips.ua.ac.be/media/pattern-2.3.zip (from http://www.clips.ua.ac.be/pages/pattern), version: 2.3
+    Skipping link http://www.linfo.org/bsdlicense.html (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .html
+    Found link http://www.clips.ua.ac.be/media/pattern-2.2.zip (from http://www.clips.ua.ac.be/pages/pattern), version: 2.2
+    Found link http://www.clips.ua.ac.be/media/pattern-2.1.zip (from http://www.clips.ua.ac.be/pages/pattern), version: 2.1
+    Found link http://www.clips.ua.ac.be/media/pattern-2.0.zip (from http://www.clips.ua.ac.be/pages/pattern), version: 2.0
+    Found link http://www.clips.ua.ac.be/media/pattern-1.9.zip (from http://www.clips.ua.ac.be/pages/pattern), version: 1.9
+    Skipping link http://twitter.com/share (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-web (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-db (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-en (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-nl (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-search (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-vector (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-graph (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-metrics (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-canvas (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-shell (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-dev (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link https://github.com/clips/pattern (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://groups.google.com/group/pattern-for-python (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://numpy.scipy.org/ (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/MBSP (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/media/pattern-graph (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-examples-elections (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-examples-100days (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/news (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/projects (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/people (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/demos (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/software (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/public-scripts (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/publications (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/talks (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/contact (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/user/password (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/computational-linguistics (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/language-acquisition (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/language-processing (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://ilk.uvt.nl/timbl/ (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/ctrs (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://ilk.uvt.nl/mblp/ (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/archive (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/colloquia (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/atila-2011 (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://clif.esat.kuleuven.be/ (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link mailto:walter.daelemans@ua.ac.be (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .be
+    Skipping link mailto:steven.gillis@ua.ac.be (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .be
+    Skipping link mailto:dominiek.sandra@ua.ac.be (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .be
+    Skipping link http://drupal.org (from http://www.clips.ua.ac.be/pages/pattern); not a file
+  Analyzing links from page http://www.clips.ua.ac.be/pages/pattern
+    Skipping link http://www.clips.ua.ac.be/news/feed (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/sites/all/themes/clips/favicon.ico (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .ico
+    Skipping link http://www.clips.ua.ac.be/sites/default/files/css/css_8a6abac31684ebc12a4c4d8c76bc4761.css (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .css
+    Skipping link http://www.clips.ua.ac.be/sites/default/files/css/css_aa9408f2736552d2f1aaa15b935df4a9.css (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .css
+    Skipping link http://www.clips.ua.ac.be/sites/all/themes/zen/zen/ie.css?w (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .css
+    Skipping link http://www.clips.ua.ac.be/pages/pattern#navigation (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/ (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Found link http://www.clips.ua.ac.be/media/pattern-2.3.zip (from http://www.clips.ua.ac.be/pages/pattern), version: 2.3
+    Skipping link http://www.linfo.org/bsdlicense.html (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .html
+    Found link http://www.clips.ua.ac.be/media/pattern-2.2.zip (from http://www.clips.ua.ac.be/pages/pattern), version: 2.2
+    Found link http://www.clips.ua.ac.be/media/pattern-2.1.zip (from http://www.clips.ua.ac.be/pages/pattern), version: 2.1
+    Found link http://www.clips.ua.ac.be/media/pattern-2.0.zip (from http://www.clips.ua.ac.be/pages/pattern), version: 2.0
+    Found link http://www.clips.ua.ac.be/media/pattern-1.9.zip (from http://www.clips.ua.ac.be/pages/pattern), version: 1.9
+    Skipping link http://twitter.com/share (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-web (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-db (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-en (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-nl (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-search (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-vector (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-graph (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-metrics (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-canvas (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-shell (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-dev (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link https://github.com/clips/pattern (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://groups.google.com/group/pattern-for-python (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://numpy.scipy.org/ (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/MBSP (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/media/pattern-graph (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-examples-elections (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern-examples-100days (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/news (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/projects (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/people (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/demos (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/software (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/public-scripts (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/publications (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/talks (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/contact (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/user/password (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/computational-linguistics (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/language-acquisition (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/language-processing (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://ilk.uvt.nl/timbl/ (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/pattern (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/ctrs (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://ilk.uvt.nl/mblp/ (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/archive (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/colloquia (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://www.clips.ua.ac.be/pages/atila-2011 (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link http://clif.esat.kuleuven.be/ (from http://www.clips.ua.ac.be/pages/pattern); not a file
+    Skipping link mailto:walter.daelemans@ua.ac.be (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .be
+    Skipping link mailto:steven.gillis@ua.ac.be (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .be
+    Skipping link mailto:dominiek.sandra@ua.ac.be (from http://www.clips.ua.ac.be/pages/pattern); unknown archive format: .be
+    Skipping link http://drupal.org (from http://www.clips.ua.ac.be/pages/pattern); not a file
+  Using version 2.3 (newest of versions: 2.3, 2.3, 2.3, 2.3, 2.3, 2.3, 2.2, 2.2, 2.2, 2.2, 2.2, 2.2, 2.1, 2.1, 2.1, 2.1, 2.1, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 1.9, 1.9, 1.9, 1.9, 1.9, 1.8, 1.5)
+  Downloading from URL http://www.clips.ua.ac.be/media/pattern-2.3.zip (from http://www.clips.ua.ac.be/pages/pattern)
+  Running setup.py egg_info for package pattern
+    running egg_info
+    creating pip-egg-info/Pattern.egg-info
+    writing pip-egg-info/Pattern.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/Pattern.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/Pattern.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/Pattern.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    reading manifest file 'pip-egg-info/Pattern.egg-info/SOURCES.txt'
+    writing manifest file 'pip-egg-info/Pattern.egg-info/SOURCES.txt'
+  Source in ./build/pattern has version 2.3, which satisfies requirement pattern
+Installing collected packages: pattern
+  Running setup.py install for pattern
+    Running command /usr/bin/python -c "import setuptools; __file__='/home/jars/MIKE/SCRIPTS/Python/pattern-2.2/build/pattern/setup.py'; execfile('/home/jars/MIKE/SCRIPTS/Python/pattern-2.2/build/pattern/setup.py')" install --single-version-externally-managed --record /tmp/pip-pLQLmx-record/install-record.txt --install-headers /home/jars/MIKE/SCRIPTS/Python/pattern-2.2/lib/include
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib.linux-i686-2.6
+    creating build/lib.linux-i686-2.6/pattern
+    copying pattern/__init__.py -> build/lib.linux-i686-2.6/pattern
+    copying pattern/metrics.py -> build/lib.linux-i686-2.6/pattern
+    copying pattern/table.py -> build/lib.linux-i686-2.6/pattern
+    creating build/lib.linux-i686-2.6/pattern/text
+    copying pattern/text/__init__.py -> build/lib.linux-i686-2.6/pattern/text
+    copying pattern/text/search.py -> build/lib.linux-i686-2.6/pattern/text
+    creating build/lib.linux-i686-2.6/pattern/web
+    copying pattern/web/__init__.py -> build/lib.linux-i686-2.6/pattern/web
+    copying pattern/web/api.py -> build/lib.linux-i686-2.6/pattern/web
+    creating build/lib.linux-i686-2.6/pattern/web/cache
+    copying pattern/web/cache/__init__.py -> build/lib.linux-i686-2.6/pattern/web/cache
+    creating build/lib.linux-i686-2.6/pattern/web/feed
+    copying pattern/web/feed/feedparser.py -> build/lib.linux-i686-2.6/pattern/web/feed
+    copying pattern/web/feed/__init__.py -> build/lib.linux-i686-2.6/pattern/web/feed
+    copying pattern/web/feed/setup.py -> build/lib.linux-i686-2.6/pattern/web/feed
+    creating build/lib.linux-i686-2.6/pattern/web/imap
+    copying pattern/web/imap/__init__.py -> build/lib.linux-i686-2.6/pattern/web/imap
+    creating build/lib.linux-i686-2.6/pattern/web/json
+    copying pattern/web/json/encoder.py -> build/lib.linux-i686-2.6/pattern/web/json
+    copying pattern/web/json/ordered_dict.py -> build/lib.linux-i686-2.6/pattern/web/json
+    copying pattern/web/json/__init__.py -> build/lib.linux-i686-2.6/pattern/web/json
+    copying pattern/web/json/decoder.py -> build/lib.linux-i686-2.6/pattern/web/json
+    copying pattern/web/json/scanner.py -> build/lib.linux-i686-2.6/pattern/web/json
+    copying pattern/web/json/tool.py -> build/lib.linux-i686-2.6/pattern/web/json
+    creating build/lib.linux-i686-2.6/pattern/web/oauth
+    copying pattern/web/oauth/__init__.py -> build/lib.linux-i686-2.6/pattern/web/oauth
+    creating build/lib.linux-i686-2.6/pattern/web/pdf
+    copying pattern/web/pdf/layout.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+    copying pattern/web/pdf/pdfdevice.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+    copying pattern/web/pdf/pdfinterp.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+    copying pattern/web/pdf/latin_enc.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+    copying pattern/web/pdf/pdffont.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+    copying pattern/web/pdf/glyphlist.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+    copying pattern/web/pdf/__init__.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+    copying pattern/web/pdf/runlength.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+    copying pattern/web/pdf/ascii85.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+    copying pattern/web/pdf/pdftypes.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+    copying pattern/web/pdf/psparser.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+    copying pattern/web/pdf/converter.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+    copying pattern/web/pdf/lzw.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+    copying pattern/web/pdf/pdfcolor.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+    copying pattern/web/pdf/arcfour.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+    copying pattern/web/pdf/utils.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+    copying pattern/web/pdf/pdfparser.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+    copying pattern/web/pdf/cmapdb.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+    copying pattern/web/pdf/encodingdb.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+    copying pattern/web/pdf/fontmetrics.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+    creating build/lib.linux-i686-2.6/pattern/web/soup
+    copying pattern/web/soup/__init__.py -> build/lib.linux-i686-2.6/pattern/web/soup
+    copying pattern/web/soup/BeautifulSoupTests.py -> build/lib.linux-i686-2.6/pattern/web/soup
+    copying pattern/web/soup/setup.py -> build/lib.linux-i686-2.6/pattern/web/soup
+    copying pattern/web/soup/BeautifulSoup.py -> build/lib.linux-i686-2.6/pattern/web/soup
+    creating build/lib.linux-i686-2.6/pattern/db
+    copying pattern/db/__init__.py -> build/lib.linux-i686-2.6/pattern/db
+    creating build/lib.linux-i686-2.6/pattern/text/en
+    copying pattern/text/en/__init__.py -> build/lib.linux-i686-2.6/pattern/text/en
+    creating build/lib.linux-i686-2.6/pattern/text/en/inflect
+    copying pattern/text/en/inflect/quantify.py -> build/lib.linux-i686-2.6/pattern/text/en/inflect
+    copying pattern/text/en/inflect/__init__.py -> build/lib.linux-i686-2.6/pattern/text/en/inflect
+    creating build/lib.linux-i686-2.6/pattern/text/en/parser
+    copying pattern/text/en/parser/sentiment.py -> build/lib.linux-i686-2.6/pattern/text/en/parser
+    copying pattern/text/en/parser/__init__.py -> build/lib.linux-i686-2.6/pattern/text/en/parser
+    copying pattern/text/en/parser/modality.py -> build/lib.linux-i686-2.6/pattern/text/en/parser
+    copying pattern/text/en/parser/brill.py -> build/lib.linux-i686-2.6/pattern/text/en/parser
+    copying pattern/text/en/parser/tree.py -> build/lib.linux-i686-2.6/pattern/text/en/parser
+    creating build/lib.linux-i686-2.6/pattern/text/en/wordlist
+    copying pattern/text/en/wordlist/__init__.py -> build/lib.linux-i686-2.6/pattern/text/en/wordlist
+    creating build/lib.linux-i686-2.6/pattern/text/en/wordnet
+    copying pattern/text/en/wordnet/__init__.py -> build/lib.linux-i686-2.6/pattern/text/en/wordnet
+    creating build/lib.linux-i686-2.6/pattern/text/en/wordnet/pywordnet
+    copying pattern/text/en/wordnet/pywordnet/wordnet.py -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/pywordnet
+    copying pattern/text/en/wordnet/pywordnet/__init__.py -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/pywordnet
+    copying pattern/text/en/wordnet/pywordnet/wntools.py -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/pywordnet
+    copying pattern/text/en/wordnet/pywordnet/setup.py -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/pywordnet
+    copying pattern/text/en/wordnet/pywordnet/concordance.py -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/pywordnet
+    creating build/lib.linux-i686-2.6/pattern/text/nl
+    copying pattern/text/nl/__init__.py -> build/lib.linux-i686-2.6/pattern/text/nl
+    creating build/lib.linux-i686-2.6/pattern/text/nl/parser
+    copying pattern/text/nl/parser/sentiment.py -> build/lib.linux-i686-2.6/pattern/text/nl/parser
+    copying pattern/text/nl/parser/__init__.py -> build/lib.linux-i686-2.6/pattern/text/nl/parser
+    creating build/lib.linux-i686-2.6/pattern/text/nl/inflect
+    copying pattern/text/nl/inflect/__init__.py -> build/lib.linux-i686-2.6/pattern/text/nl/inflect
+    creating build/lib.linux-i686-2.6/pattern/vector
+    copying pattern/vector/__init__.py -> build/lib.linux-i686-2.6/pattern/vector
+    copying pattern/vector/stemmer.py -> build/lib.linux-i686-2.6/pattern/vector
+    creating build/lib.linux-i686-2.6/pattern/vector/svm
+    copying pattern/vector/svm/svmutil.py -> build/lib.linux-i686-2.6/pattern/vector/svm
+    copying pattern/vector/svm/__init__.py -> build/lib.linux-i686-2.6/pattern/vector/svm
+    copying pattern/vector/svm/svm.py -> build/lib.linux-i686-2.6/pattern/vector/svm
+    creating build/lib.linux-i686-2.6/pattern/graph
+    copying pattern/graph/__init__.py -> build/lib.linux-i686-2.6/pattern/graph
+    copying pattern/canvas.js -> build/lib.linux-i686-2.6/pattern
+    copying pattern/web/feed/README -> build/lib.linux-i686-2.6/pattern/web/feed
+    copying pattern/web/feed/LICENSE -> build/lib.linux-i686-2.6/pattern/web/feed
+    copying pattern/web/json/_speedups.c -> build/lib.linux-i686-2.6/pattern/web/json
+    copying pattern/web/pdf/README.txt -> build/lib.linux-i686-2.6/pattern/web/pdf
+    creating build/lib.linux-i686-2.6/pattern/web/pdf/cmap
+    copying pattern/web/pdf/cmap/Makefile -> build/lib.linux-i686-2.6/pattern/web/pdf/cmap
+    copying pattern/web/pdf/cmap/__init__.py -> build/lib.linux-i686-2.6/pattern/web/pdf/cmap
+    copying pattern/web/soup/PKG-INFO -> build/lib.linux-i686-2.6/pattern/web/soup
+    copying pattern/text/en/inflect/verbs.txt -> build/lib.linux-i686-2.6/pattern/text/en/inflect
+    copying pattern/text/en/parser/Brill_contextual_rules.txt -> build/lib.linux-i686-2.6/pattern/text/en/parser
+    copying pattern/text/en/parser/Brill_lexical_rules.txt -> build/lib.linux-i686-2.6/pattern/text/en/parser
+    copying pattern/text/en/parser/Brill_lexicon.txt -> build/lib.linux-i686-2.6/pattern/text/en/parser
+    copying pattern/text/en/parser/sentiment.xml -> build/lib.linux-i686-2.6/pattern/text/en/parser
+    copying pattern/text/en/wordnet/IC-Brown-Resnik2.txt -> build/lib.linux-i686-2.6/pattern/text/en/wordnet
+    copying pattern/text/en/wordnet/IC-Brown-Resnik3.txt -> build/lib.linux-i686-2.6/pattern/text/en/wordnet
+    creating build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+    copying pattern/text/en/wordnet/dict/data.adv -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+    copying pattern/text/en/wordnet/dict/data.noun1 -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+    copying pattern/text/en/wordnet/dict/index.adv -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+    copying pattern/text/en/wordnet/dict/index.32 -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+    copying pattern/text/en/wordnet/dict/LICENSE.txt -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+    copying pattern/text/en/wordnet/dict/data.verb -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+    copying pattern/text/en/wordnet/dict/data.adj -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+    copying pattern/text/en/wordnet/dict/data.noun2 -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+    copying pattern/text/en/wordnet/dict/index.adj -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+    copying pattern/text/en/wordnet/dict/index.verb -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+    copying pattern/text/en/wordnet/dict/lexnames -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+    copying pattern/text/en/wordnet/dict/index.sense -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+    copying pattern/text/en/wordnet/dict/index.noun -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+    copying pattern/text/en/wordnet/pywordnet/README.txt -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/pywordnet
+    copying pattern/text/en/wordnet/pywordnet/LICENSE.txt -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/pywordnet
+    copying pattern/text/en/wordnet/pywordnet/PKG-INFO -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/pywordnet
+    copying pattern/text/nl/parser/sentiment.xml -> build/lib.linux-i686-2.6/pattern/text/nl/parser
+    copying pattern/text/nl/parser/Brill_contextual_rules.txt -> build/lib.linux-i686-2.6/pattern/text/nl/parser
+    copying pattern/text/nl/parser/Brill_lexical_rules.txt -> build/lib.linux-i686-2.6/pattern/text/nl/parser
+    copying pattern/text/nl/parser/Brill_lexicon.txt -> build/lib.linux-i686-2.6/pattern/text/nl/parser
+    copying pattern/text/nl/inflect/verbs.txt -> build/lib.linux-i686-2.6/pattern/text/nl/inflect
+    copying pattern/vector/stopwords.txt -> build/lib.linux-i686-2.6/pattern/vector
+    copying pattern/vector/svm/README -> build/lib.linux-i686-2.6/pattern/vector/svm
+    copying pattern/vector/svm/libsvm-mac32.so -> build/lib.linux-i686-2.6/pattern/vector/svm
+    copying pattern/vector/svm/libsvm-mac64.so -> build/lib.linux-i686-2.6/pattern/vector/svm
+    copying pattern/vector/svm/libsvm-win32.dll -> build/lib.linux-i686-2.6/pattern/vector/svm
+    copying pattern/vector/svm/INSTALL.txt -> build/lib.linux-i686-2.6/pattern/vector/svm
+    copying pattern/vector/svm/libsvm-ubuntu64.so -> build/lib.linux-i686-2.6/pattern/vector/svm
+    copying pattern/graph/graph.js -> build/lib.linux-i686-2.6/pattern/graph
+    running install_lib
+    creating /usr/local/lib/python2.6/dist-packages/pattern
+    error: could not create '/usr/local/lib/python2.6/dist-packages/pattern': Permission denied
+    Complete output from command /usr/bin/python -c "import setuptools; __file__='/home/jars/MIKE/SCRIPTS/Python/pattern-2.2/build/pattern/setup.py'; execfile('/home/jars/MIKE/SCRIPTS/Python/pattern-2.2/build/pattern/setup.py')" install --single-version-externally-managed --record /tmp/pip-pLQLmx-record/install-record.txt --install-headers /home/jars/MIKE/SCRIPTS/Python/pattern-2.2/lib/include:
+    running install
+
+running build
+
+running build_py
+
+creating build
+
+creating build/lib.linux-i686-2.6
+
+creating build/lib.linux-i686-2.6/pattern
+
+copying pattern/__init__.py -> build/lib.linux-i686-2.6/pattern
+
+copying pattern/metrics.py -> build/lib.linux-i686-2.6/pattern
+
+copying pattern/table.py -> build/lib.linux-i686-2.6/pattern
+
+creating build/lib.linux-i686-2.6/pattern/text
+
+copying pattern/text/__init__.py -> build/lib.linux-i686-2.6/pattern/text
+
+copying pattern/text/search.py -> build/lib.linux-i686-2.6/pattern/text
+
+creating build/lib.linux-i686-2.6/pattern/web
+
+copying pattern/web/__init__.py -> build/lib.linux-i686-2.6/pattern/web
+
+copying pattern/web/api.py -> build/lib.linux-i686-2.6/pattern/web
+
+creating build/lib.linux-i686-2.6/pattern/web/cache
+
+copying pattern/web/cache/__init__.py -> build/lib.linux-i686-2.6/pattern/web/cache
+
+creating build/lib.linux-i686-2.6/pattern/web/feed
+
+copying pattern/web/feed/feedparser.py -> build/lib.linux-i686-2.6/pattern/web/feed
+
+copying pattern/web/feed/__init__.py -> build/lib.linux-i686-2.6/pattern/web/feed
+
+copying pattern/web/feed/setup.py -> build/lib.linux-i686-2.6/pattern/web/feed
+
+creating build/lib.linux-i686-2.6/pattern/web/imap
+
+copying pattern/web/imap/__init__.py -> build/lib.linux-i686-2.6/pattern/web/imap
+
+creating build/lib.linux-i686-2.6/pattern/web/json
+
+copying pattern/web/json/encoder.py -> build/lib.linux-i686-2.6/pattern/web/json
+
+copying pattern/web/json/ordered_dict.py -> build/lib.linux-i686-2.6/pattern/web/json
+
+copying pattern/web/json/__init__.py -> build/lib.linux-i686-2.6/pattern/web/json
+
+copying pattern/web/json/decoder.py -> build/lib.linux-i686-2.6/pattern/web/json
+
+copying pattern/web/json/scanner.py -> build/lib.linux-i686-2.6/pattern/web/json
+
+copying pattern/web/json/tool.py -> build/lib.linux-i686-2.6/pattern/web/json
+
+creating build/lib.linux-i686-2.6/pattern/web/oauth
+
+copying pattern/web/oauth/__init__.py -> build/lib.linux-i686-2.6/pattern/web/oauth
+
+creating build/lib.linux-i686-2.6/pattern/web/pdf
+
+copying pattern/web/pdf/layout.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+
+copying pattern/web/pdf/pdfdevice.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+
+copying pattern/web/pdf/pdfinterp.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+
+copying pattern/web/pdf/latin_enc.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+
+copying pattern/web/pdf/pdffont.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+
+copying pattern/web/pdf/glyphlist.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+
+copying pattern/web/pdf/__init__.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+
+copying pattern/web/pdf/runlength.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+
+copying pattern/web/pdf/ascii85.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+
+copying pattern/web/pdf/pdftypes.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+
+copying pattern/web/pdf/psparser.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+
+copying pattern/web/pdf/converter.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+
+copying pattern/web/pdf/lzw.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+
+copying pattern/web/pdf/pdfcolor.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+
+copying pattern/web/pdf/arcfour.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+
+copying pattern/web/pdf/utils.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+
+copying pattern/web/pdf/pdfparser.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+
+copying pattern/web/pdf/cmapdb.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+
+copying pattern/web/pdf/encodingdb.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+
+copying pattern/web/pdf/fontmetrics.py -> build/lib.linux-i686-2.6/pattern/web/pdf
+
+creating build/lib.linux-i686-2.6/pattern/web/soup
+
+copying pattern/web/soup/__init__.py -> build/lib.linux-i686-2.6/pattern/web/soup
+
+copying pattern/web/soup/BeautifulSoupTests.py -> build/lib.linux-i686-2.6/pattern/web/soup
+
+copying pattern/web/soup/setup.py -> build/lib.linux-i686-2.6/pattern/web/soup
+
+copying pattern/web/soup/BeautifulSoup.py -> build/lib.linux-i686-2.6/pattern/web/soup
+
+creating build/lib.linux-i686-2.6/pattern/db
+
+copying pattern/db/__init__.py -> build/lib.linux-i686-2.6/pattern/db
+
+creating build/lib.linux-i686-2.6/pattern/text/en
+
+copying pattern/text/en/__init__.py -> build/lib.linux-i686-2.6/pattern/text/en
+
+creating build/lib.linux-i686-2.6/pattern/text/en/inflect
+
+copying pattern/text/en/inflect/quantify.py -> build/lib.linux-i686-2.6/pattern/text/en/inflect
+
+copying pattern/text/en/inflect/__init__.py -> build/lib.linux-i686-2.6/pattern/text/en/inflect
+
+creating build/lib.linux-i686-2.6/pattern/text/en/parser
+
+copying pattern/text/en/parser/sentiment.py -> build/lib.linux-i686-2.6/pattern/text/en/parser
+
+copying pattern/text/en/parser/__init__.py -> build/lib.linux-i686-2.6/pattern/text/en/parser
+
+copying pattern/text/en/parser/modality.py -> build/lib.linux-i686-2.6/pattern/text/en/parser
+
+copying pattern/text/en/parser/brill.py -> build/lib.linux-i686-2.6/pattern/text/en/parser
+
+copying pattern/text/en/parser/tree.py -> build/lib.linux-i686-2.6/pattern/text/en/parser
+
+creating build/lib.linux-i686-2.6/pattern/text/en/wordlist
+
+copying pattern/text/en/wordlist/__init__.py -> build/lib.linux-i686-2.6/pattern/text/en/wordlist
+
+creating build/lib.linux-i686-2.6/pattern/text/en/wordnet
+
+copying pattern/text/en/wordnet/__init__.py -> build/lib.linux-i686-2.6/pattern/text/en/wordnet
+
+creating build/lib.linux-i686-2.6/pattern/text/en/wordnet/pywordnet
+
+copying pattern/text/en/wordnet/pywordnet/wordnet.py -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/pywordnet
+
+copying pattern/text/en/wordnet/pywordnet/__init__.py -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/pywordnet
+
+copying pattern/text/en/wordnet/pywordnet/wntools.py -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/pywordnet
+
+copying pattern/text/en/wordnet/pywordnet/setup.py -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/pywordnet
+
+copying pattern/text/en/wordnet/pywordnet/concordance.py -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/pywordnet
+
+creating build/lib.linux-i686-2.6/pattern/text/nl
+
+copying pattern/text/nl/__init__.py -> build/lib.linux-i686-2.6/pattern/text/nl
+
+creating build/lib.linux-i686-2.6/pattern/text/nl/parser
+
+copying pattern/text/nl/parser/sentiment.py -> build/lib.linux-i686-2.6/pattern/text/nl/parser
+
+copying pattern/text/nl/parser/__init__.py -> build/lib.linux-i686-2.6/pattern/text/nl/parser
+
+creating build/lib.linux-i686-2.6/pattern/text/nl/inflect
+
+copying pattern/text/nl/inflect/__init__.py -> build/lib.linux-i686-2.6/pattern/text/nl/inflect
+
+creating build/lib.linux-i686-2.6/pattern/vector
+
+copying pattern/vector/__init__.py -> build/lib.linux-i686-2.6/pattern/vector
+
+copying pattern/vector/stemmer.py -> build/lib.linux-i686-2.6/pattern/vector
+
+creating build/lib.linux-i686-2.6/pattern/vector/svm
+
+copying pattern/vector/svm/svmutil.py -> build/lib.linux-i686-2.6/pattern/vector/svm
+
+copying pattern/vector/svm/__init__.py -> build/lib.linux-i686-2.6/pattern/vector/svm
+
+copying pattern/vector/svm/svm.py -> build/lib.linux-i686-2.6/pattern/vector/svm
+
+creating build/lib.linux-i686-2.6/pattern/graph
+
+copying pattern/graph/__init__.py -> build/lib.linux-i686-2.6/pattern/graph
+
+copying pattern/canvas.js -> build/lib.linux-i686-2.6/pattern
+
+copying pattern/web/feed/README -> build/lib.linux-i686-2.6/pattern/web/feed
+
+copying pattern/web/feed/LICENSE -> build/lib.linux-i686-2.6/pattern/web/feed
+
+copying pattern/web/json/_speedups.c -> build/lib.linux-i686-2.6/pattern/web/json
+
+copying pattern/web/pdf/README.txt -> build/lib.linux-i686-2.6/pattern/web/pdf
+
+creating build/lib.linux-i686-2.6/pattern/web/pdf/cmap
+
+copying pattern/web/pdf/cmap/Makefile -> build/lib.linux-i686-2.6/pattern/web/pdf/cmap
+
+copying pattern/web/pdf/cmap/__init__.py -> build/lib.linux-i686-2.6/pattern/web/pdf/cmap
+
+copying pattern/web/soup/PKG-INFO -> build/lib.linux-i686-2.6/pattern/web/soup
+
+copying pattern/text/en/inflect/verbs.txt -> build/lib.linux-i686-2.6/pattern/text/en/inflect
+
+copying pattern/text/en/parser/Brill_contextual_rules.txt -> build/lib.linux-i686-2.6/pattern/text/en/parser
+
+copying pattern/text/en/parser/Brill_lexical_rules.txt -> build/lib.linux-i686-2.6/pattern/text/en/parser
+
+copying pattern/text/en/parser/Brill_lexicon.txt -> build/lib.linux-i686-2.6/pattern/text/en/parser
+
+copying pattern/text/en/parser/sentiment.xml -> build/lib.linux-i686-2.6/pattern/text/en/parser
+
+copying pattern/text/en/wordnet/IC-Brown-Resnik2.txt -> build/lib.linux-i686-2.6/pattern/text/en/wordnet
+
+copying pattern/text/en/wordnet/IC-Brown-Resnik3.txt -> build/lib.linux-i686-2.6/pattern/text/en/wordnet
+
+creating build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+
+copying pattern/text/en/wordnet/dict/data.adv -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+
+copying pattern/text/en/wordnet/dict/data.noun1 -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+
+copying pattern/text/en/wordnet/dict/index.adv -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+
+copying pattern/text/en/wordnet/dict/index.32 -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+
+copying pattern/text/en/wordnet/dict/LICENSE.txt -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+
+copying pattern/text/en/wordnet/dict/data.verb -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+
+copying pattern/text/en/wordnet/dict/data.adj -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+
+copying pattern/text/en/wordnet/dict/data.noun2 -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+
+copying pattern/text/en/wordnet/dict/index.adj -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+
+copying pattern/text/en/wordnet/dict/index.verb -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+
+copying pattern/text/en/wordnet/dict/lexnames -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+
+copying pattern/text/en/wordnet/dict/index.sense -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+
+copying pattern/text/en/wordnet/dict/index.noun -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/dict
+
+copying pattern/text/en/wordnet/pywordnet/README.txt -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/pywordnet
+
+copying pattern/text/en/wordnet/pywordnet/LICENSE.txt -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/pywordnet
+
+copying pattern/text/en/wordnet/pywordnet/PKG-INFO -> build/lib.linux-i686-2.6/pattern/text/en/wordnet/pywordnet
+
+copying pattern/text/nl/parser/sentiment.xml -> build/lib.linux-i686-2.6/pattern/text/nl/parser
+
+copying pattern/text/nl/parser/Brill_contextual_rules.txt -> build/lib.linux-i686-2.6/pattern/text/nl/parser
+
+copying pattern/text/nl/parser/Brill_lexical_rules.txt -> build/lib.linux-i686-2.6/pattern/text/nl/parser
+
+copying pattern/text/nl/parser/Brill_lexicon.txt -> build/lib.linux-i686-2.6/pattern/text/nl/parser
+
+copying pattern/text/nl/inflect/verbs.txt -> build/lib.linux-i686-2.6/pattern/text/nl/inflect
+
+copying pattern/vector/stopwords.txt -> build/lib.linux-i686-2.6/pattern/vector
+
+copying pattern/vector/svm/README -> build/lib.linux-i686-2.6/pattern/vector/svm
+
+copying pattern/vector/svm/libsvm-mac32.so -> build/lib.linux-i686-2.6/pattern/vector/svm
+
+copying pattern/vector/svm/libsvm-mac64.so -> build/lib.linux-i686-2.6/pattern/vector/svm
+
+copying pattern/vector/svm/libsvm-win32.dll -> build/lib.linux-i686-2.6/pattern/vector/svm
+
+copying pattern/vector/svm/INSTALL.txt -> build/lib.linux-i686-2.6/pattern/vector/svm
+
+copying pattern/vector/svm/libsvm-ubuntu64.so -> build/lib.linux-i686-2.6/pattern/vector/svm
+
+copying pattern/graph/graph.js -> build/lib.linux-i686-2.6/pattern/graph
+
+running install_lib
+
+creating /usr/local/lib/python2.6/dist-packages/pattern
+
+error: could not create '/usr/local/lib/python2.6/dist-packages/pattern': Permission denied
+
+----------------------------------------
+Command /usr/bin/python -c "import setuptools; __file__='/home/jars/MIKE/SCRIPTS/Python/pattern-2.2/build/pattern/setup.py'; execfile('/home/jars/MIKE/SCRIPTS/Python/pattern-2.2/build/pattern/setup.py')" install --single-version-externally-managed --record /tmp/pip-pLQLmx-record/install-record.txt --install-headers /home/jars/MIKE/SCRIPTS/Python/pattern-2.2/lib/include failed with error code 1
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 252, in main
+    self.run(options, args)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 410, in run
+    requirement_set.install(install_options)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 2017, in install
+    requirement.install(install_options)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 1515, in install
+    cwd=self.source_dir, filter_stdout=self._filter_install, show_stdout=False)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 3543, in call_subprocess
+    % (command_desc, proc.returncode))
+InstallationError: Command /usr/bin/python -c "import setuptools; __file__='/home/jars/MIKE/SCRIPTS/Python/pattern-2.2/build/pattern/setup.py'; execfile('/home/jars/MIKE/SCRIPTS/Python/pattern-2.2/build/pattern/setup.py')" install --single-version-externally-managed --record /tmp/pip-pLQLmx-record/install-record.txt --install-headers /home/jars/MIKE/SCRIPTS/Python/pattern-2.2/lib/include failed with error code 1

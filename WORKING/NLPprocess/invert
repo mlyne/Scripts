@@ -1,0 +1,10 @@
+cat $2 | sed -e 's/$/ <EOL>/' | space2newline |
+invert.pl $1 - |
+perl -e '
+$* = 1; 
+$/ = "<EOL>"; 
+while (<>) { 
+	s/\n/ /g; 
+	s/<EOL>/\n/;
+	print;
+};

@@ -1,0 +1,11 @@
+#!/usr/local/bin/perl5 -an
+
+########################################################################
+# Author:  I. Dan Melamed
+# Computes:	all bigrams in input
+# N.B.:		no counting is done, they're just dumped
+#######################################################################
+
+for($i = 0; $i < $#F; $i++) {
+	print "$F[$i] $F[$i+1]\n";
+};

@@ -1,0 +1,1 @@
+space2newline | awk 'BEGIN {print "1"} {print length + 1}' | accumulate

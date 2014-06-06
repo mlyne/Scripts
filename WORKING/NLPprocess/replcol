@@ -1,0 +1,29 @@
+#!/usr/local/bin/perl5
+
+# given a search and replace file, does the replace in the specified column
+
+#check for correct usage
+if ($#ARGV < 0) {
+        print "usage:  replcol <column> <search-replace pairs> [<input file>]\n";
+        exit;
+};
+
+$repcol = shift(@ARGV);
+$repcol--;
+
+open(S, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+
+while (<S>) {
+    ($srch, $rep) = split;
+    $sr{$srch} = $rep;
+};
+shift(@ARGV);
+
+while (<>) {
+    s/^ *//;
+    @col = split;
+    if (defined($sr{$col[$repcol]})) {
+	splice(@col, $repcol, 1, $sr{$col[$repcol]});
+    };
+    print join(' ', @col), "\n";
+};

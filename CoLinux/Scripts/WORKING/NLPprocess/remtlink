@@ -1,0 +1,3 @@
+# replaces all <TKL>s with a space
+
+sed -e 's/<TKL>/ /g'

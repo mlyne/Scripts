@@ -1,0 +1,42 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# Takes two corresponding files, one English and one French
+# and outputs two corresponding files.  The output files contain a 
+# random sample (without replacement) of corresponding lines in the 
+# input files.
+  
+# This script is different from aligned_sample, because it filters 
+#     out duplicate line pairs
+########################################################################
+
+#check for correct usage
+unless ($#ARGV == 2) {
+    print "usage:  uq_aligned_sample <sample-size> <E-file1> <F-file2>\n";
+    exit;
+};
+
+$size = $ARGV[0];
+
+open(EN, $ARGV[1]) || die "Couldn't open $ARGV[1]: $!\n";
+open(FR, $ARGV[2]) || die "Couldn't open $ARGV[2]: $!\n";
+open(Eout, ">Esample.uq") || die "Couldn't open Esample.uq: $!\n";
+open(Fout, ">Fsample.uq") || die "Couldn't open Fsample.uq: $!\n";
+
+srand;
+
+while (<EN>) {
+	$en[$count] = $_;
+	$fr[$count] = <FR>;
+	$both = $en[$count].$fr[$count];
+	if (!$seen{$both}) {
+	    $seen{$both}++;
+	    ++$count;
+	};
+};	
+
+for(;$size > 0 && $count > 0; $size--) {
+	$ind = rand $count--;
+	print Eout splice(@en, $ind, 1);
+	print Fout splice(@fr, $ind, 1);
+};

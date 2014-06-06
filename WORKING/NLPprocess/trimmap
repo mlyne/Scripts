@@ -1,0 +1,1 @@
+gawk -v size=$1 'seen[$1] < size {seen[$1]++; print}'

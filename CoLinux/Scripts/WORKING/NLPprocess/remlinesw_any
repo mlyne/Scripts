@@ -1,0 +1,33 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# Kills lines containing any word in KILL-FILE.
+# Prints the rest.
+
+# Default output to STDOUT.
+
+########################################################################
+
+#check for correct usage
+if ($#ARGV < 0) {
+        print "usage:  $0 <KILL-file> [<input-file>]\n";
+        exit;
+};
+
+open(K, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+while (<K>) {
+	chop;
+	$kill{$_}++;
+};
+close(K);
+shift;
+
+LINE: while (<>) {
+    split;
+    for ($i=0; $i < @_; $i++) {
+	if (exists $kill{$_[$i]}) {
+	    next LINE;
+	};
+    };
+    print;
+};

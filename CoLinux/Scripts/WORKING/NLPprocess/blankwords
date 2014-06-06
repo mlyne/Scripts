@@ -1,0 +1,39 @@
+#!/usr/local/bin/perl5
+
+# blanks out given words
+# the words to remove should be in a file, one per line
+
+
+#check for correct usage
+if ($#ARGV < 0) {
+        print "usage:  blankwords <word list> [<base file>]\n";
+        exit;
+};
+
+open(P, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+$killwords = "\n";
+while (<P>) {
+	$killwords .= $_;
+};
+close(P);
+shift;
+
+# print stderr "Processing line:\n";
+while (<>) {
+    @token = split;
+    @char = split("", $_);
+    $offset = 0;
+    for($i = 0; $i < @token; $i++) {
+	$offset = index($_, $token[$i], $offset);
+	($pat = $token[$i]) =~ s/(\W)/\\$1/g;
+	if ($killwords =~ /\n$pat\n/) {
+	    $size = length($token[$i]);
+	    foreach $ind ($offset .. $offset + $size - 1) {
+		splice(@char, $ind, 1, " ");
+	    };
+	};
+    };
+
+    print @char;
+};
+

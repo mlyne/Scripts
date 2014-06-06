@@ -1,0 +1,119 @@
+#!/usr/local/bin/perl5
+
+# converts a line of Arabic numerals < 8999 to Roman numerals
+
+# Code is as follows (maybe incorrect)
+
+# I	1
+# V	5
+# X	10
+# L	50
+# C	100
+# D	500
+# M	1000
+# G	5000
+
+while (<>) {
+	@arab = split;
+	foreach $arab (@arab) {
+		$rom = "";
+		if ($arab >= 5000) {
+			$rom = "G";
+			$arab -= 5000;
+		};
+		if ($arab >= 4000) {
+			$rom .= "MG";
+			$arab -= 4000;
+		};
+		if ($arab >= 1000) {
+			$rom .= "M";
+			$arab -= 1000;
+		};
+		if ($arab >= 1000) {
+			$rom .= "M";
+			$arab -= 1000;
+		};
+		if ($arab >= 1000) {
+			$rom .= "M";
+			$arab -= 1000;
+		};
+		if ($arab >= 900) {
+			$rom .= "CM";
+			$arab -= 900;
+		};
+		if ($arab >= 500) {
+			$rom .= "D";
+			$arab -= 500;
+		};
+		if ($arab >= 400) {
+			$rom .= "CD";
+			$arab -= 400;
+		};
+		if ($arab >= 100) {
+			$rom .= "C";
+			$arab -= 100;
+		};
+		if ($arab >= 100) {
+			$rom .= "C";
+			$arab -= 100;
+		};
+		if ($arab >= 100) {
+			$rom .= "C";
+			$arab -= 100;
+		};
+		if ($arab >= 90) {
+			$rom .= "XC";
+			$arab -= 90;
+		};
+		if ($arab >= 50) {
+			$rom .= "L";
+			$arab -= 50;
+		};
+		if ($arab >= 40) {
+			$rom .= "XL";
+			$arab -= 40;
+		};
+		if ($arab >= 10) {
+			$rom .= "X";
+			$arab -= 10;
+		};
+		if ($arab >= 10) {
+			$rom .= "X";
+			$arab -= 10;
+		};
+		if ($arab >= 10) {
+			$rom .= "X";
+			$arab -= 10;
+		};
+		if ($arab >= 9) {
+			$rom .= "IX";
+			$arab -= 9;
+		};
+		if ($arab >= 5) {
+			$rom .= "V";
+			$arab -= 5;
+		};
+		if ($arab >= 4) {
+			$rom .= "IV";
+			$arab -= 4;
+		};
+		if ($arab >= 1) {
+			$rom .= "I";
+			$arab -= 1;
+		};
+		if ($arab >= 1) {
+			$rom .= "I";
+			$arab -= 1;
+		};
+		if ($arab >= 1) {
+			$rom .= "I";
+			$arab -= 1;
+		};
+		if ($arab != 0) {
+			die "Error!";
+		};
+		print "$rom ";
+	};
+	print "\n";
+};
+			

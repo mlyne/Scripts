@@ -1,0 +1,55 @@
+#!/usr/local/bin/perl5
+
+# greps for 2 strings in alinged files
+# output side by side, cut to size,
+#     with target strings centered, separated by 3 spaces
+
+#check for correct usage
+if ($#ARGV < 4) {
+        print "usage:   2kwic  <filename1> <filename2> 
+\t\t<string1> <string2> 
+\t\t<max. total output width>\n";
+        exit; 
+};
+
+open(F, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+shift;
+open(G, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+shift;
+
+
+$str1  = shift(@ARGV);
+$str2  = shift(@ARGV);
+
+$maxwid = shift;
+
+$len1 = length($str1);
+$len2 = length($str2);
+
+$fullcon = int(($maxwid - 3) / 2);
+$halfcon1 = int(($fullcon - $len1) / 2);
+$halfcon2 = int(($fullcon - $len2) / 2);
+$pad1 = " " x $halfcon1;
+$pad2 = " " x $halfcon2;
+
+while (<F>) {
+    $F = $_;
+    $G = <G>;
+
+    $p1pos = index($F, $str1);
+    if ($p1pos >= 0) {
+	$p2pos = index($G, $str2);
+	if ($p2pos >= 0) {
+	    chop($F);
+	    chop($G);
+	    $side1 = substr($pad1 . $F . $pad1,
+			    $p1pos, $fullcon);
+	    $side2 = substr($pad2 . $G . $pad2,
+			    $p2pos, $fullcon);
+	    $out = $side1 . "   " . $side2;
+	    print "$.\n";
+	    print "$out\n";
+	};
+    };
+};
+

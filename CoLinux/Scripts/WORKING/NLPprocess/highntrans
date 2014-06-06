@@ -1,0 +1,28 @@
+#!/usr/local/bin/perl5
+
+# selects the first n lines for each key in the third column, and 
+#         for each key in the fourth column
+# 2nd column is assumed to be a count that should be ignored
+
+# INPUT MUST BE SORTED
+
+# output is just filter of input, so the order of lines remains constant
+
+$numstats = shift;
+
+if ($numstats < 1) {
+    while (<>) {
+	print;
+    };
+    exit;
+};
+
+while (<>) {
+    ($val, $count, $source, $target) = split;
+    if ($ssofar{$source} < $numstats and
+	$tsofar{$target} < $numstats) {
+	$ssofar{$source}++;
+	$tsofar{$target}++;
+	print;
+    };
+};

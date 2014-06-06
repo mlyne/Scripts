@@ -1,0 +1,35 @@
+#!/usr/local/bin/perl5
+
+# puts each range of column-1 numbers into separate files
+# column 1 must be sorted in increasing order
+
+#check for correct usage
+if ($#ARGV < 1) {
+    print "usage: split_by_range <output prefix> <range tics> [<input>]\n";
+    exit; 
+};
+
+$prefix = shift(@ARGV);
+
+open(T, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+$tic = <T>;
+chop($tic);
+shift;
+
+$range = 1;
+$filename = $prefix.$range;
+close(out);
+open(out, "> $filename") || die "Couldn't open $filename: $!\n";
+
+while (<>) {
+    chop;
+    if ($_ >= $tic) {
+	$range++;
+	$filename = $prefix.$range;
+	close(out);
+	open(out, "> $filename") || die "Couldn't open $filename: $!\n";
+	$tic = <T>;
+	chop($tic);
+    };
+    print out "$_\n";
+};

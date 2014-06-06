@@ -1,0 +1,43 @@
+#!/usr/bin/perl -w
+
+use strict;
+use LWP;
+
+my $file = $ARGV[0];
+my $out_file = $ARGV[1];
+
+open(FILE, "< $file") || die "cannot open $file: $!\n";
+open(OUT_FILE, "> $out_file.txt") || die "cannot open $out_file: $!\n";
+
+chomp (my @matrix = <FILE>);
+#my $info = shift(@matrix);
+my $headers = shift(@matrix);
+my $colTerms = shift(@matrix);
+my @colTerms = split("\t", $colTerms);
+
+#print OUT_FILE $headers, "\n";
+#print OUT_FILE $colTerms, "\n";
+
+my $queryCount = 1;
+
+for my $entry (@matrix)
+{
+	chomp $entry;
+	my @data = split("\t", $entry);
+	my $drug = shift(@data);
+	my $rowTerm = shift(@data);
+	
+	print OUT_FILE "1", "\t", $rowTerm, "\n";
+
+	my $headcount = 2;
+	
+	for my $val (@data)
+	{
+	  my $sTerm = ($colTerms[$headcount]);
+	  print OUT_FILE $val, "\t", $sTerm, "\n";
+	  $headcount++;
+	}
+    print OUT_FILE "\n";
+    
+}
+

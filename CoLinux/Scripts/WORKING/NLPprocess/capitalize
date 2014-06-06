@@ -1,0 +1,13 @@
+#!/usr/local/bin/perl5 -n
+
+# capitalizes first word on each line
+
+if (/(.)(.*\n)/) {
+	$f = $1;
+	$f =~ tr/a-z/A-Z/;
+	print "$f$2";
+} else {
+	print;
+};
+
+

@@ -1,0 +1,8 @@
+#!/usr/local/bin/tcsh
+ 
+tr 'A-Z' 'a-z' | \
+perl -pe 's/$/ <morpherEOL>/;' | \
+findmorph $lib/morph_english.db | \
+parsemorph.pl | \
+tr '\012' ' ' | \
+perl -pe 's/ ?<morpherEOL>\s?/\n/gs;'

@@ -1,0 +1,20 @@
+#!/usr/local/bin/perl5
+
+# takes a position number and a word and moves the word to the given
+# 	position in the following string, on the same line.  Position 0
+#	means the word comes before the string, etc..
+
+# The first two columns are ignored, assumed to be assoc.-score and freq.
+
+while (<>) {
+	($assoc, $frq, $pos, $word, @rest) = split;
+	print "$assoc $frq ";
+	for($i=0; $i < $pos; $i++) {
+		print @rest[$i], " ";
+	};
+	print "$word";
+	for($i=$pos; $i < @rest; $i++) {
+		print " ", @rest[$i];
+	};
+	print "\n";
+};

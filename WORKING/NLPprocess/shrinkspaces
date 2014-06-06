@@ -1,0 +1,36 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# Author:  I. Dan Melamed
+# Computes:	replaces whitespace ranges of a minimum size with a
+#			single space
+# Loads:	entire text
+# N.B.:    character counts start at 1
+#######################################################################
+
+$TRUE = 1;
+$FALSE = 0;
+$INFINITY = 9999999999;
+$TINY = 0.0000001;
+$| = 1;
+
+#check for correct usage
+if ($#ARGV < 0) {
+    print "usage: shrinkspaces <min. range size> [<input>] \n";
+    exit; 
+};
+
+$mrs = shift;
+
+
+print STDERR "Reading text...";
+undef $/; 
+$text = <>;
+$/ = "\n";
+print STDERR " done.\n";
+
+$text =~ s/(\s{$mrs,})/ /gso;
+print $text;
+
+
+

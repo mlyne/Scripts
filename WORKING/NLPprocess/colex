@@ -1,0 +1,3 @@
+# extracts given fields, which have space delimiters
+
+cut -f$* -d" "

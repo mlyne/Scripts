@@ -1,0 +1,66 @@
+#!/software/arch/bin/perl
+#
+#
+
+use strict;
+use FileHandle;
+
+STDOUT->autoflush (1);
+STDERR->autoflush (1);
+$/ = undef;
+
+my $ifile;
+my ($loc, $prot);
+my %hash = {};
+
+foreach $ifile (@ARGV) 
+{
+  my $fh = new FileHandle $ifile, "r";
+  if (defined $fh) 
+  {
+    while (<$fh>) 
+    {
+      chomp;
+      my @entries = split(/\/\/\n/, $_);
+      
+      $/ = "\n";
+
+      foreach my $entry (@entries)
+      {
+
+	undef $loc;
+	undef $prot;
+
+        my @lines = split(/\n/, $entry);
+
+	my ($loc_line) = grep { /^LOCUS/ } @lines;
+	if ($loc_line =~ /(NM_\d+) /) {
+	  $loc = $1;
+	}
+
+        my ($prot_line) = grep { /protein_id\=/ } @lines;
+	if ($prot_line =~ /(NP_\d+)\.\d+/) {
+	  $prot = $1;
+	}
+
+#        foreach my $line (@lines)
+ #       {
+#	  my ($locus, $prot);
+#          chomp;
+#	  if ($line =~ /^LOCUS\s+(\w+)\s+/) {
+#	    $locus = $1;
+#	  }
+#	  if ($line =~ /protein_id\=\"(NP_\d+)\.\d\"/) {
+#	    $prot = $1;
+#	  }
+	  $hash{$loc} = "$prot";
+#	  print "$locus\t$prot\n";
+#	}
+      }
+    }
+  }
+}
+
+while (my ($loc, $prot) = each %hash) {
+  print "$loc\t$prot\n";
+}

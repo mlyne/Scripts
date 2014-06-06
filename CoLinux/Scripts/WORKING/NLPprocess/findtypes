@@ -1,0 +1,35 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# Author:  I. Dan Melamed
+# Computes:	positions of all instances of all given types
+# Loads:	text
+# Streams:	set of target types
+#######################################################################
+
+#check for correct usage
+if ($#ARGV < 0) {
+    print "usage: $0 <text> [<target types1> <target types2> ...]\n";
+    exit; 
+};
+
+undef $/;
+open(F, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+$text = <F>;
+close(F);
+shift;
+$/ = "\n";
+study $text;
+
+while (<>) {
+    chop;
+    
+    $search = $_;
+
+    while ($text =~ m/($search)/g) {
+	$hit = $1;
+	$len = length($hit);
+	$meanoffset = $len * .5 - .5;
+	printf "%.1f %s\n", pos($text) - $meanoffset, $hit;
+    };
+};

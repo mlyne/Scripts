@@ -1,0 +1,1 @@
+grep -v ption antUlcer.txt | grep -v Name | awk -F"\t" '{if (($2 > 1) && ( $3 !~ /available/)) print}' | perl -pe 's/^\t//' | sort +2 > antiUlcerSorted.txt

@@ -1,0 +1,7 @@
+Revision history for Perl extension AnT.
+
+0.02  Sat Sep  9 16:45:47 2000
+	- Improved Blast parser to drastically reduce memory use
+
+0.01  Sun Sep  3 11:40:24 2000
+	- original version; created by h2xs 1.20

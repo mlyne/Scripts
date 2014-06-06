@@ -1,0 +1,25 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# Author:  I. Dan Melamed
+# Computes:	new lines, using a different EOL that a newline
+#######################################################################
+
+$TRUE = 1;
+$FALSE = 0;
+$INFINITY = 9999999999;
+$TINY = 0.0000001;
+$| = 1;
+
+#check for correct usage
+if ($#ARGV < 0) {
+    print "usage:  reline <new separator> [<input>]\n";
+    exit; 
+};
+
+$/ = shift;
+
+while (<>) {
+	s/\n/ /g;
+	print "$_\n";
+};

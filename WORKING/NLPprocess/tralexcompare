@@ -1,0 +1,99 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# Author:  I. Dan Melamed
+# Computes:	intersection and marginals of two translation lexicons
+# Loads:	both lexicons
+# Variables:
+#######################################################################
+
+#check for correct usage
+if ($#ARGV < 1) {
+    print "usage:  tralexcompare <tralex1> <tralex2>\n";
+    exit; 
+};
+
+
+print STDERR "Reading Tralex 1...";
+open(F, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+while (<F>) {
+    ($source, $target) = split;
+    push(@{$tran1{$source}}, $target);
+};
+close(F);
+shift;
+print STDERR " done.\n";
+
+print STDERR "Reading Tralex 2...";
+open(F, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+while (<F>) {
+    ($source, $target) = split;
+    push(@{$tran2{$source}},$target);
+};
+close(F);
+shift;
+print STDERR " done.\n";
+
+my($commonhead, $uniquehead1, $uniquehead2, $commontran, $uniquetran1, $uniquetran2) = (0,0,0,0,0,0);
+
+foreach $source (keys %tran1) {
+    if (defined($tran2{$source})) {
+
+	$commonhead++;
+	@t1 = sort @{$tran1{$source}};
+	@t2 = sort @{$tran2{$source}};
+
+	while (@t1 and @t2) {
+	    if ($t1[0] eq $t2[0]) {
+		$commontran++;
+		shift(@t1);
+		shift(@t2);
+	    } elsif ($t1[0] lt $t2[0]) {
+		$uniquetran1++;
+		print "1: $source $t1[0]\n";
+		shift(@t1);
+	    } else {
+		$uniquetran2++;
+		print "2: $source $t2[0]\n";
+		shift(@t2);
+	    };
+	};
+
+	foreach $target (@t1) {
+		print "1: $source $target\n";
+	    };
+	    
+	foreach $target (@t2) {
+		print "2: $source $target\n";
+	    };
+	    
+	delete $tran1{$source};
+	delete $tran2{$source};
+    } else {
+	$uniquehead1++;
+	delete $tran1{$source};
+    };
+};
+
+foreach $source (keys %tran2) {
+    $uniquehead2 += $#{$tran2{$source}};
+};
+
+$h1ratio = $uniquehead1 / ($uniquehead1 + $commonhead);
+$h2ratio = $uniquehead2 / ($uniquehead2 + $commonhead);
+$t1ratio = $uniquetran1 / ($uniquetran1 + $commontran);
+$t2ratio = $uniquetran2 / ($uniquetran2 + $commontran);
+
+print "\nSummary:\n";
+print "CH = $commonhead common headwords\n";
+print "H1 = $uniquehead1 Tralex-1 headwords not in Tralex-2;";
+printf " \tH1 / (H1 + CH) = %5.3f\n", $h1ratio;
+print "H2 = $uniquehead2 Tralex-2 headwords not in Tralex-1;";
+printf " \tH2 / (H2 + CH) = %5.3f\n", $h2ratio;
+
+print "\nFor common headwords:\n";
+print "\tCT = $commontran common translations\n";
+print "\tT1 = $uniquetran1 Tralex-1 translations not in Tralex-2;";
+printf "  T1 / (T1 + CT) = %5.3f\n", $t1ratio;
+print "\tT2 = $uniquetran2 Tralex-2 translations not in Tralex-1;";
+printf "  T2 / (T2 + CT) = %5.3f\n", $t2ratio;

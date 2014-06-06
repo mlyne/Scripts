@@ -1,0 +1,19 @@
+#!/usr/local/bin/tcsh
+
+# records all the token relations between two files with equal number
+#         of tokens
+
+
+if ($#argv != 2) then
+   echo "usage: $0 <file 1> <file 2>"
+   exit 0
+endif
+
+mkfifo pipe1.$$ pipe2.$$
+
+space2newline < $1 | grep . > pipe1.$$ &
+space2newline < $2 | grep . > pipe2.$$ &
+
+paste pipe1.$$ pipe2.$$
+
+rm pipe[12].$$

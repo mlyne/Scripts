@@ -1,0 +1,3 @@
+db|protein
+term|mouse[orgn]+AND+srcdb+refseq[prop]+AND+apoptosis[title]
+usehistory|y

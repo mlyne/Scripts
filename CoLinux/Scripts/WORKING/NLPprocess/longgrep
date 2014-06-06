@@ -1,0 +1,16 @@
+#!/usr/local/bin/perl5
+
+# simple grep, but without the 1024 character per line limit of
+#	grep(1)
+
+#check for correct usage
+if ($#ARGV < 0) {
+        print "usage:  longgrep  <pattern> [filename ...]\n";
+        exit; 
+};
+
+$pat  = shift(@ARGV);
+while (<>) {
+	print if (/$pat/);
+};
+

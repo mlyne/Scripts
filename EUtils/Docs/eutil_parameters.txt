@@ -1,0 +1,52 @@
+Summary of eUtil Parameters
+
+EInfo		db – database to explore
+
+EGQuery	term – Entrez query
+
+ESearch
+db – database to search
+term – Entrez query
+usehistory – set to ‘y’ to post results to History
+WebEnv – web environment for any query keys in term
+retstart – first UID to retrieve
+retmax – number of UIDs to retrieve
+reldate – limit to this number of days prior to today
+mindate – start date, YYYY/MM/DD (must be used with maxdate)
+maxdate – end date, YYYY/MM/DD (must be used with mindate)
+datetype – type of date by which to limit the search
+
+ESummary
+db – database to access
+id – comma-delimited list of UIDs (only UIDs!)
+WebEnv – web environment of input data set
+query_key – query key of input data set
+retstart – first DocSum to retrieve
+retmax – number of DocSums to retrieve
+
+EPost
+db – database to search
+id – comma-delimited list of UIDs (only UIDs!)
+
+EFetch
+db – database to search
+id – comma-delimited list of UIDs (can include accessions)
+WebEnv – web environment of input data set
+query_key – query key of input data set
+retstart – first record to retrieve
+retmax – number of records to retrieve
+retmode – file format of output (text, XML, HTML, ASN.1)
+rettype – output format (FASTA, gb, acc, etc.)
+seq_start – first residue to return
+seq_stop – last residue to return
+strand – strand to return (1 = plus, 2 = minus)
+complexity – type of data object to return
+
+ELink
+dbfrom – database to link from (origin)
+db – database to link to (destination)
+id – comma-delimited list of UIDs (only UIDs!)
+cmd – Elink command mode (default = neighbor)
+WebEnv – web environment of input data set in dbfrom
+query_key – query key of input data set in dbfrom
+term – Entrez query with which to limit the set of linked UIDs

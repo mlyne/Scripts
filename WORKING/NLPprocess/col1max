@@ -1,0 +1,3 @@
+# finds the line with the maximum first column
+
+gawk '$1 > max {max = $1; line = $0}; END {print line};'

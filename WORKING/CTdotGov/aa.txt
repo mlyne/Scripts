@@ -1,0 +1,523 @@
+CLINICAL TRIAL: NCT00856765
+Study Title: Randomized Comparison of Drug Eluting Balloon/Bare Metal Stent Versus Drug Eluting Stent Versus Bare Metal Stent for the Treatment of Patients With Acute ST-elevation Myocardial Infarction
+time_frame	6 months
+measure	Angiographic in-segment late lumen loss (expressed in millimeters)  as determined by quantitative coronary analysis (QCA)
+safety_issue	No
+other_name	Dior (EuroCor)
+intervention_type	Device
+arm_group_label	1
+description	Percutaneous transluminal coronary balloon angioplasty catheter eluting paclitaxel
+intervention_name	Drug eluting balloon
+other_name	Magic (EuroCor)
+intervention_type	Device
+arm_group_label	1
+arm_group_label	3
+
+description	Bare metal stent
+intervention_name	Bare metal stent
+other_name	Taxus Liberté (Boston scientific)
+intervention_type	Device
+arm_group_label	2
+description	Paclitaxel eluting stent
+intervention_name	Drug eluting stent
+Keyword	NOT FOUND
+Lead sponsor: Other; UMC Utrecht
+Intervention MeSH	NOT FOUND
+Condition MeSH:Atherosclerosis; Coronary Artery Disease; Myocardial Ischemia; Coronary Disease; Infarction; Myocardial Infarction; Thrombosis
+### END TRIAL DATA ###
+
+CLINICAL TRIAL: NCT01322009
+Study Title: Overcoming Membrane Transporters to Improve CNS Drug Delivery
+time_frame	14 days after drug administration
+measure	Adverse Events
+description	A number of a prior defined adverse events have been defined. The number of adverse events in the treatment arms will be calculated and compared.
+safety_issue	Yes
+intervention_type	Drug
+arm_group_label	Drug
+description	After obtaining written parental consent, patients will be randomized by the use of a blind envelope system to one of the following: to receive probenecid (initial: 25 mg/kg/dose; maintenance: 10mg/kg/dose 4 x per day for 11 doses) and NAC (initial: 140mg/kg/dose; maintenance: 70mg/kg/dose 6 x per day for 17 doses) or the placebo via nasogastric (NG) or orogastric (OG) tube for 3 days or to receive placebos.
+intervention_name	Probenecid and N-acetyl cysteine
+other_name	Ora Plus
+intervention_type	Drug
+arm_group_label	Placebo
+description	After obtaining written parental consent, patients will be randomized by the use of a blind envelope system to one of the following: to receive probenecid (initial: 25 mg/kg/dose; maintenance: 10mg/kg/dose 4 x per day for 11 doses) and NAC (initial: 140mg/kg/dose; maintenance: 70mg/kg/dose 6 x per day for 17 doses) or the placebo via nasogastric (NG) or orogastric (OG) tube for 3 days. Placebo contents include equal volumes and dosing regimens of lactose powder (for opacity) suspended in Ora-Plus and normal saline.
+intervention_name	Placebo
+Keywords:Children; Brain injury; Trauma
+Lead sponsor: Other; University of Pittsburgh
+Intervention MeSH:Acetylcysteine; N-monoacetylcystine; Probenecid
+Condition MeSH:Brain Injuries
+### END TRIAL DATA ###
+
+CLINICAL TRIAL: NCT01372254
+Study Title: Behavioral Intervention for Low Income Depressed Smokers in Drug Treatment
+time_frame	26 weeks post quit date
+measure	Smoking abstinence based on expired carbon monoxide tests, saliva cotinine tests, and self-report
+safety_issue	No
+other_name	ST
+intervention_type	Behavioral
+arm_group_label	Standard smoking cessation treatment (ST)
+description	Participants will receive a standard, individual smoking cessation treatment, based on the most recent clinical practice guideline for treating tobacco use from the U.S. Department of Health and Human Services. Treatment will be delivered in 5, 90-minute group sessions over an 4-5 week period. Patients in ST will also keep a weekly written journal throughout treatment elaborating on observations about the day's events, their thoughts, feelings, and insights about their reactions to these events as a means to equate for time spent on daily activity monitoring in the BAD-AS condition.
+intervention_name	Standard Treatment
+other_name	BAD-AS
+intervention_type	Behavioral
+arm_group_label	Behavioral Activation for Substance Abusing Smokers (BA-DAS)
+description	BAD-AS is focused on identifying life areas, values, and daily activities to help one live according to his or her values. Treatment will be delivered in 5, 90-minute individual sessions over a 4-5 week period.
+intervention_name	BAD-AS
+other_name	Nicoderm CQ
+intervention_type	Drug
+arm_group_label	Standard smoking cessation treatment (ST)
+arm_group_label	Behavioral Activation for Substance Abusing Smokers (BA-DAS)
+
+description	8 weeks of the Transdermal Nicotine Patch Nicoderm CQ at 24 hour doses of 21, 14, and 7 mg respectively depending on participant's initial level of nicotine use. Nicotine patch dose will decrease at 2 or 4 week increments also specific to the participant's initial nicotine level.
+intervention_name	Transdermal Nicotine Patch
+Keywords:Cigarette Smoking; Drug Use; Depressed Mood
+Lead sponsor: Other; University of Maryland
+Intervention MeSH:Nicotine; Nicotine polacrilex
+Condition MeSH:Smoking; Depression
+### END TRIAL DATA ###
+
+CLINICAL TRIAL: NCT01090505
+Study Title: Phase 2 Study of S-1 and Oxaliplatin as Neoadjuvant Chemotherapy for Locally Advanced
+time_frame	5 years
+measure	overall survival
+safety_issue	Yes
+other_name	S-1:Taiho
+other_name	Oxaliplatinï¼šsanofi-aventis
+
+intervention_type	Drug
+arm_group_label	Drug:S-1:80mg/m2;oxaliplatin 130mg/m2
+arm_group_label	surgery
+
+description	Drug:S-1:80mg/m2;oxaliplatin 130mg/m2
+intervention_name	Drug: S-1 and  oxaliplatin
+Keyword	NOT FOUND
+Lead sponsor: Other; Chinese PLA General Hospital
+Intervention MeSH:Oxaliplatin
+Condition MeSH:Stomach Neoplasms
+### END TRIAL DATA ###
+
+CLINICAL TRIAL: NCT01268215
+Study Title: The Effect of Endotracheal Instillation of Surfactant With and Without Budesonide on the Development of Bronchopulmonary Dysplasia in Ventilator-dependent, Extremely Low Birth Weight Infants: A Pilot Study
+time_frame	Supplemental oxygen requirement at 36 weeks' postmenstrual age (PMA)
+measure	To measure the effect of surfactant with and without Budesonide on the development of BPD in ELBW infants.
+description	The main goal of the study is to determine whether endotracheal instillation of surfactant (Infasurf) with or without potent topical steroid (Budesonide) reduces the development of Bronchopulmonary Dysplasia (BPD) in Extremely Low Birth Weight (ELBW) infants at high risk of BPD.
+safety_issue	No
+other_name	Calfactant
+intervention_type	Drug
+arm_group_label	A (two study drugs group)
+arm_group_label	B (one study drug group)
+
+description	Endotracheal instillation of Infasurf once per week for three weeks
+intervention_name	Infasurf
+other_name	Budesonide
+intervention_type	Drug
+arm_group_label	A (two study drugs group)
+description	Endotracheal instillation, once per week for three weeks
+intervention_name	Pulmicort
+other_name	Air Sham
+intervention_type	Other
+arm_group_label	C (no study drug group)
+description	None instilled through the endotracheal tube
+intervention_name	Sham
+Keywords:Bronchopulmonary Dysplasia; Budesonide; Infasurf
+Lead sponsor: Other; East Carolina University
+Intervention MeSH:Budesonide; Calfactant
+Condition MeSH:Bronchopulmonary Dysplasia
+### END TRIAL DATA ###
+
+CLINICAL TRIAL: NCT01199575
+Study Title: A Two-Arm, Multi-center Trial of Revlimid® and Rituximab, for the Treatment of Patients With Relapsed or Refractory Chronic Lymphocytic Leukemia (CLL)
+time_frame	nine months
+measure	iwCLL working group response rate assessed after completion of 7 cycles of treatment.
+safety_issue	No
+other_name	Chronic Lymphocytic Leukemia
+other_name	Relapsed
+other_name	Refractory
+other_name	Revlimid(lenalidomide)
+other_name	Rituximab (rituxan)
+
+intervention_type	Drug
+arm_group_label	A: Subjects younger than 65 years old.
+description	Drug:Lenalidomide and Rituximab Revlimid starting at a low dose and escalated based on patient tolerability 21 days of every cycle. Rituximab at 375mg/m2 administered following the first 21 days of Revlimid monotherapy, continued weekly throughout cycle 2, and then every monthly for subsequent cycles.Patients with residual disease, but without evidence of significant toxicity or progressive disease may stay on study for up to 6 additional cycles of single agent Revlimid. Each patient may receive up to a maximum of 13 cycles of treatment if no progressive disease or significant toxicity.
+intervention_name	Revlimid, rituximab
+other_name	Chronic Lymphocytic Leukemia
+other_name	Relapsed
+other_name	Refractory
+other_name	Revlimid(lenalidomide)
+other_name	Rituximab (rituxan)
+
+intervention_type	Drug
+arm_group_label	B: Subjects age 65 years and older
+description	Drug:Lenalidomide and Rituximab Revlimid starting at a low dose and escalated based on patient tolerability 21 days of every cycle. Rituximab at 375mg/m2 administered following the first 21 days of Revlimid monotherapy, continued weekly throughout cycle 2, and then every monthly for subsequent cycles.Patients with residual disease, but without evidence of significant toxicity or progressive disease may stay on study for up to 6 additional cycles of single agent Revlimid. Each patient may receive up to a maximum of 13 cycles of treatment if no progressive disease or significant toxicity.
+intervention_name	Relapsed or refractory CLL. Lenalidomide and Rituximab
+Keywords:Chronic Lymphocytic Leukemia; CLL; Relapsed or Refractory; previously treated
+Lead sponsor: Other; Chronic Lymphocytic Leukemia Research Consortium
+Intervention MeSH:Rituximab; Thalidomide; Lenalidomide
+Condition MeSH:Leukemia; Leukemia, Lymphocytic, Chronic, B-Cell; Leukemia, Lymphoid
+### END TRIAL DATA ###
+
+CLINICAL TRIAL: NCT01246557
+Study Title: Open Label Multi-center Pilot Phase I/II Non-controlled Clinical Trial to Assess Safety and Efficieecy of the Lenalidomide and Dexamethasone Association in Patients With Chronic Relapse or Treatment Resistant Lymphatic Leukemia Following Treatment Containing Fludarabine.
+time_frame	At the finalization of the second cycle of the treatment of the last patient (average 5 months of last patient inclusion date)
+measure	To assess the safety of the association of lenalidomide and dexamethasone in patients with relapsed or refractory CLL
+description	The first step will be an interim analysis of toxicity to determine the safety of the first lenalidomide cohort dosage (2.5 mg/day). This analysis will be performed after six subjects complete 3 months of treatment.  A second analysis of toxicity will be performed after the second lenalidomide dosage cohort (six patients with 5mg/day) complete 3 months of treatment.
+safety_issue	Yes
+other_name	REVLIMID®
+intervention_type	Drug
+description	Lenalidomide - RevlimidÂ®: an analogue of thalidomide, is an immunomodulator agent with anti-angiogenic properties. The chemical name is 3-(4 Ì-aminoisoindoline-1 Ìona)-1- piperidine-2,6-dione.
+REVLIMIDÂ® (lenalidomide) is available in capsules of 5 mg, 10 mg and 15 mg p.o.. Each capsule contains lenalidomide as active ingredient and the following non active ingredients: anhydrous lactose, microcrystalline cellulose, sodium croscarmellose and magnesium stearate.
+intervention_name	Lenalidomide
+other_name	Commercial drug according to standard clinical practices of the center.
+intervention_type	Drug
+description	Dexamethasone will be administered as 20 mg/day (on days 1 to 4) for oral administration.
+intervention_name	Dexamethasone
+Keyword:Patients with Chronic Lymphatic Leukemia relapsing or resistant to treatment
+Lead sponsor: Other; Hospital Universitari Vall d'Hebron Research Institute
+Intervention MeSH:Dexamethasone acetate; Dexamethasone; Dexamethasone 21-phosphate; Lenalidomide; Thalidomide; BB 1101
+Condition MeSH:Leukemia; Leukemia, Lymphocytic, Chronic, B-Cell; Leukemia, Lymphoid
+### END TRIAL DATA ###
+
+CLINICAL TRIAL: NCT01278004
+Study Title: A Randomised Double-blind Placebo-controlled Trial of the Safety and Efficacy of Ethosuximide 250mg Capsules for the Management of Chemotherapy Induced Painful Peripheral Neuropathy
+time_frame	6 weeks
+measure	Reduction in pain intensity from baseline to endpoint as assessed on a Numerical Pain Rating scale.
+safety_issue	No
+intervention_type	Drug
+arm_group_label	Drug
+description	Drug will be dose escalated in order to reach maximum tolerated dose starting with 250mg.
+intervention_name	Ethosuximide
+intervention_type	Drug
+arm_group_label	Placebo
+description	Capsule
+intervention_name	Placebo
+Keyword:Adult cancer patients with chemotherapy-induced painful peripheral neuropathy
+Lead sponsor: Other; Royal Marsden NHS Foundation Trust
+Intervention MeSH:Ethosuximide
+Condition MeSH:Peripheral Nervous System Diseases; Demyelinating Diseases; Polyneuropathies; Nerve Compression Syndromes; Neurologic Manifestations; Neurotoxicity Syndromes
+### END TRIAL DATA ###
+
+CLINICAL TRIAL: NCT00852228
+Study Title: Optimal Control of Liver Metastases With Intravenous Cetuximab and Hepatic Artery Infusion of Three-drug Chemotherapy in Patients With Liver-only Metastases From Colorectal Cancer. A European Multicenter Phase II Trial
+time_frame	evaluation every 6th week up to 18 weeks
+measure	Incidence of complete macroscopic resections (R0+R1) of unresectable liver metastases following chemotherapy.
+safety_issue	No
+other_name	Erbitux
+intervention_type	Drug
+arm_group_label	chronomodulated HAI chemotherapy
+arm_group_label	conventional HAI chemotherapy
+
+description	Cetuximab is administered every two weeks at the dose of 500 mg/m² over 2h30 (150 minutes).
+intervention_name	IV cetuximab
+other_name	Campto
+other_name	Eloxatin
+
+intervention_type	Drug
+arm_group_label	chronomodulated HAI chemotherapy
+description	Irinotecan (180 mg/m²) on day 2 as a 6 hour infusion, starting at 2:00, with a peak at 5:00
+Oxaliplatin (85 mg/m²) in split daily doses for 3 days, starting on day 2. Daily sinusoidal infusion duration will last from 10:15 to 21:45, with peak delivery rate at 16:00.
+5-Fluorouracil (2800 mg/m²) in split daily doses for 3 days, alternating with oxaliplatin infusions, starting on day 2. Daily sinusoidal infusions will last from 22:15 to 9:45 , with peak delivery at 4:00.
+Treatments will be repeated every 2 weeks.
+intervention_name	HAI chronomodulated chemotherapy
+other_name	Campto
+other_name	Eloxatin
+
+intervention_type	Drug
+arm_group_label	conventional HAI chemotherapy
+description	Irinotecan (180 mg/m²) on day 1 as a one hour infusion, then
+Oxaliplatin (85 mg/m²) on day 1 as a two hour infusion, then
+5-Fluorouracil (2800 mg/m²) as a 48 h infusion starting on day 2, after completion of oxaliplatin delivery.
+Treatments will be repeated every 2 weeks.
+intervention_name	HAI conventional chemotherapy
+Keywords:colorectal cancer; unresectable metastases; neo-adjuvant chemotherapy; liver metastases; chronotherapy; cetuximab; irinotecan; oxaliplatin; 5-fluorouracil; hepatic artery infusion; Unresectable hepatic lesions; 1 to 3 prior chemotherapy regimens
+Lead sponsor: Other; Association pour la Recherche sur le Temps Biologique et la Chronothérapie
+Intervention MeSH:Fluorouracil; Oxaliplatin; Cetuximab
+Condition MeSH:Colorectal Neoplasms; Neoplasm Metastasis; Neoplasms, Second Primary; Liver Neoplasms
+### END TRIAL DATA ###
+
+CLINICAL TRIAL: NCT01455246
+Study Title: Daptomycin + Meropenem Versus Ceftazidime in the Treatment of Nosocomial Spontaneous Bacterial Peritonitis: an Open, Randomized, Controlled Clinical Trial
+time_frame	48 hours and seven days
+measure	The primary end-point of the study is the response to therapy
+description	The response to therapy is defined as the reduction of  polymorphonuclear leukocytes (PMN) count in ascitic fluid more than 25 % from baseline after 48 hours and as a PMN count in ascitic fluid less then 250/mm³ after seven days.
+safety_issue	Yes
+intervention_type	Drug
+arm_group_label	Daptomycin + Meropenem
+description	Daptomycin will be administered at the dose of 6 mg/kg every 24 hours and 6 mg/kg every 48 hours for an estimated creatinine clearance (CKD-EPI) of > 30 ml/min and < 30 ml/min respectively. Meropenem will be administered at the dose of 1 g t.i.d., 1 g b.i.d., 0.5 g every 24 hours for an estimated creatinine clearance of >50  ml/min, 10-50 ml/min, and < 10 ml/min respectively. The treatment will go on for 7 days. In the patients without response to treatment after 48 hours will be added a rescue therapy with fluconazole. In patients in which cultures shown a bacterial species resistant to therapy, daptomycin and meropenem will be discontinued and replaced by a therapy based on antibiotic susceptibility of isolated species.
+intervention_name	Daptomycin + Meropenem
+intervention_type	Drug
+arm_group_label	Ceftazidime
+description	Ceftazidime will be administered at the dose of 2 g t.i.d, 2 g b.i.d and 2 g at every 24 hours  by intravenous infusion for an estimated creatinine clearance (CKD-EPI) of >50  ml/min, 10-50 ml/min, and < 10 ml/min respectively. The treatment will go on for 7 days. In the patients without response to treatment after 48 hours, or in which cultures shown a bacterial species resistant to therapy, ceftazidime will be discontinued and replaced by a rescue therapy with meropenem and daptomycin as provided for the experimental arm
+intervention_name	Ceftazidime
+Keywords:Cirrhosis; Nosocomial Spontaneous Bacterial Peritonitis; Ascites; Daptomycin; Meropenem; Ceftazidime; Nosocomial infection; Multi drug resistant bacteria; Sepsis; Albumin
+Lead sponsor: Other; University of Padova
+Intervention MeSH:Ceftazidime; Daptomycin; Meropenem
+Condition MeSH:Ascites; Liver Cirrhosis; Fibrosis; Peritonitis
+### END TRIAL DATA ###
+
+CLINICAL TRIAL: NCT01503346
+Study Title: Taking Herbal Formulaï¼šDaHuang GangTsao Tang to Improve the Appetite Loss Condition of Cancer Patients in Late-stageï¼šA Clinical Control Trial Study
+time_frame	6 days
+measure	appetite score
+description	The investigators detect the patients' appetite condition at the 1st,3rd and 6th day.
+safety_issue	Yes
+other_name	Herbal Medicine Group
+intervention_type	Drug
+arm_group_label	herbal medicine
+description	Intervention group
+2 grams of DaHuang abstract powder and 0.5 grams GanTsao abstract powder are mixed and separated into four packages;
+each package was given to each patient four times a day (three time after meal and one time before sleep);
+each patient received the usual medication of the hospice ward at the same time;
+record the patients' score of pre-test, mid-test and after-test of QIPCTP at the 1st day, the 3rd day and the 6th day;
+record the patients' score of EORTC QLQ-C30 V3.0 and ECOG (Eastern Cooperative Oncology Group Performance Status) at the 1st day and the 6th day.
+intervention_name	DaHuang GanTsao Tang
+Keyword:Appetite Loss
+Lead sponsor: Other; Yu-De Liu
+Intervention MeSH	NOT FOUND
+Condition MeSH:Anorexia
+### END TRIAL DATA ###
+
+CLINICAL TRIAL: NCT01319422
+Study Title: Clinical and Pharmacodynamic Comparison of Continuous Versus Intermittent Dosing Regimens for Pomalidomide in Relapsed/Refractory Multiple Myeloma
+time_frame	Efficacy assessments will be made after the first two cycles of therapy (approximately 56 days--each cycle is 28 days)
+measure	To compare the clinical activity in terms of response rate following continuous or intermittent dosing regimens.
+description	All partial and complete responses must be confirmed with another efficacy assessment in no less than 4 weeks apart.
+safety_issue	No
+time_frame	After the initial efficacy assessment at the completion of cycle 2 (at approximately 56 days), efficacy assessments will be made after every other cycle (approximately every 56 days).
+measure	To compare the clinical activity in terms of response rate following continuous or intermittent dosing regimens.
+description	All partial and complete responses must be confirmed with another efficacy assessment in no less than 4 weeks apart.
+safety_issue	No
+other_name	CC-4047
+intervention_type	Drug
+arm_group_label	Pomalidomide 2 mg/d days 1-28 of a 28 day cycle
+arm_group_label	Pomalidomide 4 mg/d days 1-21 of a 28 day cycle
+
+description	Comparison of different dosages and schedules of drug
+intervention_name	Pomalidomide
+Keywords:myeloma; multiple myeloma; pomalidomide; immunomodulatory
+Lead sponsor: Other; Yale University
+Intervention MeSH:Thalidomide
+Condition MeSH:Multiple Myeloma; Neoplasms, Plasma Cell
+### END TRIAL DATA ###
+
+CLINICAL TRIAL: NCT01327586
+Study Title: Abstinence-Linked Money Management Multisite
+time_frame	Month 0,1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
+measure	Proportion of Urine toxicology tests without cocaine
+safety_issue	No
+intervention_type	Behavioral
+arm_group_label	ATM
+description	Weekly counseling focused on improving money management, abstaining from cocaine,and minimizing unprotected sex
+intervention_name	ATM
+intervention_type	Behavioral
+arm_group_label	Individual Drug Counseling
+description	Standard individualized drug counseling, modified from that described by Woody and colleagues
+intervention_name	Individual Drug Counseling
+Keywords:disability; substance abuse; cocaine abuse; dual diagnosis; representative payee; HIV risk reduction
+Lead sponsor: Other; Yale University
+Intervention MeSH	NOT FOUND
+Condition MeSH:Cocaine-Related Disorders; Substance-Related Disorders
+### END TRIAL DATA ###
+
+CLINICAL TRIAL: NCT01413035
+Study Title: Safety/Efficacy Assessed Study on Transplantation Therapy Using Human Umbilical Cord/Placenta-derived Mesenchymal Stem Cells for Type 2 Diabetes Mellitus
+time_frame	1 year
+measure	To assess efficacy of transplantation treatment using umbilical cord/placenta-derived mesenchymal stem cells in patients with type 2 diabetes mellitus
+description	To assess efficacy of MSC through comparing the change of ITT, Hemoglobin A1c, FBG, PBG, C-peptide levels and T cell subsets with that of baseline.
+The change of insulin resistance index(ITT) compared with baseline.
+Rate of reducing exogenous insulin requirement compared with baseline.
+The change of Fast blood glucose (FBG) and Postmeal blood glucose (PBG) compared with baseline.
+A reduction of â‰¥1% in HbA1c compared with baseline.
+The change of C-peptide levels compared with baseline.
+The change of T cell subsets compared with baseline.
+safety_issue	No
+intervention_type	Biological
+arm_group_label	MSC and the oral hypoglycemic drugs
+arm_group_label	MSC and insulins
+arm_group_label	MSC and the combination of drugs and insulins
+
+description	1.0E+6 MSC/kg, IV drop in Day 0 and repeat to apply in Day 90 if the effect of MSC is better.
+intervention_name	MSC
+Keywords:Diabetes; Diabetes Medicines: Oral Hypoglycemic Drugs and Insulins.; Umbilical Cord/placenta-Derived MSC; Transplantation
+Lead sponsor: Other; Shandong University
+Intervention MeSH:Insulin; Hypoglycemic Agents
+Condition MeSH:Diabetes Mellitus; Diabetes Mellitus, Type 2
+### END TRIAL DATA ###
+
+CLINICAL TRIAL: NCT01015352
+Study Title: A Phase II Study of Azacitidine (Vidaza®) Combined to Epoetin Beta (NeoRecormon®) in IPSS Low-risk and Intermediate-1 MDS Patients, Resistant to ESA
+time_frame	after 6 courses of treatment in the respective treatment arm
+measure	To determine the major erythroid response rate after 6 courses, assessed according to IWG 2000 criteria
+safety_issue	No
+other_name	Vidaza®
+intervention_type	Drug
+arm_group_label	Arm A
+arm_group_label	Arm B
+
+description	Azacitidine 75mg/sqm SQ per day for 5 days every 28 days
+intervention_name	Azacitidine
+other_name	Epoetin beta : 60000U weekly SQ injections
+intervention_type	Drug
+arm_group_label	Arm B
+description	Epoetin beta : 60000U weekly SQ injections
+NeoRecormon®
+intervention_name	Epoetin beta
+Keyword:Myelodysplastic Syndromes
+Lead sponsor: Other; Groupe Francophone des Myelodysplasies
+Intervention MeSH:Azacitidine; Epoetin Alfa
+Condition MeSH:Myelodysplastic Syndromes; Preleukemia
+### END TRIAL DATA ###
+
+CLINICAL TRIAL: NCT01432080
+Study Title: Does Increasing Immunosuppression Prevent Transplant-associated Lung-disease Triggered by Viral Respiratory Tract Infection Following Allogeneic Stem Cell Transplant? A Pilot Study
+time_frame	6 months following diagnosis of the viral respiratory tract infection
+measure	Cumulative incidence of new chronic lung disease
+description	The incidence rate of new non-infectious pulmonary complications within the 6 month follow-up period will be calculated. Non-infectious pulmonary complications include new airflow obstruction, new restrictive lung disease, and new mixed obstruction/restriction as measured by spirometry at study enrolment, 2 and 8 weeks following viral infection, and by full pulmonary function tests at 3 and 6 weeks following viral infection.
+safety_issue	No
+other_name	Deltasone
+other_name	Steroids
+
+intervention_type	Drug
+arm_group_label	SAMS
+description	Prednisone 0.75 mg/kg actual body weight/day PO for 7 days followed by a 7 day taper.
+intervention_name	Prednisone
+intervention_type	Drug
+arm_group_label	SAMS
+description	Azithromycin 250 mg PO daily for 2 weeks, then 3 times per week until 3 months
+intervention_name	Azithromycin
+other_name	Singulair
+intervention_type	Drug
+arm_group_label	SAMS
+description	Montelukast 10 mg PO qhs for 3 months
+intervention_name	Montelukast
+other_name	Budesonide
+other_name	Formoterol
+
+intervention_type	Drug
+arm_group_label	SAMS
+description	Symbicort 200/6 mcg, 2 inhalations every 12 hours for 3 months
+intervention_name	Symbicort
+Keywords:Pulmonary disease, chronic obstructive; Viral respiratory tract infections; Respiratory syncytial viruses; Influenza virus A; Influenza virus B; Transplantation, Allogeneic
+Lead sponsor: Other; Maisonneuve-Rosemont Hospital
+Intervention MeSH:Prednisone; Montelukast; Azithromycin; Symbicort
+Condition MeSH:Bronchiolitis; Bronchiolitis Obliterans; Lung Diseases; Pneumonia; Respiratory Tract Infections; Lung Diseases, Interstitial; Cryptogenic Organizing Pneumonia
+### END TRIAL DATA ###
+
+CLINICAL TRIAL: NCT01058395
+Study Title: Phase I Study of Minocycline in a Dose Escalation Study as a Safe, Efficacious Therapeutic Intervention for Moderate and Severe TBI in Humans
+time_frame	3 months
+measure	Disability Rating Scale
+safety_issue	Yes
+time_frame	7 days
+measure	Drug levels, toxicity.
+safety_issue	Yes
+intervention_type	Drug
+arm_group_label	800 mg loading followed by 200 mg Q12
+arm_group_label	800 mg loading followed by 400 mg Q12
+
+description	Minocycline will be delivered in an open-label randomized study for seven days intravenously in one of two different dosing tiers to assess safety and toxicity per FDA recommendations. There will be tow different arms or groups differing by the amount of minocycline given over 7 days.
+intervention_name	Minocycline
+Keywords:Traumatic Brain Injury; Minocycline; Outcome
+Lead sponsor: Other; Wayne State University
+Intervention MeSH:Minocycline
+Condition MeSH:Brain Injuries
+### END TRIAL DATA ###
+
+CLINICAL TRIAL: NCT01385553
+Study Title: Randomized Trial of Fathers for Change: An Intervention for Fathers With Co-Occuring Domestic Violence and Substance Abuse
+time_frame	Baseline (Start of Tx), 4 month follow-up, 7 month follow-up
+measure	Decrease in Verbal and Physical Aggression
+description	Conflict Tactics Scale and the TimeLine Follow-back calendar interview
+safety_issue	Yes
+time_frame	weekly  for months 1-4, 7 month followup
+measure	Decrease in Substance Abuse
+description	urinalysis results and self report
+safety_issue	Yes
+time_frame	baseline, 4  month, 7 month follow-up
+measure	Decrease in Negative Parenting Behavior
+description	IOWA, Adult child relationship questionnaire, Parental Acceptance Rejection Questionnaire
+safety_issue	Yes
+other_name	Integrated Father Treatment for Domestic Violence
+intervention_type	Behavioral
+arm_group_label	Fathers for Change
+description	FATHERS FOR CHANGE  comprises 16, 60 minute sessions of  treatment utilizing components of three evidence based practices:  SADV-CBT, Behavioral Couple Therapy and Child-Parent Psychotherapy.  The goals of the intervention are: 1) decreased substance abuse and IPV by teaching coping and anger management skills, 2) improved communication and increased problem solving around shared parenting 3) parenting education including child development and  the impact of violence on children,  4) discussion of discipline practices and development of behavior modification or positive reinforcement plans, and 5) attachment focused parent-child play sessions to coach fathers in play with their children and process traumatic experiences.
+intervention_name	Fathers for Change
+other_name	IDC
+intervention_type	Behavioral
+arm_group_label	Individual Drug Counseling
+description	Individual drug counseling focuses on the symptoms of drug addiction and related areas of impaired functioning and the content and structure of the patient's ongoing recovery program. This model of counseling is time limited and emphasizes behavioral change. It gives the patient coping strategies and tools for recovery and promotes 12-step ideology and participation. The primary goal of addiction counseling is to assist the addict in achieving and maintaining abstinence from addictive chemicals and behaviors. The secondary goal is to help the addict recover from the damage the addiction has caused in his or her life.
+intervention_name	Individual Drug Counseling
+Keyword	NOT FOUND
+Lead sponsor: Other; Yale University
+Intervention MeSH	NOT FOUND
+Condition MeSH:Substance-Related Disorders
+### END TRIAL DATA ###
+
+CLINICAL TRIAL: NCT01489228
+Study Title: Phase 2 Randomized, Multicenter, Placebo-controlled, Safety and Efficacy Study to Evaluate Three Oral E1224 Dosing Regimens and Benznidazole for the Treatment of Adult Patients With Chronic Indeterminate Chagas Disease
+time_frame	Day 65 (end of treatment)
+measure	Serial negative qualitative Polymerase Chain Reaction (PCR) results (3 negative PCR results from 3 samples to be collected over 7 days) as a measure of parasitological cure at end of treatment
+description	To determine whether at least one of three dosing regimens of orally administered E1224 is more efficacious than placebo in individuals with chronic indeterminate CD, by determining the number of patients who convert from positive to negative in serial, qualitative PCR test results
+safety_issue	No
+other_name	E1224 (prodrug for active ingredient Ravuconazole)
+intervention_type	Drug
+arm_group_label	High Dose E1224
+arm_group_label	Low Dose E1224
+arm_group_label	Short Dose E1224
+
+description	100 mg tablets
+intervention_name	E1224
+other_name	Benznidazole (N-benzil-2-nitro-1-imidazolacetamida)
+intervention_type	Drug
+arm_group_label	Benznidazol
+description	100mg tablets
+intervention_name	Benznidazole
+intervention_type	Drug
+arm_group_label	Placebo
+description	tablets
+intervention_name	Placebo
+Keyword:Chagas Disease
+Lead sponsor: Other; Drugs for Neglected Diseases
+Intervention MeSH:Benzonidazole
+Condition MeSH:Chagas Disease
+### END TRIAL DATA ###
+
+CLINICAL TRIAL: NCT01507103
+Study Title: A Multi-center, Randomized, Open-label, Mechanism of Action Trial on the Biological Effects of the Therapeutic Cancer Vaccine Stimuvax® (L-BLP25) in Rectal Cancer Subjects Undergoing Neoadjuvant Chemoradiotherapy
+time_frame	4 months
+measure	Change from baseline of tumor-infiltrating lymphocytes (TILs) evaluated by immunohistochemical analysis
+safety_issue	No
+time_frame	4 months
+measure	Change from baseline in the Enzyme-linked Immunosorbent Spot (ELISPOT) Level of Mucin-1 (MUC1) -specific T cells
+safety_issue	No
+time_frame	4 months
+measure	Change from baseline in the Enzyme-linked Immunosorbent Spot (ELISPOT) Level of Carcinoembryonic antigen (CEA)-specific T cells
+safety_issue	No
+intervention_type	Other
+arm_group_label	Chemoradiation Therapy, L-BLP25 with Cyclophosphamide
+description	Radiotherapy: 45-52 grays (Gy) applied for five weeks. Oral capecitabine (825 mg/m² twice daily) or 5FU, started at the first day of radiotherapy and given 5-7 days per week during the time of radiotherapy.
+intervention_name	Chemoradiation Therapy
+intervention_type	Drug
+arm_group_label	Chemoradiation Therapy, L-BLP25 with Cyclophosphamide
+description	Cyclophosphamide (day-3) 300 mg/m²
+intervention_name	Cyclophosphamide
+intervention_type	Biological
+arm_group_label	Chemoradiation Therapy, L-BLP25 with Cyclophosphamide
+description	L-BLP25 806 µg per vaccination once weekly for 8 weeks (concomitant to chemoradiation), then 7-9 days prior to surgery.
+intervention_name	L-BLP25
+intervention_type	Other
+arm_group_label	Chemoradiation Therapy, L-BLP25
+description	Radiotherapy (45-52 Gy) applied for five weeks. Oral capecitabine (825 mg/m² twice daily) or 5FU, started at the first day of radiotherapy and given 5-7 days per week during the time of radiotherapy.
+intervention_name	Chemoradiation Therapy
+intervention_type	Biological
+arm_group_label	Chemoradiation Therapy, L-BLP25
+description	L-BLP25 806 µg per vaccination once weekly for 8 weeks (concomitant to chemoradiation), then 7-9 days prior to surgery
+intervention_name	L-BLP25
+intervention_type	Other
+arm_group_label	Chemoradiation Therapy
+description	Radiotherapy (45-52 Gy) applied for five weeks. Oral capecitabine (825 mg/m² twice daily) or 5FU, started at the first day of radiotherapy and given 5-7 days per week during the time of radiotherapy.
+intervention_name	Chemoradiation Therapy
+Keywords:L-BLP25 (Stimuvax); Cyclophosphamide; Mode of action; Neoplasms; Neoplasms by Site; Carcinomas; Antineoplastic Agents,; Neoadjuvant; Radiotherapy Pharmacologic Actions; Immunosuppressive Agents; Immunologic Function; Therapeutic Uses; Molecular Mechanisms of Pharmacological Action
+Lead sponsor: Industry; Merck KGaA
+Intervention MeSH:Antineoplastic Agents; Cyclophosphamide; Immunosuppressive Agents; Molecular Mechanisms of Pharmacological Action
+Condition MeSH:Rectal Neoplasms
+### END TRIAL DATA ###
+

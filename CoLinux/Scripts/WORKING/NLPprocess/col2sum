@@ -1,0 +1,3 @@
+# sums the second column in a file
+
+gawk '{sum += $2}; END {print sum};'

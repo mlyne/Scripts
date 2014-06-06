@@ -1,0 +1,38 @@
+2005.10.15
+The k-means clustering routine accepts all eight distance functions available
+in the C Clustering Library. However, using distance functions other than the
+Euclidean distance and the city-block distance is discouraged. The reason is
+that other distance functions (such as the Pearson distance) calculate
+distances between data vectors that are effectively scaled (by subtracting the
+mean and dividing by the standard deviation for the Pearson distance), whereas
+the centroid calculation is performed by averaging the data vectors without
+normalization. A more correct way to use these normalized distance functions
+is to normalize the data (using the "Adjust data" tab in the GUI program)
+before starting the k-means clustering calculation. To discourage the use of
+distance functions other than the Euclidean distance and the city-block
+distance, in the GUI-version the distance defaults to the Euclidean distance
+for k-means and SOM calculations SOM (other distances can still be chosen,
+though).
+A similar argument can be made against the use of distance functions other than
+the Euclidean distance and the city-block distance in pairwise centroid-linkage
+hierarchical clustering.
+Fixed a bug in the command-line version of the code that caused the -ng and
+-na flags to have an effect only if the -cg and -ca flags were also specified.
+Fixed the Load routine in src/data.c so that it doesn't crash if the users
+attempts to read an empty file.
+Fixed the reading of empty lines in the data file in the Load routine in
+src/data.c.
+Removed the AlwaysCreateUninstallIcon option from the Inno Setup configuration
+file, as it is no longer supported by Inno Setup.
+Fixed a bug in windows/gui.c that caused arrays to be centered if the "Center
+genes" checkbox is checked.
+Simplified the way in which the bitmap is displayed in the "File format" help
+window, and fixed its position (previously, it was partly covered by the text
+on Windows XP).
+Fixed a bug in FilterDialogProc in windows/gui.c that caused a NULL pointer to
+be freed the first time the filter is applied.
+Gave ID_KMEANS_ARRAY_METRIC and ID_KMEANS_BUTTON different identifier numbers
+in windows/resources.rc.
+Updated windows/resources.rc to comply with the latest version of windres.
+Modified somworker in src/cluster.c to take the mask into account.
+Changed my email address, as I'm now at Columbia University.

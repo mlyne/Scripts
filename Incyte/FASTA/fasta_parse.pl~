@@ -1,0 +1,26 @@
+#!/usr/local/bin/perl -w
+
+# supply path for additional perl modules
+BEGIN{ push(@INC, "/home2/mlyne/SCRIPTS/AnT/AnT-0.02") }
+
+# Specify modules
+use strict;
+use Getopt::Std;
+use AnT::Searchfactory;
+use AnT::Worker;
+use AnT::Worker::Fasta::Search;
+use AnT::Worker::Fasta::Result;
+use AnT::Worker::Fasta::Hit;
+
+my $file = shift;
+
+my $fastai = AnT::Searchfactory->make(-file => $file,
+				      -program => 'fasta');
+
+print "$fastai\n";
+
+while (my $entry = $fastai->next_result)
+{
+  print "$fastai\n";
+}
+

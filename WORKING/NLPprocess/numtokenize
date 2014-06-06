@@ -1,0 +1,5 @@
+#!/usr/local/bin/perl5 -p
+
+s/\d*\.\d+/NUMTOK/g;
+s/\d+(,\d+)*/NUMTOK/g;
+

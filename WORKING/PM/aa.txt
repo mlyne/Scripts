@@ -1,0 +1,12 @@
+# 22-08-2012	22:52:49
+SearchLINK	RowSearch	c1	c2	c3
+ColSearch	Search	(Country 1)	(Country 2)	(Country 3)
+a1_b1	(Indic 1) AND (Scope 1)	0	0	0
+a1_b2	(Indic 1) AND (Scope 2)	0	0	0
+a1_b3	(Indic 1) AND (Scope 3)	0	0	0
+a2_b1	(Indic 2) AND (Scope 1)	0	0	0
+a2_b2	(Indic 2) AND (Scope 2)	0	0	0
+a2_b3	(Indic 2) AND (Scope 3)	0	0	0
+a3_b1	(Indic 3) AND (Scope 1)	0	0	0
+a3_b2	(Indic 3) AND (Scope 2)	0	0	0
+a3_b3	(Indic 3) AND (Scope 3)	0	0	0

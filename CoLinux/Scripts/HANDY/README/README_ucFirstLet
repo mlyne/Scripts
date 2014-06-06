@@ -1,0 +1,3 @@
+perl -ple 's/^([a-z])/uc($1)/e' file
+convert all upper case to uppercase first letter
+awk '{print $1}' file | perl -pe 'tr/[A-Z]/[a-z]/' | perl -ple 's/^([a-z])/uc($1)/e'

@@ -1,0 +1,4 @@
+# counts the punctuation marks (non-alphabetic tokens) in a file
+
+tr ' ' '\012' | grep '^[^A-Za-z][^A-Za-z]*$' | wc
+

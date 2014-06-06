@@ -1,0 +1,25 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# Author:  I. Dan Melamed
+# Computes:	/bin/paste -s, without length limits
+# Loads:	
+# Streams:	
+# N.B.:		
+#######################################################################
+
+#check for correct usage
+if ($#ARGV < 0) {
+    print "usage: $0 <delimiter> [<input>]\n";
+    exit; 
+};
+
+$delim[1] = shift;
+$delim[2] = "\n";
+
+$toggle = 1;
+while (<>) {
+    chop;
+    print $_ . $delim[$toggle];
+    $toggle = 3 - $toggle;
+};

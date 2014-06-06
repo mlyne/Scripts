@@ -1,0 +1,103 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use Getopt::Std;
+use XML::Twig::XPath;
+
+my $usage = "Usage:affilXtract.pl pubmed_xml\n
+
+Options:
+\t-h\tThis help
+\t-f\tPrint Term frequencies
+\t-n\tSuppress term output\n";
+
+
+unless ( $ARGV[0] ) { die $usage }
+
+### command line options ###
+my (%opts, $freq, $noTerms);
+
+getopts('hfn', \%opts);
+defined $opts{"h"} and die $usage;
+defined $opts{"f"} and $freq++;
+defined $opts{"n"} and $noTerms++;
+
+my $xmlFile = $ARGV[0];
+
+open(IFILE, "< $xmlFile") || die "cannot open $xmlFile: $!\n";
+
+my @entries;
+my @affiliations;
+my %addrParts;
+my @affList;
+
+while (<IFILE>) 
+{
+  chomp;
+  my $lcase = lc($_);
+  push (@entries, $lcase);
+}
+  
+close(IFILE);
+
+@affiliations = grep /affiliation/, @entries;
+
+foreach my $affiliation (@affiliations)
+{
+  $affiliation =~ s/^\s+//; # remove leading spaces
+  $affiliation =~ s/<.*?affiliation>//g; # remove Affiliation tags
+  $affiliation =~ s/\. / /g; # remove . before spaces
+  $affiliation =~ s/\.$//; # remove . at line ends
+
+#  print "AFFIL: ", $affiliation, "\n";
+  
+  push (@affList, $affiliation );
+  $addrParts{$_}++ for split(/, /, $affiliation);
+  
+}
+
+my @highHits;
+
+foreach my $key (sort { $addrParts {$b} <=> $addrParts {$a} } keys %addrParts) 
+{
+    push(@highHits, $key) if ($addrParts{$key} > 2);
+}
+
+freq(\%addrParts) if ($freq);
+
+@highHits = sort {length $b <=> length $a} @highHits;
+#print "High: ", join("\n", @highHits);
+
+if (!$noTerms) {
+foreach my $address (@affiliations)
+{
+#  print "ADDR: ", $address, "\n";
+  print "TERM HITS: ";
+  
+  foreach my $term (@highHits)
+  {
+    if ($address =~ /\b\Q$term\E\b/)
+    {
+      print $term, ", ";
+    }
+  }
+  print "\n";
+  }
+}
+
+sub freq
+{
+  my $hashRef = shift;
+  my %addrParts = %$hashRef;
+  
+  foreach my $key (sort { $addrParts {$b} <=> $addrParts {$a} } keys %addrParts) 
+  {
+    if ($key =~ /\s/) 
+    {
+      print $addrParts{$key}, "\tINST: ", $key, "\n"; 
+      
+      } else {
+      print $addrParts{$key}, "\tGEO: ", $key, "\n";
+    }
+  }
+}

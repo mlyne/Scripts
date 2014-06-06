@@ -1,0 +1,6 @@
+#!/usr/local/bin/perl5 -an
+
+# this is different from `space2newline` because multiple consecutive
+#      spaces and/or newlines all turn into one space
+
+print join("\n", @F), "\n";

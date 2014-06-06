@@ -1,0 +1,9 @@
+#!/usr/local/bin/perl5
+
+# deletes the last token of a string of tokens
+
+while (<>) {
+	@line = split;
+	pop(@line);
+	print join(' ', @line), "\n";
+};

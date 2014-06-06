@@ -1,0 +1,30 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# Tallies trigrams in each line
+
+# Parens are ignored
+
+# Default input from STDIN.
+
+# Default output to STDOUT.
+
+########################################################################
+
+while (<>) {
+
+	# remove parens and tokenize
+	s/\(/ /g;
+	s/\)/ /g;
+	@token = split;
+
+	# count trigrams
+	for($i=0; $i < @token - 2; $i++) {
+		$count{"@token[$i] @token[$i+1] @token[$i+2]"}++;
+	};
+};
+
+# output
+while (($key, $value) = each %count) {
+        print "$value $key\n";
+};

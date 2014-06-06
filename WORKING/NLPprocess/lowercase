@@ -1,0 +1,3 @@
+# also takes care of Latin-1 A^g, A^f, C^c, E^a, E^f, I^f, I^u, O^f, U^f, U^u
+
+tr '[A-ZÀÂÇÉÊÎÏÔÛÜ]' '[a-zàâçéêîïôûü]'

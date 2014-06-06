@@ -1,0 +1,19 @@
+#!/usr/local/bin/perl5
+
+##############################################################################
+# outputs all the words that match the given pattern, with their positions
+##############################################################################
+
+$pat = shift(@ARGV);
+
+while (<>) {
+    s/^ *//;
+	@token = split;
+	for ($i = 0; $i < @token; $i++) {
+		if ($token[$i] =~ /$pat/) {
+			$hit = $base + $i;
+			print "$token[$i] $hit\n";
+		};
+	};
+	$base += @token;
+};

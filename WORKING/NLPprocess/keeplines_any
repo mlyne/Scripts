@@ -1,0 +1,32 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# Kills lines not containing any word in KEEP-FILE.
+# Prints the rest.
+
+# Default output to STDOUT.
+
+########################################################################
+
+#check for correct usage
+if ($#ARGV < 0) {
+        print "usage:  $0 <KEEP-file> [<input-file>]\n";
+        exit;
+};
+
+open(K, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+while (<K>) {
+	chop;
+	$keep{$_}++;
+};
+close(K);
+shift;
+
+while (<>) {
+    split;
+    for ($i=0; $i < @_; $i++) {
+	if (exists $keep{$_[$i]}) {
+	    print;
+	};
+    };
+};

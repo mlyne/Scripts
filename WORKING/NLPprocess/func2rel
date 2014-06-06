@@ -1,0 +1,12 @@
+#!/usr/local/bin/perl5 -an
+
+########################################################################
+# Author:  I. Dan Melamed
+# Computes:	many-to-many relation from a multiset function
+# Streams:	function, where the domain is the first column
+#######################################################################
+
+while (@F > 1) {
+    print "$F[0] $F[$#F]\n";
+    pop @F;
+};

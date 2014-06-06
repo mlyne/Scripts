@@ -1,0 +1,1 @@
+test	(s6k1[tiab] AND interactions[tiab] AND 2008:2013[dp])

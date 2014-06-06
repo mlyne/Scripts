@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# sh clone2LGbln.sh est_Gold.bln.gz
+
+USAGE="Usage: `basename $0` est_Gold.bln.gz"
+
+if [ $# -ne 1 ]
+# check proper # of command line args.
+then
+    echo $USAGE
+    exit 1
+fi
+
+filename="$1"
+scrpdir="/home2/mlyne/SCRIPTS"
+
+gzip -dc "$filename" | /biosoft/arch/bin/MSPcrunch -d -I 95 - | perl -pe 's/(LG:\d+)\.\d+/$1/g'  | sort -nr | $scrpdir/BLAST/msp2hits2.pl -r 5 | sort +3 | $scrpdir/BLAST/nr_list.pl | awk '{if ($1 >= 1200) print $4, $6, $1, $2}' | $scrpdir/PFAM_PARSE/representative_pfam_domains.pl | perl -pe 's/ /\//g' 
+
+exit 0

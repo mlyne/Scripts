@@ -1,0 +1,3 @@
+perl -pe 's/^.*?\[Image\]//msi; s/^.*?\-\-\-\-\-\-\n//msi; s/^.*?\[Main\]//msi; s/^.*?quence ID\]//msi; s/^.*?mation\]//msi; s/^.*?raries\]//msi; s/^.*?data\]//msi; s/^.*?Help\]//msi; s/^.*?Gold 5\.1//msi; s/^.*?2001\n//msi; s/^.*?Verified//; s/^.*?Reagent//; s/^.*?IDs to//msi; s/^.*?row\(s\)//msi;  s/^.*?2001\n//msi; s/^\s*$//msg; s/^\n$//msg; s/^Clone ID:  //; s/(\d)\n/$1/' GeneQueryResults > bo
+
+perl -pe 's/^(\d+)\s+(\d+)\s/$1\t$2\t/; s/\s+(g\d+)\s+/\t$1\t/; s/(Unique)\s+(U)\s+(\d+)\s+(\d+)\s+(\d+)\s+/$1\t\?\t\?\t$2\t\?\t$3\t$4\t$5\t/; s/(\S)\s+([EH])\s+(\S+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+/$1\t$2\t$3\t$4\t$5\t$6\t$7\t/' bo > 

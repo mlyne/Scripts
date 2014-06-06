@@ -1,0 +1,11 @@
+#!/usr/local/bin/perl -w
+#
+#
+#
+
+ READ_LOOP: while (<>) 
+{
+ 
+  chomp $_;
+  print "$_\n";
+}

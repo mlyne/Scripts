@@ -1,0 +1,49 @@
+Bacterial Infections and Mycoses;C01
+Virus Diseases;C02
+Parasitic Diseases;C03
+Neoplasms;C04
+Musculoskeletal Diseases;C05
+Digestive System Diseases;C06
+Stomatognathic Diseases;C07
+Respiratory Tract Diseases;C08
+Otorhinolaryngologic Diseases;C09
+Nervous System Diseases;C10
+Eye Diseases;C11
+Male Urogenital Diseases;C12
+Female Urogenital Diseases and Pregnancy Complications;C13
+Cardiovascular Diseases;C14
+Hemic and Lymphatic Diseases;C15
+Congenital, Hereditary, and Neonatal Diseases and Abnormalities;C16
+Skin and Connective Tissue Diseases;C17
+Nutritional and Metabolic Diseases;C18
+Endocrine System Diseases;C19
+Immune System Diseases;C20
+Disorders of Environmental Origin;C21
+Animal Diseases;C22
+Pathological Conditions, Signs and Symptoms;C23
+Occupational Diseases;C24
+Substance-Related Disorders;C25
+Wounds and Injuries;C26
+Inorganic Chemicals;D01
+Organic Chemicals;D02
+Heterocyclic Compounds;D03
+Polycyclic Compounds;D04
+Macromolecular Substances;D05
+Hormones, Hormone Substitutes, and Hormone Antagonists;D06
+Enzymes and Coenzymes;D08
+Carbohydrates;D09
+Lipids;D10
+Amino Acids, Peptides, and Proteins;D12
+Nucleic Acids, Nucleotides, and Nucleosides;D13
+Complex Mixtures;D20
+Biological Factors;D23
+Biomedical and Dental Materials;D25
+Pharmaceutical Preparations;D26
+Chemical Actions and Uses;D27
+Diagnosis;E01
+Therapeutics;E02
+Anesthesia and Analgesia;E03
+Surgical Procedures, Operative;E04
+Investigative Techniques;E05
+Dentistry;E06
+Equipment and Supplies;E07

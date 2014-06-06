@@ -1,0 +1,3 @@
+pig	duck	squirrel	ant
+chicken	cat	budgie	turtle
+butterfly	zebra	pigeon	fish

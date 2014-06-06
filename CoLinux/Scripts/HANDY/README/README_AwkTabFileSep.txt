@@ -1,0 +1,1 @@
+awk -F"\t" '{OFS = "\t"; print $1, $2}' file

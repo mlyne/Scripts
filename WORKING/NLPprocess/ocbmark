@@ -1,0 +1,44 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# Marks obvious constituent boundries with <OCB>.
+# The marker precedes the boundry token.
+# The tokens to be considered as obvious boundries are read from a file.
+
+# Default output to STDOUT.
+
+########################################################################
+
+#check for correct usage
+if ($#ARGV < 0) {
+        print "usage:  ocbmark <const.-boundry file> [<input file>]\n";
+        exit;
+};
+
+open(B, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+print stderr "Reading constituent boundries... ";
+$cb = " ";
+while (<B>) {
+	chop;
+	$cb .= "$_ ";
+};
+close(B);
+print stderr "done\n";
+shift(@ARGV);
+
+while (<>) {
+
+	# remove parens and tokenize
+	s/\(/ /g;
+	s/\)/ /g;
+	@token = split;
+
+	foreach $word (@token) {
+		($tok = $word) =~ s/(\W)/\\$1/g;
+		if ($cb =~ / $tok /) {
+			print "<OCB> ";
+		};
+		print "$word ";
+	};
+	print "\n";
+};

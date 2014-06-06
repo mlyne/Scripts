@@ -1,0 +1,32 @@
+#!/usr/bin/perl 
+
+use strict;
+use warnings;
+use feature qw( say );
+
+use LWP::Simple qw( get );
+use XML::LibXML qw( );
+use URI         qw( );
+
+binmode STDOUT, ':encoding(UTF-8)';
+
+my $db = "pubmed";
+my $id = $ARGV[0] || '9915366';
+
+my $url = URI->new('http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi');
+$url->query_form(
+   db      => $db,
+   id      => $id,
+   retmode => 'xml',
+   rettype => 'abstract',
+);
+
+my $xml = get($url);
+
+my $parser = XML::LibXML->new();
+my $doc = $parser->parse_string($xml);
+my $root = $doc->documentElement();
+
+for my $node ($root->findnodes('PubmedArticle/MedlineCitation/Article/Abstract/AbstractText')) {
+   say join ':', $node->getAttribute('NlmCategory') // '', $node->textContent();
+}

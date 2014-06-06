@@ -1,0 +1,75 @@
+PFAM_PARSE SCRIPTS:
+
+cg_pfam_domains.pl
+------------------
+
+Takes pfam output e.g. 
+
+cat *.esthmmpfam | cg_pfam_domains.pl
+
+and gives back a non-redundant list of pfam domains found
+
+
+estpfam_parse.pl & hmmpfam_parse.pl
+-----------------------------------
+
+cat *estpfam | estpfam_parse.pl >
+cat *hmmpfam | hmmpfam_parse.pl >
+
+used to parse the initial output of either
+esthmmpfam or hmmpfam (as the name suggests)
+
+create a file:
+
+id domain bit_score e-value
+
+e.g.
+LG:1578.1   homeobox 64.1 2.9e-15
+
+
+domain_counter.pl
+-----------------
+
+Takes output from estpfam_parse.pl & 
+hmmpfam_parse.pl and counts the number
+of domains for each hit.
+
+e.g.
+LG:977578.11 5
+LG:979574.2 1
+
+
+representative_pfam_domains.pl & all_pfam_domains.pl 
+----------------------------------------------------
+
+take the output file from the parse scripts to either
+give a non-redundant set of domains or total domains
+for a given hit e.g.
+
+with representative_pfam_domains.pl file
+
+-> LG:363612.1 Syntaxin
+
+with all_pfam_domains.pl file
+
+-> LG:363612.1 Syntaxin Syntaxin
+
+
+locus_2_domain_comp.pl
+----------------------
+
+Takes a table of Locus, reference_cds, alternative_splice_model 
+and uses that to cross reference ref_cds_name to putative_cds_name 
+to compare numbers of pfam domains in two lists.
+
+Outputs locus info if the ref_cds and alt_splice_cds have a 
+different number of domains.
+
+Usage:
+locus_2_domain_comp.pl cdslist_file ref_domain_count_file 
+		       alt_domain_count_file
+
+
+
+
+

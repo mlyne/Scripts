@@ -1,0 +1,46 @@
+#!/usr/local/bin/perl5
+
+# selects given range of characters from a file
+
+#check for correct usage
+if ($#ARGV < 0) {
+        print "usage:  selchars <from> [<to>]\n";
+	print "Count starts at 1.  Newlines count.\n";
+        exit;
+};
+
+$from = shift;
+if (@ARGV) {
+	$to = shift;
+} else {
+	$to = $from;
+};
+
+if ($to < $from) { die "<FROM> MUST BE LESS THAN <TO>!\n"; };
+
+while ($point < $from) {
+    $_ = <>;
+    $point += length($_);
+    if ($point >= $from) {
+	if ($point >= $to) {
+	    print substr($_, length($_) - ($point - $from) - 1, $to - $from + 1);
+	} else {
+	    print substr($_, length($_) - ($point - $from) - 1, $point - $from + 1);
+	};
+    };
+};
+
+while ($point <= $to) {
+    $_ = <>;
+    $point += length($_);
+    if ($point > $to) {
+	print substr($_, 0, length($_) - ($point - $to));
+    } else {
+	print "$_";
+    };
+};
+
+print "\n";
+
+
+

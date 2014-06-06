@@ -1,0 +1,55 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# creates holes in a token stream, using hole descriptions from a file
+#######################################################################
+
+push(@INC, "/nldb/melamed/bin");
+require "mylib.pl";
+
+#check for correct usage
+if ($#ARGV < 0) {
+    print "usage:  decimate.char <hole description file> [<input file>]\n";
+    exit; 
+};
+
+open(H, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+shift;
+$_ = <H>;
+($start, $end) = split;
+$size = $end - $start + 1;
+
+while (<>) {
+    @token = split('');
+    $point += @token;
+
+    while ($point >= $start) {
+	$thisend = &min($point, $end);
+	$killsize = $thisend - $start + 1;
+	$killstart = @token - ($point - $start + 1);
+	splice(@token, $killstart, $killsize);
+	$size -= $killsize;
+	if ($size > 0) {
+	    print join('', @token);
+	    $start = $point + 1;
+	    $_ = <>;
+	    @token = split('');
+	    $point += @token;
+	    redo;
+	};
+	
+	$_ = <H>;
+	if (! defined($_)) {goto TAIL;};
+	($start, $end) = split;
+	$size = $end - $start + 1;
+    };
+
+    print join('', @token);
+};
+
+# print the rest without holes
+TAIL: 
+print join('', @token);
+while (<>) {
+    print;
+};

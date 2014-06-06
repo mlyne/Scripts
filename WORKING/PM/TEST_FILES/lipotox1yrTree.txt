@@ -1,0 +1,3055 @@
+TITLE: The VLDL receptor promotes lipotoxicity and increases mortality in mice following an acute myocardial infarction.
+--- END ---
+TITLE: Caveolins/caveolae protect adipocytes from fatty acid-mediated lipotoxicity.
+--- END ---
+TITLE: Long-term high-fat diet-induced obesity decreases the cardiac leptin receptor without apparent lipotoxicity.
+--- END ---
+TITLE: Molecular mechanisms of human lipodystrophies: from adipocyte lipid droplet to oxidative stress and lipotoxicity.
+--- END ---
+TITLE: Activation of AMP-Activated Protein Kinase Prevents Lipotoxicity in Retinal Pericytes.
+--- END ---
+TITLE: Mechanisms of Lipotoxicity in NAFLD and Clinical Implications.
+--- END ---
+TITLE: Ceramide synthase 4 and de novo production of ceramides with specific N-acyl chain lengths are involved in gluco-lipotoxicity-induced apoptosis of INS-1 β-cells.
+--- END ---
+TITLE: Who pulls the trigger: JNK activation in liver lipotoxicity?
+--- END ---
+TITLE: α-Linolenic acid prevents endoplasmic reticulum stress-mediated apoptosis of stearic acid lipotoxicity on primary rat hepatocytes.
+--- END ---
+TITLE: Lipotoxicity in HepG2 cells triggered by free fatty acids.
+--- END ---
+TITLE: Uncoupled respiration, ROS production, acute lipotoxicity and oxidative damage in isolated skeletal muscle mitochondria from UCP3-ablated mice.
+--- END ---
+TITLE: [Obesity: Progress in diagnosis and treatment topics, IV. Recent topics; 1. Ectopic fat disposition and lipotoxicity].
+--- END ---
+TITLE: Lipotoxicity and steatohepatitis in an overfed mouse model for non-alcoholic fatty liver disease.
+MeSH Term: Adipose Tissue(ID: 68000273)
+TREE:             Tissues
+TREE:                 Connective Tissue
+TREE:                     Adipose Tissue
+TREE:                         Adipose Tissue, Brown
+TREE:                         Adipose Tissue, White
+TREE:                             Abdominal Fat +
+TREE:                             Subcutaneous Fat +
+TREE:                         
+MeSH Term: Animals(ID: 68000818)
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Animal Population Groups
+TREE:                         Animals, Domestic +
+TREE:                         Animals, Genetically Modified +
+TREE:                         Animals, Inbred Strains +
+TREE:                         Animals, Laboratory +
+TREE:                         Animals, Newborn
+TREE:                         Animals, Outbred Strains
+TREE:                         Animals, Poisonous +
+TREE:                         Animals, Suckling
+TREE:                         Animals, Wild
+TREE:                         Animals, Zoo
+TREE:                         Chimera
+TREE:                         Endangered Species
+TREE:                         Introduced Species
+TREE:                     
+TREE:                     Chordata
+TREE:                         Chordata, Nonvertebrate +
+TREE:                         Vertebrates +
+TREE:                     
+TREE:                     Invertebrates
+TREE:                         Annelida +
+TREE:                         Arthropods +
+TREE:                         Bryozoa
+TREE:                         Chordata, Nonvertebrate +
+TREE:                         Cnidaria +
+TREE:                         Ctenophora
+TREE:                         Echinodermata +
+TREE:                         Helminths +
+TREE:                         Mollusca +
+TREE:                         Parasites
+TREE:                         Placozoa
+TREE:                         Porifera +
+TREE:                         Tardigrada
+TREE:                     
+MeSH Term: Dietary Fats(ID: 68004041)
+TREE:             Lipids
+TREE:                 Fats
+TREE:                     Dietary Fats
+TREE:                         Butter
+TREE:                         Cholesterol, Dietary
+TREE:                         Dietary Fats, Unsaturated
+TREE:                             Cod Liver Oil
+TREE:                             Corn Oil
+TREE:                             Cottonseed Oil
+TREE:                             Fatty Acids, Omega-3 +
+TREE:                             Safflower Oil
+TREE:                             Sesame Oil
+TREE:                             Soybean Oil
+TREE:                         
+TREE:                         Margarine
+TREE:             Food and Beverages
+TREE:                 Food
+TREE:                     Dietary Fats
+TREE:                         Butter
+TREE:                         Dietary Fats, Unsaturated
+TREE:                             Corn Oil
+TREE:                             Cottonseed Oil
+TREE:                             Safflower Oil
+TREE:                             Sesame Oil
+TREE:                             Soybean Oil
+TREE:                         
+TREE:                         Margarine
+MeSH Term: Disease Progression(ID: 68018450)
+TREE:             Pathological Conditions, Signs and Symptoms
+TREE:                 Pathologic Processes
+TREE:                     Disease Attributes
+TREE:                         Disease Progression
+TREE:                             Remission, Spontaneous
+MeSH Term: Fatty Acid-Binding Proteins(ID: 68050556)
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Proteins
+TREE:                     Carrier Proteins
+TREE:                         Fatty Acid-Binding Proteins
+MeSH Term: Fatty Liver(ID: 68005234)
+TREE:             Digestive System Diseases
+TREE:                 Liver Diseases
+TREE:                     Fatty Liver
+TREE:                         Fatty Liver, Alcoholic
+TREE:                         Reye Syndrome
+MeSH Term: Hyperinsulinism(ID: 68006946)
+TREE:             Nutritional and Metabolic Diseases
+TREE:                 Metabolic Diseases
+TREE:                     Glucose Metabolism Disorders
+TREE:                         Hyperinsulinism
+TREE:                             Insulin Resistance
+TREE:                                 Metabolic Syndrome X
+TREE:                             
+TREE:                             Persistent Hyperinsulinemia Hypoglycemia of Infancy
+MeSH Term: Inflammation(ID: 68007249)
+TREE:             Pathological Conditions, Signs and Symptoms
+TREE:                 Pathologic Processes
+TREE:                     Inflammation
+TREE:                         Acute-Phase Reaction
+TREE:                         Foreign-Body Reaction
+TREE:                             Implant Capsular Contracture
+TREE:                         
+TREE:                         Neurogenic Inflammation
+TREE:                         Seroma
+TREE:                         Serositis
+TREE:                         Suppuration
+TREE:                             Abscess
+TREE:                             Cellulitis
+TREE:                             Empyema
+TREE:                         
+TREE:                         Systemic Inflammatory Response Syndrome
+TREE:                             Sepsis +
+TREE:                         
+MeSH Term: Lipogenesis(ID: 68050156)
+TREE:             Cell Physiological Phenomena
+TREE:                 Cell Physiological Processes
+TREE:                     Cell Differentiation
+TREE:                         Adipogenesis
+MeSH Term: Liver(ID: 68008099)
+TREE:             Digestive System
+TREE:                 Liver
+TREE:                     Bile Ducts, Intrahepatic
+TREE:                         Bile Canaliculi
+TREE:                     
+MeSH Term: Male(ID: 68008297)
+TREE:             Male
+MeSH Term: Mice(ID: 68051379)
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Chordata
+TREE:                         Vertebrates
+TREE:                             Mammals
+TREE:                                 Rodentia
+TREE:                                     Muridae
+TREE:                                         Murinae
+TREE:                                             Mice
+TREE:                                                 Mice, Congenic
+TREE:                                                 Mice, Inbred Strains
+TREE:                                                     Mice, 129 Strain
+TREE:                                                     Mice, Hairless
+TREE:                                                     Mice, Inbred A
+TREE:                                                     Mice, Inbred AKR
+TREE:                                                     Mice, Inbred BALB C
+TREE:                                                     Mice, Inbred C3H
+TREE:                                                     Mice, Inbred C57BL +
+TREE:                                                     Mice, Inbred CBA
+TREE:                                                     Mice, Inbred CFTR
+TREE:                                                     Mice, Inbred DBA
+TREE:                                                     Mice, Inbred ICR
+TREE:                                                     Mice, Inbred MRL lpr
+TREE:                                                     Mice, Inbred NOD
+TREE:                                                     Mice, Inbred NZB
+TREE:                                                     Mice, Inbred SENCAR
+TREE:                                                 
+TREE:                                                 Mice, Mutant Strains
+TREE:                                                     Mice, 129 Strain
+TREE:                                                     Mice, Biozzi
+TREE:                                                     Mice, Hairless
+TREE:                                                     Mice, Inbred mdx
+TREE:                                                     Mice, Jimpy
+TREE:                                                     Mice, Knockout
+TREE:                                                     Mice, Neurologic Mutants
+TREE:                                                     Mice, Nude
+TREE:                                                     Mice, Obese
+TREE:                                                     Mice, Quaking
+TREE:                                                     Mice, SCID
+TREE:                                                 
+TREE:                                                 Mice, Transgenic
+TREE:                                                     Mice, Knockout +
+TREE:                                                 
+MeSH Term: Mice, Inbred C57BL(ID: 68008810)
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Animal Population Groups
+TREE:                         Animals, Inbred Strains
+TREE:                             Mice, Inbred Strains
+TREE:                                 Mice, Inbred C57BL
+TREE:                                     Mice, Inbred mdx
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Animal Population Groups
+TREE:                         Animals, Laboratory
+TREE:                             Animals, Inbred Strains
+TREE:                                 Mice, Inbred Strains
+TREE:                                     Mice, Inbred C57BL
+TREE:                                         Mice, Inbred mdx
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Chordata
+TREE:                         Vertebrates
+TREE:                             Mammals
+TREE:                                 Rodentia
+TREE:                                     Muridae
+TREE:                                         Murinae
+TREE:                                             Mice
+TREE:                                                 Mice, Inbred Strains
+TREE:                                                     Mice, Inbred C57BL
+TREE:                                                         Mice, Inbred mdx
+MeSH Term: Organ Size(ID: 68009929)
+TREE:             Diagnosis
+TREE:                 Diagnostic Techniques and Procedures
+TREE:                     Physical Examination
+TREE:                         Body Constitution
+TREE:                             Body Weights and Measures
+TREE:                                 Organ Size
+TREE:                                     Axial Length, Eye
+TREE:             Investigative Techniques
+TREE:                 Anthropometry
+TREE:                     Body Weights and Measures
+TREE:                         Organ Size
+TREE:             Physiological Phenomena
+TREE:                 Body Constitution
+TREE:                     Body Weights and Measures
+TREE:                         Organ Size
+TREE:             Physiological Phenomena
+TREE:                 Physiological Processes
+TREE:                     Growth and Development
+TREE:                         Growth
+TREE:                             Organ Size
+MeSH Term: Overnutrition(ID: 68044343)
+TREE:             Nutritional and Metabolic Diseases
+TREE:                 Nutrition Disorders
+TREE:                     Overnutrition
+TREE:                         Obesity
+TREE:                             Obesity, Abdominal
+TREE:                             Obesity Hypoventilation Syndrome
+TREE:                             Obesity, Morbid
+TREE:                             Prader-Willi Syndrome
+TREE:                         
+MeSH Term: PPAR gamma(ID: 68047495)
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Proteins
+TREE:                     DNA-Binding Proteins
+TREE:                         Receptors, Cytoplasmic and Nuclear
+TREE:                             Peroxisome Proliferator-Activated Receptors
+TREE:                                 PPAR gamma
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Proteins
+TREE:                     Receptors, Cytoplasmic and Nuclear
+TREE:                         Peroxisome Proliferator-Activated Receptors
+TREE:                             PPAR gamma
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Proteins
+TREE:                     Transcription Factors
+TREE:                         Receptors, Cytoplasmic and Nuclear
+TREE:                             Peroxisome Proliferator-Activated Receptors
+TREE:                                 PPAR gamma
+--- END ---
+TITLE: DGAT1 deficiency decreases PPAR expression and does not lead to lipotoxicity in cardiac and skeletal muscle.
+MeSH Term: Absorptiometry, Photon(ID: 68015502)
+TREE:             Diagnosis
+TREE:                 Diagnostic Techniques and Procedures
+TREE:                     Diagnostic Imaging
+TREE:                         Radiography
+TREE:                             Absorptiometry, Photon
+TREE:             Investigative Techniques
+TREE:                 Chemistry Techniques, Analytical
+TREE:                     Photometry
+TREE:                         Densitometry
+TREE:                             Absorptiometry, Photon
+MeSH Term: Animals(ID: 68000818)
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Animal Population Groups
+TREE:                         Animals, Domestic +
+TREE:                         Animals, Genetically Modified +
+TREE:                         Animals, Inbred Strains +
+TREE:                         Animals, Laboratory +
+TREE:                         Animals, Newborn
+TREE:                         Animals, Outbred Strains
+TREE:                         Animals, Poisonous +
+TREE:                         Animals, Suckling
+TREE:                         Animals, Wild
+TREE:                         Animals, Zoo
+TREE:                         Chimera
+TREE:                         Endangered Species
+TREE:                         Introduced Species
+TREE:                     
+TREE:                     Chordata
+TREE:                         Chordata, Nonvertebrate +
+TREE:                         Vertebrates +
+TREE:                     
+TREE:                     Invertebrates
+TREE:                         Annelida +
+TREE:                         Arthropods +
+TREE:                         Bryozoa
+TREE:                         Chordata, Nonvertebrate +
+TREE:                         Cnidaria +
+TREE:                         Ctenophora
+TREE:                         Echinodermata +
+TREE:                         Helminths +
+TREE:                         Mollusca +
+TREE:                         Parasites
+TREE:                         Placozoa
+TREE:                         Porifera +
+TREE:                         Tardigrada
+TREE:                     
+MeSH Term: Blotting, Western(ID: 68015153)
+TREE:             Diagnosis
+TREE:                 Laboratory Techniques and Procedures
+TREE:                     Immunologic Tests
+TREE:                         Immunoassay
+TREE:                             Immunoblotting
+TREE:                                 Blotting, Western
+TREE:                                     Blotting, Far-Western
+TREE:             Investigative Techniques
+TREE:                 Chemistry Techniques, Analytical
+TREE:                     Electrophoresis
+TREE:                         Blotting, Western
+TREE:                             Blotting, Far-Western
+TREE:             Investigative Techniques
+TREE:                 Electrochemical Techniques
+TREE:                     Electrophoresis
+TREE:                         Blotting, Western
+TREE:                             Blotting, Far-Western
+TREE:             Investigative Techniques
+TREE:                 Genetic Techniques
+TREE:                     Molecular Probe Techniques
+TREE:                         Blotting, Western
+TREE:                             Blotting, Far-Western
+TREE:             Investigative Techniques
+TREE:                 Immunologic Techniques
+TREE:                     Immunologic Tests
+TREE:                         Immunoassay
+TREE:                             Immunoblotting
+TREE:                                 Blotting, Western
+TREE:                                     Blotting, Far-Western
+TREE:             Investigative Techniques
+TREE:                 Molecular Probe Techniques
+TREE:                     Immunoassay
+TREE:                         Immunoblotting
+TREE:                             Blotting, Western
+TREE:                                 Blotting, Far-Western
+MeSH Term: Cell Line(ID: 68002460)
+TREE:             Cells
+TREE:                 Cells, Cultured
+TREE:                     Cell Line
+TREE:                         3T3 Cells
+TREE:                             BALB 3T3 Cells
+TREE:                             NIH 3T3 Cells
+TREE:                             Swiss 3T3 Cells +
+TREE:                         
+TREE:                         Cell Line, Transformed
+TREE:                             COS Cells
+TREE:                             HEK293 Cells
+TREE:                         
+TREE:                         Cell Line, Tumor
+TREE:                             Caco-2 Cells
+TREE:                             HCT116 Cells
+TREE:                             HeLa Cells +
+TREE:                             HL-60 Cells
+TREE:                             HT29 Cells
+TREE:                             Jurkat Cells
+TREE:                             K562 Cells
+TREE:                             PC12 Cells
+TREE:                             U937 Cells
+TREE:                         
+TREE:                         CHO Cells
+TREE:                         L Cells (Cell Line)
+TREE:                         LLC-PK1 Cells
+TREE:                         Vero Cells
+MeSH Term: Ceramides(ID: 68002518)
+TREE:             Organic Chemicals
+TREE:                 Amides
+TREE:                     Ceramides
+TREE:                         Cerebrosides
+TREE:                             Galactosylceramides
+TREE:                             Glucosylceramides
+TREE:                         
+TREE:                         Globosides
+TREE:                         Lactosylceramides
+TREE:                         Trihexosylceramides
+TREE:             Carbohydrates
+TREE:                 Glycoconjugates
+TREE:                     Glycolipids
+TREE:                         Glycosphingolipids
+TREE:                             Neutral Glycosphingolipids
+TREE:                                 Ceramides
+TREE:                                     Cerebrosides
+TREE:                                         Galactosylceramides
+TREE:                                         Glucosylceramides
+TREE:                                     
+TREE:                                     Globosides
+TREE:                                     Lactosylceramides
+TREE:                                     Trihexosylceramides
+TREE:             Lipids
+TREE:                 Glycolipids
+TREE:                     Glycosphingolipids
+TREE:                         Neutral Glycosphingolipids
+TREE:                             Ceramides
+TREE:                                 Cerebrosides
+TREE:                                     Galactosylceramides
+TREE:                                     Glucosylceramides
+TREE:                                 
+TREE:                                 Globosides
+TREE:                                 Lactosylceramides
+TREE:                                 Trihexosylceramides
+TREE:             Lipids
+TREE:                 Membrane Lipids
+TREE:                     Sphingolipids
+TREE:                         Glycosphingolipids
+TREE:                             Neutral Glycosphingolipids
+TREE:                                 Ceramides
+TREE:                                     Cerebrosides
+TREE:                                         Galactosylceramides
+TREE:                                         Glucosylceramides
+TREE:                                     
+TREE:                                     Globosides
+TREE:                                     Lactosylceramides
+TREE:                                     Trihexosylceramides
+MeSH Term: Diacylglycerol O-Acyltransferase(ID: 68051048)
+TREE:             Enzymes and Coenzymes
+TREE:                 Enzymes
+TREE:                     Transferases
+TREE:                         Acyltransferases
+TREE:                             Diacylglycerol O-Acyltransferase
+MeSH Term: Diglycerides(ID: 68004075)
+TREE:             Lipids
+TREE:                 Glycerides
+TREE:                     Diglycerides
+MeSH Term: Echocardiography(ID: 68004452)
+TREE:             Diagnosis
+TREE:                 Diagnostic Techniques and Procedures
+TREE:                     Diagnostic Imaging
+TREE:                         Cardiac Imaging Techniques
+TREE:                             Echocardiography
+TREE:                                 Echocardiography, Doppler
+TREE:                                     Echocardiography, Doppler, Color
+TREE:                                     Echocardiography, Doppler, Pulsed
+TREE:                                 
+TREE:                                 Echocardiography, Stress
+TREE:                                 Echocardiography, Three-Dimensional
+TREE:                                     Echocardiography, Four-Dimensional
+TREE:                                 
+TREE:                                 Echocardiography, Transesophageal
+TREE:             Diagnosis
+TREE:                 Diagnostic Techniques and Procedures
+TREE:                     Diagnostic Imaging
+TREE:                         Ultrasonography
+TREE:                             Echocardiography
+TREE:                                 Echocardiography, Doppler
+TREE:                                     Echocardiography, Doppler, Color
+TREE:                                     Echocardiography, Doppler, Pulsed
+TREE:                                 
+TREE:                                 Echocardiography, Stress
+TREE:                                 Echocardiography, Three-Dimensional
+TREE:                                     Echocardiography, Four-Dimensional
+TREE:                                 
+TREE:                                 Echocardiography, Transesophageal
+TREE:             Diagnosis
+TREE:                 Diagnostic Techniques and Procedures
+TREE:                     Diagnostic Techniques, Cardiovascular
+TREE:                         Heart Function Tests
+TREE:                             Echocardiography
+TREE:                                 Echocardiography, Doppler
+TREE:                                     Echocardiography, Doppler, Color
+TREE:                                     Echocardiography, Doppler, Pulsed
+TREE:                                 
+TREE:                                 Echocardiography, Stress
+TREE:                                 Echocardiography, Three-Dimensional
+TREE:                                     Echocardiography, Four-Dimensional
+TREE:                                 
+TREE:                                 Echocardiography, Transesophageal
+MeSH Term: Enzyme Inhibitors(ID: 68004791)
+TREE:             Chemical Actions and Uses
+TREE:                 Pharmacologic Actions
+TREE:                     Molecular Mechanisms of Pharmacological Action
+TREE:                         Enzyme Inhibitors
+TREE:                             14-alpha Demethylase Inhibitors
+TREE:                             5-alpha Reductase Inhibitors
+TREE:                             5-Lipoxygenase-Activating Protein Inhibitors
+TREE:                             Adenosine Deaminase Inhibitors
+TREE:                             Aromatase Inhibitors
+TREE:                             Carbonic Anhydrase Inhibitors
+TREE:                             Cholinesterase Inhibitors
+TREE:                             Cyclooxygenase Inhibitors
+TREE:                                 Cyclooxygenase 2 Inhibitors
+TREE:                             
+TREE:                             Folic Acid Antagonists
+TREE:                             Histone Deacetylase Inhibitors
+TREE:                             Hydroxymethylglutaryl-CoA Reductase Inhibitors
+TREE:                             Integrase Inhibitors
+TREE:                                 HIV Integrase Inhibitors
+TREE:                             
+TREE:                             Lipoxygenase Inhibitors
+TREE:                             Monoamine Oxidase Inhibitors
+TREE:                             Nucleic Acid Synthesis Inhibitors
+TREE:                                 Reverse Transcriptase Inhibitors
+TREE:                             
+TREE:                             Phosphodiesterase Inhibitors
+TREE:                                 Phosphodiesterase 3 Inhibitors
+TREE:                                 Phosphodiesterase 4 Inhibitors
+TREE:                                 Phosphodiesterase 5 Inhibitors
+TREE:                             
+TREE:                             Protease Inhibitors
+TREE:                                 Angiotensin-Converting Enzyme Inhibitors
+TREE:                                 Cysteine Proteinase Inhibitors
+TREE:                                 Dipeptidyl-Peptidase IV Inhibitors
+TREE:                                 HIV Protease Inhibitors
+TREE:                                 Serine Proteinase Inhibitors +
+TREE:                             
+TREE:                             Protein Kinase Inhibitors
+TREE:                             Protein Synthesis Inhibitors
+TREE:                             Proton Pump Inhibitors
+TREE:                             Topoisomerase Inhibitors
+TREE:                                 Topoisomerase I Inhibitors
+TREE:                                 Topoisomerase II Inhibitors
+TREE:                             
+TREE:                             Uncoupling Agents
+MeSH Term: Gene Expression(ID: 68015870)
+TREE:             Genetic Phenomena
+TREE:                 Genetic Processes
+TREE:                     Gene Expression
+TREE:                         Protein Biosynthesis
+TREE:                         Transcription, Genetic
+TREE:                             Reverse Transcription
+TREE:                         
+MeSH Term: Glucose(ID: 68005947)
+TREE:             Carbohydrates
+TREE:                 Monosaccharides
+TREE:                     Hexoses
+TREE:                         Glucose
+TREE:                             Blood Glucose
+MeSH Term: Lipoproteins, VLDL(ID: 68008079)
+TREE:             Lipids
+TREE:                 Lipoproteins
+TREE:                     Lipoproteins, VLDL
+TREE:                         Cholesterol, VLDL
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Proteins
+TREE:                     Lipoproteins
+TREE:                         Lipoproteins, VLDL
+TREE:                             Cholesterol, VLDL
+MeSH Term: Male(ID: 68008297)
+TREE:             Male
+MeSH Term: Mice(ID: 68051379)
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Chordata
+TREE:                         Vertebrates
+TREE:                             Mammals
+TREE:                                 Rodentia
+TREE:                                     Muridae
+TREE:                                         Murinae
+TREE:                                             Mice
+TREE:                                                 Mice, Congenic
+TREE:                                                 Mice, Inbred Strains
+TREE:                                                     Mice, 129 Strain
+TREE:                                                     Mice, Hairless
+TREE:                                                     Mice, Inbred A
+TREE:                                                     Mice, Inbred AKR
+TREE:                                                     Mice, Inbred BALB C
+TREE:                                                     Mice, Inbred C3H
+TREE:                                                     Mice, Inbred C57BL +
+TREE:                                                     Mice, Inbred CBA
+TREE:                                                     Mice, Inbred CFTR
+TREE:                                                     Mice, Inbred DBA
+TREE:                                                     Mice, Inbred ICR
+TREE:                                                     Mice, Inbred MRL lpr
+TREE:                                                     Mice, Inbred NOD
+TREE:                                                     Mice, Inbred NZB
+TREE:                                                     Mice, Inbred SENCAR
+TREE:                                                 
+TREE:                                                 Mice, Mutant Strains
+TREE:                                                     Mice, 129 Strain
+TREE:                                                     Mice, Biozzi
+TREE:                                                     Mice, Hairless
+TREE:                                                     Mice, Inbred mdx
+TREE:                                                     Mice, Jimpy
+TREE:                                                     Mice, Knockout
+TREE:                                                     Mice, Neurologic Mutants
+TREE:                                                     Mice, Nude
+TREE:                                                     Mice, Obese
+TREE:                                                     Mice, Quaking
+TREE:                                                     Mice, SCID
+TREE:                                                 
+TREE:                                                 Mice, Transgenic
+TREE:                                                     Mice, Knockout +
+TREE:                                                 
+MeSH Term: Mice, Knockout(ID: 68018345)
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Animal Population Groups
+TREE:                         Animals, Genetically Modified
+TREE:                             Mice, Transgenic
+TREE:                                 Mice, Knockout
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Chordata
+TREE:                         Vertebrates
+TREE:                             Mammals
+TREE:                                 Rodentia
+TREE:                                     Muridae
+TREE:                                         Murinae
+TREE:                                             Mice
+TREE:                                                 Mice, Mutant Strains
+TREE:                                                     Mice, Knockout
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Chordata
+TREE:                         Vertebrates
+TREE:                             Mammals
+TREE:                                 Rodentia
+TREE:                                     Muridae
+TREE:                                         Murinae
+TREE:                                             Mice
+TREE:                                                 Mice, Transgenic
+TREE:                                                     Mice, Knockout
+TREE:                                                         Mice, 129 Strain
+MeSH Term: Muscle, Skeletal(ID: 68018482)
+TREE:             Musculoskeletal System
+TREE:                 Muscles
+TREE:                     Muscle, Skeletal
+TREE:                         Abdominal Muscles
+TREE:                             Pelvic Floor
+TREE:                             Rectus Abdominis
+TREE:                         
+TREE:                         Deltoid Muscle
+TREE:                         Facial Muscles
+TREE:                         Laryngeal Muscles
+TREE:                         Masticatory Muscles
+TREE:                             Masseter Muscle
+TREE:                             Pterygoid Muscles
+TREE:                             Temporal Muscle
+TREE:                         
+TREE:                         Neck Muscles
+TREE:                         Oculomotor Muscles
+TREE:                         Palatal Muscles
+TREE:                         Pectoralis Muscles
+TREE:                         Pharyngeal Muscles
+TREE:                             Esophageal Sphincter, Upper
+TREE:                             Velopharyngeal Sphincter
+TREE:                         
+TREE:                         Psoas Muscles
+TREE:                         Quadriceps Muscle
+TREE:                         Respiratory Muscles
+TREE:                             Diaphragm
+TREE:                             Intercostal Muscles
+TREE:                         
+TREE:                         Rotator Cuff
+TREE:                         Stapedius
+TREE:                         Tensor Tympani
+TREE:             Tissues
+TREE:                 Muscles
+TREE:                     Muscle, Striated
+TREE:                         Muscle, Skeletal
+TREE:                             Muscle Fibers, Skeletal
+TREE:                                 Muscle Fibers, Fast-Twitch
+TREE:                                 Muscle Fibers, Slow-Twitch
+TREE:                                 Sarcoplasmic Reticulum
+TREE:                             
+TREE:                             Muscle Spindles
+MeSH Term: Myoblasts(ID: 68032446)
+TREE:             Cells
+TREE:                 Myoblasts
+TREE:                     Myoblasts, Cardiac
+TREE:                     Myoblasts, Skeletal
+TREE:                         Satellite Cells, Skeletal Muscle
+TREE:                     
+TREE:                     Myoblasts, Smooth Muscle
+TREE:             Cells
+TREE:                 Stem Cells
+TREE:                     Myoblasts
+TREE:                         Myoblasts, Cardiac
+TREE:                         Myoblasts, Skeletal
+TREE:                             Satellite Cells, Skeletal Muscle
+TREE:                         
+TREE:                         Myoblasts, Smooth Muscle
+MeSH Term: Myocardium(ID: 68009206)
+TREE:             Musculoskeletal System
+TREE:                 Muscles
+TREE:                     Myocardium
+TREE:                         Papillary Muscles
+TREE:             Cardiovascular System
+TREE:                 Heart
+TREE:                     Myocardium
+TREE:                         Myoblasts, Cardiac
+TREE:                         Myocytes, Cardiac
+TREE:                         Papillary Muscles
+TREE:             Tissues
+TREE:                 Muscles
+TREE:                     Muscle, Striated
+TREE:                         Myocardium
+TREE:                             Myoblasts, Cardiac
+TREE:                             Myocytes, Cardiac
+MeSH Term: Myocytes, Cardiac(ID: 68032383)
+TREE:             Cardiovascular System
+TREE:                 Heart
+TREE:                     Myocardium
+TREE:                         Myocytes, Cardiac
+TREE:             Tissues
+TREE:                 Muscles
+TREE:                     Muscle, Striated
+TREE:                         Myocardium
+TREE:                             Myocytes, Cardiac
+TREE:             Cells
+TREE:                 Muscle Cells
+TREE:                     Myocytes, Cardiac
+TREE:                         Myofibrils
+TREE:                             Sarcomeres
+TREE:                         
+MeSH Term: Organ Size(ID: 68009929)
+TREE:             Diagnosis
+TREE:                 Diagnostic Techniques and Procedures
+TREE:                     Physical Examination
+TREE:                         Body Constitution
+TREE:                             Body Weights and Measures
+TREE:                                 Organ Size
+TREE:                                     Axial Length, Eye
+TREE:             Investigative Techniques
+TREE:                 Anthropometry
+TREE:                     Body Weights and Measures
+TREE:                         Organ Size
+TREE:             Physiological Phenomena
+TREE:                 Body Constitution
+TREE:                     Body Weights and Measures
+TREE:                         Organ Size
+TREE:             Physiological Phenomena
+TREE:                 Physiological Processes
+TREE:                     Growth and Development
+TREE:                         Growth
+TREE:                             Organ Size
+MeSH Term: Palmitic Acid(ID: 68019308)
+TREE:             Lipids
+TREE:                 Fatty Acids
+TREE:                     Palmitic Acids
+TREE:                         Palmitic Acid
+MeSH Term: Peroxisome Proliferator-Activated Receptors(ID: 68047492)
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Proteins
+TREE:                     DNA-Binding Proteins
+TREE:                         Receptors, Cytoplasmic and Nuclear
+TREE:                             Peroxisome Proliferator-Activated Receptors
+TREE:                                 PPAR alpha
+TREE:                                 PPAR-beta
+TREE:                                 PPAR delta
+TREE:                                 PPAR gamma
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Proteins
+TREE:                     Receptors, Cytoplasmic and Nuclear
+TREE:                         Peroxisome Proliferator-Activated Receptors
+TREE:                             PPAR alpha
+TREE:                             PPAR-beta
+TREE:                             PPAR delta
+TREE:                             PPAR gamma
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Proteins
+TREE:                     Transcription Factors
+TREE:                         Receptors, Cytoplasmic and Nuclear
+TREE:                             Peroxisome Proliferator-Activated Receptors
+TREE:                                 PPAR alpha
+TREE:                                 PPAR-beta
+TREE:                                 PPAR delta
+TREE:                                 PPAR gamma
+MeSH Term: Polymerase Chain Reaction(ID: 68016133)
+TREE:             Investigative Techniques
+TREE:                 Genetic Techniques
+TREE:                     Nucleic Acid Amplification Techniques
+TREE:                         Polymerase Chain Reaction
+TREE:                             Amplified Fragment Length Polymorphism Analysis
+TREE:                             Primed In Situ Labeling
+TREE:                             Random Amplified Polymorphic DNA Technique
+TREE:                             Reverse Transcriptase Polymerase Chain Reaction
+--- END ---
+TITLE: Differential lipid partitioning between adipocytes and tissue macrophages modulates macrophage lipotoxicity and M2/M1 polarization in obese mice.
+MeSH Term: Adipocytes(ID: 68017667)
+TREE:             Cells
+TREE:                 Connective Tissue Cells
+TREE:                     Adipocytes
+TREE:                         Adipocytes, Brown
+TREE:                         Adipocytes, White
+MeSH Term: Adipose Tissue(ID: 68000273)
+TREE:             Tissues
+TREE:                 Connective Tissue
+TREE:                     Adipose Tissue
+TREE:                         Adipose Tissue, Brown
+TREE:                         Adipose Tissue, White
+TREE:                             Abdominal Fat +
+TREE:                             Subcutaneous Fat +
+TREE:                         
+MeSH Term: Animals(ID: 68000818)
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Animal Population Groups
+TREE:                         Animals, Domestic +
+TREE:                         Animals, Genetically Modified +
+TREE:                         Animals, Inbred Strains +
+TREE:                         Animals, Laboratory +
+TREE:                         Animals, Newborn
+TREE:                         Animals, Outbred Strains
+TREE:                         Animals, Poisonous +
+TREE:                         Animals, Suckling
+TREE:                         Animals, Wild
+TREE:                         Animals, Zoo
+TREE:                         Chimera
+TREE:                         Endangered Species
+TREE:                         Introduced Species
+TREE:                     
+TREE:                     Chordata
+TREE:                         Chordata, Nonvertebrate +
+TREE:                         Vertebrates +
+TREE:                     
+TREE:                     Invertebrates
+TREE:                         Annelida +
+TREE:                         Arthropods +
+TREE:                         Bryozoa
+TREE:                         Chordata, Nonvertebrate +
+TREE:                         Cnidaria +
+TREE:                         Ctenophora
+TREE:                         Echinodermata +
+TREE:                         Helminths +
+TREE:                         Mollusca +
+TREE:                         Parasites
+TREE:                         Placozoa
+TREE:                         Porifera +
+TREE:                         Tardigrada
+TREE:                     
+MeSH Term: Cell Fractionation(ID: 68002458)
+TREE:             Investigative Techniques
+TREE:                 Clinical Laboratory Techniques
+TREE:                     Cytological Techniques
+TREE:                         Cell Fractionation
+MeSH Term: Cells, Cultured(ID: 68002478)
+TREE:             Cells
+TREE:                 Cells, Cultured
+TREE:                     Cell Line
+TREE:                         3T3 Cells +
+TREE:                         Cell Line, Transformed +
+TREE:                         Cell Line, Tumor +
+TREE:                         CHO Cells
+TREE:                         L Cells (Cell Line)
+TREE:                         LLC-PK1 Cells
+TREE:                         Vero Cells
+TREE:                     
+TREE:                     Clone Cells
+TREE:                         Hybridomas
+TREE:                     
+TREE:                     Cytokine-Induced Killer Cells
+TREE:                     Hybrid Cells
+TREE:                         Hybridomas
+TREE:                     
+TREE:                     Spheroids, Cellular
+TREE:                     Tumor Cells, Cultured
+TREE:                         Cell Line, Tumor +
+TREE:                         Embryonal Carcinoma Stem Cells
+TREE:                     
+MeSH Term: Diet(ID: 68004032)
+TREE:             Investigative Techniques
+TREE:                 Diet
+TREE:                     Diet, Atherogenic
+TREE:                     Diet, Cariogenic
+TREE:                     Fasting
+TREE:             Physiological Phenomena
+TREE:                 Nutritional Physiological Phenomena
+TREE:                     Diet
+TREE:                         Diabetic Diet
+TREE:                         Diet, Carbohydrate-Restricted
+TREE:                         Diet Fads
+TREE:                         Diet, Fat-Restricted
+TREE:                         Diet, Gluten-Free
+TREE:                         Diet, Mediterranean
+TREE:                         Diet, Protein-Restricted
+TREE:                         Diet, Reducing
+TREE:                         Diet, Sodium-Restricted
+TREE:                         Diet, Vegetarian
+TREE:                             Diet, Macrobiotic
+TREE:                         
+TREE:                         Energy Intake
+TREE:                             Caloric Restriction
+TREE:                         
+TREE:                         Ketogenic Diet
+MeSH Term: Flow Cytometry(ID: 68005434)
+TREE:             Investigative Techniques
+TREE:                 Chemistry Techniques, Analytical
+TREE:                     Photometry
+TREE:                         Luminescent Measurements
+TREE:                             Fluorometry
+TREE:                                 Cytophotometry
+TREE:                                     Flow Cytometry
+TREE:             Investigative Techniques
+TREE:                 Clinical Laboratory Techniques
+TREE:                     Cytological Techniques
+TREE:                         Cytophotometry
+TREE:                             Flow Cytometry
+MeSH Term: Gene Expression Profiling(ID: 68046228)
+TREE:             Investigative Techniques
+TREE:                 Chemistry Techniques, Analytical
+TREE:                     Microchip Analytical Procedures
+TREE:                         Microarray Analysis
+TREE:                             Oligonucleotide Array Sequence Analysis
+TREE:                             Protein Array Analysis
+TREE:                             Tissue Array Analysis
+TREE:             Investigative Techniques
+TREE:                 Microchip Analytical Procedures
+TREE:                     Microarray Analysis
+TREE:                         Oligonucleotide Array Sequence Analysis
+TREE:                         Protein Array Analysis
+TREE:                         Tissue Array Analysis
+MeSH Term: Inflammation(ID: 68007249)
+TREE:             Pathological Conditions, Signs and Symptoms
+TREE:                 Pathologic Processes
+TREE:                     Inflammation
+TREE:                         Acute-Phase Reaction
+TREE:                         Foreign-Body Reaction
+TREE:                             Implant Capsular Contracture
+TREE:                         
+TREE:                         Neurogenic Inflammation
+TREE:                         Seroma
+TREE:                         Serositis
+TREE:                         Suppuration
+TREE:                             Abscess
+TREE:                             Cellulitis
+TREE:                             Empyema
+TREE:                         
+TREE:                         Systemic Inflammatory Response Syndrome
+TREE:                             Sepsis +
+TREE:                         
+MeSH Term: Insulin Resistance(ID: 68007333)
+TREE:             Nutritional and Metabolic Diseases
+TREE:                 Metabolic Diseases
+TREE:                     Glucose Metabolism Disorders
+TREE:                         Hyperinsulinism
+TREE:                             Insulin Resistance
+TREE:                                 Metabolic Syndrome X
+TREE:             Physiological Phenomena
+TREE:                 Pharmacological Phenomena
+TREE:                     Drug Resistance
+TREE:                         Insulin Resistance
+MeSH Term: Lipid Metabolism(ID: 68050356)
+TREE:             Metabolic Phenomena
+TREE:                 Metabolism
+TREE:                     Lipid Metabolism
+TREE:                         Lipogenesis
+TREE:                         Lipolysis
+TREE:                             Lipid Mobilization
+TREE:                         
+TREE:                         Lipoylation
+MeSH Term: Macrophages(ID: 68008264)
+TREE:             Cells
+TREE:                 Connective Tissue Cells
+TREE:                     Macrophages
+TREE:                         Epithelioid Cells
+TREE:                         Foam Cells
+TREE:                         Giant Cells, Foreign-Body
+TREE:                         Giant Cells, Langhans
+TREE:                         Histiocytes
+TREE:                         Kupffer Cells
+TREE:                         Macrophages, Alveolar
+TREE:                         Macrophages, Peritoneal
+TREE:                         Osteoclasts
+TREE:             Cells
+TREE:                 Myeloid Cells
+TREE:                     Macrophages
+TREE:                         Epithelioid Cells
+TREE:                         Foam Cells
+TREE:                         Giant Cells, Foreign-Body
+TREE:                         Giant Cells, Langhans
+TREE:                         Histiocytes
+TREE:                         Kupffer Cells
+TREE:                         Macrophages, Alveolar
+TREE:                         Macrophages, Peritoneal
+TREE:                         Monocyte-Macrophage Precursor Cells
+TREE:                             U937 Cells
+TREE:                         
+TREE:                         Osteoclasts
+TREE:             Cells
+TREE:                 Phagocytes
+TREE:                     Macrophages
+TREE:                         Epithelioid Cells
+TREE:                         Foam Cells
+TREE:                         Giant Cells, Foreign-Body
+TREE:                         Giant Cells, Langhans
+TREE:                         Histiocytes
+TREE:                         Kupffer Cells
+TREE:                         Macrophages, Alveolar
+TREE:                         Macrophages, Peritoneal
+TREE:             Hemic and Immune Systems
+TREE:                 Immune System
+TREE:                     Phagocytes
+TREE:                         Macrophages
+TREE:                             Epithelioid Cells
+TREE:                             Foam Cells
+TREE:                             Giant Cells, Foreign-Body
+TREE:                             Giant Cells, Langhans
+TREE:                             Histiocytes
+TREE:                             Kupffer Cells
+TREE:                             Macrophages, Alveolar
+TREE:                             Macrophages, Peritoneal
+TREE:             Hemic and Immune Systems
+TREE:                 Immune System
+TREE:                     Mononuclear Phagocyte System
+TREE:                         Macrophages
+TREE:                             Epithelioid Cells
+TREE:                             Foam Cells
+TREE:                             Giant Cells, Foreign-Body
+TREE:                             Giant Cells, Langhans
+TREE:                             Histiocytes
+TREE:                             Kupffer Cells
+TREE:                             Macrophages, Alveolar
+TREE:                             Macrophages, Peritoneal
+MeSH Term: Mice(ID: 68051379)
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Chordata
+TREE:                         Vertebrates
+TREE:                             Mammals
+TREE:                                 Rodentia
+TREE:                                     Muridae
+TREE:                                         Murinae
+TREE:                                             Mice
+TREE:                                                 Mice, Congenic
+TREE:                                                 Mice, Inbred Strains
+TREE:                                                     Mice, 129 Strain
+TREE:                                                     Mice, Hairless
+TREE:                                                     Mice, Inbred A
+TREE:                                                     Mice, Inbred AKR
+TREE:                                                     Mice, Inbred BALB C
+TREE:                                                     Mice, Inbred C3H
+TREE:                                                     Mice, Inbred C57BL +
+TREE:                                                     Mice, Inbred CBA
+TREE:                                                     Mice, Inbred CFTR
+TREE:                                                     Mice, Inbred DBA
+TREE:                                                     Mice, Inbred ICR
+TREE:                                                     Mice, Inbred MRL lpr
+TREE:                                                     Mice, Inbred NOD
+TREE:                                                     Mice, Inbred NZB
+TREE:                                                     Mice, Inbred SENCAR
+TREE:                                                 
+TREE:                                                 Mice, Mutant Strains
+TREE:                                                     Mice, 129 Strain
+TREE:                                                     Mice, Biozzi
+TREE:                                                     Mice, Hairless
+TREE:                                                     Mice, Inbred mdx
+TREE:                                                     Mice, Jimpy
+TREE:                                                     Mice, Knockout
+TREE:                                                     Mice, Neurologic Mutants
+TREE:                                                     Mice, Nude
+TREE:                                                     Mice, Obese
+TREE:                                                     Mice, Quaking
+TREE:                                                     Mice, SCID
+TREE:                                                 
+TREE:                                                 Mice, Transgenic
+TREE:                                                     Mice, Knockout +
+TREE:                                                 
+MeSH Term: Mice, Obese(ID: 68008820)
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Chordata
+TREE:                         Vertebrates
+TREE:                             Mammals
+TREE:                                 Rodentia
+TREE:                                     Muridae
+TREE:                                         Murinae
+TREE:                                             Mice
+TREE:                                                 Mice, Mutant Strains
+TREE:                                                     Mice, Obese
+MeSH Term: Obesity(ID: 68009765)
+TREE:             Nutritional and Metabolic Diseases
+TREE:                 Nutrition Disorders
+TREE:                     Overnutrition
+TREE:                         Obesity
+TREE:                             Obesity, Abdominal
+TREE:                             Obesity Hypoventilation Syndrome
+TREE:                             Obesity, Morbid
+TREE:                             Prader-Willi Syndrome
+TREE:             Pathological Conditions, Signs and Symptoms
+TREE:                 Signs and Symptoms
+TREE:                     Body Weight
+TREE:                         Overweight
+TREE:                             Obesity
+TREE:                                 Obesity, Morbid
+TREE:             Diagnosis
+TREE:                 Diagnostic Techniques and Procedures
+TREE:                     Physical Examination
+TREE:                         Body Constitution
+TREE:                             Body Weights and Measures
+TREE:                                 Body Size
+TREE:                                     Body Weight
+TREE:                                         Overweight
+TREE:                                             Obesity
+TREE:                                                 Obesity, Abdominal
+TREE:                                                 Obesity, Morbid
+TREE:             Physiological Phenomena
+TREE:                 Body Constitution
+TREE:                     Body Weights and Measures
+TREE:                         Body Size
+TREE:                             Body Weight
+TREE:                                 Overweight
+TREE:                                     Obesity
+TREE:                                         Obesity, Abdominal
+TREE:                                         Obesity, Morbid
+MeSH Term: Oligonucleotide Array Sequence Analysis(ID: 68020411)
+TREE:             Investigative Techniques
+TREE:                 Chemistry Techniques, Analytical
+TREE:                     Microchip Analytical Procedures
+TREE:                         Microarray Analysis
+TREE:                             Oligonucleotide Array Sequence Analysis
+TREE:             Investigative Techniques
+TREE:                 Genetic Techniques
+TREE:                     Molecular Probe Techniques
+TREE:                         Oligonucleotide Array Sequence Analysis
+TREE:             Investigative Techniques
+TREE:                 Genetic Techniques
+TREE:                     Nucleic Acid Hybridization
+TREE:                         Oligonucleotide Array Sequence Analysis
+TREE:             Investigative Techniques
+TREE:                 Genetic Techniques
+TREE:                     Sequence Analysis
+TREE:                         Oligonucleotide Array Sequence Analysis
+TREE:                             Genome-Wide Association Study
+TREE:             Investigative Techniques
+TREE:                 Microchip Analytical Procedures
+TREE:                     Microarray Analysis
+TREE:                         Oligonucleotide Array Sequence Analysis
+TREE:             Investigative Techniques
+TREE:                 Molecular Probe Techniques
+TREE:                     Oligonucleotide Array Sequence Analysis
+--- END ---
+TITLE: Dissociation of lipotoxicity and glucotoxicity in a mouse model of obesity associated diabetes: role of forkhead box O1 (FOXO1) in glucose-induced beta cell failure.
+MeSH Term: Animals(ID: 68000818)
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Animal Population Groups
+TREE:                         Animals, Domestic +
+TREE:                         Animals, Genetically Modified +
+TREE:                         Animals, Inbred Strains +
+TREE:                         Animals, Laboratory +
+TREE:                         Animals, Newborn
+TREE:                         Animals, Outbred Strains
+TREE:                         Animals, Poisonous +
+TREE:                         Animals, Suckling
+TREE:                         Animals, Wild
+TREE:                         Animals, Zoo
+TREE:                         Chimera
+TREE:                         Endangered Species
+TREE:                         Introduced Species
+TREE:                     
+TREE:                     Chordata
+TREE:                         Chordata, Nonvertebrate +
+TREE:                         Vertebrates +
+TREE:                     
+TREE:                     Invertebrates
+TREE:                         Annelida +
+TREE:                         Arthropods +
+TREE:                         Bryozoa
+TREE:                         Chordata, Nonvertebrate +
+TREE:                         Cnidaria +
+TREE:                         Ctenophora
+TREE:                         Echinodermata +
+TREE:                         Helminths +
+TREE:                         Mollusca +
+TREE:                         Parasites
+TREE:                         Placozoa
+TREE:                         Porifera +
+TREE:                         Tardigrada
+TREE:                     
+MeSH Term: Apoptosis(ID: 68017209)
+TREE:             Cell Physiological Phenomena
+TREE:                 Cell Physiological Processes
+TREE:                     Cell Death
+TREE:                         Apoptosis
+TREE:                             Anoikis
+MeSH Term: Blood Glucose(ID: 68001786)
+TREE:             Carbohydrates
+TREE:                 Monosaccharides
+TREE:                     Hexoses
+TREE:                         Glucose
+TREE:                             Blood Glucose
+MeSH Term: Blotting, Western(ID: 68015153)
+TREE:             Diagnosis
+TREE:                 Laboratory Techniques and Procedures
+TREE:                     Immunologic Tests
+TREE:                         Immunoassay
+TREE:                             Immunoblotting
+TREE:                                 Blotting, Western
+TREE:                                     Blotting, Far-Western
+TREE:             Investigative Techniques
+TREE:                 Chemistry Techniques, Analytical
+TREE:                     Electrophoresis
+TREE:                         Blotting, Western
+TREE:                             Blotting, Far-Western
+TREE:             Investigative Techniques
+TREE:                 Electrochemical Techniques
+TREE:                     Electrophoresis
+TREE:                         Blotting, Western
+TREE:                             Blotting, Far-Western
+TREE:             Investigative Techniques
+TREE:                 Genetic Techniques
+TREE:                     Molecular Probe Techniques
+TREE:                         Blotting, Western
+TREE:                             Blotting, Far-Western
+TREE:             Investigative Techniques
+TREE:                 Immunologic Techniques
+TREE:                     Immunologic Tests
+TREE:                         Immunoassay
+TREE:                             Immunoblotting
+TREE:                                 Blotting, Western
+TREE:                                     Blotting, Far-Western
+TREE:             Investigative Techniques
+TREE:                 Molecular Probe Techniques
+TREE:                     Immunoassay
+TREE:                         Immunoblotting
+TREE:                             Blotting, Western
+TREE:                                 Blotting, Far-Western
+MeSH Term: Cell Line(ID: 68002460)
+TREE:             Cells
+TREE:                 Cells, Cultured
+TREE:                     Cell Line
+TREE:                         3T3 Cells
+TREE:                             BALB 3T3 Cells
+TREE:                             NIH 3T3 Cells
+TREE:                             Swiss 3T3 Cells +
+TREE:                         
+TREE:                         Cell Line, Transformed
+TREE:                             COS Cells
+TREE:                             HEK293 Cells
+TREE:                         
+TREE:                         Cell Line, Tumor
+TREE:                             Caco-2 Cells
+TREE:                             HCT116 Cells
+TREE:                             HeLa Cells +
+TREE:                             HL-60 Cells
+TREE:                             HT29 Cells
+TREE:                             Jurkat Cells
+TREE:                             K562 Cells
+TREE:                             PC12 Cells
+TREE:                             U937 Cells
+TREE:                         
+TREE:                         CHO Cells
+TREE:                         L Cells (Cell Line)
+TREE:                         LLC-PK1 Cells
+TREE:                         Vero Cells
+MeSH Term: Diabetes Mellitus(ID: 68003920)
+TREE:             Nutritional and Metabolic Diseases
+TREE:                 Metabolic Diseases
+TREE:                     Glucose Metabolism Disorders
+TREE:                         Diabetes Mellitus
+TREE:                             Diabetes, Gestational
+TREE:                             Diabetes Mellitus, Experimental
+TREE:                             Diabetes Mellitus, Type 1
+TREE:                                 Wolfram Syndrome
+TREE:                             
+TREE:                             Diabetes Mellitus, Type 2
+TREE:                                 Diabetes Mellitus, Lipoatrophic
+TREE:                             
+TREE:                             Diabetic Ketoacidosis
+TREE:                             Donohue Syndrome
+TREE:                             Prediabetic State
+TREE:             Endocrine System Diseases
+TREE:                 Diabetes Mellitus
+TREE:                     Diabetes Complications
+TREE:                         Diabetic Angiopathies +
+TREE:                         Diabetic Cardiomyopathies
+TREE:                         Diabetic Coma +
+TREE:                         Diabetic Ketoacidosis
+TREE:                         Diabetic Nephropathies
+TREE:                         Diabetic Neuropathies +
+TREE:                         Fetal Macrosomia
+TREE:                     
+TREE:                     Diabetes, Gestational
+TREE:                     Diabetes Mellitus, Experimental
+TREE:                     Diabetes Mellitus, Type 1
+TREE:                         Wolfram Syndrome
+TREE:                     
+TREE:                     Diabetes Mellitus, Type 2
+TREE:                         Diabetes Mellitus, Lipoatrophic
+TREE:                     
+TREE:                     Donohue Syndrome
+TREE:                     Prediabetic State
+MeSH Term: Diet, Carbohydrate-Restricted(ID: 68050528)
+TREE:             Therapeutics
+TREE:                 Nutrition Therapy
+TREE:                     Diet Therapy
+TREE:                         Diet, Carbohydrate-Restricted
+TREE:             Physiological Phenomena
+TREE:                 Nutritional Physiological Phenomena
+TREE:                     Diet
+TREE:                         Diet, Carbohydrate-Restricted
+MeSH Term: Forkhead Transcription Factors(ID: 68051858)
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Proteins
+TREE:                     DNA-Binding Proteins
+TREE:                         Winged-Helix Transcription Factors
+TREE:                             Forkhead Transcription Factors
+TREE:                                 Hepatocyte Nuclear Factor 3-alpha
+TREE:                                 Hepatocyte Nuclear Factor 3-beta
+TREE:                                 Hepatocyte Nuclear Factor 3-gamma
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Proteins
+TREE:                     Transcription Factors
+TREE:                         Winged-Helix Transcription Factors
+TREE:                             Forkhead Transcription Factors
+TREE:                                 Hepatocyte Nuclear Factor 3-alpha
+TREE:                                 Hepatocyte Nuclear Factor 3-beta
+TREE:                                 Hepatocyte Nuclear Factor 3-gamma
+MeSH Term: Glucose(ID: 68005947)
+TREE:             Carbohydrates
+TREE:                 Monosaccharides
+TREE:                     Hexoses
+TREE:                         Glucose
+TREE:                             Blood Glucose
+MeSH Term: Homeodomain Proteins(ID: 68018398)
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Proteins
+TREE:                     DNA-Binding Proteins
+TREE:                         Homeodomain Proteins
+TREE:                             Antennapedia Homeodomain Protein
+TREE:                             Fushi Tarazu Transcription Factors
+TREE:                             Goosecoid Protein
+TREE:                             MADS Domain Proteins
+TREE:                                 AGAMOUS Protein, Arabidopsis
+TREE:                                 DEFICIENS Protein
+TREE:                                 Serum Response Factor
+TREE:                             
+TREE:                             MSX1 Transcription Factor
+TREE:                             Onecut Transcription Factors
+TREE:                                 Hepatocyte Nuclear Factor 6
+TREE:                             
+TREE:                             Otx Transcription Factors
+TREE:                             PAX7 Transcription Factor
+MeSH Term: Hyperglycemia(ID: 68006943)
+TREE:             Nutritional and Metabolic Diseases
+TREE:                 Metabolic Diseases
+TREE:                     Glucose Metabolism Disorders
+TREE:                         Hyperglycemia
+TREE:                             Glucose Intolerance
+MeSH Term: Immunohistochemistry(ID: 68007150)
+TREE:             Diagnosis
+TREE:                 Laboratory Techniques and Procedures
+TREE:                     Immunologic Tests
+TREE:                         Immunohistochemistry
+TREE:                             Fluorescent Antibody Technique
+TREE:                                 Antibody-Coated Bacteria Test, Urinary
+TREE:                                 Fluorescent Antibody Technique, Direct
+TREE:                                 Fluorescent Antibody Technique, Indirect
+TREE:                                 Fluoroimmunoassay +
+TREE:                             
+TREE:                             Immunoenzyme Techniques
+TREE:                                 Enzyme-Linked Immunosorbent Assay +
+TREE:                                 Enzyme Multiplied Immunoassay Technique
+TREE:                             
+TREE:             Investigative Techniques
+TREE:                 Clinical Laboratory Techniques
+TREE:                     Cytological Techniques
+TREE:                         Histocytochemistry
+TREE:                             Immunohistochemistry
+TREE:             Investigative Techniques
+TREE:                 Clinical Laboratory Techniques
+TREE:                     Histological Techniques
+TREE:                         Histocytochemistry
+TREE:                             Immunohistochemistry
+TREE:                                 Fluorescent Antibody Technique
+TREE:                                     Fluorescent Antibody Technique, Direct
+TREE:                                     Fluorescent Antibody Technique, Indirect
+TREE:                                 
+TREE:             Investigative Techniques
+TREE:                 Immunologic Techniques
+TREE:                     Immunologic Tests
+TREE:                         Immunohistochemistry
+TREE:                             Fluorescent Antibody Technique
+TREE:                                 Antibody-Coated Bacteria Test, Urinary
+TREE:                                 Fluorescent Antibody Technique, Direct
+TREE:                                 Fluorescent Antibody Technique, Indirect
+TREE:                                 Fluoroimmunoassay +
+TREE:                             
+TREE:                             Immunoenzyme Techniques
+TREE:                                 Enzyme-Linked Immunosorbent Assay +
+TREE:                                 Enzyme Multiplied Immunoassay Technique
+TREE:                             
+TREE:             Natural Science Disciplines
+TREE:                 Biological Science Disciplines
+TREE:                     Anatomy
+TREE:                         Histology
+TREE:                             Histocytochemistry
+TREE:                                 Immunohistochemistry
+TREE:             Natural Science Disciplines
+TREE:                 Biological Science Disciplines
+TREE:                     Biochemistry
+TREE:                         Histocytochemistry
+TREE:                             Immunohistochemistry
+TREE:             Natural Science Disciplines
+TREE:                 Biological Science Disciplines
+TREE:                     Biochemistry
+TREE:                         Immunochemistry
+TREE:                             Immunohistochemistry
+TREE:             Natural Science Disciplines
+TREE:                 Chemistry
+TREE:                     Biochemistry
+TREE:                         Histocytochemistry
+TREE:                             Immunohistochemistry
+TREE:             Natural Science Disciplines
+TREE:                 Chemistry
+TREE:                     Biochemistry
+TREE:                         Immunochemistry
+TREE:                             Immunohistochemistry
+MeSH Term: Insulin(ID: 68007328)
+TREE:             Hormones, Hormone Substitutes, and Hormone Antagonists
+TREE:                 Hormones
+TREE:                     Peptide Hormones
+TREE:                         Pancreatic Hormones
+TREE:                             Proinsulin
+TREE:                                 Insulin
+TREE:                                     Insulin, Long-Acting
+TREE:                                     Insulin, NPH
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Peptides
+TREE:                     Peptide Hormones
+TREE:                         Pancreatic Hormones
+TREE:                             Proinsulin
+TREE:                                 Insulin
+TREE:                                     Insulin, Long-Acting
+TREE:                                     Insulin, NPH
+MeSH Term: Insulin-Secreting Cells(ID: 68050417)
+TREE:             Digestive System
+TREE:                 Pancreas
+TREE:                     Islets of Langerhans
+TREE:                         Insulin-Secreting Cells
+TREE:             Endocrine System
+TREE:                 Enteroendocrine Cells
+TREE:                     Insulin-Secreting Cells
+TREE:             Endocrine System
+TREE:                 Endocrine Glands
+TREE:                     Islets of Langerhans
+TREE:                         Insulin-Secreting Cells
+TREE:             Cells
+TREE:                 Endocrine Cells
+TREE:                     Enteroendocrine Cells
+TREE:                         Insulin-Secreting Cells
+TREE:             Cells
+TREE:                 Epithelial Cells
+TREE:                     Enteroendocrine Cells
+TREE:                         Insulin-Secreting Cells
+MeSH Term: Islets of Langerhans(ID: 68007515)
+TREE:             Digestive System
+TREE:                 Pancreas
+TREE:                     Islets of Langerhans
+TREE:                         Glucagon-Secreting Cells
+TREE:                         Insulin-Secreting Cells
+TREE:                         Pancreatic Polypeptide-Secreting Cells
+TREE:                         Somatostatin-Secreting Cells
+TREE:             Endocrine System
+TREE:                 Endocrine Glands
+TREE:                     Islets of Langerhans
+TREE:                         Glucagon-Secreting Cells
+TREE:                         Insulin-Secreting Cells
+TREE:                         Pancreatic Polypeptide-Secreting Cells
+TREE:                         Somatostatin-Secreting Cells
+MeSH Term: Maf Transcription Factors, Large(ID: 68051473)
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Proteins
+TREE:                     DNA-Binding Proteins
+TREE:                         Basic-Leucine Zipper Transcription Factors
+TREE:                             Maf Transcription Factors
+TREE:                                 Maf Transcription Factors, Large
+TREE:                                     MafB Transcription Factor
+TREE:                                     Oncogene Protein v-maf
+TREE:                                     Proto-Oncogene Proteins c-maf
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Proteins
+TREE:                     Transcription Factors
+TREE:                         Basic-Leucine Zipper Transcription Factors
+TREE:                             Maf Transcription Factors
+TREE:                                 Maf Transcription Factors, Large
+TREE:                                     MafB Transcription Factor
+TREE:                                     Oncogene Protein v-maf
+TREE:                                     Proto-Oncogene Proteins c-maf
+MeSH Term: Male(ID: 68008297)
+TREE:             Male
+MeSH Term: Mice(ID: 68051379)
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Chordata
+TREE:                         Vertebrates
+TREE:                             Mammals
+TREE:                                 Rodentia
+TREE:                                     Muridae
+TREE:                                         Murinae
+TREE:                                             Mice
+TREE:                                                 Mice, Congenic
+TREE:                                                 Mice, Inbred Strains
+TREE:                                                     Mice, 129 Strain
+TREE:                                                     Mice, Hairless
+TREE:                                                     Mice, Inbred A
+TREE:                                                     Mice, Inbred AKR
+TREE:                                                     Mice, Inbred BALB C
+TREE:                                                     Mice, Inbred C3H
+TREE:                                                     Mice, Inbred C57BL +
+TREE:                                                     Mice, Inbred CBA
+TREE:                                                     Mice, Inbred CFTR
+TREE:                                                     Mice, Inbred DBA
+TREE:                                                     Mice, Inbred ICR
+TREE:                                                     Mice, Inbred MRL lpr
+TREE:                                                     Mice, Inbred NOD
+TREE:                                                     Mice, Inbred NZB
+TREE:                                                     Mice, Inbred SENCAR
+TREE:                                                 
+TREE:                                                 Mice, Mutant Strains
+TREE:                                                     Mice, 129 Strain
+TREE:                                                     Mice, Biozzi
+TREE:                                                     Mice, Hairless
+TREE:                                                     Mice, Inbred mdx
+TREE:                                                     Mice, Jimpy
+TREE:                                                     Mice, Knockout
+TREE:                                                     Mice, Neurologic Mutants
+TREE:                                                     Mice, Nude
+TREE:                                                     Mice, Obese
+TREE:                                                     Mice, Quaking
+TREE:                                                     Mice, SCID
+TREE:                                                 
+TREE:                                                 Mice, Transgenic
+TREE:                                                     Mice, Knockout +
+TREE:                                                 
+MeSH Term: Obesity(ID: 68009765)
+TREE:             Nutritional and Metabolic Diseases
+TREE:                 Nutrition Disorders
+TREE:                     Overnutrition
+TREE:                         Obesity
+TREE:                             Obesity, Abdominal
+TREE:                             Obesity Hypoventilation Syndrome
+TREE:                             Obesity, Morbid
+TREE:                             Prader-Willi Syndrome
+TREE:             Pathological Conditions, Signs and Symptoms
+TREE:                 Signs and Symptoms
+TREE:                     Body Weight
+TREE:                         Overweight
+TREE:                             Obesity
+TREE:                                 Obesity, Morbid
+TREE:             Diagnosis
+TREE:                 Diagnostic Techniques and Procedures
+TREE:                     Physical Examination
+TREE:                         Body Constitution
+TREE:                             Body Weights and Measures
+TREE:                                 Body Size
+TREE:                                     Body Weight
+TREE:                                         Overweight
+TREE:                                             Obesity
+TREE:                                                 Obesity, Abdominal
+TREE:                                                 Obesity, Morbid
+TREE:             Physiological Phenomena
+TREE:                 Body Constitution
+TREE:                     Body Weights and Measures
+TREE:                         Body Size
+TREE:                             Body Weight
+TREE:                                 Overweight
+TREE:                                     Obesity
+TREE:                                         Obesity, Abdominal
+TREE:                                         Obesity, Morbid
+MeSH Term: Phosphorylation(ID: 68010766)
+TREE:             Chemical Phenomena
+TREE:                 Biochemical Phenomena
+TREE:                     Biochemical Processes
+TREE:                         Phosphorylation
+TREE:                             Oxidative Phosphorylation
+TREE:                             Photophosphorylation
+TREE:             Chemical Phenomena
+TREE:                 Chemical Processes
+TREE:                     Biochemical Processes
+TREE:                         Phosphorylation
+TREE:                             Oxidative Phosphorylation
+TREE:                             Photophosphorylation
+TREE:             Chemical Phenomena
+TREE:                 Chemical Processes
+TREE:                     Organic Chemistry Processes
+TREE:                         Phosphorylation
+TREE:             Chemical Phenomena
+TREE:                 Organic Chemistry Phenomena
+TREE:                     Organic Chemistry Processes
+TREE:                         Phosphorylation
+TREE:             Metabolic Phenomena
+TREE:                 Metabolism
+TREE:                     Phosphorylation
+TREE:                         Oxidative Phosphorylation
+TREE:                         Photophosphorylation
+MeSH Term: Trans-Activators(ID: 68015534)
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Proteins
+TREE:                     DNA-Binding Proteins
+TREE:                         Trans-Activators
+TREE:                             Gene Products, tat
+TREE:                                 tat Gene Products, Human Immunodeficiency Virus
+TREE:                             
+TREE:                             Herpes Simplex Virus Protein Vmw65
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Proteins
+TREE:                     Transcription Factors
+TREE:                         Trans-Activators
+TREE:                             Gene Products, tat
+TREE:                                 tat Gene Products, Human Immunodeficiency Virus
+TREE:                             
+TREE:                             Herpes Simplex Virus Protein Vmw65
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Proteins
+TREE:                     Viral Proteins
+TREE:                         Viral Regulatory and Accessory Proteins
+TREE:                             Trans-Activators
+TREE:                                 Gene Products, rev
+TREE:                                     rev Gene Products, Human Immunodeficiency
+TREE:                                 
+TREE:                                 Gene Products, tat
+TREE:                                     tat Gene Products, Human Immunodeficiency
+TREE:                                 
+TREE:                                 Gene Products, tax
+TREE:                                 Gene Products, vpr
+TREE:                                     vpr Gene Products, Human Immunodeficiency
+TREE:                                 
+TREE:                                 Herpes Simplex Virus Protein Vmw65
+--- END ---
+TITLE: Interruption of triacylglycerol synthesis in the endoplasmic reticulum is the initiating event for saturated fatty acid-induced lipotoxicity in liver cells.
+MeSH Term: Acyl Coenzyme A(ID: 68000214)
+TREE:             Heterocyclic Compounds
+TREE:                 Heterocyclic Compounds, 2-Ring
+TREE:                     Purines
+TREE:                         Purine Nucleotides
+TREE:                             Adenine Nucleotides
+TREE:                                 Coenzyme A
+TREE:                                     Acyl Coenzyme A
+TREE:                                         Acetyl Coenzyme A
+TREE:                                         Malonyl Coenzyme A
+TREE:                                         Palmitoyl Coenzyme A
+TREE:             Enzymes and Coenzymes
+TREE:                 Coenzymes
+TREE:                     Coenzyme A
+TREE:                         Acyl Coenzyme A
+TREE:                             Acetyl Coenzyme A
+TREE:                             Malonyl Coenzyme A
+TREE:                             Palmitoyl Coenzyme A
+TREE:             Nucleic Acids, Nucleotides, and Nucleosides
+TREE:                 Nucleotides
+TREE:                     Purine Nucleotides
+TREE:                         Adenine Nucleotides
+TREE:                             Coenzyme A
+TREE:                                 Acyl Coenzyme A
+TREE:                                     Acetyl Coenzyme A
+TREE:                                     Malonyl Coenzyme A
+TREE:                                     Palmitoyl Coenzyme A
+TREE:             Nucleic Acids, Nucleotides, and Nucleosides
+TREE:                 Nucleotides
+TREE:                     Ribonucleotides
+TREE:                         Adenine Nucleotides
+TREE:                             Coenzyme A
+TREE:                                 Acyl Coenzyme A
+TREE:                                     Acetyl Coenzyme A
+TREE:                                     Malonyl Coenzyme A
+TREE:                                     Palmitoyl Coenzyme A
+MeSH Term: Apoptosis(ID: 68017209)
+TREE:             Cell Physiological Phenomena
+TREE:                 Cell Physiological Processes
+TREE:                     Cell Death
+TREE:                         Apoptosis
+TREE:                             Anoikis
+MeSH Term: Cell Line(ID: 68002460)
+TREE:             Cells
+TREE:                 Cells, Cultured
+TREE:                     Cell Line
+TREE:                         3T3 Cells
+TREE:                             BALB 3T3 Cells
+TREE:                             NIH 3T3 Cells
+TREE:                             Swiss 3T3 Cells +
+TREE:                         
+TREE:                         Cell Line, Transformed
+TREE:                             COS Cells
+TREE:                             HEK293 Cells
+TREE:                         
+TREE:                         Cell Line, Tumor
+TREE:                             Caco-2 Cells
+TREE:                             HCT116 Cells
+TREE:                             HeLa Cells +
+TREE:                             HL-60 Cells
+TREE:                             HT29 Cells
+TREE:                             Jurkat Cells
+TREE:                             K562 Cells
+TREE:                             PC12 Cells
+TREE:                             U937 Cells
+TREE:                         
+TREE:                         CHO Cells
+TREE:                         L Cells (Cell Line)
+TREE:                         LLC-PK1 Cells
+TREE:                         Vero Cells
+MeSH Term: Endoplasmic Reticulum(ID: 68004721)
+TREE:             Cells
+TREE:                 Cellular Structures
+TREE:                     Intracellular Space
+TREE:                         Cytoplasm
+TREE:                             Cytoplasmic Structures
+TREE:                                 Organelles
+TREE:                                     Endoplasmic Reticulum
+TREE:                                         Endoplasmic Reticulum, Rough
+TREE:                                             Nissl Bodies
+TREE:                                         
+TREE:                                         Endoplasmic Reticulum, Smooth
+TREE:                                             Sarcoplasmic Reticulum
+TREE:                                         
+MeSH Term: Fatty Acids(ID: 68005227)
+TREE:             Lipids
+TREE:                 Fatty Acids
+TREE:                     Caprylates
+TREE:                         Octanoic Acids
+TREE:                     
+TREE:                     Decanoic Acids
+TREE:                         Decanoates
+TREE:                     
+TREE:                     Eicosanoic Acids
+TREE:                     Fatty Acids, Nonesterified
+TREE:                     Fatty Acids, Unsaturated
+TREE:                         Arachidonic Acids +
+TREE:                         Eicosanoids +
+TREE:                         Fatty Acids, Essential +
+TREE:                         Fatty Acids, Monounsaturated +
+TREE:                         Fatty Acids, Omega-3 +
+TREE:                         Fatty Acids, Omega-6 +
+TREE:                         Gefarnate
+TREE:                         Ionomycin
+TREE:                         Isoprostanes +
+TREE:                         Linolenic Acids +
+TREE:                         Oxylipins
+TREE:                         Sorbic Acid
+TREE:                         Trans Fatty Acids
+TREE:                     
+TREE:                     Fatty Acids, Volatile
+TREE:                         Acetic Acids +
+TREE:                         Butyric Acids +
+TREE:                         Caproates +
+TREE:                         Propionates +
+TREE:                         Valerates +
+TREE:                     
+TREE:                     Heptanoic Acids
+TREE:                         Heptanoates
+TREE:                     
+TREE:                     Lauric Acids
+TREE:                         Laurates
+TREE:                     
+TREE:                     Mupirocin
+TREE:                     Mycolic Acids
+TREE:                     Mycophenolic Acid
+TREE:                     Myristic Acids
+TREE:                         Myristates
+TREE:                         Myristic Acid
+TREE:                     
+TREE:                     Palmitic Acids
+TREE:                         Palmitates +
+TREE:                         Palmitic Acid
+TREE:                     
+TREE:                     Prostanoic Acids
+TREE:                     Sodium Morrhuate
+TREE:                     Stearic Acids
+TREE:                         Stearates
+TREE:                     
+TREE:                     Thioctic Acid
+MeSH Term: Hepatocytes(ID: 68022781)
+TREE:             Cells
+TREE:                 Epithelial Cells
+TREE:                     Hepatocytes
+TREE:                         Hep G2 Cells
+MeSH Term: Humans(ID: 68006801)
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Chordata
+TREE:                         Vertebrates
+TREE:                             Mammals
+TREE:                                 Primates
+TREE:                                     Haplorhini
+TREE:                                         Catarrhini
+TREE:                                             Hominidae
+TREE:                                                 Humans
+MeSH Term: Liver(ID: 68008099)
+TREE:             Digestive System
+TREE:                 Liver
+TREE:                     Bile Ducts, Intrahepatic
+TREE:                         Bile Canaliculi
+TREE:                     
+MeSH Term: Triglycerides(ID: 68014280)
+TREE:             Lipids
+TREE:                 Glycerides
+TREE:                     Triglycerides
+TREE:                         Triacetin
+TREE:                         Triolein
+--- END ---
+TITLE: Role of cardiac steatosis and lipotoxicity in obesity cardiomyopathy.
+MeSH Term: Animals(ID: 68000818)
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Animal Population Groups
+TREE:                         Animals, Domestic +
+TREE:                         Animals, Genetically Modified +
+TREE:                         Animals, Inbred Strains +
+TREE:                         Animals, Laboratory +
+TREE:                         Animals, Newborn
+TREE:                         Animals, Outbred Strains
+TREE:                         Animals, Poisonous +
+TREE:                         Animals, Suckling
+TREE:                         Animals, Wild
+TREE:                         Animals, Zoo
+TREE:                         Chimera
+TREE:                         Endangered Species
+TREE:                         Introduced Species
+TREE:                     
+TREE:                     Chordata
+TREE:                         Chordata, Nonvertebrate +
+TREE:                         Vertebrates +
+TREE:                     
+TREE:                     Invertebrates
+TREE:                         Annelida +
+TREE:                         Arthropods +
+TREE:                         Bryozoa
+TREE:                         Chordata, Nonvertebrate +
+TREE:                         Cnidaria +
+TREE:                         Ctenophora
+TREE:                         Echinodermata +
+TREE:                         Helminths +
+TREE:                         Mollusca +
+TREE:                         Parasites
+TREE:                         Placozoa
+TREE:                         Porifera +
+TREE:                         Tardigrada
+TREE:                     
+MeSH Term: Cardiomyopathies(ID: 68009202)
+TREE:             Cardiovascular Diseases
+TREE:                 Heart Diseases
+TREE:                     Cardiomyopathies
+TREE:                         Arrhythmogenic Right Ventricular Dysplasia
+TREE:                         Cardiomyopathy, Alcoholic
+TREE:                         Cardiomyopathy, Dilated
+TREE:                         Cardiomyopathy, Hypertrophic
+TREE:                             Cardiomyopathy, Hypertrophic, Familial
+TREE:                         
+TREE:                         Cardiomyopathy, Restrictive
+TREE:                         Chagas Cardiomyopathy
+TREE:                         Diabetic Cardiomyopathies
+TREE:                         Endocardial Fibroelastosis
+TREE:                             Isolated Noncompaction of the Ventricular Myocardium
+TREE:                         
+TREE:                         Endomyocardial Fibrosis
+TREE:                         Glycogen Storage Disease Type IIb
+TREE:                         Kearns-Sayre Syndrome
+TREE:                         Myocardial Reperfusion Injury
+TREE:                         Myocarditis
+TREE:                         Sarcoglycanopathies
+MeSH Term: Cells, Cultured(ID: 68002478)
+TREE:             Cells
+TREE:                 Cells, Cultured
+TREE:                     Cell Line
+TREE:                         3T3 Cells +
+TREE:                         Cell Line, Transformed +
+TREE:                         Cell Line, Tumor +
+TREE:                         CHO Cells
+TREE:                         L Cells (Cell Line)
+TREE:                         LLC-PK1 Cells
+TREE:                         Vero Cells
+TREE:                     
+TREE:                     Clone Cells
+TREE:                         Hybridomas
+TREE:                     
+TREE:                     Cytokine-Induced Killer Cells
+TREE:                     Hybrid Cells
+TREE:                         Hybridomas
+TREE:                     
+TREE:                     Spheroids, Cellular
+TREE:                     Tumor Cells, Cultured
+TREE:                         Cell Line, Tumor +
+TREE:                         Embryonal Carcinoma Stem Cells
+TREE:                     
+MeSH Term: Diacylglycerol O-Acyltransferase(ID: 68051048)
+TREE:             Enzymes and Coenzymes
+TREE:                 Enzymes
+TREE:                     Transferases
+TREE:                         Acyltransferases
+TREE:                             Diacylglycerol O-Acyltransferase
+MeSH Term: Fatty Acids(ID: 68005227)
+TREE:             Lipids
+TREE:                 Fatty Acids
+TREE:                     Caprylates
+TREE:                         Octanoic Acids
+TREE:                     
+TREE:                     Decanoic Acids
+TREE:                         Decanoates
+TREE:                     
+TREE:                     Eicosanoic Acids
+TREE:                     Fatty Acids, Nonesterified
+TREE:                     Fatty Acids, Unsaturated
+TREE:                         Arachidonic Acids +
+TREE:                         Eicosanoids +
+TREE:                         Fatty Acids, Essential +
+TREE:                         Fatty Acids, Monounsaturated +
+TREE:                         Fatty Acids, Omega-3 +
+TREE:                         Fatty Acids, Omega-6 +
+TREE:                         Gefarnate
+TREE:                         Ionomycin
+TREE:                         Isoprostanes +
+TREE:                         Linolenic Acids +
+TREE:                         Oxylipins
+TREE:                         Sorbic Acid
+TREE:                         Trans Fatty Acids
+TREE:                     
+TREE:                     Fatty Acids, Volatile
+TREE:                         Acetic Acids +
+TREE:                         Butyric Acids +
+TREE:                         Caproates +
+TREE:                         Propionates +
+TREE:                         Valerates +
+TREE:                     
+TREE:                     Heptanoic Acids
+TREE:                         Heptanoates
+TREE:                     
+TREE:                     Lauric Acids
+TREE:                         Laurates
+TREE:                     
+TREE:                     Mupirocin
+TREE:                     Mycolic Acids
+TREE:                     Mycophenolic Acid
+TREE:                     Myristic Acids
+TREE:                         Myristates
+TREE:                         Myristic Acid
+TREE:                     
+TREE:                     Palmitic Acids
+TREE:                         Palmitates +
+TREE:                         Palmitic Acid
+TREE:                     
+TREE:                     Prostanoic Acids
+TREE:                     Sodium Morrhuate
+TREE:                     Stearic Acids
+TREE:                         Stearates
+TREE:                     
+TREE:                     Thioctic Acid
+MeSH Term: Lipid Metabolism(ID: 68050356)
+TREE:             Metabolic Phenomena
+TREE:                 Metabolism
+TREE:                     Lipid Metabolism
+TREE:                         Lipogenesis
+TREE:                         Lipolysis
+TREE:                             Lipid Mobilization
+TREE:                         
+TREE:                         Lipoylation
+MeSH Term: Mice(ID: 68051379)
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Chordata
+TREE:                         Vertebrates
+TREE:                             Mammals
+TREE:                                 Rodentia
+TREE:                                     Muridae
+TREE:                                         Murinae
+TREE:                                             Mice
+TREE:                                                 Mice, Congenic
+TREE:                                                 Mice, Inbred Strains
+TREE:                                                     Mice, 129 Strain
+TREE:                                                     Mice, Hairless
+TREE:                                                     Mice, Inbred A
+TREE:                                                     Mice, Inbred AKR
+TREE:                                                     Mice, Inbred BALB C
+TREE:                                                     Mice, Inbred C3H
+TREE:                                                     Mice, Inbred C57BL +
+TREE:                                                     Mice, Inbred CBA
+TREE:                                                     Mice, Inbred CFTR
+TREE:                                                     Mice, Inbred DBA
+TREE:                                                     Mice, Inbred ICR
+TREE:                                                     Mice, Inbred MRL lpr
+TREE:                                                     Mice, Inbred NOD
+TREE:                                                     Mice, Inbred NZB
+TREE:                                                     Mice, Inbred SENCAR
+TREE:                                                 
+TREE:                                                 Mice, Mutant Strains
+TREE:                                                     Mice, 129 Strain
+TREE:                                                     Mice, Biozzi
+TREE:                                                     Mice, Hairless
+TREE:                                                     Mice, Inbred mdx
+TREE:                                                     Mice, Jimpy
+TREE:                                                     Mice, Knockout
+TREE:                                                     Mice, Neurologic Mutants
+TREE:                                                     Mice, Nude
+TREE:                                                     Mice, Obese
+TREE:                                                     Mice, Quaking
+TREE:                                                     Mice, SCID
+TREE:                                                 
+TREE:                                                 Mice, Transgenic
+TREE:                                                     Mice, Knockout +
+TREE:                                                 
+MeSH Term: Mice, Transgenic(ID: 68008822)
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Animal Population Groups
+TREE:                         Animals, Genetically Modified
+TREE:                             Mice, Transgenic
+TREE:                                 Mice, Knockout
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Chordata
+TREE:                         Vertebrates
+TREE:                             Mammals
+TREE:                                 Rodentia
+TREE:                                     Muridae
+TREE:                                         Murinae
+TREE:                                             Mice
+TREE:                                                 Mice, Transgenic
+TREE:                                                     Mice, Knockout
+TREE:                                                         Mice, 129 Strain
+TREE:                                                     
+MeSH Term: Models, Biological(ID: 68008954)
+TREE:             Investigative Techniques
+TREE:                 Models, Theoretical
+TREE:                     Models, Biological
+TREE:                         Disease Models, Animal
+TREE:                         Models, Cardiovascular
+TREE:                         Models, Genetic
+TREE:                         Models, Immunological
+TREE:                         Models, Neurological
+TREE:                             Neurolinguistic Programming
+TREE:                         
+MeSH Term: Myocardium(ID: 68009206)
+TREE:             Musculoskeletal System
+TREE:                 Muscles
+TREE:                     Myocardium
+TREE:                         Papillary Muscles
+TREE:             Cardiovascular System
+TREE:                 Heart
+TREE:                     Myocardium
+TREE:                         Myoblasts, Cardiac
+TREE:                         Myocytes, Cardiac
+TREE:                         Papillary Muscles
+TREE:             Tissues
+TREE:                 Muscles
+TREE:                     Muscle, Striated
+TREE:                         Myocardium
+TREE:                             Myoblasts, Cardiac
+TREE:                             Myocytes, Cardiac
+MeSH Term: Myocytes, Cardiac(ID: 68032383)
+TREE:             Cardiovascular System
+TREE:                 Heart
+TREE:                     Myocardium
+TREE:                         Myocytes, Cardiac
+TREE:             Tissues
+TREE:                 Muscles
+TREE:                     Muscle, Striated
+TREE:                         Myocardium
+TREE:                             Myocytes, Cardiac
+TREE:             Cells
+TREE:                 Muscle Cells
+TREE:                     Myocytes, Cardiac
+TREE:                         Myofibrils
+TREE:                             Sarcomeres
+TREE:                         
+MeSH Term: Obesity(ID: 68009765)
+TREE:             Nutritional and Metabolic Diseases
+TREE:                 Nutrition Disorders
+TREE:                     Overnutrition
+TREE:                         Obesity
+TREE:                             Obesity, Abdominal
+TREE:                             Obesity Hypoventilation Syndrome
+TREE:                             Obesity, Morbid
+TREE:                             Prader-Willi Syndrome
+TREE:             Pathological Conditions, Signs and Symptoms
+TREE:                 Signs and Symptoms
+TREE:                     Body Weight
+TREE:                         Overweight
+TREE:                             Obesity
+TREE:                                 Obesity, Morbid
+TREE:             Diagnosis
+TREE:                 Diagnostic Techniques and Procedures
+TREE:                     Physical Examination
+TREE:                         Body Constitution
+TREE:                             Body Weights and Measures
+TREE:                                 Body Size
+TREE:                                     Body Weight
+TREE:                                         Overweight
+TREE:                                             Obesity
+TREE:                                                 Obesity, Abdominal
+TREE:                                                 Obesity, Morbid
+TREE:             Physiological Phenomena
+TREE:                 Body Constitution
+TREE:                     Body Weights and Measures
+TREE:                         Body Size
+TREE:                             Body Weight
+TREE:                                 Overweight
+TREE:                                     Obesity
+TREE:                                         Obesity, Abdominal
+TREE:                                         Obesity, Morbid
+MeSH Term: Triglycerides(ID: 68014280)
+TREE:             Lipids
+TREE:                 Glycerides
+TREE:                     Triglycerides
+TREE:                         Triacetin
+TREE:                         Triolein
+--- END ---
+TITLE: Ghrelin inhibits insulin resistance induced by glucotoxicity and lipotoxicity in cardiomyocyte.
+MeSH Term: AMP-Activated Protein Kinases(ID: 68055372)
+TREE:             Enzymes and Coenzymes
+TREE:                 Enzymes
+TREE:                     Transferases
+TREE:                         Phosphotransferases
+TREE:                             Phosphotransferases (Alcohol Group Acceptor)
+TREE:                                 Protein Kinases
+TREE:                                     Protein-Serine-Threonine Kinases
+TREE:                                         AMP-Activated Protein Kinases
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Peptides
+TREE:                     Intracellular Signaling Peptides and Proteins
+TREE:                         AMP-Activated Protein Kinases
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Proteins
+TREE:                     Intracellular Signaling Peptides and Proteins
+TREE:                         AMP-Activated Protein Kinases
+MeSH Term: Animals(ID: 68000818)
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Animal Population Groups
+TREE:                         Animals, Domestic +
+TREE:                         Animals, Genetically Modified +
+TREE:                         Animals, Inbred Strains +
+TREE:                         Animals, Laboratory +
+TREE:                         Animals, Newborn
+TREE:                         Animals, Outbred Strains
+TREE:                         Animals, Poisonous +
+TREE:                         Animals, Suckling
+TREE:                         Animals, Wild
+TREE:                         Animals, Zoo
+TREE:                         Chimera
+TREE:                         Endangered Species
+TREE:                         Introduced Species
+TREE:                     
+TREE:                     Chordata
+TREE:                         Chordata, Nonvertebrate +
+TREE:                         Vertebrates +
+TREE:                     
+TREE:                     Invertebrates
+TREE:                         Annelida +
+TREE:                         Arthropods +
+TREE:                         Bryozoa
+TREE:                         Chordata, Nonvertebrate +
+TREE:                         Cnidaria +
+TREE:                         Ctenophora
+TREE:                         Echinodermata +
+TREE:                         Helminths +
+TREE:                         Mollusca +
+TREE:                         Parasites
+TREE:                         Placozoa
+TREE:                         Porifera +
+TREE:                         Tardigrada
+TREE:                     
+MeSH Term: Cell Shape(ID: 68048430)
+TREE:             Cell Physiological Phenomena
+TREE:                 Cell Shape
+MeSH Term: Cells, Cultured(ID: 68002478)
+TREE:             Cells
+TREE:                 Cells, Cultured
+TREE:                     Cell Line
+TREE:                         3T3 Cells +
+TREE:                         Cell Line, Transformed +
+TREE:                         Cell Line, Tumor +
+TREE:                         CHO Cells
+TREE:                         L Cells (Cell Line)
+TREE:                         LLC-PK1 Cells
+TREE:                         Vero Cells
+TREE:                     
+TREE:                     Clone Cells
+TREE:                         Hybridomas
+TREE:                     
+TREE:                     Cytokine-Induced Killer Cells
+TREE:                     Hybrid Cells
+TREE:                         Hybridomas
+TREE:                     
+TREE:                     Spheroids, Cellular
+TREE:                     Tumor Cells, Cultured
+TREE:                         Cell Line, Tumor +
+TREE:                         Embryonal Carcinoma Stem Cells
+TREE:                     
+MeSH Term: Chromones(ID: 68002867)
+TREE:             Heterocyclic Compounds
+TREE:                 Heterocyclic Compounds, 2-Ring
+TREE:                     Benzopyrans
+TREE:                         Chromones
+TREE:                             Cromolyn Sodium
+TREE:                             Flavonoids
+TREE:                                 Anthocyanins
+TREE:                                 Benzoflavones +
+TREE:                                 Biflavonoids
+TREE:                                 Catechin
+TREE:                                 Chalcones +
+TREE:                                 Flavanones +
+TREE:                                 Flavones +
+TREE:                                 Flavonolignans +
+TREE:                                 Flavonols +
+TREE:                                 Isoflavones +
+TREE:                                 Proanthocyanidins
+TREE:                             
+TREE:             Heterocyclic Compounds
+TREE:                 Pyrans
+TREE:                     Benzopyrans
+TREE:                         Chromones
+TREE:                             Cromolyn Sodium
+TREE:                             Flavonoids
+TREE:                                 Anthocyanins
+TREE:                                 Benzoflavones +
+TREE:                                 Biflavonoids
+TREE:                                 Catechin
+TREE:                                 Chalcones +
+TREE:                                 Flavanones +
+TREE:                                 Flavones +
+TREE:                                 Flavonolignans +
+TREE:                                 Flavonols +
+TREE:                                 Isoflavones +
+TREE:                                 Proanthocyanidins
+TREE:                             
+MeSH Term: Deoxyglucose(ID: 68003847)
+TREE:             Carbohydrates
+TREE:                 Deoxy Sugars
+TREE:                     Deoxyglucose
+TREE:                         Fluorodeoxyglucose F18
+MeSH Term: Enzyme Inhibitors(ID: 68004791)
+TREE:             Chemical Actions and Uses
+TREE:                 Pharmacologic Actions
+TREE:                     Molecular Mechanisms of Pharmacological Action
+TREE:                         Enzyme Inhibitors
+TREE:                             14-alpha Demethylase Inhibitors
+TREE:                             5-alpha Reductase Inhibitors
+TREE:                             5-Lipoxygenase-Activating Protein Inhibitors
+TREE:                             Adenosine Deaminase Inhibitors
+TREE:                             Aromatase Inhibitors
+TREE:                             Carbonic Anhydrase Inhibitors
+TREE:                             Cholinesterase Inhibitors
+TREE:                             Cyclooxygenase Inhibitors
+TREE:                                 Cyclooxygenase 2 Inhibitors
+TREE:                             
+TREE:                             Folic Acid Antagonists
+TREE:                             Histone Deacetylase Inhibitors
+TREE:                             Hydroxymethylglutaryl-CoA Reductase Inhibitors
+TREE:                             Integrase Inhibitors
+TREE:                                 HIV Integrase Inhibitors
+TREE:                             
+TREE:                             Lipoxygenase Inhibitors
+TREE:                             Monoamine Oxidase Inhibitors
+TREE:                             Nucleic Acid Synthesis Inhibitors
+TREE:                                 Reverse Transcriptase Inhibitors
+TREE:                             
+TREE:                             Phosphodiesterase Inhibitors
+TREE:                                 Phosphodiesterase 3 Inhibitors
+TREE:                                 Phosphodiesterase 4 Inhibitors
+TREE:                                 Phosphodiesterase 5 Inhibitors
+TREE:                             
+TREE:                             Protease Inhibitors
+TREE:                                 Angiotensin-Converting Enzyme Inhibitors
+TREE:                                 Cysteine Proteinase Inhibitors
+TREE:                                 Dipeptidyl-Peptidase IV Inhibitors
+TREE:                                 HIV Protease Inhibitors
+TREE:                                 Serine Proteinase Inhibitors +
+TREE:                             
+TREE:                             Protein Kinase Inhibitors
+TREE:                             Protein Synthesis Inhibitors
+TREE:                             Proton Pump Inhibitors
+TREE:                             Topoisomerase Inhibitors
+TREE:                                 Topoisomerase I Inhibitors
+TREE:                                 Topoisomerase II Inhibitors
+TREE:                             
+TREE:                             Uncoupling Agents
+MeSH Term: Gene Expression(ID: 68015870)
+TREE:             Genetic Phenomena
+TREE:                 Genetic Processes
+TREE:                     Gene Expression
+TREE:                         Protein Biosynthesis
+TREE:                         Transcription, Genetic
+TREE:                             Reverse Transcription
+TREE:                         
+MeSH Term: Ghrelin(ID: 68054439)
+TREE:             Hormones, Hormone Substitutes, and Hormone Antagonists
+TREE:                 Hormones
+TREE:                     Peptide Hormones
+TREE:                         Ghrelin
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Peptides
+TREE:                     Peptide Hormones
+TREE:                         Ghrelin
+MeSH Term: Glucose(ID: 68005947)
+TREE:             Carbohydrates
+TREE:                 Monosaccharides
+TREE:                     Hexoses
+TREE:                         Glucose
+TREE:                             Blood Glucose
+MeSH Term: Glucose Transporter Type 4(ID: 68051275)
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Proteins
+TREE:                     Carrier Proteins
+TREE:                         Membrane Transport Proteins
+TREE:                             Monosaccharide Transport Proteins
+TREE:                                 Glucose Transport Proteins, Facilitative
+TREE:                                     Glucose Transporter Type 4
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Proteins
+TREE:                     Membrane Proteins
+TREE:                         Membrane Transport Proteins
+TREE:                             Monosaccharide Transport Proteins
+TREE:                                 Glucose Transport Proteins, Facilitative
+TREE:                                     Glucose Transporter Type 4
+MeSH Term: Insulin Resistance(ID: 68007333)
+TREE:             Nutritional and Metabolic Diseases
+TREE:                 Metabolic Diseases
+TREE:                     Glucose Metabolism Disorders
+TREE:                         Hyperinsulinism
+TREE:                             Insulin Resistance
+TREE:                                 Metabolic Syndrome X
+TREE:             Physiological Phenomena
+TREE:                 Pharmacological Phenomena
+TREE:                     Drug Resistance
+TREE:                         Insulin Resistance
+MeSH Term: Male(ID: 68008297)
+TREE:             Male
+MeSH Term: Morpholines(ID: 68009025)
+TREE:             Heterocyclic Compounds
+TREE:                 Heterocyclic Compounds, 1-Ring
+TREE:                     Oxazines
+TREE:                         Morpholines
+TREE:                             Dextromoramide
+TREE:                             Molsidomine
+TREE:                             Moricizine
+TREE:                             Phenmetrazine
+TREE:                             Timolol
+TREE:                             Viloxazine
+TREE:                             Xamoterol
+MeSH Term: Myocytes, Cardiac(ID: 68032383)
+TREE:             Cardiovascular System
+TREE:                 Heart
+TREE:                     Myocardium
+TREE:                         Myocytes, Cardiac
+TREE:             Tissues
+TREE:                 Muscles
+TREE:                     Muscle, Striated
+TREE:                         Myocardium
+TREE:                             Myocytes, Cardiac
+TREE:             Cells
+TREE:                 Muscle Cells
+TREE:                     Myocytes, Cardiac
+TREE:                         Myofibrils
+TREE:                             Sarcomeres
+TREE:                         
+MeSH Term: PPAR gamma(ID: 68047495)
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Proteins
+TREE:                     DNA-Binding Proteins
+TREE:                         Receptors, Cytoplasmic and Nuclear
+TREE:                             Peroxisome Proliferator-Activated Receptors
+TREE:                                 PPAR gamma
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Proteins
+TREE:                     Receptors, Cytoplasmic and Nuclear
+TREE:                         Peroxisome Proliferator-Activated Receptors
+TREE:                             PPAR gamma
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Proteins
+TREE:                     Transcription Factors
+TREE:                         Receptors, Cytoplasmic and Nuclear
+TREE:                             Peroxisome Proliferator-Activated Receptors
+TREE:                                 PPAR gamma
+MeSH Term: Palmitic Acid(ID: 68019308)
+TREE:             Lipids
+TREE:                 Fatty Acids
+TREE:                     Palmitic Acids
+TREE:                         Palmitic Acid
+MeSH Term: Phosphatidylinositol 3-Kinases(ID: 68019869)
+TREE:             Enzymes and Coenzymes
+TREE:                 Enzymes
+TREE:                     Transferases
+TREE:                         Phosphotransferases
+TREE:                             Phosphotransferases (Alcohol Group Acceptor)
+TREE:                                 Phosphatidylinositol 3-Kinases
+TREE:                                     Phosphatidylinositol 3-Kinase
+TREE:                                         Class I Phosphatidylinositol 3-Kinases +
+TREE:                                         Class II Phosphatidylinositol 3-Kinases
+TREE:                                         Class III Phosphatidylinositol 3-Kinases
+TREE:                                     
+TREE:                                     Phosphatidylinositol-4-Phosphate 3-Kinase
+TREE:                                         Class I Phosphatidylinositol 3-Kinases +
+TREE:                                         Class II Phosphatidylinositol 3-Kinases
+TREE:                                     
+MeSH Term: Phosphorylation(ID: 68010766)
+TREE:             Chemical Phenomena
+TREE:                 Biochemical Phenomena
+TREE:                     Biochemical Processes
+TREE:                         Phosphorylation
+TREE:                             Oxidative Phosphorylation
+TREE:                             Photophosphorylation
+TREE:             Chemical Phenomena
+TREE:                 Chemical Processes
+TREE:                     Biochemical Processes
+TREE:                         Phosphorylation
+TREE:                             Oxidative Phosphorylation
+TREE:                             Photophosphorylation
+TREE:             Chemical Phenomena
+TREE:                 Chemical Processes
+TREE:                     Organic Chemistry Processes
+TREE:                         Phosphorylation
+TREE:             Chemical Phenomena
+TREE:                 Organic Chemistry Phenomena
+TREE:                     Organic Chemistry Processes
+TREE:                         Phosphorylation
+TREE:             Metabolic Phenomena
+TREE:                 Metabolism
+TREE:                     Phosphorylation
+TREE:                         Oxidative Phosphorylation
+TREE:                         Photophosphorylation
+MeSH Term: Proto-Oncogene Proteins c-akt(ID: 68051057)
+TREE:             Enzymes and Coenzymes
+TREE:                 Enzymes
+TREE:                     Transferases
+TREE:                         Phosphotransferases
+TREE:                             Phosphotransferases (Alcohol Group Acceptor)
+TREE:                                 Protein Kinases
+TREE:                                     Protein-Serine-Threonine Kinases
+TREE:                                         Proto-Oncogene Proteins c-akt
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Proteins
+TREE:                     Intracellular Signaling Peptides and Proteins
+TREE:                         Proto-Oncogene Proteins c-akt
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Proteins
+TREE:                     Neoplasm Proteins
+TREE:                         Oncogene Proteins
+TREE:                             Proto-Oncogene Proteins
+TREE:                                 Proto-Oncogene Proteins c-akt
+MeSH Term: Rats(ID: 68051381)
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Chordata
+TREE:                         Vertebrates
+TREE:                             Mammals
+TREE:                                 Rodentia
+TREE:                                     Muridae
+TREE:                                         Murinae
+TREE:                                             Rats
+TREE:                                                 Rats, Inbred Strains
+TREE:                                                     Rats, Inbred ACI
+TREE:                                                     Rats, Inbred BB
+TREE:                                                     Rats, Inbred BN
+TREE:                                                     Rats, Inbred BUF
+TREE:                                                     Rats, Inbred Dahl
+TREE:                                                     Rats, Inbred F344
+TREE:                                                     Rats, Inbred LEC
+TREE:                                                     Rats, Inbred Lew
+TREE:                                                     Rats, Inbred OLETF
+TREE:                                                     Rats, Inbred SHR
+TREE:                                                     Rats, Inbred WF
+TREE:                                                     Rats, Inbred WKY
+TREE:                                                 
+TREE:                                                 Rats, Long-Evans
+TREE:                                                 Rats, Mutant Strains
+TREE:                                                     Rats, Brattleboro
+TREE:                                                     Rats, Gunn
+TREE:                                                     Rats, Hairless
+TREE:                                                     Rats, Nude
+TREE:                                                     Rats, Zucker
+TREE:                                                 
+TREE:                                                 Rats, Sprague-Dawley
+TREE:                                                 Rats, Transgenic
+TREE:                                                 Rats, Wistar
+MeSH Term: Rats, Sprague-Dawley(ID: 68017207)
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Chordata
+TREE:                         Vertebrates
+TREE:                             Mammals
+TREE:                                 Rodentia
+TREE:                                     Muridae
+TREE:                                         Murinae
+TREE:                                             Rats
+TREE:                                                 Rats, Sprague-Dawley
+MeSH Term: Signal Transduction(ID: 68015398)
+TREE:             Chemical Phenomena
+TREE:                 Biochemical Phenomena
+TREE:                     Biochemical Processes
+TREE:                         Signal Transduction
+TREE:                             Ion Channel Gating
+TREE:                             Light Signal Transduction
+TREE:                                 Vision, Ocular
+TREE:                             
+TREE:                             MAP Kinase Signaling System
+TREE:                             Mechanotransduction, Cellular
+TREE:                             Second Messenger Systems
+TREE:                                 Calcium Signaling +
+TREE:                             
+TREE:                             Synaptic Transmission
+TREE:             Chemical Phenomena
+TREE:                 Chemical Processes
+TREE:                     Biochemical Processes
+TREE:                         Signal Transduction
+TREE:                             Ion Channel Gating
+TREE:                             Light Signal Transduction
+TREE:                                 Vision, Ocular
+TREE:                             
+TREE:                             MAP Kinase Signaling System
+TREE:                             Mechanotransduction, Cellular
+TREE:                             Second Messenger Systems
+TREE:                                 Calcium Signaling
+TREE:                             
+TREE:                             Synaptic Transmission
+TREE:             Cell Physiological Phenomena
+TREE:                 Cell Physiological Processes
+TREE:                     Signal Transduction
+TREE:                         Excitation Contraction Coupling
+TREE:                         Ion Channel Gating
+TREE:                         Light Signal Transduction
+TREE:                             Vision, Ocular
+TREE:                         
+TREE:                         MAP Kinase Signaling System
+TREE:                         Mechanotransduction, Cellular
+TREE:                         Second Messenger Systems
+TREE:                             Calcium Signaling
+TREE:                         
+TREE:                         Synaptic Transmission
+--- END ---
+TITLE: Hyperglycemia magnifies Schwann cell dysfunction and cell death triggered by PA-induced lipotoxicity.
+--- END ---
+TITLE: Peroxisome-generated hydrogen peroxide as important mediator of lipotoxicity in insulin-producing cells.
+MeSH Term: Animals(ID: 68000818)
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Animal Population Groups
+TREE:                         Animals, Domestic +
+TREE:                         Animals, Genetically Modified +
+TREE:                         Animals, Inbred Strains +
+TREE:                         Animals, Laboratory +
+TREE:                         Animals, Newborn
+TREE:                         Animals, Outbred Strains
+TREE:                         Animals, Poisonous +
+TREE:                         Animals, Suckling
+TREE:                         Animals, Wild
+TREE:                         Animals, Zoo
+TREE:                         Chimera
+TREE:                         Endangered Species
+TREE:                         Introduced Species
+TREE:                     
+TREE:                     Chordata
+TREE:                         Chordata, Nonvertebrate +
+TREE:                         Vertebrates +
+TREE:                     
+TREE:                     Invertebrates
+TREE:                         Annelida +
+TREE:                         Arthropods +
+TREE:                         Bryozoa
+TREE:                         Chordata, Nonvertebrate +
+TREE:                         Cnidaria +
+TREE:                         Ctenophora
+TREE:                         Echinodermata +
+TREE:                         Helminths +
+TREE:                         Mollusca +
+TREE:                         Parasites
+TREE:                         Placozoa
+TREE:                         Porifera +
+TREE:                         Tardigrada
+TREE:                     
+MeSH Term: Cell Culture Techniques(ID: 68018929)
+TREE:             Investigative Techniques
+TREE:                 Clinical Laboratory Techniques
+TREE:                     Culture Techniques
+TREE:                         Cell Culture Techniques
+MeSH Term: Cell Survival(ID: 68002470)
+TREE:             Cell Physiological Phenomena
+TREE:                 Cell Physiological Processes
+TREE:                     Cell Survival
+MeSH Term: DNA Primers(ID: 68017931)
+TREE:             Nucleic Acids, Nucleotides, and Nucleosides
+TREE:                 Nucleotides
+TREE:                     Polynucleotides
+TREE:                         Oligonucleotides
+TREE:                             Oligodeoxyribonucleotides
+TREE:                                 DNA Primers
+TREE:             Chemical Actions and Uses
+TREE:                 Specialty Uses of Chemicals
+TREE:                     Laboratory Chemicals
+TREE:                         Molecular Probes
+TREE:                             Nucleic Acid Probes
+TREE:                                 DNA Probes
+TREE:                                     DNA Primers
+MeSH Term: Extracellular Matrix(ID: 68005109)
+TREE:             Cells
+TREE:                 Cellular Structures
+TREE:                     Extracellular Space
+TREE:                         Extracellular Matrix
+TREE:                             Glomerular Basement Membrane
+TREE:                             Microfibrils
+TREE:                             Zona Pellucida
+MeSH Term: Fluoresceins(ID: 68005452)
+TREE:             Organic Chemicals
+TREE:                 Hydrocarbons
+TREE:                     Hydrocarbons, Cyclic
+TREE:                         Hydrocarbons, Aromatic
+TREE:                             Polycyclic Hydrocarbons, Aromatic
+TREE:                                 Spiro Compounds
+TREE:                                     Fluoresceins
+TREE:                                         Eosine I Bluish
+TREE:                                         Eosine Yellowish-(YS)
+TREE:                                         Erythrosine
+TREE:                                         Fluorescein
+TREE:                                         Fluorescein-5-isothiocyanate
+TREE:                                         Rose Bengal
+TREE:             Heterocyclic Compounds
+TREE:                 Heterocyclic Compounds, 3-Ring
+TREE:                     Xanthenes
+TREE:                         Fluoresceins
+TREE:                             Eosine I Bluish
+TREE:                             Eosine Yellowish-(YS)
+TREE:                             Erythrosine
+TREE:                             Fluorescein
+TREE:                             Fluorescein-5-isothiocyanate
+TREE:                             Rose Bengal
+TREE:             Polycyclic Compounds
+TREE:                 Polycyclic Hydrocarbons, Aromatic
+TREE:                     Spiro Compounds
+TREE:                         Fluoresceins
+TREE:                             Eosine I Bluish
+TREE:                             Eosine Yellowish-(YS)
+TREE:                             Erythrosine
+TREE:                             Fluorescein
+TREE:                             Fluorescein-5-isothiocyanate
+TREE:                             Rose Bengal
+MeSH Term: Hep G2 Cells(ID: 68056945)
+TREE:             Cells
+TREE:                 Cells, Cultured
+TREE:                     Tumor Cells, Cultured
+TREE:                         Cell Line, Tumor
+TREE:                             Hep G2 Cells
+TREE:             Cells
+TREE:                 Epithelial Cells
+TREE:                     Hepatocytes
+TREE:                         Hep G2 Cells
+MeSH Term: Humans(ID: 68006801)
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Chordata
+TREE:                         Vertebrates
+TREE:                             Mammals
+TREE:                                 Primates
+TREE:                                     Haplorhini
+TREE:                                         Catarrhini
+TREE:                                             Hominidae
+TREE:                                                 Humans
+MeSH Term: Hydrogen Peroxide(ID: 68006861)
+TREE:             Inorganic Chemicals
+TREE:                 Electrolytes
+TREE:                     Ions
+TREE:                         Anions
+TREE:                             Oxides
+TREE:                                 Peroxides
+TREE:                                     Hydrogen Peroxide
+TREE:             Inorganic Chemicals
+TREE:                 Free Radicals
+TREE:                     Reactive Oxygen Species
+TREE:                         Peroxides
+TREE:                             Hydrogen Peroxide
+TREE:             Inorganic Chemicals
+TREE:                 Oxygen Compounds
+TREE:                     Oxides
+TREE:                         Peroxides
+TREE:                             Hydrogen Peroxide
+MeSH Term: Immunohistochemistry(ID: 68007150)
+TREE:             Diagnosis
+TREE:                 Laboratory Techniques and Procedures
+TREE:                     Immunologic Tests
+TREE:                         Immunohistochemistry
+TREE:                             Fluorescent Antibody Technique
+TREE:                                 Antibody-Coated Bacteria Test, Urinary
+TREE:                                 Fluorescent Antibody Technique, Direct
+TREE:                                 Fluorescent Antibody Technique, Indirect
+TREE:                                 Fluoroimmunoassay +
+TREE:                             
+TREE:                             Immunoenzyme Techniques
+TREE:                                 Enzyme-Linked Immunosorbent Assay +
+TREE:                                 Enzyme Multiplied Immunoassay Technique
+TREE:                             
+TREE:             Investigative Techniques
+TREE:                 Clinical Laboratory Techniques
+TREE:                     Cytological Techniques
+TREE:                         Histocytochemistry
+TREE:                             Immunohistochemistry
+TREE:             Investigative Techniques
+TREE:                 Clinical Laboratory Techniques
+TREE:                     Histological Techniques
+TREE:                         Histocytochemistry
+TREE:                             Immunohistochemistry
+TREE:                                 Fluorescent Antibody Technique
+TREE:                                     Fluorescent Antibody Technique, Direct
+TREE:                                     Fluorescent Antibody Technique, Indirect
+TREE:                                 
+TREE:             Investigative Techniques
+TREE:                 Immunologic Techniques
+TREE:                     Immunologic Tests
+TREE:                         Immunohistochemistry
+TREE:                             Fluorescent Antibody Technique
+TREE:                                 Antibody-Coated Bacteria Test, Urinary
+TREE:                                 Fluorescent Antibody Technique, Direct
+TREE:                                 Fluorescent Antibody Technique, Indirect
+TREE:                                 Fluoroimmunoassay +
+TREE:                             
+TREE:                             Immunoenzyme Techniques
+TREE:                                 Enzyme-Linked Immunosorbent Assay +
+TREE:                                 Enzyme Multiplied Immunoassay Technique
+TREE:                             
+TREE:             Natural Science Disciplines
+TREE:                 Biological Science Disciplines
+TREE:                     Anatomy
+TREE:                         Histology
+TREE:                             Histocytochemistry
+TREE:                                 Immunohistochemistry
+TREE:             Natural Science Disciplines
+TREE:                 Biological Science Disciplines
+TREE:                     Biochemistry
+TREE:                         Histocytochemistry
+TREE:                             Immunohistochemistry
+TREE:             Natural Science Disciplines
+TREE:                 Biological Science Disciplines
+TREE:                     Biochemistry
+TREE:                         Immunochemistry
+TREE:                             Immunohistochemistry
+TREE:             Natural Science Disciplines
+TREE:                 Chemistry
+TREE:                     Biochemistry
+TREE:                         Histocytochemistry
+TREE:                             Immunohistochemistry
+TREE:             Natural Science Disciplines
+TREE:                 Chemistry
+TREE:                     Biochemistry
+TREE:                         Immunochemistry
+TREE:                             Immunohistochemistry
+MeSH Term: Insulin-Secreting Cells(ID: 68050417)
+TREE:             Digestive System
+TREE:                 Pancreas
+TREE:                     Islets of Langerhans
+TREE:                         Insulin-Secreting Cells
+TREE:             Endocrine System
+TREE:                 Enteroendocrine Cells
+TREE:                     Insulin-Secreting Cells
+TREE:             Endocrine System
+TREE:                 Endocrine Glands
+TREE:                     Islets of Langerhans
+TREE:                         Insulin-Secreting Cells
+TREE:             Cells
+TREE:                 Endocrine Cells
+TREE:                     Enteroendocrine Cells
+TREE:                         Insulin-Secreting Cells
+TREE:             Cells
+TREE:                 Epithelial Cells
+TREE:                     Enteroendocrine Cells
+TREE:                         Insulin-Secreting Cells
+MeSH Term: Islets of Langerhans(ID: 68007515)
+TREE:             Digestive System
+TREE:                 Pancreas
+TREE:                     Islets of Langerhans
+TREE:                         Glucagon-Secreting Cells
+TREE:                         Insulin-Secreting Cells
+TREE:                         Pancreatic Polypeptide-Secreting Cells
+TREE:                         Somatostatin-Secreting Cells
+TREE:             Endocrine System
+TREE:                 Endocrine Glands
+TREE:                     Islets of Langerhans
+TREE:                         Glucagon-Secreting Cells
+TREE:                         Insulin-Secreting Cells
+TREE:                         Pancreatic Polypeptide-Secreting Cells
+TREE:                         Somatostatin-Secreting Cells
+MeSH Term: Lentivirus(ID: 68016086)
+TREE:             Viruses
+TREE:                 RNA Viruses
+TREE:                     Retroviridae
+TREE:                         Lentivirus
+TREE:                             Lentiviruses, Bovine
+TREE:                                 Immunodeficiency Virus, Bovine
+TREE:                             
+TREE:                             Lentiviruses, Equine
+TREE:                                 Infectious Anemia Virus, Equine
+TREE:                             
+TREE:                             Lentiviruses, Feline
+TREE:                                 Immunodeficiency Virus, Feline
+TREE:                             
+TREE:                             Lentiviruses, Ovine-Caprine
+TREE:                                 Arthritis-Encephalitis Virus, Caprine
+TREE:                                 Visna-maedi virus
+TREE:                             
+TREE:                             Lentiviruses, Primate
+TREE:                                 HIV +
+TREE:                                 Simian immunodeficiency virus
+TREE:                             
+TREE:             Viruses
+TREE:                 Vertebrate Viruses
+TREE:                     RNA Viruses
+TREE:                         Retroviridae
+TREE:                             Lentivirus
+TREE:                                 Lentiviruses, Bovine
+TREE:                                     Immunodeficiency Virus, Bovine
+TREE:                                 
+TREE:                                 Lentiviruses, Equine
+TREE:                                     Infectious Anemia Virus, Equine
+TREE:                                 
+TREE:                                 Lentiviruses, Feline
+TREE:                                     Immunodeficiency Virus, Feline
+TREE:                                 
+TREE:                                 Lentiviruses, Ovine-Caprine
+TREE:                                     Arthritis-Encephalitis Virus, Caprine
+TREE:                                     Visna-maedi virus
+TREE:                                 
+TREE:                                 Lentiviruses, Primate
+TREE:                                     HIV +
+TREE:                                     Simian immunodeficiency virus
+TREE:                                 
+MeSH Term: Male(ID: 68008297)
+TREE:             Male
+MeSH Term: Oxidative Stress(ID: 68018384)
+TREE:             Metabolic Phenomena
+TREE:                 Metabolism
+TREE:                     Oxidative Stress
+TREE:                         Protein Carbonylation
+TREE:             Physiological Phenomena
+TREE:                 Physiological Processes
+TREE:                     Stress, Physiological
+TREE:                         Oxidative Stress
+MeSH Term: Peroxisomes(ID: 68020675)
+TREE:             Cells
+TREE:                 Cellular Structures
+TREE:                     Intracellular Space
+TREE:                         Cytoplasm
+TREE:                             Cytoplasmic Structures
+TREE:                                 Cytoplasmic Granules
+TREE:                                     Microbodies
+TREE:                                         Peroxisomes
+TREE:             Cells
+TREE:                 Cellular Structures
+TREE:                     Intracellular Space
+TREE:                         Cytoplasm
+TREE:                             Cytoplasmic Structures
+TREE:                                 Organelles
+TREE:                                     Cytoplasmic Vesicles
+TREE:                                         Cytoplasmic Granules
+TREE:                                             Microbodies
+TREE:                                                 Peroxisomes
+MeSH Term: Polymerase Chain Reaction(ID: 68016133)
+TREE:             Investigative Techniques
+TREE:                 Genetic Techniques
+TREE:                     Nucleic Acid Amplification Techniques
+TREE:                         Polymerase Chain Reaction
+TREE:                             Amplified Fragment Length Polymorphism Analysis
+TREE:                             Primed In Situ Labeling
+TREE:                             Random Amplified Polymorphic DNA Technique
+TREE:                             Reverse Transcriptase Polymerase Chain Reaction
+MeSH Term: Rats(ID: 68051381)
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Chordata
+TREE:                         Vertebrates
+TREE:                             Mammals
+TREE:                                 Rodentia
+TREE:                                     Muridae
+TREE:                                         Murinae
+TREE:                                             Rats
+TREE:                                                 Rats, Inbred Strains
+TREE:                                                     Rats, Inbred ACI
+TREE:                                                     Rats, Inbred BB
+TREE:                                                     Rats, Inbred BN
+TREE:                                                     Rats, Inbred BUF
+TREE:                                                     Rats, Inbred Dahl
+TREE:                                                     Rats, Inbred F344
+TREE:                                                     Rats, Inbred LEC
+TREE:                                                     Rats, Inbred Lew
+TREE:                                                     Rats, Inbred OLETF
+TREE:                                                     Rats, Inbred SHR
+TREE:                                                     Rats, Inbred WF
+TREE:                                                     Rats, Inbred WKY
+TREE:                                                 
+TREE:                                                 Rats, Long-Evans
+TREE:                                                 Rats, Mutant Strains
+TREE:                                                     Rats, Brattleboro
+TREE:                                                     Rats, Gunn
+TREE:                                                     Rats, Hairless
+TREE:                                                     Rats, Nude
+TREE:                                                     Rats, Zucker
+TREE:                                                 
+TREE:                                                 Rats, Sprague-Dawley
+TREE:                                                 Rats, Transgenic
+TREE:                                                 Rats, Wistar
+MeSH Term: Rats, Inbred Lew(ID: 68011917)
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Animal Population Groups
+TREE:                         Animals, Inbred Strains
+TREE:                             Rats, Inbred Strains
+TREE:                                 Rats, Inbred Lew
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Animal Population Groups
+TREE:                         Animals, Laboratory
+TREE:                             Animals, Inbred Strains
+TREE:                                 Rats, Inbred Strains
+TREE:                                     Rats, Inbred Lew
+TREE:             Eukaryota
+TREE:                 Animals
+TREE:                     Chordata
+TREE:                         Vertebrates
+TREE:                             Mammals
+TREE:                                 Rodentia
+TREE:                                     Muridae
+TREE:                                         Murinae
+TREE:                                             Rats
+TREE:                                                 Rats, Inbred Strains
+TREE:                                                     Rats, Inbred Lew
+MeSH Term: Receptors, Cytoplasmic and Nuclear(ID: 68018160)
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Proteins
+TREE:                     DNA-Binding Proteins
+TREE:                         Receptors, Cytoplasmic and Nuclear
+TREE:                             Hepatocyte Nuclear Factor 4
+TREE:                             Orphan Nuclear Receptors
+TREE:                                 COUP Transcription Factors +
+TREE:                                 Nuclear Receptor Subfamily 1, Group D, Member 1
+TREE:                                 Nuclear Receptor Subfamily 1, Group F, Member 1
+TREE:                                 Nuclear Receptor Subfamily 1, Group F, Member 2
+TREE:                                 Nuclear Receptor Subfamily 1, Group F, Member 3
+TREE:                                 Nuclear Receptor Subfamily 2, Group C, Member 1
+TREE:                                 Nuclear Receptor Subfamily 2, Group C, Member 2
+TREE:                                 Nuclear Receptor Subfamily 4, Group A, Member 1
+TREE:                                 Nuclear Receptor Subfamily 4, Group A, Member 2
+TREE:                                 Nuclear Receptor Subfamily 4, Group A, Member 3
+TREE:                                 Nuclear Receptor Subfamily 6, Group A, Member 1
+TREE:                                 Receptors, Aryl Hydrocarbon
+TREE:                             
+TREE:                             Peroxisome Proliferator-Activated Receptors
+TREE:                                 PPAR alpha
+TREE:                                 PPAR-beta
+TREE:                                 PPAR delta
+TREE:                                 PPAR gamma
+TREE:                             
+TREE:                             Receptors, Calcitriol
+TREE:                             Receptors, Melatonin
+TREE:                             Receptors, Retinoic Acid
+TREE:                                 Retinoid X Receptors +
+TREE:                             
+TREE:                             Receptors, Steroid
+TREE:                                 Receptors, Androgen
+TREE:                                 Receptors, Estrogen +
+TREE:                                 Receptors, Glucocorticoid
+TREE:                                 Receptors, Mineralocorticoid +
+TREE:                                 Receptors, Progesterone
+TREE:                             
+TREE:                             Receptors, Thyroid Hormone
+TREE:                                 Thyroid Hormone Receptors alpha
+TREE:                                 Thyroid Hormone Receptors beta
+TREE:                             
+TREE:                             Steroidogenic Factor 1
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Proteins
+TREE:                     Receptors, Cytoplasmic and Nuclear
+TREE:                         Hepatocyte Nuclear Factor 4
+TREE:                         Inositol 1,4,5-Trisphosphate Receptors
+TREE:                         Orphan Nuclear Receptors
+TREE:                             COUP Transcription Factors +
+TREE:                             DAX-1 Orphan Nuclear Receptor
+TREE:                             Nuclear Receptor Subfamily 1, Group D, Member 1
+TREE:                             Nuclear Receptor Subfamily 1, Group F, Member 1
+TREE:                             Nuclear Receptor Subfamily 1, Group F, Member 2
+TREE:                             Nuclear Receptor Subfamily 1, Group F, Member 3
+TREE:                             Nuclear Receptor Subfamily 2, Group C, Member 1
+TREE:                             Nuclear Receptor Subfamily 2, Group C, Member 2
+TREE:                             Nuclear Receptor Subfamily 4, Group A, Member 1
+TREE:                             Nuclear Receptor Subfamily 4, Group A, Member 2
+TREE:                             Nuclear Receptor Subfamily 4, Group A, Member 3
+TREE:                             Nuclear Receptor Subfamily 6, Group A, Member 1
+TREE:                             Receptors, Aryl Hydrocarbon
+TREE:                         
+TREE:                         Peroxisome Proliferator-Activated Receptors
+TREE:                             PPAR alpha
+TREE:                             PPAR-beta
+TREE:                             PPAR delta
+TREE:                             PPAR gamma
+TREE:                         
+TREE:                         Receptors, Calcitriol
+TREE:                         Receptors, Retinoic Acid
+TREE:                             Retinoid X Receptors +
+TREE:                         
+TREE:                         Receptors, Steroid
+TREE:                             Receptors, Androgen
+TREE:                             Receptors, Estrogen +
+TREE:                             Receptors, Glucocorticoid
+TREE:                             Receptors, Mineralocorticoid +
+TREE:                             Receptors, Progesterone
+TREE:                         
+TREE:                         Receptors, Thyroid Hormone
+TREE:                             Thyroid Hormone Receptors alpha
+TREE:                             Thyroid Hormone Receptors beta
+TREE:                         
+TREE:                         Steroidogenic Factor 1
+TREE:             Amino Acids, Peptides, and Proteins
+TREE:                 Proteins
+TREE:                     Transcription Factors
+TREE:                         Receptors, Cytoplasmic and Nuclear
+TREE:                             Hepatocyte Nuclear Factor 4
+TREE:                             Orphan Nuclear Receptors
+TREE:                                 COUP Transcription Factors +
+TREE:                                 DAX-1 Orphan Nuclear Receptor
+TREE:                                 Nuclear Receptor Subfamily 1, Group D, Member 1
+TREE:                                 Nuclear Receptor Subfamily 1, Group F, Member 1
+TREE:                                 Nuclear Receptor Subfamily 1, Group F, Member 2
+TREE:                                 Nuclear Receptor Subfamily 1, Group F, Member 3
+TREE:                                 Nuclear Receptor Subfamily 2, Group C, Member 1
+TREE:                                 Nuclear Receptor Subfamily 2, Group C, Member 2
+TREE:                                 Nuclear Receptor Subfamily 4, Group A, Member 1
+TREE:                                 Nuclear Receptor Subfamily 4, Group A, Member 2
+TREE:                                 Nuclear Receptor Subfamily 4, Group A, Member 3
+TREE:                                 Nuclear Receptor Subfamily 6, Group A, Member 1
+TREE:                                 Receptors, Aryl Hydrocarbon
+TREE:                             
+TREE:                             Peroxisome Proliferator-Activated Receptors
+TREE:                                 PPAR alpha
+TREE:                                 PPAR-beta
+TREE:                                 PPAR delta
+TREE:                                 PPAR gamma
+TREE:                             
+TREE:                             Receptors, Calcitriol
+TREE:                             Receptors, Retinoic Acid
+TREE:                                 Retinoid X Receptors +
+TREE:                             
+TREE:                             Receptors, Steroid
+TREE:                                 Receptors, Androgen
+TREE:                                 Receptors, Estrogen +
+TREE:                                 Receptors, Glucocorticoid
+TREE:                                 Receptors, Mineralocorticoid +
+TREE:                                 Receptors, Progesterone
+TREE:                             
+TREE:                             Receptors, Thyroid Hormone
+TREE:                                 Thyroid Hormone Receptors alpha
+TREE:                                 Thyroid Hormone Receptors beta
+TREE:                             
+TREE:                             Steroidogenic Factor 1
+--- END ---

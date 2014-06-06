@@ -1,0 +1,8 @@
+used this command to filter an ace dump of a locus keyset from CGC
+
+grep -v Sybase_id ospor_level2_loci.ace | grep -v
+Current_genomic_link_object | grep -v Reference_transcript | grep -v
+Reference_CDS | grep -v Old_link_objects | grep -v Structure_seq_phase
+| grep -v built | grep -v SSCP | grep -v Link_object | grep -v
+Contains_STS | grep -v Contains_target | grep -v Positive_bin | grep
+-v Gene_build_remark

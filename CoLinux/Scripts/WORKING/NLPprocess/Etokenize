@@ -1,0 +1,76 @@
+#!/usr/local/bin/perl5 -p
+
+# retokenizes English text
+# elision stemming should be done AFTERWARD by Estem.elis
+
+s/'t/ 't/g;
+s/\'m/ 'm/g;
+s/\'re/ 're/g;
+s/\'ll/ 'll/g;
+s/\'ve/ 've/g;
+# put space before ambiguous contractions
+s/([^ ])\'s/$1 \'s/g;
+s/([^ ])\'d/$1 \'d/g;
+
+# put space after any period that's followed by a non-number
+s/\.([^0-9])/\. $1/g;
+# put space before any period that's followed by a space
+# the following space is introduced in the previous command
+s/\. / \. /g;
+
+# put space around colons and comas, unless they're surrounded by numbers
+s/([0-9])\:([0-9])/$1<CLTKN>$2/g;
+s/\:/ \: /g;
+s/([0-9])<CLTKN>([0-9])/$1\:$2/g;
+s/([0-9])\,([0-9])/$1<CMTKN>$2/g;
+s/\,/ \, /g;
+s/([0-9])<CMTKN>([0-9])/$1\,$2/g;
+
+# put space before any other punctuation
+s/([^ ])\!/$1 \!/g;
+s/([^ ])\?/$1 \?/g;
+s/([^ ])\;/$1 \;/g;
+s/([^ ])\"/$1 \"/g;
+s/([^ ])\)/$1 \)/g;
+s/([^ ])\(/$1 \(/g;
+s/([^ ])\//$1 \//g;
+
+# put space after any other punctuation
+s/\!([^ ])/\! $1/g;
+s/\?([^ ])/\? $1/g;
+s/\;([^ ])/\; $1/g;
+s/\"([^ ])/\" $1/g;
+s/\(([^ ])/\( $1/g;
+s/\)([^ ])/\) $1/g;
+s/\/([^ ])/\/ $1/g;
+
+#put spaces around special symbols
+s/([^ ])\%/$1 \%/g;
+s/([^ ])\$/$1 \$/g;
+s/([^ ])\+/$1 \+/g;
+s/([^ ])\-/$1 \-/g;
+s/([^ ])\#/$1 \#/g;
+s/([^ ])\*/$1 \*/g;
+s/([^ ])\[/$1 \[/g;
+s/([^ ])\]/$1 \]/g;
+s/([^ ])\>/$1 \>/g;
+s/([^ ])\</$1 \</g;
+s/([^ ])\_/$1 \_/g;
+s/([^ ])\\/$1 \\/g;
+s/([^ ])\|/$1 \|/g;
+s/([^ ])\=/$1 \=/g;
+
+s/\%([^ ])/\% $1/g;
+s/\$([^ ])/\$ $1/g;
+s/\+([^ ])/\+ $1/g;
+s/\-([^ ])/\- $1/g;
+s/\#([^ ])/\# $1/g;
+s/\*([^ ])/\* $1/g;
+s/\[([^ ])/\[ $1/g;
+s/\]([^ ])/\] $1/g;
+s/\\([^ ])/\\ $1/g;
+s/\|([^ ])/\| $1/g;
+s/\_([^ ])/\_ $1/g;
+s/\<([^ ])/\< $1/g;
+s/\>([^ ])/\> $1/g;
+s/\=([^ ])/\= $1/g;

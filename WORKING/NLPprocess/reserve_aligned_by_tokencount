@@ -1,0 +1,42 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# Takes two aligned files.
+# Outputs line pairs within a specified token count range.
+# Remaining lines are dumped to two other files, their order intact.  
+########################################################################
+
+#check for correct usage
+unless ($#ARGV == 3) {
+    print "usage:  reserve_aligned_by_tokencount <min> <max> <file1> <file2>\n";
+    exit;
+};
+
+$minsize = shift(@ARGV);
+$maxsize = shift(@ARGV);
+
+# $#array numbers start with 0
+$minsize--;
+$maxsize--;
+
+open(Ain, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+open(Bin, $ARGV[1]) || die "Couldn't open $ARGV[1]: $!\n";
+open(Apass, ">Apass") || die "Couldn't open Apass: $!\n";
+open(Bpass, ">Bpass") || die "Couldn't open Bpass: $!\n";
+open(Afail, ">Afail") || die "Couldn't open Afail: $!\n";
+open(Bfail, ">Bfail") || die "Couldn't open Bfail: $!\n";
+
+while (<Ain>) {
+    $aline = $_;
+    @atoken = split;
+    $bline = <Bin>;
+    @btoken = split(/\s+/, $bline);
+    if ($#atoken >= $minsize && $#atoken <= $maxsize 
+	&& $#btoken >= $minsize && $#btoken <= $maxsize) {
+	print Apass $aline;
+	print Bpass $bline;
+    } else {
+	print Afail $aline;
+	print Bfail $bline;
+    };
+};	

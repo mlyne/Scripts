@@ -1,0 +1,20 @@
+http://clinicaltrials.gov/ct2/results?term=drug
+&intr=drug
+&recr=Recruiting
+&no_unk=Y
+&phase=1
+&rcv_s=01%2F01%2F2009
+&rcv_e=
+&lup_s=
+&lup_e=01%2F12%2F2012
+
+      'term' => 'drug',
+      'type'  => 'int',
+      'intr' => 'drug',
+      'recr' => 'Recruiting',
+      'no_unk' => 'Y',
+      'phase' => '1',
+      'rcv_s' => '01/01/2009',
+      'lup_e' => '01/12/2012',
+      'start' => 0,
+      'mode'  => 'search',

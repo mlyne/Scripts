@@ -1,0 +1,3 @@
+# designed for use on SIMR training corpora
+
+shrinkspaces_inline 2 | squishcr 

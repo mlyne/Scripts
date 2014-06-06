@@ -1,0 +1,6 @@
+RareDis_MH_Behcet_Greece	(("Behcet Syndrome"[mh]) AND (human[mh])) AND Greece[ad])
+RareDis_MH_Behcet_Italy	(("Behcet Syndrome"[mh]) AND (human[mh])) AND Italy[ad])
+RareDis_MH_Behcet_Portugal	(("Behcet Syndrome"[mh]) AND (human[mh])) AND Portugal[ad])
+RareDis_MH_Behcet_ME	(("Behcet Syndrome"[mh]) AND (human[mh])) AND (Algeria[ad] OR Egypt[ad] OR Libya[ad] OR Morocco[ad] OR Tunisia[ad]))
+RareDis_MH_Behcet_UAE	(("Behcet Syndrome"[mh]) AND (human[mh])) AND (("United Arab Emirates"[ad] OR Dubai[ad] OR "Abu Dhabi"[ad]) OR "Saudi Arabia"[ad] OR Bahrain[ad] OR Oman[ad] OR Qatar[ad] OR (Lebanon[ad] OR liban[ad]) OR Turkey[ad] OR Syria[ad] OR Jordan[ad] OR Israel[ad]))
+RareDis_MH_Behcet_EaEu	(("Behcet Syndrome"[mh]) AND (human[mh])) AND (Albania[ad] OR Croatia[ad] OR Montenegro[ad] OR Slovenia[ad] OR (Bosnia[ad] OR Herzegovina[ad])))

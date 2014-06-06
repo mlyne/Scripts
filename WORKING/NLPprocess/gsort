@@ -1,0 +1,18 @@
+#!/usr/local/bin/perl5
+
+# sorts on first numeric column
+# works for scientific notation
+
+while (<>) {
+    if (/^([^ ]+) (.*)$/) {
+	$val{$.} = $1;
+	$rest{$.} = $2;
+    } else {
+	die "Bad line: $_";
+    };
+};
+
+foreach $ln (sort {$val{$b} <=> $val{$a}} keys %val) {
+	print "$val{$ln} $rest{$ln}\n";
+};
+

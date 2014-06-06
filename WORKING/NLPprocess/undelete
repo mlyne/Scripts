@@ -1,0 +1,13 @@
+#!/usr/local/bin/perl5
+
+# undeletes files deleted with rmz -Z by removing their .Zap.? prefix
+
+while (@ARGV) {
+	$zapped = shift(@ARGV);
+	if ($zapped =~ /\.Zap\.\d\.(.*)/) {
+		print stderr "Moving $zapped to $1\n";
+		system "/bin/mv $zapped $1";
+	} else {
+		die "Unzapped file name: $zapped";
+	};
+};

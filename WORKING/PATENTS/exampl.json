@@ -1,0 +1,38 @@
+{
+season:{
+ 
+episode:[
+ 
+{
+title:'Cartman Gets an Anal Probe',
+description:'While the boys are waiting for the school bus, Cartman explains the odd nightmare he had the previous night involving alien visitors.',
+thumbnail:'http://www.southparkstudios.com/includes/utils/proxy_resizer.php?image=/images/south_park/episode_thumbnails/s01e01_480.jpg&width=55&quality=100',
+thumbnail_larger:'http://www.southparkstudios.com/includes/utils/proxy_resizer.php?image=/images/south_park/episode_thumbnails/s01e01_480.jpg&width=63&quality=100',
+thumbnail_190:'http://www.southparkstudios.com/includes/utils/proxy_resizer.php?image=/images/south_park/episode_thumbnails/s01e01_480.jpg&width=190&quality=100',
+id:'103511',
+airdate:'08.13.97',
+episodenumber:'101',
+available:'true',
+when:'08.13.97'
+}
+ 
+,
+ 
+{
+title:'Weight Gain 4000',
+description:'When Cartman\'s environmental essay wins a national contest, America\'s sweetheart, Kathie Lee Gifford, comes to South Park to present the award.',
+thumbnail:'http://www.southparkstudios.com/includes/utils/proxy_resizer.php?image=/images/south_park/episode_thumbnails/s01e02_480.jpg&width=55&quality=100',
+thumbnail_larger:'http://www.southparkstudios.com/includes/utils/proxy_resizer.php?image=/images/south_park/episode_thumbnails/s01e02_480.jpg&width=63&quality=100',
+thumbnail_190:'http://www.southparkstudios.com/includes/utils/proxy_resizer.php?image=/images/south_park/episode_thumbnails/s01e02_480.jpg&width=190&quality=100',
+id:'103516',
+airdate:'08.20.97',
+episodenumber:'102',
+available:'true',
+when:'08.20.97'
+}
+ 
+...
+ 
+]
+}
+}

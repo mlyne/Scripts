@@ -1,0 +1,23 @@
+#!/usr/local/bin/perl5
+
+# pastes together 2 files with lines longer than 511 characters, which
+#	is the limit for paste(1V)
+
+#check for correct usage
+if ($#ARGV != 2) {
+        print "usage:  longpaste <delimiter> <file1> <file2>\n";
+        exit; 
+};
+
+$delim = shift;
+
+open(F, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+open(G, $ARGV[1]) || die "Couldn't open $ARGV[1]: $!\n";
+
+while (<F>) {
+	chop;
+	$f2 = <G>;
+	chop($f2);
+	
+	print "$_$delim$f2\n";
+};

@@ -1,0 +1,24 @@
+#!/usr/local/bin/perl5
+
+# splits input on the value of given column
+
+#check for correct usage
+if ($#ARGV < 1) {
+    print "usage:  split-on-column <col> <output prefix> [<input>]\n";
+    exit;
+};
+
+$splitcol = shift(@ARGV);
+$splitcol--;
+$prefix = shift(@ARGV);
+
+system("rm $prefix*");
+
+while (<>) {
+    chop;
+    s/^\s+//;
+    @col = split;
+    $disc = $col[$splitcol];
+    $command = "echo \"$_\" >> $prefix$disc";
+    system($command);
+};

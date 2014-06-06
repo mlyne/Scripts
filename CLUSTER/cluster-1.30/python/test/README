@@ -1,0 +1,3 @@
+To test the Pycluster installation run
+  python test.py
+The correct output is listed in test_Cluster.

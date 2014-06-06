@@ -1,0 +1,18 @@
+#!/usr/local/bin/perl5
+
+# lowercases all tokens, except those ending in ::NP, and removes POS
+#	tags
+
+while (<>) {
+    @token = split;
+    undef(@out);
+    foreach $tok (@token) {
+	if ($tok !~ /::NP$/) {
+	    $tok =~ tr/A-Z/a-z/;
+	};
+	$tok =~ s/::[^:]*//g;
+	push(@out, $tok);
+    };
+    print join(' ', @out), "\n";
+};
+

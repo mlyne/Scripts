@@ -1,0 +1,31 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# Takes two files, aligned by line
+# and outputs two corresponding files, with duplicate line pairs removed.
+########################################################################
+
+#check for correct usage
+unless ($#ARGV == 1) {
+    print "usage:  uq_aligned <E-file1> <F-file2>\n";
+    exit;
+};
+
+open(EN, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+open(FR, $ARGV[1]) || die "Couldn't open $ARGV[1]: $!\n";
+open(Eout, ">E.uq") || die "Couldn't open E.uq: $!\n";
+open(Fout, ">F.uq") || die "Couldn't open F.uq: $!\n";
+
+while (<EN>) {
+    $en = $_;
+    $fr = <FR>;
+    ($e = $en) =~ s/(\W)/\\$1/g;
+    ($f = $fr) =~ s/(\W)/\\$1/g;
+    $both = $e.$f;
+    if (!$seen{$both}) {
+	$seen{$both}++;
+	print Eout $en;
+	print Fout $fr;
+    };
+};	
+

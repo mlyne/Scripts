@@ -1,0 +1,3 @@
+# sums the first column in a file
+
+gawk '{sum += $1}; END {printf "%f\n", sum};'

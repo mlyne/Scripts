@@ -1,0 +1,26 @@
+#!/usr/local/bin/perl5
+
+# computes arithmetic difference between successive numbers on a line
+# if a token is not a number, prints the token, and last number seen is used
+#	for next difference calculation
+
+
+while (<>) {
+	@nums = split;
+	$last = shift(@nums);
+	foreach $curr (@nums) {
+		if ($curr !~ /[^\d\.\-]/ 
+		&& $curr !~ /\..*\./ 
+		&& $curr !~ /.\-/ 
+		&& $curr ne ".") {
+			$diff = $curr - $last;
+			print "$diff ";
+			$last = $curr;
+		} else {
+			print "$curr ";
+		};
+	};
+	print "\n";
+};
+
+	

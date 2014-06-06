@@ -1,0 +1,3688 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2011//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_110101.dtd">
+<PubmedArticleSet>
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">21670500</PMID>
+        <DateCreated>
+            <Year>2011</Year>
+            <Month>6</Month>
+            <Day>14</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1558-8238</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2011</Year>
+                        <Month>Jun</Month>
+                        <Day>13</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The Journal of clinical investigation</Title>
+            </Journal>
+            <ArticleTitle>The VLDL receptor promotes lipotoxicity and increases mortality in mice following an acute myocardial infarction.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <ELocationID EIdType="pii">43068</ELocationID>
+            <ELocationID EIdType="doi">10.1172/JCI43068</ELocationID>
+            <Abstract>
+                <AbstractText>Impaired cardiac function is associated with myocardial triglyceride accumulation, but it is not clear how the lipids accumulate or whether this accumulation is detrimental. Here we show that hypoxia/ischemia-induced accumulation of lipids in HL-1 cardiomyocytes and mouse hearts is dependent on expression of the VLDL receptor (VLDLR). Hypoxia-induced VLDLR expression in HL-1 cells was dependent on HIF-1α through its interaction with a hypoxia-responsive element in the Vldlr promoter, and VLDLR promoted the endocytosis of lipoproteins. Furthermore, VLDLR expression was higher in ischemic compared with nonischemic left ventricles from human hearts and was correlated with the total lipid droplet area in the cardiomyocytes. Importantly, Vldlr-/- mice showed improved survival and decreased infarct area following an induced myocardial infarction. ER stress, which leads to apoptosis, is known to be involved in ischemic heart disease. We found that ischemia-induced ER stress and apoptosis in mouse hearts were reduced in Vldlr-/- mice and in mice treated with antibodies specific for VLDLR. These findings suggest that VLDLR-induced lipid accumulation in the ischemic heart worsens survival by increasing ER stress and apoptosis.</AbstractText>
+            </Abstract>
+            <AuthorList>
+                <Author>
+                    <LastName>Perman</LastName>
+                    <ForeName>Jeanna C</ForeName>
+                    <Initials>JC</Initials>
+                </Author>
+                <Author>
+                    <LastName>Boström</LastName>
+                    <ForeName>Pontus</ForeName>
+                    <Initials>P</Initials>
+                </Author>
+                <Author>
+                    <LastName>Lindbom</LastName>
+                    <ForeName>Malin</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author>
+                    <LastName>Lidberg</LastName>
+                    <ForeName>Ulf</ForeName>
+                    <Initials>U</Initials>
+                </Author>
+                <Author>
+                    <LastName>Ståhlman</LastName>
+                    <ForeName>Marcus</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author>
+                    <LastName>Hägg</LastName>
+                    <ForeName>Daniel</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author>
+                    <LastName>Lindskog</LastName>
+                    <ForeName>Henrik</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author>
+                    <LastName>Scharin Täng</LastName>
+                    <ForeName>Margareta</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author>
+                    <LastName>Omerovic</LastName>
+                    <ForeName>Elmir</ForeName>
+                    <Initials>E</Initials>
+                </Author>
+                <Author>
+                    <LastName>Mattsson Hultén</LastName>
+                    <ForeName>Lillemor</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author>
+                    <LastName>Jeppsson</LastName>
+                    <ForeName>Anders</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author>
+                    <LastName>Petursson</LastName>
+                    <ForeName>Petur</ForeName>
+                    <Initials>P</Initials>
+                </Author>
+                <Author>
+                    <LastName>Herlitz</LastName>
+                    <ForeName>Johan</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author>
+                    <LastName>Olivecrona</LastName>
+                    <ForeName>Gunilla</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+                <Author>
+                    <LastName>Strickland</LastName>
+                    <ForeName>Dudley K</ForeName>
+                    <Initials>DK</Initials>
+                </Author>
+                <Author>
+                    <LastName>Ekroos</LastName>
+                    <ForeName>Kim</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author>
+                    <LastName>Olofsson</LastName>
+                    <ForeName>Sven-Olof</ForeName>
+                    <Initials>SO</Initials>
+                </Author>
+                <Author>
+                    <LastName>Borén</LastName>
+                    <ForeName>Jan</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType>JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2011</Year>
+                <Month>6</Month>
+                <Day>13</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>J Clin Invest</MedlineTA>
+            <NlmUniqueID>7802877</NlmUniqueID>
+            <ISSNLinking>0021-9738</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2010</Year>
+                <Month>3</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2011</Year>
+                <Month>4</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2011</Year>
+                <Month>6</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2011</Year>
+                <Month>6</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2011</Year>
+                <Month>6</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">43068</ArticleId>
+            <ArticleId IdType="doi">10.1172/JCI43068</ArticleId>
+            <ArticleId IdType="pubmed">21670500</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">21652731</PMID>
+        <DateCreated>
+            <Year>2011</Year>
+            <Month>6</Month>
+            <Day>9</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">0022-2275</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2011</Year>
+                        <Month>Jun</Month>
+                        <Day>7</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of lipid research</Title>
+            </Journal>
+            <ArticleTitle>Caveolins/caveolae protect adipocytes from fatty acid-mediated lipotoxicity.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <Abstract>
+                <AbstractText>Mice and humans lacking functional caveolae are dyslipidemic and have reduced fat stores and smaller fat cells. To test the role of caveolins/caveolae in maintaining lipid stores and adipocyte integrity, we compared lipolysis in caveolin-1 null fat cells to that in cells reconstituted for caveolae by caveolin-1 re-expression. We find that the Cav1 null cells have a modestly enhanced rate of lipolysis and reduced cellular integrity compared to reconstituted cells as determined by the release of lipid metabolites and lactic dehydrogenase, respectively, into the media. There are no apparent differences in the levels of lipolytic enzymes or hormonally stimulated phosphorylation events in the two cell lines. In addition, acute fasting, which dramatically raises circulating fatty acid levels in vivo, causes a significant up-regulation of caveolar protein constituents. These results are consistent with the hypothesis that caveolae protect fat cells from the lipotoxic effects of elevated levels fatty acids, which are weak detergents at physiological pH, by virtue of the property of caveolae to form detergent resistant membrane domains.</AbstractText>
+            </Abstract>
+            <Affiliation>Boston University School of Medicine, United States;</Affiliation>
+            <AuthorList>
+                <Author>
+                    <LastName>Meshulam</LastName>
+                    <ForeName>Tova</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author>
+                    <LastName>Breen</LastName>
+                    <ForeName>Michael R</ForeName>
+                    <Initials>MR</Initials>
+                </Author>
+                <Author>
+                    <LastName>Liu</LastName>
+                    <ForeName>Libin</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author>
+                    <LastName>Parton</LastName>
+                    <ForeName>Robert G</ForeName>
+                    <Initials>RG</Initials>
+                </Author>
+                <Author>
+                    <LastName>Pilch</LastName>
+                    <ForeName>Paul F</ForeName>
+                    <Initials>PF</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType>JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2011</Year>
+                <Month>6</Month>
+                <Day>7</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>J Lipid Res</MedlineTA>
+            <NlmUniqueID>0376606</NlmUniqueID>
+            <ISSNLinking>0022-2275</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2011</Year>
+                <Month>6</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2011</Year>
+                <Month>6</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2011</Year>
+                <Month>6</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">jlr.M015628</ArticleId>
+            <ArticleId IdType="doi">10.1194/jlr.M015628</ArticleId>
+            <ArticleId IdType="pubmed">21652731</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">21457721</PMID>
+        <DateCreated>
+            <Year>2011</Year>
+            <Month>05</Month>
+            <Day>30</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1879-0631</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>88</Volume>
+                    <Issue>23-24</Issue>
+                    <PubDate>
+                        <Year>2011</Year>
+                        <Month>Jun</Month>
+                        <Day>6</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Life sciences</Title>
+                <ISOAbbreviation>Life Sci.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Long-term high-fat diet-induced obesity decreases the cardiac leptin receptor without apparent lipotoxicity.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1031-8</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="AIMS" NlmCategory="OBJECTIVE">Leptin resistance has been associated with cardiac lipotoxicity; however, whether leptin resistance is a risk factor associated with cardiac lipotoxicity at different time points in diet-induced obesity is unclear. The objective of this study was to evaluate this relationship.</AbstractText>
+                <AbstractText Label="MAIN METHODS" NlmCategory="METHODS">Male Wistar rats were fed a normal chow diet (12% from fat) or a high-fat diet (49% from fat) for 15 and 45weeks, respectively. The adiposity index, body weight and co-morbidities were evaluated. Heart lipotoxicity was assessed by analyzing cardiac function and morphological changes as well as cardiac triglyceride, ceramide and lipid hydroperoxide accumulations. Cardiac apoptosis was examined using the TUNEL method. Leptin function was determined by examining plasma leptin levels, cardiac leptin receptors (OB-R) and related phosphorylations of AMP-activated kinase protein (AMPK) and Acetyl CoA carboxylase (ACC).</AbstractText>
+                <AbstractText Label="KEY FINDINGS" NlmCategory="RESULTS">The diet-induced obesity was characterized by an elevated adiposity index, body weight and leptin levels at both 15 and 45weeks. There was no difference between groups in the cardiac triglyceride or lipid hydroperoxide levels. Interestingly, ceramide levels decreased in obese animals in both experimental periods. The cardiac morphological and functional parameters were not altered. Although down-regulation of OB-R has occurred in chronic obesity, it did not adversely affect AMPK or ACC phosphorylation.</AbstractText>
+                <AbstractText Label="SIGNIFICANCE" NlmCategory="CONCLUSIONS">The development of obesity via long-term feeding of a high-fat diet to rats does not result in cardiac lipotoxicity but promotes the down-regulation of OB-R. However, this does not result in altered levels of AMPK or ACC phosphorylations in this animal model.</AbstractText>
+                <CopyrightInformation>Copyright © 2011 Elsevier Inc. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <Affiliation>Department of Medicine Clinical, Botucatu School of Medicine, São Paulo State University (UNESP), Botucatu, São Paulo, Brazil; Jean Mayer USDA Human Nutrition Research Center on Aging at Tufts University, Boston, MA, United States.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Nascimento</LastName>
+                    <ForeName>André F</ForeName>
+                    <Initials>AF</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Luvizotto</LastName>
+                    <ForeName>Renata A M</ForeName>
+                    <Initials>RA</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Leopoldo</LastName>
+                    <ForeName>André S</ForeName>
+                    <Initials>AS</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lima-Leopoldo</LastName>
+                    <ForeName>Ana P</ForeName>
+                    <Initials>AP</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Seiva</LastName>
+                    <ForeName>Fábio R</ForeName>
+                    <Initials>FR</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Justulin</LastName>
+                    <ForeName>Luís A</ForeName>
+                    <Initials>LA</Initials>
+                    <Suffix>Jr</Suffix>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Silva</LastName>
+                    <ForeName>Maeli Dal Pai</ForeName>
+                    <Initials>MD</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Okoshi</LastName>
+                    <ForeName>Katashi</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Xiang-Dong</ForeName>
+                    <Initials>XD</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cicogna</LastName>
+                    <ForeName>Antonio C</ForeName>
+                    <Initials>AC</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2011</Year>
+                <Month>03</Month>
+                <Day>30</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>Life Sci</MedlineTA>
+            <NlmUniqueID>0375521</NlmUniqueID>
+            <ISSNLinking>0024-3205</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2010</Year>
+                <Month>8</Month>
+                <Day>30</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2011</Year>
+                <Month>2</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2011</Year>
+                <Month>3</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2011</Year>
+                <Month>3</Month>
+                <Day>30</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2011</Year>
+                <Month>4</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2011</Year>
+                <Month>4</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2011</Year>
+                <Month>4</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S0024-3205(11)00152-4</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.lfs.2011.03.015</ArticleId>
+            <ArticleId IdType="pubmed">21457721</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Process">
+        <PMID Version="1">21392585</PMID>
+        <DateCreated>
+            <Year>2011</Year>
+            <Month>05</Month>
+            <Day>16</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1878-5875</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>43</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <Year>2011</Year>
+                        <Month>Jun</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The international journal of biochemistry &amp; cell biology</Title>
+                <ISOAbbreviation>Int. J. Biochem. Cell Biol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Molecular mechanisms of human lipodystrophies: from adipocyte lipid droplet to oxidative stress and lipotoxicity.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>862-76</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>Adipose tissue is now recognized for its major role in the control of energy metabolism and insulin sensitivity. We review here the human lipodystrophies, that are rare conditions in which total or partial fat loss is associated with severe lipid and glucose abnormalities leading to diabetes with early cardiovascular and hepatic complications. The genetic origin of a number of human lipodystrophies has been recently unraveled, emphasizing the importance of proteins of previously unknown or unexpected functions. Major adipose functions were also illuminated when studying acquired forms of lipodystrophies linked to human immunodeficiency virus-antiretrovirals. Overall, most of the proteins or functions affected by mutations or antiretrovirals result in altered adipogenesis and insulin sensitivity, triglyceride storage and formation of the unique adipocyte lipid droplet, oxidative stress and fat remodeling. Some mutations or antiretrovirals could affect directly (peroxisome proliferator-activated receptor-γ, Akt2) or indirectly (lamin A/C, human immunodeficiency virus-protease inhibitors) adipogenesis, through the transcription factors peroxisome proliferator-activated receptor gamma-γ or sterol regulatory element binding protein 1c, and insulin signaling through Akt2 that controls adipocyte lipolysis. A number of proteins mutated in genetic lipodystrophies are involved in the control of triglyceride synthesis towards the lipid droplet (1-acylglycerol-3-phosphate-O-acyltransferase 2), or its functions (seipin, cell death-inducing DFF45-like effector C, perilipin, caveolin-1, cavin-1). Decreased triglyceride storage leads to adipocyte lipotoxicity, mitochondrial dysfunction and increased oxidative stress, which could also be induced by some thymidine analogue antiretrovirals. This results in production of inflammatory mediators and deregulated release of free fatty acids. Thus, the impaired ability of adipose tissue to safely store triglycerides inside the lipid droplet results in impaired insulin sensitivity and adverted liver, muscles and heart functions leading to early complications.</AbstractText>
+                <CopyrightInformation>Copyright © 2011 Elsevier Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <Affiliation>INSERM UMR_S938, Centre de Recherche Saint-Antoine, Paris, France.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Vigouroux</LastName>
+                    <ForeName>Corinne</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Caron-Debarle</LastName>
+                    <ForeName>Martine</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Le Dour</LastName>
+                    <ForeName>Caroline</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Magré</LastName>
+                    <ForeName>Jocelyne</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Capeau</LastName>
+                    <ForeName>Jacqueline</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+                <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2011</Year>
+                <Month>03</Month>
+                <Day>08</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>Int J Biochem Cell Biol</MedlineTA>
+            <NlmUniqueID>9508482</NlmUniqueID>
+            <ISSNLinking>1357-2725</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2010</Year>
+                <Month>12</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2011</Year>
+                <Month>2</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2011</Year>
+                <Month>3</Month>
+                <Day>2</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2011</Year>
+                <Month>3</Month>
+                <Day>8</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2011</Year>
+                <Month>3</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2011</Year>
+                <Month>3</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2011</Year>
+                <Month>3</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S1357-2725(11)00068-9</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.biocel.2011.03.002</ArticleId>
+            <ArticleId IdType="pubmed">21392585</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">21345991</PMID>
+        <DateCreated>
+            <Year>2011</Year>
+            <Month>06</Month>
+            <Day>02</Day>
+        </DateCreated>
+        <Article PubModel="Electronic-Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1552-5783</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>52</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <Year>2011</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Investigative ophthalmology &amp; visual science</Title>
+                <ISOAbbreviation>Invest. Ophthalmol. Vis. Sci.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Activation of AMP-Activated Protein Kinase Prevents Lipotoxicity in Retinal Pericytes.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>3630-9</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>Purpose. The recent FIELD study demonstrated that the lipid-lowering agent fenofibrate significantly reduces the development and progression of diabetic retinopathy (DR). These results suggest that lipids may play a causal role in DR. They also suggest that AMP-activated protein kinase (AMPK) activation could account for these findings given that fenofibrate is an AMPK activator. The authors previously demonstrated that free fatty acids, in addition to hyperglycemia, can induce apoptosis in retinal pericytes (PCs), the first cells lost in the diabetic retina. Incubation with the saturated fatty acid palmitate, but not the monounsaturated fatty acid oleate, elicited cytotoxicity in a manner dependent on oxidative stress, NF-κB activation, and ceramide accumulation. In this study, the authors explored whether AMPK can downregulate these pathways and, in doing so, protect PCs from apoptosis. Methods. PCs were incubated with palmitate or oleate to determine whether the factors previously linked to lipotoxicity were uniquely increased by palmitate. The effects of AMPK activation on these parameters and on apoptosis were concurrently examined. Results. Only palmitate increased NF-κB activation, ceramide and diacylglycerol mass, and apoptosis. Activation of AMPK with AICAR or, where used, expression of a constitutively active AMPK prevented all these effects. In contrast, both palmitate and oleate markedly increased oxidative stress, and the activation of AMPK did not prevent this. Conclusions. AMPK activation prevents the metabolic abnormalities and apoptosis specifically caused by palmitate in cultured PCs. Pharmacologic agents that activate AMPK in the diabetic retina may warrant consideration as a therapeutic option to avert PC apoptosis and to maintain microvascular homeostasis.</AbstractText>
+            </Abstract>
+            <Affiliation>Diabetes and Metabolism Research Unit, Department of Medicine and Section of Endocrinology, and.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Cacicedo</LastName>
+                    <ForeName>José M</ForeName>
+                    <Initials>JM</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Benjachareonwong</LastName>
+                    <ForeName>Sunun</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chou</LastName>
+                    <ForeName>Eva</ForeName>
+                    <Initials>E</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yagihashi</LastName>
+                    <ForeName>Norito</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ruderman</LastName>
+                    <ForeName>Neil B</ForeName>
+                    <Initials>NB</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ido</LastName>
+                    <ForeName>Yasuo</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2011</Year>
+                <Month>06</Month>
+                <Day>01</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Invest Ophthalmol Vis Sci</MedlineTA>
+            <NlmUniqueID>7703701</NlmUniqueID>
+            <ISSNLinking>0146-0404</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="ppublish">
+                <Year>2011</Year>
+                <Month/>
+                <Day/>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2011</Year>
+                <Month>2</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2011</Year>
+                <Month>2</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2011</Year>
+                <Month>2</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">iovs.10-5784</ArticleId>
+            <ArticleId IdType="doi">10.1167/iovs.10-5784</ArticleId>
+            <ArticleId IdType="pubmed">21345991</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">21629127</PMID>
+        <DateCreated>
+            <Year>2011</Year>
+            <Month>6</Month>
+            <Day>1</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1536-4801</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2011</Year>
+                        <Month>May</Month>
+                        <Day>26</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of pediatric gastroenterology and nutrition</Title>
+            </Journal>
+            <ArticleTitle>Mechanisms of Lipotoxicity in NAFLD and Clinical Implications.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <Abstract>
+                <AbstractText>With the epidemic of childhood obesity, nonalcoholic fatty liver disease (NAFLD) has become the most common cause of chronic liver disease in pediatrics. NAFLD is strongly associated with insulin resistance, and increased level of serum free fatty acids (FFA)s. FFAs have direct hepatotoxicity through induction of an endoplasmic reticulum (ER) stress response and subsequently activation of the mitochondrial pathway of cell death. FFAs may also result in lysosomal dysfunction and alter death receptor gene expression. Lipoapoptosis is a key pathogenic process in NAFLD, and correlates with progressive inflammation, and fibrosis. Accumulation of triglyceride in the liver results from uptake and esterification of FFAs by the hepatocyte, and is less likely to be hepatotoxic per-se. To date, there are no proven effective therapies that halt NAFLD progression, or unfortunately improve prognosis in children. The cellular mechanisms of lipotoxicity are complex but provide potential therapeutic targets for NAFLD. In this review we discuss several potential therapeutic opportunities in detail including inhibition of apoptosis, c-Jun-N-terminal kinase (JNK), and endoplasmic reticulum (ER) stress pathways.</AbstractText>
+            </Abstract>
+            <Affiliation>*Division of Pediatric Gastroenterology and Hepatology, College of Medicine, Mayo Clinic, USA †Division of Gastroenterology, Hepatology and Nutrition, Cincinnati Children's Hospital Medical Center, 3333 Burnet Avenue, Cincinnati, Ohio 45229-3039, USA ‡Division of Gastroenterology and Hepatology, College of Medicine, Mayo Clinic, 200 First Street SW Rochester, MN, 55905, USA.</Affiliation>
+            <AuthorList>
+                <Author>
+                    <LastName>Ibrahim</LastName>
+                    <ForeName>Samar H</ForeName>
+                    <Initials>SH</Initials>
+                </Author>
+                <Author>
+                    <LastName>Kohli</LastName>
+                    <ForeName>Rohit</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+                <Author>
+                    <LastName>Gores</LastName>
+                    <ForeName>Gregory J</ForeName>
+                    <Initials>GJ</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType>JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2011</Year>
+                <Month>5</Month>
+                <Day>26</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>J Pediatr Gastroenterol Nutr</MedlineTA>
+            <NlmUniqueID>8211545</NlmUniqueID>
+            <ISSNLinking>0277-2116</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2011</Year>
+                <Month>6</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2011</Year>
+                <Month>6</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2011</Year>
+                <Month>6</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1097/MPG.0b013e31822578db</ArticleId>
+            <ArticleId IdType="pubmed">21629127</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">21592087</PMID>
+        <DateCreated>
+            <Year>2011</Year>
+            <Month>5</Month>
+            <Day>19</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1470-8728</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2011</Year>
+                        <Month>May</Month>
+                        <Day>19</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The Biochemical journal</Title>
+            </Journal>
+            <ArticleTitle>Ceramide synthase 4 and de novo production of ceramides with specific N-acyl chain lengths are involved in gluco-lipotoxicity-induced apoptosis of INS-1 β-cells.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <Abstract>
+                <AbstractText>Pancreatic β-cell apoptosis induced by palmitate requires high glucose concentrations. Ceramides have been suggested to be important mediators of gluco-lipotoxicity-induced β-cell apoptosis. In INS-1 β-cells, 0.4 mM palmitate with 5 mM glucose increased the levels of dihydrosphingosine and dihydroceramides, two lipid intermediates in the de novo biosynthesis of ceramides, without inducing apoptosis. Increasing glucose concentrations to 30 mM amplified palmitate-induced accumulation of dihydrosphingosine and the formation of (dihydro)-ceramides. Of note, gluco-lipotoxicity specifically induced the formation of 18:0, 22:0 and 24:1 (dihydro)-ceramide molecular species, which was associated with the up-regulation of ceramide synthase 4 (CerS4) levels. Fumonisin-B1, a ceramide synthase inhibitor, partially blocked apoptosis induced by gluco-lipotoxicity. In contrast, apoptosis was potentiated in the presence of D,L-threo-1-phenyl-2-palmitoylamino-3-morpholino-1-propanol, an inhibitor of glucosyl-ceramide synthase. Moreover, over-expression of CerS4 amplified ceramide production and apoptosis induced by palmitate with 30 mM glucose whereas down-regulation of CerS4 by siRNA reduced apoptosis. CerS4 also potentiates ceramide accumulation and apoptosis induced by another saturated fatty acid, stearate. Collectively, our results suggest that gluco-lipotoxicity induced β-cell apoptosis through a dual mechanism involving the de novo ceramide biosynthesis and the formation of ceramides with specific N-acyl chain lengths rather than an overall increase of ceramide content.</AbstractText>
+            </Abstract>
+            <AuthorList>
+                <Author>
+                    <LastName>Véret</LastName>
+                    <ForeName>Julien</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author>
+                    <LastName>Coant</LastName>
+                    <ForeName>Nicolas</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author>
+                    <LastName>Berdyshev</LastName>
+                    <ForeName>Evgeny</ForeName>
+                    <Initials>E</Initials>
+                </Author>
+                <Author>
+                    <LastName>Skobeleva</LastName>
+                    <ForeName>Anastasia</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author>
+                    <LastName>Therville</LastName>
+                    <ForeName>Nicole</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author>
+                    <LastName>Bailbé</LastName>
+                    <ForeName>Danielle</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author>
+                    <LastName>Gorshkova</LastName>
+                    <ForeName>Irina</ForeName>
+                    <Initials>I</Initials>
+                </Author>
+                <Author>
+                    <LastName>Natarajan</LastName>
+                    <ForeName>Viswanathan</ForeName>
+                    <Initials>V</Initials>
+                </Author>
+                <Author>
+                    <LastName>Portha</LastName>
+                    <ForeName>Bernard</ForeName>
+                    <Initials>B</Initials>
+                </Author>
+                <Author>
+                    <LastName>Le Stunff</LastName>
+                    <ForeName>Herve</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType>JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2011</Year>
+                <Month>5</Month>
+                <Day>19</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Biochem J</MedlineTA>
+            <NlmUniqueID>2984726R</NlmUniqueID>
+            <ISSNLinking>0264-6021</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2010</Year>
+                <Month>9</Month>
+                <Day>1</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2011</Year>
+                <Month>4</Month>
+                <Day>6</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2011</Year>
+                <Month>5</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2011</Year>
+                <Month>5</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2011</Year>
+                <Month>5</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2011</Year>
+                <Month>5</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">BJ20101386</ArticleId>
+            <ArticleId IdType="doi">10.1042/BJ20101386</ArticleId>
+            <ArticleId IdType="pubmed">21592087</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">21703172</PMID>
+        <DateCreated>
+            <Year>2011</Year>
+            <Month>6</Month>
+            <Day>27</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">0168-8278</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2011</Year>
+                        <Month>May</Month>
+                        <Day>19</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of hepatology</Title>
+            </Journal>
+            <ArticleTitle>Who pulls the trigger: JNK activation in liver lipotoxicity?</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <Affiliation>Departement of Pediatrics, Division of Pediatric Gastroenterology and Hepatology College of Medicine, Mayo Clinic, 200 First Street SW Rochester, MN, 55905, USA.</Affiliation>
+            <AuthorList>
+                <Author>
+                    <LastName>Ibrahim</LastName>
+                    <ForeName>Samar H</ForeName>
+                    <Initials>SH</Initials>
+                </Author>
+                <Author>
+                    <LastName>Gores</LastName>
+                    <ForeName>Gregory J</ForeName>
+                    <Initials>GJ</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType>EDITORIAL</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2011</Year>
+                <Month>5</Month>
+                <Day>19</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>J Hepatol</MedlineTA>
+            <NlmUniqueID>8503886</NlmUniqueID>
+            <ISSNLinking>0168-8278</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2011</Year>
+                <Month>4</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2011</Year>
+                <Month>4</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2011</Year>
+                <Month>6</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2011</Year>
+                <Month>6</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2011</Year>
+                <Month>6</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S0168-8278(11)00381-3</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.jhep.2011.04.017</ArticleId>
+            <ArticleId IdType="pubmed">21703172</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">21592363</PMID>
+        <DateCreated>
+            <Year>2011</Year>
+            <Month>06</Month>
+            <Day>13</Day>
+        </DateCreated>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1476-511X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>10</Volume>
+                    <PubDate>
+                        <Year>2011</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Lipids in health and disease</Title>
+                <ISOAbbreviation>Lipids Health Dis</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>α-Linolenic acid prevents endoplasmic reticulum stress-mediated apoptosis of stearic acid lipotoxicity on primary rat hepatocytes.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>81</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="UNLABELLED">ABSTRACT:</AbstractText>
+                <AbstractText Label="AIMS" NlmCategory="OBJECTIVE">Lipid accumulation in non-adipose tissues leads to cell dysfunction and apoptosis, a phenomenon known as lipotoxicity. Unsaturated fatty acids may offset the lipotoxicity associated with saturated fatty acids. Stearic acid induced endoplasmic reticulum (ER) stress and caused apoptotic and necrotic cell death in the primary rat hepatocytes.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Cell viability was investigated using MTT assay, and apoptosis was evaluated with Hoechst 33342 staining. Western blot analysis was used to examine the changes in the expression levels of glucose regulated protein 78 (GRP78), glucose regulated protein 94 (GRP94), and C/EBP homologous protein (CHOP). Caspase-3 activity was evaluated using a Caspase-3 substrate kit.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">We have studied the ability of α-linolenic acid to prevent endoplasmic reticulum stress-mediated apoptosis of rat hepatocytes elicited by stearic acid and thapsigargin. Incubation of primary rat hepatocytes for 16 h with stearic acid produced a significant increase in cell death. Stearic acid also increased levels of three indicators of ER stress -- GRP78, CHOP, and GRP94. α-Linolenic acid distinctly reduced cell death and levels of all three indicators of ER stress brought about by stearic acid. Thapsigargin, which induces ER stress produced similar effects to those obtained using stearic acid; its effects were partly reversed by α-linolenic acid.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">These results suggest that α-linolenic acid prevents ER stress-mediated apoptosis of stearic acid lipotoxicity on primary rat hepatocytes might become a target to develop new antiapoptotic compounds in nonalcoholic fatty liver disease (NAFLD).</AbstractText>
+            </Abstract>
+            <Affiliation>Department of Gastroenterology, the Second Affiliated Hospital of Xi'an Jiaotong University, No, 157, West 5th Road, Xi'an, Shaanxi Province-710004, China. donglei4488@sina.com.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Yong</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dong</LastName>
+                    <ForeName>Lei</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Xia</ForeName>
+                    <Initials>X</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shi</LastName>
+                    <ForeName>Hongyang</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Li</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2011</Year>
+                <Month>05</Month>
+                <Day>18</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Lipids Health Dis</MedlineTA>
+            <NlmUniqueID>101147696</NlmUniqueID>
+            <ISSNLinking>1476-511X</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <OtherID Source="NLM">PMC3112425</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2010</Year>
+                <Month>9</Month>
+                <Day>7</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2011</Year>
+                <Month>5</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2011</Year>
+                <Month>5</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2011</Year>
+                <Month>5</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2011</Year>
+                <Month>5</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2011</Year>
+                <Month>5</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">1476-511X-10-81</ArticleId>
+            <ArticleId IdType="doi">10.1186/1476-511X-10-81</ArticleId>
+            <ArticleId IdType="pubmed">21592363</ArticleId>
+            <ArticleId IdType="pmc">PMC3112425</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">21654881</PMID>
+        <DateCreated>
+            <Year>2011</Year>
+            <Month>06</Month>
+            <Day>09</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1943-8141</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>3</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2011</Year>
+                        <Month>May</Month>
+                        <Day>15</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>American journal of translational research</Title>
+                <ISOAbbreviation>Am J Transl Res</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Lipotoxicity in HepG2 cells triggered by free fatty acids.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>284-91</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>The goal of this study was to investigate the lipid accumulation and lipotoxicity of free fatty acids (FFAs) induced in HepG2 cells. HepG2 cells were co-incubated with various concentrations of FFAs for 24h and the intracellular lipid contents were observed by Oil Red O and Nile Red staining methods. The lipotoxicity of HepG2 cells were then detected by Hoechest 33342/PI, Annexin V-FITC/PI double-staining and 3-(4,5-dimethylthiazol-2-yl)-2,5-di phenyltetrazolium bromide (MTT) experiment tests. The experiments showed a lipid accumulation and lipotoxicity by increasing FFA concentration gradients. Through cell morphological observation and quantitative analysis, FFAs have shown to increase in a dose-dependent manner compared with the control group. The data collected from hoechst 33342/PI, annexin V-FITC/PI double staining and also MTT experiments showed that cell apoptosis and necrosis significantly increased with increasing FFA concentrations. Apoptosis was not obvious in the 1 mM FFAs-treated group compared to the other two groups. In a certain concentration range, FFAs induced intracellular lipid accumulation and lipotoxicity of HepG2 cells in a dose-dependent manner.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Yao</LastName>
+                    <ForeName>Hong-Rui</ForeName>
+                    <Initials>HR</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Jun</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Plumeri</LastName>
+                    <ForeName>Daniel</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cao</LastName>
+                    <ForeName>Yong-Bing</ForeName>
+                    <Initials>YB</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>He</LastName>
+                    <ForeName>Ting</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lin</LastName>
+                    <ForeName>Ling</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Yu</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jiang</LastName>
+                    <ForeName>Yuan-Ying</ForeName>
+                    <Initials>YY</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Ji</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shang</LastName>
+                    <ForeName>Jing</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2011</Year>
+                <Month>05</Month>
+                <Day>10</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Am J Transl Res</MedlineTA>
+            <NlmUniqueID>101493030</NlmUniqueID>
+        </MedlineJournalInfo>
+        <OtherID Source="NLM">PMC3102573</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2011</Year>
+                <Month>4</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2011</Year>
+                <Month>5</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2011</Year>
+                <Month>5</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2011</Year>
+                <Month>6</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2011</Year>
+                <Month>6</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2011</Year>
+                <Month>6</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">21654881</ArticleId>
+            <ArticleId IdType="pmc">PMC3102573</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">21565164</PMID>
+        <DateCreated>
+            <Year>2011</Year>
+            <Month>5</Month>
+            <Day>13</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Print">0006-3002</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <PubDate>
+                        <Year>2011</Year>
+                        <Month>May</Month>
+                        <Day>1</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Biochimica et biophysica acta</Title>
+            </Journal>
+            <ArticleTitle>Uncoupled respiration, ROS production, acute lipotoxicity and oxidative damage in isolated skeletal muscle mitochondria from UCP3-ablated mice.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <Abstract>
+                <AbstractText>The function of uncoupling protein 3 is still not established. Mitochondrial uncoupling, control of ROS production, protection against lipotoxicity and protection against oxidative stress are functions classically discussed. To establish a role for uncoupling protein 3 in these functions, we have here used uncoupling protein 3 (-/-) mice, backcrossed for 10 generations on a C57Bl/6 background. In isolated skeletal muscle mitochondria, we examined uncoupled respiration, both unstimulated and in the presence of fatty acids. We did not observe any difference between mitochondria from wildtype and uncoupling protein 3(-/-) mice. We measured H(2)O(2) production rate and respiration rate under reactive oxygen species-generating conditions (succinate without rotenone) but found no effect of uncoupling protein 3. We tested two models of acute lipotoxicity-fatty acid-induced oxidative inhibition and fatty acid-induced swelling-but did not observe any protective effect of uncoupling protein 3. We examined oxidative stress by quantifying 4-hydroxynonenal protein adducts and protein carbonyls in the mitochondria-but did not observe any protective effect of uncoupling protein 3. We conclude that under the experimental conditions tested here, we find no evidence for the function of uncoupling protein 3 being basal or induced uncoupling, regulation of ROS production, protection against acute lipotoxicity or protection against oxidative damage.</AbstractText>
+                <CopyrightInformation>Copyright © 2011. Published by Elsevier B.V.</CopyrightInformation>
+            </Abstract>
+            <Affiliation>Department of Human Biology, NUTRIM School for Nutrition, Toxicology and Metabolism, Maastricht University Medical Centre, NL-6200 MD Maastricht, The Netherlands; The Wenner-Gren Institute, The Arrhenius Laboratories, Stockholm University, SE-106 91 Stockholm, Sweden.</Affiliation>
+            <AuthorList>
+                <Author>
+                    <LastName>Nabben</LastName>
+                    <ForeName>Miranda</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author>
+                    <LastName>Shabalina</LastName>
+                    <ForeName>Irina G</ForeName>
+                    <Initials>IG</Initials>
+                </Author>
+                <Author>
+                    <LastName>Moonen-Kornips</LastName>
+                    <ForeName>Esther</ForeName>
+                    <Initials>E</Initials>
+                </Author>
+                <Author>
+                    <LastName>van Beurden</LastName>
+                    <ForeName>Denis</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author>
+                    <LastName>Cannon</LastName>
+                    <ForeName>Barbara</ForeName>
+                    <Initials>B</Initials>
+                </Author>
+                <Author>
+                    <LastName>Schrauwen</LastName>
+                    <ForeName>Patrick</ForeName>
+                    <Initials>P</Initials>
+                </Author>
+                <Author>
+                    <LastName>Nedergaard</LastName>
+                    <ForeName>Jan</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author>
+                    <LastName>Hoeks</LastName>
+                    <ForeName>Joris</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType>JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2011</Year>
+                <Month>5</Month>
+                <Day>1</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Biochim Biophys Acta</MedlineTA>
+            <NlmUniqueID>0217513</NlmUniqueID>
+            <ISSNLinking>0006-3002</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2010</Year>
+                <Month>10</Month>
+                <Day>8</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2011</Year>
+                <Month>4</Month>
+                <Day>6</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2011</Year>
+                <Month>4</Month>
+                <Day>7</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2011</Year>
+                <Month>5</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2011</Year>
+                <Month>5</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2011</Year>
+                <Month>5</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S0005-2728(11)00087-9</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.bbabio.2011.04.003</ArticleId>
+            <ArticleId IdType="pubmed">21565164</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Process">
+        <PMID Version="1">21626835</PMID>
+        <DateCreated>
+            <Year>2011</Year>
+            <Month>05</Month>
+            <Day>30</Day>
+        </DateCreated>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">0021-5384</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>100</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2011</Year>
+                        <Month>Apr</Month>
+                        <Day>10</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Nihon Naika Gakkai zasshi. The Journal of the Japanese Society of Internal Medicine</Title>
+                <ISOAbbreviation>Nippon Naika Gakkai Zasshi</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>[Obesity: Progress in diagnosis and treatment topics, IV. Recent topics; 1. Ectopic fat disposition and lipotoxicity].</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>983-8</MedlinePgn>
+            </Pagination>
+            <Affiliation>Department of Cardio-Diabetes, The University of Tokushima, Japan.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Shimabukuro</LastName>
+                    <ForeName>Michio</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yamakawa</LastName>
+                    <ForeName>Ken</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Masuzaki</LastName>
+                    <ForeName>Hiroaki</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sata</LastName>
+                    <ForeName>Masataka</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+            </AuthorList>
+            <Language>jpn</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Japan</Country>
+            <MedlineTA>Nippon Naika Gakkai Zasshi</MedlineTA>
+            <NlmUniqueID>19130210R</NlmUniqueID>
+            <ISSNLinking>0021-5384</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2011</Year>
+                <Month>6</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2011</Year>
+                <Month>6</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2011</Year>
+                <Month>6</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">21626835</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">21216282</PMID>
+        <DateCreated>
+            <Year>2011</Year>
+            <Month>02</Month>
+            <Day>21</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2011</Year>
+            <Month>04</Month>
+            <Day>18</Day>
+        </DateCompleted>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Print">0006-3002</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>1812</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2011</Year>
+                        <Month>Apr</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Biochimica et biophysica acta</Title>
+                <ISOAbbreviation>Biochim. Biophys. Acta</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Lipotoxicity and steatohepatitis in an overfed mouse model for non-alcoholic fatty liver disease.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>447-58</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>The major risk factors for non-alcoholic fatty liver disease (NAFLD) are obesity, insulin resistance and dyslipidemia. The cause for progression from the steatosis stage to the inflammatory condition (non-alcoholic steatohepatitis (NASH)) remains elusive at present. Aim of this study was to test whether the different stages of NAFLD as well as the associated metabolic abnormalities can be recreated in time in an overfed mouse model and study the mechanisms underlying the transition from steatosis to NASH. Male C57Bl/6J mice were subjected to continuous intragastric overfeeding with a high-fat liquid diet (HFLD) for different time periods. Mice fed a solid high-fat diet (HFD) ad libitum served as controls. Liver histology and metabolic characteristics of liver, white adipose tisue (WAT) and plasma were studied. Both HFD-fed and HFLD-overfed mice initially developed liver steatosis, but only the latter progressed in time to NASH. NASH coincided with obesity, hyperinsulinemia, loss of liver glycogen and hepatic endoplasmatic reticulum stress. Peroxisome proliferator-activated receptor γ (Pparγ), fibroblast growth factor 21 (Fgf21), fatty acid binding protein (Fabp) and fatty acid translocase (CD36) were induced exclusively in the livers of the HFLD-overfed mice. Inflammation, reduced adiponectin expression and altered expression of genes that influence adipogenic capacity were only observed in WAT of HFLD-overfed mice. In conclusion: this dietary mouse model displays the different stages and the metabolic settings often found in human NAFLD. Lipotoxicity due to compromised adipose tissue function is likely associated with the progression to NASH, but whether this is cause or consequence remains to be established.</AbstractText>
+                <CopyrightInformation>Copyright © 2011 Elsevier B.V. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <Affiliation>University of Amsterdam, Academic Medical Center, Tytgat Institute for Liver and Intestinal Research, Meibergdreef 71, 1105 BK Amsterdam, The Netherlands. i.c.gaemers@amc.uva.nl</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Gaemers</LastName>
+                    <ForeName>Ingrid C</ForeName>
+                    <Initials>IC</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Stallen</LastName>
+                    <ForeName>Jan M</ForeName>
+                    <Initials>JM</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kunne</LastName>
+                    <ForeName>Cindy</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wallner</LastName>
+                    <ForeName>Christian</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>van Werven</LastName>
+                    <ForeName>Jochem</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nederveen</LastName>
+                    <ForeName>Aart</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lamers</LastName>
+                    <ForeName>Wouter H</ForeName>
+                    <Initials>WH</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+                <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2011</Year>
+                <Month>01</Month>
+                <Day>07</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>Biochim Biophys Acta</MedlineTA>
+            <NlmUniqueID>0217513</NlmUniqueID>
+            <ISSNLinking>0006-3002</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Dietary Fats</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Fatty Acid-Binding Proteins</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>PPAR gamma</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <SupplMeshList>
+            <SupplMeshName Type="Disease">Non-alcoholic Fatty Liver Disease</SupplMeshName>
+        </SupplMeshList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Adipose Tissue</DescriptorName>
+                <QualifierName MajorTopicYN="N">immunology</QualifierName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+                <QualifierName MajorTopicYN="N">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Dietary Fats</DescriptorName>
+                <QualifierName MajorTopicYN="Y">adverse effects</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Disease Progression</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Fatty Acid-Binding Proteins</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Fatty Liver</DescriptorName>
+                <QualifierName MajorTopicYN="N">etiology</QualifierName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+                <QualifierName MajorTopicYN="N">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Hyperinsulinism</DescriptorName>
+                <QualifierName MajorTopicYN="N">etiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Inflammation</DescriptorName>
+                <QualifierName MajorTopicYN="N">etiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Lipogenesis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Liver</DescriptorName>
+                <QualifierName MajorTopicYN="N">immunology</QualifierName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+                <QualifierName MajorTopicYN="N">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Mice</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Mice, Inbred C57BL</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Organ Size</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Overnutrition</DescriptorName>
+                <QualifierName MajorTopicYN="Y">complications</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">PPAR gamma</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2010</Year>
+                <Month>8</Month>
+                <Day>11</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2010</Year>
+                <Month>12</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2011</Year>
+                <Month>1</Month>
+                <Day>3</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2011</Year>
+                <Month>1</Month>
+                <Day>7</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2011</Year>
+                <Month>1</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2011</Year>
+                <Month>1</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2011</Year>
+                <Month>4</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S0925-4439(11)00004-4</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.bbadis.2011.01.003</ArticleId>
+            <ArticleId IdType="pubmed">21216282</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">21205704</PMID>
+        <DateCreated>
+            <Year>2011</Year>
+            <Month>03</Month>
+            <Day>24</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2011</Year>
+            <Month>06</Month>
+            <Day>23</Day>
+        </DateCompleted>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Print">0022-2275</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>52</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2011</Year>
+                        <Month>Apr</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of lipid research</Title>
+                <ISOAbbreviation>J. Lipid Res.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>DGAT1 deficiency decreases PPAR expression and does not lead to lipotoxicity in cardiac and skeletal muscle.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>732-44</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>Diacylglycerol (DAG) acyl transferase 1 (Dgat1) knockout ((-/-)) mice are resistant to high-fat-induced obesity and insulin resistance, but the reasons are unclear. Dgat1(-/-) mice had reduced mRNA levels of all three Ppar genes and genes involved in fatty acid oxidation in the myocardium of Dgat1(-/-) mice. Although DGAT1 converts DAG to triglyceride (TG), tissue levels of DAG were not increased in Dgat1(-/-) mice. Hearts of chow-diet Dgat1(-/-) mice were larger than those of wild-type (WT) mice, but cardiac function was normal. Skeletal muscles from Dgat1(-/-) mice were also larger. Muscle hypertrophy factors phospho-AKT and phospho-mTOR were increased in Dgat1(-/-) cardiac and skeletal muscle. In contrast to muscle, liver from Dgat1(-/-) mice had no reduction in mRNA levels of genes mediating fatty acid oxidation. Glucose uptake was increased in cardiac and skeletal muscle in Dgat1(-/-) mice. Treatment with an inhibitor specific for DGAT1 led to similarly striking reductions in mRNA levels of genes mediating fatty acid oxidation in cardiac and skeletal muscle. These changes were reproduced in cultured myocytes with the DGAT1 inhibitor, which also blocked the increase in mRNA levels of Ppar genes and their targets induced by palmitic acid. Thus, loss of DGAT1 activity in muscles decreases mRNA levels of genes involved in lipid uptake and oxidation.</AbstractText>
+            </Abstract>
+            <Affiliation>Division of Preventive Medicine and Nutrition, Columbia University, New York, NY, USA.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Li</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yu</LastName>
+                    <ForeName>Shuiqing</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Khan</LastName>
+                    <ForeName>Raffay S</ForeName>
+                    <Initials>RS</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ables</LastName>
+                    <ForeName>Gene P</ForeName>
+                    <Initials>GP</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bharadwaj</LastName>
+                    <ForeName>Kalyani G</ForeName>
+                    <Initials>KG</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hu</LastName>
+                    <ForeName>Yunying</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Huggins</LastName>
+                    <ForeName>Lesley A</ForeName>
+                    <Initials>LA</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Eriksson</LastName>
+                    <ForeName>Jan W</ForeName>
+                    <Initials>JW</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Buckett</LastName>
+                    <ForeName>Linda K</ForeName>
+                    <Initials>LK</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Turnbull</LastName>
+                    <ForeName>Andrew V</ForeName>
+                    <Initials>AV</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ginsberg</LastName>
+                    <ForeName>Henry N</ForeName>
+                    <Initials>HN</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Blaner</LastName>
+                    <ForeName>William S</ForeName>
+                    <Initials>WS</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Huang</LastName>
+                    <ForeName>Li-Shin</ForeName>
+                    <Initials>LS</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Goldberg</LastName>
+                    <ForeName>Ira J</ForeName>
+                    <Initials>IJ</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>AA-10914</GrantID>
+                    <Acronym>AA</Acronym>
+                    <Agency>NIAAA NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>DK-79221</GrantID>
+                    <Acronym>DK</Acronym>
+                    <Agency>NIDDK NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>HL-45095</GrantID>
+                    <Acronym>HL</Acronym>
+                    <Agency>NHLBI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>HL-62583</GrantID>
+                    <Acronym>HL</Acronym>
+                    <Agency>NHLBI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>HL-73029</GrantID>
+                    <Acronym>HL</Acronym>
+                    <Agency>NHLBI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 HL045095-21</GrantID>
+                    <Acronym>HL</Acronym>
+                    <Agency>NHLBI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 HL073030-09</GrantID>
+                    <Acronym>HL</Acronym>
+                    <Agency>NHLBI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>T32-07343</GrantID>
+                    <Agency>PHS HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+                <PublicationType>Research Support, N.I.H., Extramural</PublicationType>
+                <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2011</Year>
+                <Month>01</Month>
+                <Day>03</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Lipid Res</MedlineTA>
+            <NlmUniqueID>0376606</NlmUniqueID>
+            <ISSNLinking>0022-2275</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Ceramides</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Diglycerides</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Enzyme Inhibitors</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Lipoproteins, VLDL</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Peroxisome Proliferator-Activated Receptors</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>50-99-7</RegistryNumber>
+                <NameOfSubstance>Glucose</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>57-10-3</RegistryNumber>
+                <NameOfSubstance>Palmitic Acid</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>EC 2.3.1.20</RegistryNumber>
+                <NameOfSubstance>Dgat1 protein, mouse</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>EC 2.3.1.20</RegistryNumber>
+                <NameOfSubstance>Diacylglycerol O-Acyltransferase</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="CommentIn">
+                <RefSource>J Lipid Res. 2011 Apr;52(4):591-2</RefSource>
+                <PMID Version="1">21278314</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Absorptiometry, Photon</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Blotting, Western</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Cell Line</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Ceramides</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Diacylglycerol O-Acyltransferase</DescriptorName>
+                <QualifierName MajorTopicYN="N">deficiency</QualifierName>
+                <QualifierName MajorTopicYN="N">genetics</QualifierName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Diglycerides</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Echocardiography</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Enzyme Inhibitors</DescriptorName>
+                <QualifierName MajorTopicYN="N">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Gene Expression</DescriptorName>
+                <QualifierName MajorTopicYN="N">drug effects</QualifierName>
+                <QualifierName MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Glucose</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Lipoproteins, VLDL</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Mice</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Mice, Knockout</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Muscle, Skeletal</DescriptorName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Myoblasts</DescriptorName>
+                <QualifierName MajorTopicYN="N">drug effects</QualifierName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Myocardium</DescriptorName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Myocytes, Cardiac</DescriptorName>
+                <QualifierName MajorTopicYN="N">drug effects</QualifierName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Organ Size</DescriptorName>
+                <QualifierName MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Palmitic Acid</DescriptorName>
+                <QualifierName MajorTopicYN="N">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Peroxisome Proliferator-Activated Receptors</DescriptorName>
+                <QualifierName MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Polymerase Chain Reaction</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2011</Year>
+                <Month>1</Month>
+                <Day>3</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2011</Year>
+                <Month>1</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2011</Year>
+                <Month>1</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2011</Year>
+                <Month>6</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">jlr.M011395</ArticleId>
+            <ArticleId IdType="doi">10.1194/jlr.M011395</ArticleId>
+            <ArticleId IdType="pubmed">21205704</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">21266330</PMID>
+        <DateCreated>
+            <Year>2011</Year>
+            <Month>03</Month>
+            <Day>01</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2011</Year>
+            <Month>04</Month>
+            <Day>22</Day>
+        </DateCompleted>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1939-327X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>60</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2011</Year>
+                        <Month>Mar</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Diabetes</Title>
+                <ISOAbbreviation>Diabetes</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Differential lipid partitioning between adipocytes and tissue macrophages modulates macrophage lipotoxicity and M2/M1 polarization in obese mice.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>797-809</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">Obesity-associated insulin resistance is characterized by a state of chronic, low-grade inflammation that is associated with the accumulation of M1 proinflammatory macrophages in adipose tissue. Although different evidence explains the mechanisms linking the expansion of adipose tissue and adipose tissue macrophage (ATM) polarization, in the current study we investigated the concept of lipid-induced toxicity as the pathogenic link that could explain the trigger of this response.</AbstractText>
+                <AbstractText Label="RESEARCH DESIGN AND METHODS" NlmCategory="METHODS">We addressed this question using isolated ATMs and adipocytes from genetic and diet-induced murine models of obesity. Through transcriptomic and lipidomic analysis, we created a model integrating transcript and lipid species networks simultaneously occurring in adipocytes and ATMs and their reversibility by thiazolidinedione treatment.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">We show that polarization of ATMs is associated with lipid accumulation and the consequent formation of foam cell-like cells in adipose tissue. Our study reveals that early stages of adipose tissue expansion are characterized by M2-polarized ATMs and that progressive lipid accumulation within ATMs heralds the M1 polarization, a macrophage phenotype associated with severe obesity and insulin resistance. Furthermore, rosiglitazone treatment, which promotes redistribution of lipids toward adipocytes and extends the M2 ATM polarization state, prevents the lipid alterations associated with M1 ATM polarization.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Our data indicate that the M1 ATM polarization in obesity might be a macrophage-specific manifestation of a more general lipotoxic pathogenic mechanism. This indicates that strategies to optimize fat deposition and repartitioning toward adipocytes might improve insulin sensitivity by preventing ATM lipotoxicity and M1 polarization.</AbstractText>
+            </Abstract>
+            <Affiliation>Institute of Metabolic Science, Metabolic Research Laboratories, and Department of Clinical Biochemistry, University of Cambridge, Addenbrooke's Hospital, Cambridge, UK.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Prieur</LastName>
+                    <ForeName>Xavier</ForeName>
+                    <Initials>X</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mok</LastName>
+                    <ForeName>Crystal Y L</ForeName>
+                    <Initials>CY</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Velagapudi</LastName>
+                    <ForeName>Vidya R</ForeName>
+                    <Initials>VR</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Núñez</LastName>
+                    <ForeName>Vanessa</ForeName>
+                    <Initials>V</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fuentes</LastName>
+                    <ForeName>Lucía</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Montaner</LastName>
+                    <ForeName>David</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ishikawa</LastName>
+                    <ForeName>Ko</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Camacho</LastName>
+                    <ForeName>Alberto</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Barbarroja</LastName>
+                    <ForeName>Nuria</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>O'Rahilly</LastName>
+                    <ForeName>Stephen</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sethi</LastName>
+                    <ForeName>Jaswinder K</ForeName>
+                    <Initials>JK</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dopazo</LastName>
+                    <ForeName>Joaquin</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Orešič</LastName>
+                    <ForeName>Matej</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ricote</LastName>
+                    <ForeName>Mercedes</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Vidal-Puig</LastName>
+                    <ForeName>Antonio</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <Agency>British Heart Foundation</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <Agency>Medical Research Council</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <Agency>Wellcome Trust</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+                <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2011</Year>
+                <Month>01</Month>
+                <Day>24</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Diabetes</MedlineTA>
+            <NlmUniqueID>0372763</NlmUniqueID>
+            <ISSNLinking>0012-1797</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>AIM</CitationSubset>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Adipocytes</DescriptorName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Adipose Tissue</DescriptorName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Cell Fractionation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Cells, Cultured</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Diet</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Flow Cytometry</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Gene Expression Profiling</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Inflammation</DescriptorName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Insulin Resistance</DescriptorName>
+                <QualifierName MajorTopicYN="N">physiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Lipid Metabolism</DescriptorName>
+                <QualifierName MajorTopicYN="Y">physiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Macrophages</DescriptorName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Mice</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Mice, Obese</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Obesity</DescriptorName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Oligonucleotide Array Sequence Analysis</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC3046840 [Available on 03/01/12]</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2011</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2011</Year>
+                <Month>1</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2011</Year>
+                <Month>1</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2011</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pmc-release">
+                <Year>2012</Year>
+                <Month>3</Month>
+                <Day>1</Day>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">db10-0705</ArticleId>
+            <ArticleId IdType="doi">10.2337/db10-0705</ArticleId>
+            <ArticleId IdType="pubmed">21266330</ArticleId>
+            <ArticleId IdType="pmc">PMC3046840</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">21107520</PMID>
+        <DateCreated>
+            <Year>2011</Year>
+            <Month>02</Month>
+            <Day>07</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2011</Year>
+            <Month>05</Month>
+            <Day>25</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2011</Year>
+            <Month>06</Month>
+            <Day>01</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1432-0428</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>54</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2011</Year>
+                        <Month>Mar</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Diabetologia</Title>
+                <ISOAbbreviation>Diabetologia</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Dissociation of lipotoxicity and glucotoxicity in a mouse model of obesity associated diabetes: role of forkhead box O1 (FOXO1) in glucose-induced beta cell failure.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>605-16</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="AIMS/HYPOTHESIS" NlmCategory="OBJECTIVE">Carbohydrate-free diet prevents hyperglycaemia and beta cell destruction in the New Zealand Obese (NZO) mouse model. Here we have used a sequential dietary regimen to dissociate the effects of obesity and hyperglycaemia on beta cell function and integrity, and to study glucose-induced alterations of key transcription factors over 16 days.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Mice were rendered obese by feeding a carbohydrate-free diet for 18 weeks. Thereafter, a carbohydrate-containing diet was given. Plasma glucose, plasma insulin and total pancreatic insulin were determined, and forkhead box O1 protein (FOXO1) phosphorylation and the transcription factors pancreatic and duodenal homeobox 1 (PDX1), NK6 homeobox 1 protein (NKX6.1) and v-maf musculoaponeurotic fibrosarcoma oncogene family, protein A (avian) (MAFA) were monitored by immunohistochemistry for 16 days.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Dietary carbohydrates produced a rapid and continuous increase in plasma glucose in NZO mice between day 2 and 16 after the dietary challenge. Hyperglycaemia caused a dramatic dephosphorylation of FOXO1 at day 2, followed by a progressive depletion of insulin stores. The loss of beta cells was triggered by apoptosis (detectable at day 8), associated with reduction of crucial transcription factors (PDX1, NKX6.1 and MAFA). Incubation of isolated islets from carbohydrate-restricted NZO mice or MIN6 cells with palmitate and glucose for 48 h resulted in a dephosphorylation of FOXO1 and thymoma viral proto-oncogene 1 (AKT) without changing the protein levels of both proteins.</AbstractText>
+                <AbstractText Label="CONCLUSIONS/INTERPRETATION" NlmCategory="CONCLUSIONS">The dietary regimen dissociates the effects of obesity (lipotoxicity) from those of hyperglycaemia (glucotoxicity) in NZO mice. Obese NZO mice are unable to compensate for the carbohydrate challenge by increasing insulin secretion or synthesising adequate amounts of insulin. In response to the hyperglycaemia, FOXO1 is dephosphorylated, leading to reduced levels of beta cell-specific transcription factors and to apoptosis of the cells.</AbstractText>
+            </Abstract>
+            <Affiliation>Departments of Pharmacology and Experimental Diabetology, German Institute of Human Nutrition Potsdam-Rehbruecke, Arthur-Scheunert-Allee 114-116, 14558, Nuthetal, Germany.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Kluth</LastName>
+                    <ForeName>O</ForeName>
+                    <Initials>O</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mirhashemi</LastName>
+                    <ForeName>F</ForeName>
+                    <Initials>F</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Scherneck</LastName>
+                    <ForeName>S</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kaiser</LastName>
+                    <ForeName>D</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kluge</LastName>
+                    <ForeName>R</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Neschen</LastName>
+                    <ForeName>S</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Joost</LastName>
+                    <ForeName>H-G</ForeName>
+                    <Initials>HG</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Schürmann</LastName>
+                    <ForeName>A</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+                <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2010</Year>
+                <Month>11</Month>
+                <Day>24</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Germany</Country>
+            <MedlineTA>Diabetologia</MedlineTA>
+            <NlmUniqueID>0006777</NlmUniqueID>
+            <ISSNLinking>0012-186X</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Blood Glucose</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Forkhead Transcription Factors</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Foxo1 protein, mouse</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Homeodomain Proteins</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Maf Transcription Factors, Large</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Mafa protein, mouse</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Nkx6-1 protein, mouse</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Trans-Activators</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>pancreatic and duodenal homeobox 1 protein</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>11061-68-0</RegistryNumber>
+                <NameOfSubstance>Insulin</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>50-99-7</RegistryNumber>
+                <NameOfSubstance>Glucose</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Apoptosis</DescriptorName>
+                <QualifierName MajorTopicYN="N">drug effects</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Blood Glucose</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Blotting, Western</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Cell Line</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Diabetes Mellitus</DescriptorName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Diet, Carbohydrate-Restricted</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Forkhead Transcription Factors</DescriptorName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Glucose</DescriptorName>
+                <QualifierName MajorTopicYN="Y">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Homeodomain Proteins</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Hyperglycemia</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+                <QualifierName MajorTopicYN="N">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Immunohistochemistry</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Insulin</DescriptorName>
+                <QualifierName MajorTopicYN="N">blood</QualifierName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Insulin-Secreting Cells</DescriptorName>
+                <QualifierName MajorTopicYN="N">drug effects</QualifierName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+                <QualifierName MajorTopicYN="Y">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Islets of Langerhans</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+                <QualifierName MajorTopicYN="N">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Maf Transcription Factors, Large</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Mice</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Obesity</DescriptorName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Phosphorylation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Trans-Activators</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC3034032</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2010</Year>
+                <Month>7</Month>
+                <Day>28</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2010</Year>
+                <Month>10</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2010</Year>
+                <Month>11</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2010</Year>
+                <Month>11</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2010</Year>
+                <Month>11</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2011</Year>
+                <Month>5</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1007/s00125-010-1973-8</ArticleId>
+            <ArticleId IdType="pubmed">21107520</ArticleId>
+            <ArticleId IdType="pmc">PMC3034032</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">21182590</PMID>
+        <DateCreated>
+            <Year>2011</Year>
+            <Month>01</Month>
+            <Day>19</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2011</Year>
+            <Month>03</Month>
+            <Day>10</Day>
+        </DateCompleted>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1742-4658</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>278</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2011</Year>
+                        <Month>Feb</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The FEBS journal</Title>
+                <ISOAbbreviation>FEBS J.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Interruption of triacylglycerol synthesis in the endoplasmic reticulum is the initiating event for saturated fatty acid-induced lipotoxicity in liver cells.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>519-30</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1111/j.1742-4658.2010.07972.x</ELocationID>
+            <Abstract>
+                <AbstractText>The aim of the present study was to investigate in detail the molecular mechanisms by which free fatty acids induce liver toxicity in liver cells. HepG2 and Huh7 human liver cell lines were exposed to varying concentrations of stearate (18:0), oleate (18:1), or mixtures of the two fatty acids, and the effects on cell proliferation, lipid droplet accumulation and induction of endoplasmic reticulum stress and apoptosis were evaluated. It was observed that: (a) stearate, but not oleate, inhibited cell proliferation and induced cell death; (b) stearate-induced cell death had the characteristics of endoplasmic reticulum stress-mediated and mitochondrial-mediated apoptosis; (c) the activation of stearate in the form of stearoyl-CoA was a necessary step for the lipotoxic effect; (d) the capacity of cells to produce and accumulate triacylglycerols in the form of lipid droplets was interrupted following exposure to stearate, whereas it proceeded normally in oleate-treated cells; and (e) the presence of relatively low amounts of oleate protected cells from stearate-induced toxicity and restored the ability of the cells to accumulate triacylglycerols. Our data suggest that interruption of triacylglycerol synthesis in the endoplasmic reticulum, apparently because of the formation of a pool of oversaturated intermediates, represents the key initiating event in the mechanism of saturated fatty acid-induced lipotoxicity.</AbstractText>
+                <CopyrightInformation>© 2010 The Authors Journal compilation © 2010 FEBS.</CopyrightInformation>
+            </Abstract>
+            <Affiliation>Laboratory of Biological Chemistry, University of Ioannina Medical School, Greece.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Mantzaris</LastName>
+                    <ForeName>Michalis D</ForeName>
+                    <Initials>MD</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tsianos</LastName>
+                    <ForeName>Epameinondas V</ForeName>
+                    <Initials>EV</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Galaris</LastName>
+                    <ForeName>Dimitrios</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2010</Year>
+                <Month>12</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>FEBS J</MedlineTA>
+            <NlmUniqueID>101229646</NlmUniqueID>
+            <ISSNLinking>1742-464X</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Acyl Coenzyme A</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Fatty Acids</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Triglycerides</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>362-66-3</RegistryNumber>
+                <NameOfSubstance>stearoyl-coenzyme A</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Acyl Coenzyme A</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Apoptosis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Cell Line</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Endoplasmic Reticulum</DescriptorName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Fatty Acids</DescriptorName>
+                <QualifierName MajorTopicYN="N">pharmacology</QualifierName>
+                <QualifierName MajorTopicYN="Y">toxicity</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Hepatocytes</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Liver</DescriptorName>
+                <QualifierName MajorTopicYN="N">drug effects</QualifierName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Triglycerides</DescriptorName>
+                <QualifierName MajorTopicYN="Y">biosynthesis</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2010</Year>
+                <Month>12</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2010</Year>
+                <Month>12</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2010</Year>
+                <Month>12</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2011</Year>
+                <Month>3</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1111/j.1742-4658.2010.07972.x</ArticleId>
+            <ArticleId IdType="pubmed">21182590</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">21220703</PMID>
+        <DateCreated>
+            <Year>2011</Year>
+            <Month>01</Month>
+            <Day>20</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2011</Year>
+            <Month>04</Month>
+            <Day>22</Day>
+        </DateCompleted>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1524-4563</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>57</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2011</Year>
+                        <Month>Feb</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Hypertension</Title>
+                <ISOAbbreviation>Hypertension</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Role of cardiac steatosis and lipotoxicity in obesity cardiomyopathy.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>148-50</MedlinePgn>
+            </Pagination>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Yingmei</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ren</LastName>
+                    <ForeName>Jun</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Comment</PublicationType>
+                <PublicationType>Editorial</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2011</Year>
+                <Month>01</Month>
+                <Day>10</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Hypertension</MedlineTA>
+            <NlmUniqueID>7906255</NlmUniqueID>
+            <ISSNLinking>0194-911X</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Fatty Acids</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Triglycerides</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>EC 2.3.1.20</RegistryNumber>
+                <NameOfSubstance>Dgat1 protein, mouse</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>EC 2.3.1.20</RegistryNumber>
+                <NameOfSubstance>Diacylglycerol O-Acyltransferase</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="CommentOn">
+                <RefSource>Hypertension. 2011 Feb;57(2):216-22</RefSource>
+                <PMID Version="1">21220706</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Cardiomyopathies</DescriptorName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+                <QualifierName MajorTopicYN="N">pathology</QualifierName>
+                <QualifierName MajorTopicYN="N">physiopathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Cells, Cultured</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Diacylglycerol O-Acyltransferase</DescriptorName>
+                <QualifierName MajorTopicYN="N">genetics</QualifierName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Fatty Acids</DescriptorName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Lipid Metabolism</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Mice</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Mice, Transgenic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Models, Biological</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Myocardium</DescriptorName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+                <QualifierName MajorTopicYN="N">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Myocytes, Cardiac</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+                <QualifierName MajorTopicYN="N">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Obesity</DescriptorName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+                <QualifierName MajorTopicYN="N">physiopathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Triglycerides</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2011</Year>
+                <Month>1</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2011</Year>
+                <Month>1</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2011</Year>
+                <Month>1</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2011</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">HYPERTENSIONAHA.110.164178</ArticleId>
+            <ArticleId IdType="doi">10.1161/HYPERTENSIONAHA.110.164178</ArticleId>
+            <ArticleId IdType="pubmed">21220703</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">21094196</PMID>
+        <DateCreated>
+            <Year>2011</Year>
+            <Month>01</Month>
+            <Day>21</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2011</Year>
+            <Month>05</Month>
+            <Day>05</Day>
+        </DateCompleted>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1873-5169</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>32</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2011</Year>
+                        <Month>Feb</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Peptides</Title>
+                <ISOAbbreviation>Peptides</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Ghrelin inhibits insulin resistance induced by glucotoxicity and lipotoxicity in cardiomyocyte.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>209-15</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>Ghrelin has wide effects on cardiovascular and endocrine system. The aims of this study are to investigate the direct damage effect of high glucose and high palmitate on cardiomyocyte, and to study the effect of ghrelin on insulin resistance induced by glucotoxicity/lipotoxicity in cardiomyocyte and the possible mechanism underlying the cardioprotective activities of ghrelin. The changes of [(3)H]-2-deoxy-d-glucose ((3)H-G) intake rates were detected by isotope tracer method and the gene expressions in insulin signal transduction pathway were detected by real-time PCR and Western blot assay. The (3)H-G intake rate significantly reduced in high glucose (25mmol/l) or high palmitate (0.5mmol/l) treated primary rat ventricular myocytes. After the treatment of ghrelin (10(-7)mol/l), the (3)H-G intake rate recovered to the normal level. In addition, the phosphorylation of AKT occurred in 10min and was the highest in 30min after the stimulation with ghrelin, which can be blocked by phosphoinositide 3-kinase (PI3K) inhibitor, LY2940002. Ghrelin also increased the mRNA levels of glucose transporter 4 (GLUT4), peroxisome proliferators (PPARr) and AMP activated protein kinase (AMPK) genes in insulin signal transduction pathway. These results indicate that the direct damage of high glucose and high palmitate on cardiomyocyte might be through insulin resistance (IR). Ghrelin can inhibit gluco/lipotoxicity induced insulin resistance by PI3K/AKT pathway. This may provide a clue for therapy for myocardial disease in diabetes mellitus.</AbstractText>
+                <CopyrightInformation>Copyright Â© 2010 Elsevier Inc. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <Affiliation>Department of Geraeology, The First Affiliated Hospital, China Medical University, Shenyang 110001, China.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Cao</LastName>
+                    <ForeName>Cuiping</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Ying</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Wei</ForeName>
+                    <Initials>W</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Ying</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Guoliang</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2010</Year>
+                <Month>11</Month>
+                <Day>19</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Peptides</MedlineTA>
+            <NlmUniqueID>8008690</NlmUniqueID>
+            <ISSNLinking>0196-9781</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Chromones</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Enzyme Inhibitors</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Ghrelin</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Glucose Transporter Type 4</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Morpholines</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>PPAR gamma</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Slc2a4 protein, rat</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>154-17-6</RegistryNumber>
+                <NameOfSubstance>Deoxyglucose</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>154447-36-6</RegistryNumber>
+                <NameOfSubstance>2-(4-morpholinyl)-8-phenyl-4H-1-benzopyran-4-one</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>50-99-7</RegistryNumber>
+                <NameOfSubstance>Glucose</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>57-10-3</RegistryNumber>
+                <NameOfSubstance>Palmitic Acid</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>EC 2.7.1.-</RegistryNumber>
+                <NameOfSubstance>Phosphatidylinositol 3-Kinases</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>EC 2.7.11.1</RegistryNumber>
+                <NameOfSubstance>AMP-Activated Protein Kinases</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>EC 2.7.11.1</RegistryNumber>
+                <NameOfSubstance>Proto-Oncogene Proteins c-akt</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">AMP-Activated Protein Kinases</DescriptorName>
+                <QualifierName MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Cell Shape</DescriptorName>
+                <QualifierName MajorTopicYN="N">drug effects</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Cells, Cultured</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Chromones</DescriptorName>
+                <QualifierName MajorTopicYN="N">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Deoxyglucose</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Enzyme Inhibitors</DescriptorName>
+                <QualifierName MajorTopicYN="N">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Gene Expression</DescriptorName>
+                <QualifierName MajorTopicYN="N">drug effects</QualifierName>
+                <QualifierName MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Ghrelin</DescriptorName>
+                <QualifierName MajorTopicYN="Y">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Glucose</DescriptorName>
+                <QualifierName MajorTopicYN="Y">pharmacology</QualifierName>
+                <QualifierName MajorTopicYN="N">toxicity</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Glucose Transporter Type 4</DescriptorName>
+                <QualifierName MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y">Insulin Resistance</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Morpholines</DescriptorName>
+                <QualifierName MajorTopicYN="N">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Myocytes, Cardiac</DescriptorName>
+                <QualifierName MajorTopicYN="Y">drug effects</QualifierName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+                <QualifierName MajorTopicYN="N">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">PPAR gamma</DescriptorName>
+                <QualifierName MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Palmitic Acid</DescriptorName>
+                <QualifierName MajorTopicYN="Y">pharmacology</QualifierName>
+                <QualifierName MajorTopicYN="N">toxicity</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Phosphatidylinositol 3-Kinases</DescriptorName>
+                <QualifierName MajorTopicYN="N">antagonists &amp; inhibitors</QualifierName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Phosphorylation</DescriptorName>
+                <QualifierName MajorTopicYN="N">drug effects</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Proto-Oncogene Proteins c-akt</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Rats</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Rats, Sprague-Dawley</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Signal Transduction</DescriptorName>
+                <QualifierName MajorTopicYN="N">drug effects</QualifierName>
+                <QualifierName MajorTopicYN="N">physiology</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2010</Year>
+                <Month>8</Month>
+                <Day>29</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2010</Year>
+                <Month>11</Month>
+                <Day>11</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2010</Year>
+                <Month>11</Month>
+                <Day>11</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2010</Year>
+                <Month>11</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2010</Year>
+                <Month>11</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2010</Year>
+                <Month>11</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2011</Year>
+                <Month>5</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S0196-9781(10)00497-3</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.peptides.2010.11.011</ArticleId>
+            <ArticleId IdType="pubmed">21094196</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Process">
+        <PMID Version="1">21108938</PMID>
+        <DateCreated>
+            <Year>2011</Year>
+            <Month>01</Month>
+            <Day>10</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1872-6240</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>1370</Volume>
+                    <PubDate>
+                        <Year>2011</Year>
+                        <Month>Jan</Month>
+                        <Day>25</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Brain research</Title>
+                <ISOAbbreviation>Brain Res.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Hyperglycemia magnifies Schwann cell dysfunction and cell death triggered by PA-induced lipotoxicity.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>64-79</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>Lipid overload resulting in lipotoxicity is prominent in a number of chronic diseases and has been associated with cellular dysfunction and cell death. This study characterizes palmitic acid-induced lipotoxicity (PA-LTx) in Schwann cell cultures grown in normal and high glucose concentrations. The study shows for the first time that Schwann cell (SC) cultures exposed to elevated levels of PA exhibit a dose- and time-dependent loss in cell viability. Hoescht and Annexin V/7AAD staining confirmed cell death through apoptosis and the lipotoxic effect was more dramatic in SC cultures grown under high glucose conditions. The first indication of cellular dysfunction in treated SC cultures was a decrease in Ca(++) levels in the endoplasmic reticulum (ER, [Ca(++)](ER)) observed five minutes following the initial challenge with PA. This decrease in [Ca(++) ](ER) was followed by a significant increase in the expression of ER stress signature genes CHOP, Xbp1 and GRP78. The early ER stress response induced by PA-LTx was followed by a strong mitochondrial membrane depolarization. Flow cytometry using 2', 7'-dichlorodihydrofluorescein diacetate (H(2)DCFDA) showed an increase in oxidative stress within three to six hours after PA treatment. Treatment of cultures undergoing PA-LTx with the calcium chelator BAPTA-AM and the anti-oxidant MCI-186 significantly reversed the lipotoxic effect by decreasing the generation of ROS and significantly increasing cell viability. We conclude that lipotoxicity in Schwann cells results in cellular dysfunction and cell death that involves a robust ER stress response, mitochondrial dysfunction and an augmented state of cellular oxidative stress (ASCOS).</AbstractText>
+                <CopyrightInformation>Copyright © 2010 Elsevier B.V. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <Affiliation>Department of Basic Sciences, Loma Linda University School of Medicine, Loma Linda, CA 92350, USA.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Padilla</LastName>
+                    <ForeName>Amelia</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Descorbeth</LastName>
+                    <ForeName>Magda</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Almeyda</LastName>
+                    <ForeName>Audra L</ForeName>
+                    <Initials>AL</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Payne</LastName>
+                    <ForeName>Kimberly</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>De Leon</LastName>
+                    <ForeName>Marino</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>5P20MD001632</GrantID>
+                    <Acronym>MD</Acronym>
+                    <Agency>NCMHD NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>5R25GM060507</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>P20 MD001632-05</GrantID>
+                    <Acronym>MD</Acronym>
+                    <Agency>NCMHD NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R25 GM060507-09</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R25 GM060507-09S1</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R25 GM060507-11</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+                <PublicationType>Research Support, N.I.H., Extramural</PublicationType>
+                <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+                <PublicationType>Research Support, U.S. Gov't, P.H.S.</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2010</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>Brain Res</MedlineTA>
+            <NlmUniqueID>0045503</NlmUniqueID>
+            <ISSNLinking>0006-8993</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <OtherID Source="NLM">NIHMS254712 [Available on 01/01/12]</OtherID>
+        <OtherID Source="NLM">PMC3018544 [Available on 01/01/12]</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2010</Year>
+                <Month>7</Month>
+                <Day>8</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2010</Year>
+                <Month>11</Month>
+                <Day>1</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2010</Year>
+                <Month>11</Month>
+                <Day>5</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2010</Year>
+                <Month>11</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2010</Year>
+                <Month>11</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2010</Year>
+                <Month>11</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2010</Year>
+                <Month>11</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pmc-release">
+                <Year>2012</Year>
+                <Month>1</Month>
+                <Day>1</Day>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S0006-8993(10)02497-2</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.brainres.2010.11.013</ArticleId>
+            <ArticleId IdType="pubmed">21108938</ArticleId>
+            <ArticleId IdType="pmc">PMC3018544</ArticleId>
+            <ArticleId IdType="mid">NIHMS254712</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">20971967</PMID>
+        <DateCreated>
+            <Year>2011</Year>
+            <Month>01</Month>
+            <Day>03</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2011</Year>
+            <Month>02</Month>
+            <Day>25</Day>
+        </DateCompleted>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1939-327X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>60</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2011</Year>
+                        <Month>Jan</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Diabetes</Title>
+                <ISOAbbreviation>Diabetes</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Peroxisome-generated hydrogen peroxide as important mediator of lipotoxicity in insulin-producing cells.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>200-8</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">Type 2 diabetes is a complex disease that is accompanied by elevated levels of nonesterified fatty acids (NEFAs), which contribute to β-cell dysfunction and β-cell loss, referred to as lipotoxicity. Experimental evidence suggests that oxidative stress is involved in lipotoxicity. In this study, we analyzed the molecular mechanisms of reactive oxygen species-mediated lipotoxicity in insulin-producing RINm5F cells and INS-1E cells as well as in primary rat islet cells.</AbstractText>
+                <AbstractText Label="RESEARCH DESIGN AND METHODS" NlmCategory="METHODS">The toxicity of saturated NEFAs with different chain lengths upon insulin-producing cells was determined by MTT and propidium iodide (PI) viability assays. Catalase or superoxide dismutase overexpressing cells were used to analyze the nature and the cellular compartment of reactive oxygen species formation. With the new H₂O₂-sensitive fluorescent protein HyPer H₂O₂ formation induced by exposure to palmitic acid was determined.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Only long-chain (&gt;C14) saturated NEFAs were toxic to insulin-producing cells. Overexpression of catalase in the peroxisomes and in the cytosol, but not in the mitochondria, significantly reduced H₂O₂ formation and protected the cells against palmitic acid-induced toxicity. With the HyPer protein, H₂O₂ generation was directly detectable in the peroxisomes of RINm5F and INS-1E insulin-producing cells as well as in primary rat islet cells.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The results demonstrate that H₂O₂ formation in the peroxisomes rather than in the mitochondria are responsible for NEFA-induced toxicity. Therefore, we propose a new concept of fatty acid-induced β-cell lipotoxicity mediated via reactive oxygen species formation through peroxisomal β- oxidation.</AbstractText>
+            </Abstract>
+            <Affiliation>Institute of Clinical Biochemistry, Hannover Medical School, Germany.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Elsner</LastName>
+                    <ForeName>Matthias</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gehrmann</LastName>
+                    <ForeName>Wiebke</ForeName>
+                    <Initials>W</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lenzen</LastName>
+                    <ForeName>Sigurd</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+                <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2010</Year>
+                <Month>10</Month>
+                <Day>22</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Diabetes</MedlineTA>
+            <NlmUniqueID>0372763</NlmUniqueID>
+            <ISSNLinking>0012-1797</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>DNA Primers</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Fluoresceins</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Receptors, Cytoplasmic and Nuclear</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>peroxisome-targeting signal 1 receptor</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>596-09-8</RegistryNumber>
+                <NameOfSubstance>3',6'-diacetylfluorescein</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>7722-84-1</RegistryNumber>
+                <NameOfSubstance>Hydrogen Peroxide</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>AIM</CitationSubset>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Cell Culture Techniques</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Cell Survival</DescriptorName>
+                <QualifierName MajorTopicYN="N">drug effects</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">DNA Primers</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Extracellular Matrix</DescriptorName>
+                <QualifierName MajorTopicYN="N">physiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Fluoresceins</DescriptorName>
+                <QualifierName MajorTopicYN="N">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Hep G2 Cells</DescriptorName>
+                <QualifierName MajorTopicYN="N">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Hydrogen Peroxide</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+                <QualifierName MajorTopicYN="Y">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Immunohistochemistry</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Insulin-Secreting Cells</DescriptorName>
+                <QualifierName MajorTopicYN="N">drug effects</QualifierName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Islets of Langerhans</DescriptorName>
+                <QualifierName MajorTopicYN="N">cytology</QualifierName>
+                <QualifierName MajorTopicYN="N">drug effects</QualifierName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+                <QualifierName MajorTopicYN="N">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Lentivirus</DescriptorName>
+                <QualifierName MajorTopicYN="N">physiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Oxidative Stress</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Peroxisomes</DescriptorName>
+                <QualifierName MajorTopicYN="N">physiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Polymerase Chain Reaction</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Rats</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Rats, Inbred Lew</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Receptors, Cytoplasmic and Nuclear</DescriptorName>
+                <QualifierName MajorTopicYN="N">genetics</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC3012172 [Available on 01/01/12]</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2010</Year>
+                <Month>10</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2010</Year>
+                <Month>10</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2010</Year>
+                <Month>10</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2011</Year>
+                <Month>2</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pmc-release">
+                <Year>2012</Year>
+                <Month>1</Month>
+                <Day>1</Day>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">db09-1401</ArticleId>
+            <ArticleId IdType="doi">10.2337/db09-1401</ArticleId>
+            <ArticleId IdType="pubmed">20971967</ArticleId>
+            <ArticleId IdType="pmc">PMC3012172</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>

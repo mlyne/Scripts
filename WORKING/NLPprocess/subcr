@@ -1,0 +1,23 @@
+#!/usr/local/bin/perl5
+
+# subtracts one \n from all sequences of \n
+
+# requires separator parameter
+
+# single \n turned into space
+
+$/ = shift(@ARGV);
+
+$* = 1;
+
+while (<>) {
+
+	s/\n\n+/<MULTINL_MARker>/g;
+
+	s/\n/ /g;
+
+	s/<MULTINL_MARker>/\n/g;
+
+	print;
+
+};

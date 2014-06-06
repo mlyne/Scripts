@@ -1,0 +1,91 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# Author:  I. Dan Melamed
+# Computes:	increments all numbers in columns 1 and 3, relative
+#                  to the difference between the first number in 
+#                  col1 and a constant parameter
+# N.B.:		col1 and col3 may have 2 numbers delimited by "-"
+# this is for doing line maps by paragraph
+#######################################################################
+
+$TRUE = 1;
+$FALSE = 0;
+$INFINITY = 9999999999;
+$TINY = 0.0000001;
+$| = 1;
+
+#check for correct usage
+if ($#ARGV < 1) {
+    print "usage: col13inc <col1-increment> <col3-increment> [<input>] \n";
+    exit; 
+};
+
+$firstnum = shift;
+if ($firstnum =~ /(\d+)\-(\d+)/) {
+    $firstnum = $1;
+};
+$thirdnum = shift;
+if ($thirdnum =~ /(\d+)\-(\d+)/) {
+    $thirdnum = $1;
+};
+
+while (<>) {
+    $_ =~ m/(.+) (.+) (.+)/;
+    $col1 = $1;
+    $col2 = $2;
+    $col3 = $3;
+    if ($col1 eq "omitted") {
+	$range1 = $FALSE;
+    } elsif ($col1 =~ /(\d+)\-(\d+)/) {
+	$col1l = $1;
+	$col1r = $2;
+	if (not defined $inc1) {
+	    $inc1 = $firstnum - $col1l;
+	};
+	$col1l += $inc1;
+	$col1r += $inc1;
+	$range1 = $TRUE;
+    } else {
+	if (not defined $inc1) {
+	    $inc1 = $firstnum - $col1;
+	};
+	$col1 += $inc1;
+	$range1 = $FALSE;
+    };
+
+    if ($col3 eq "omitted") {
+	$range3 = $FALSE;
+    } elsif ($col3 =~ /(\d+)\-(\d+)/) {
+	$col3l = $1;
+	$col3r = $2;
+	if (not defined $inc3) {
+	    $inc3 = $thirdnum - $col3l;
+	};
+	$col3l += $inc3;
+	$col3r += $inc3;
+	$range3 = $TRUE;
+    } else {
+	if (not defined $inc3) {
+	    $inc3 = $thirdnum - $col3;
+	};
+	$col3 += $inc3;
+	$range3 = $FALSE;
+    };
+
+    if ($range1) {
+	$out1 = "$col1l-$col1r";
+    } else {
+	$out1 = $col1;
+    };
+
+    if ($range3) {
+	$out3 = "$col3l-$col3r";
+    } else {
+	$out3 = $col3;
+    };
+
+    print "$out1 $col2 $out3\n";
+
+};
+

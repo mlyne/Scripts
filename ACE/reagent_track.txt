@@ -1,0 +1,14 @@
+?Reagent_track
+                                           Attach...                                                      Quit
+  Requested_by  ?Person  DateType
+  Requested_from  ?Person  DateType
+  Requested_lab  ?Laboratory
+  Order_no  Text
+  Received  DateType  ?Person
+  de_novo
+  In_locus  Locus_FL_electronic  ?Locus
+            Locus_FL_de_novo  ?Locus
+            Locus_FL_current_reagent  ?Locus
+            Locus_Galapagos  ?Locus
+            Locus_Antibody  ?Locus
+            Locus_Protein  ?Locus

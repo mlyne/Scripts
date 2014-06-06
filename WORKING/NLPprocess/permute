@@ -1,0 +1,25 @@
+#!/usr/local/bin/perl5
+
+# takes a file of "items" and a file of numerical indexes, one per item
+#	reorders the items in order of increasing indexes
+#       the items are enumerated from 1 up
+
+#check for correct usage
+if ($#ARGV != 1) {
+    print "usage:  permute <item-file> <index-file>\n";
+    exit; 
+};
+
+open(F, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+while (<F>) {
+    $item[++$line] = $_;
+};
+close(F);
+
+
+open(I, $ARGV[1]) || die "Couldn't open $ARGV[1]: $!\n";
+while (<I>) {
+    chop;
+    $index = $_ + 0;
+    print $item[$index];
+};

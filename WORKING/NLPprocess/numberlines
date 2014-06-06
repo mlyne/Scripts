@@ -1,0 +1,9 @@
+#!/usr/local/bin/perl5
+# takes optional starting line number
+
+$start = shift(ARGV) - 1;
+
+while (<>) {
+	print $start + $., " ", $_;
+};
+

@@ -1,0 +1,126 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use Getopt::Std;
+# use XML::Twig::XPath;
+
+my $usage = "Usage:affilXtract.pl pubmed_xml\n
+
+Options:
+\t-h\tThis help
+\t-f\tPrint Term frequencies
+\t-n\tSuppress term output\n";
+
+
+unless ( $ARGV[0] ) { die $usage }
+
+### command line options ###
+my (%opts, $freq, $noTerms);
+
+getopts('hfn', \%opts);
+defined $opts{"h"} and die $usage;
+defined $opts{"f"} and $freq++;
+defined $opts{"n"} and $noTerms++;
+
+my $xmlFile = $ARGV[0];
+my $cutOff = ($ARGV[1]) ? $ARGV[1] : 1;
+
+open(IFILE, "< $xmlFile") || die "cannot open $xmlFile: $!\n";
+
+my @entries;
+my @affiliations;
+my %addrParts;
+my @affList;
+
+while (<IFILE>) 
+{
+  chomp;
+  my $line = $_;
+  if ($line =~ (/\<Affiliation/) ) {
+    $line =~ s/^\s+//; # remove leading spaces
+    $line =~ s/\.*<.*?Affiliation>//g; # remove Affiliation tags
+#  $affiliation =~ s/\. / /g; # remove . before spaces
+    $line =~ s/\.$//; # remove . at line ends
+    $line =~ s/\&amp\;/and/g; # change &amp into and
+    $line =~ s/\, \, /\, /g; # remove empty field ', , '
+    
+    push (@affiliations, $line); 
+  }
+}
+  
+close(IFILE);
+
+foreach my $affiliation (@affiliations)
+{
+  push (@affList, $affiliation);
+  $addrParts{$_}++ for split(/, /, $affiliation); 
+}
+
+# Set cutoff to remove outliers
+# only elements that occur above freq x
+# will make it into @highHits
+
+my @highHits;
+
+if ($cutOff) {
+  foreach my $key (sort { $addrParts {$b} <=> $addrParts {$a} } keys %addrParts) 
+  {
+    push(@highHits, $key) if ($addrParts{$key} >= $cutOff);
+  }
+}
+
+freq(\%addrParts) if ($freq);
+
+@highHits = sort {length $b <=> length $a} @highHits;
+#print "High: ", join("\n", @highHits);
+
+unless ($noTerms) {
+  foreach my $address (@affiliations)
+  {
+    my @parts = split(', ', $address);
+    my @revAddr = reverse(@parts);
+    my @emailPart = grep (/@/, @parts);
+    my @addrNoEmail = grep (!/@/, @parts);
+    
+    if (@emailPart) 
+    {
+    $emailPart[0] =~ s/(.+)\. .+/$1/g;
+    my $country = $emailPart[0];
+    push (@addrNoEmail, $country);
+    
+    }
+    print "TERM HITS: ";
+    print join("\, ", @addrNoEmail), "\n";
+    
+  }
+ }
+#  print "ADDR: ", $address, "\n";
+#  print "TERM HITS: ";
+  
+#     foreach my $term (@highHits)
+#     {
+#       if ($address =~ /\b\Q$term\E\b/)
+#       {
+# 	print $term, ", ";
+#       }
+#     }
+#   print "\n";
+#    }
+#  }
+
+sub freq
+{
+  my $hashRef = shift;
+  my %addrParts = %$hashRef;
+  
+  foreach my $key (sort { $addrParts {$b} <=> $addrParts {$a} } keys %addrParts) 
+  {
+    if ($key =~ /\s/) 
+    {
+      print $addrParts{$key}, "\tINST: ", $key, "\n"; 
+      
+      } else {
+      print $addrParts{$key}, "\tGEO: ", $key, "\n";
+    }
+  }
+}

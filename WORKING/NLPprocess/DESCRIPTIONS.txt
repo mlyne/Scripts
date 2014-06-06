@@ -1,0 +1,334 @@
+2grep
+	2-pattern grep on 2 aligned files
+2concord
+	2-pattern concordance on 2 aligned files
+2kwic
+	2 key-words-in-context on 2 aligned files
+Etokenize
+	retokenizes English text
+arab2roman
+	converts a line of Arabic numerals < 8999 to Roman numerals
+bible_prec
+	bitext-based lexicon evaluation [Melamed 95] -- precision
+bible_pcorr
+	bitext-based lexicon evaluation [Melamed 95] -- percent correct
+bigrams
+	prints out all bigrams in a text
+bigsort
+	Unix sort parameterized for large files
+blankclasses
+	blanks out given parts of speech in a tagged text
+blankwords
+	blanks out given words
+capitalize
+	capitalizes first word on each line
+chopC-M
+	removes Control-M from line ends
+col12sw
+	switches columns 1 and 2
+col13inc
+	increments columsn 1 and 3 by specified constants
+col13sw
+	switches columns 1 and 3
+col1ex
+	extracts column 1
+col1max
+	finds maximum in column1
+col1rm
+	removes column 1
+col1sum
+	finds sum of column 1
+col13ex
+	extracts columns 1 and 3
+col23ex
+	extracts columns 2 and 3
+col23link
+	links tokens in columns 2 and 3 by replacing whitespace between them with "<TKL>" (ToKenLink)
+col23sw
+	switches columns 2 and 3
+col24sw
+	switches columns 2 and 4
+col2frq
+	computes counts for strings in column 2
+col2sum
+	finds sum of column 2
+col345ex
+	extracts columns 3, 4 and 5
+col34link
+	links tokens in columns 3 and 4 by replacing whitespace between them with "<TKL>" (ToKenLink)
+col34sw
+	switches columns 3 and 4
+col3frq
+	computes counts for strings in column 2
+col45link
+	links tokens in columns 4 and 5 by replacing whitespace between them with "<TKL>"  (ToKenLink)	
+col45sw
+	switches columns 4 and 5
+colarrange
+	takes a position number and a word and moves the word to the given position in the following string, on the same line	
+colex
+	extract given column
+collect_tags
+	concatenates all the POS tags in each line into an appended last column
+corr1stNP
+	corrects POS tag of initial word, when it's incorrectly tagged NP
+correval
+	evaluates lexical correspondence between two texts
+countpunct
+	counts the punctuation marks (non-alphabetic tokens) in a file
+cr2nl
+	converts carriage returns to newlines
+crnl2nl
+	converts CR/NL pairs to newlines
+decimate.char
+	creates holes in a character stream, using hole descriptions from a file
+decimate.pl
+	creates holes in a token stream, using hole descriptions from a file
+decimate.words
+	creates holes in a token stream, using hole descriptions from a file
+deftag_column
+	trivial 'default' POS tag by column
+dellasttoken
+	deletes the last token of a string of tokens
+exevery
+	takes an integer N on command line prints every Nth line from stdin
+fill.phrase.gaps
+	fills phrases from a corpus with most likely missing internal parts
+findtypes
+	positions of all instances of all types matching a regexp
+fourgram
+	all 4-grams in a corpus
+func2rel
+	extracts many-to-many relation from a multiset function
+get_permutation
+	computes the permutation of items in file2, assuming the source is file1
+getmarkedregions
+	extracts line ranges delimited by start/end patterns
+gettags
+	extracts tag sequence from each line
+gmerge
+	merge-sorts two files sorted on first column in decreasing order
+gmerge.dec
+	merge-sorts two files sorted on first column in decreasing order
+gmerge.inc
+	merge-sorts two files sorted on first column in increasing order
+gmerge2.dec
+	merge-sorts two files sorted on first two columns in decreasing order
+gmerge2.inc
+	merge-sorts two files sorted on first two columns in increasing order
+group_entries
+	sorts tralex entries by source word, but retains order within entries
+group_entries2
+	same as group_entries, but ignores first column (of counts)	
+group_entries3
+	same as group_entries, but ignores first two columns (of counts)
+gsort
+	numerical sort; does not break on non-integers like Unix sort
+gsort.dec
+	same as gsort	
+gsort.inc
+	same as gsort, but does increasing order
+gsort2.dec
+	same as gsort.dec, but uses first two columns
+gsort2.inc
+	same as gsort.inc, but uses first two columns
+hgram
+	computes histogram for different lines
+high2stat
+	selects the 2 lines with the highest #s in the first column, for each value of the 3rd column
+highnstat
+	selects the n lines with the highest #s in the first column, for each value of the 3rd column
+highntrans
+	selects the first n lines for each key in the first column 	
+highstat
+	selects the line with the highest # in the first column, for each value of the 3rd column	
+hnumdiff
+	computes arithmetic difference between successive numbers on a line
+horsort
+	sorts the first N tokens on each line
+idmlib.pl
+	Dan Melamed's personal perl library	
+invert
+	creates inversions in a token stream, using inversion descriptions
+invert.pl
+	help file for `invert`
+keeplines
+	Prints only lines containing any tokens in KEEP-FILE, in specified column
+keeplines_any
+	Prints only lines containing any tokens in KEEP-FILE
+lineindex
+	character offset at end of each line
+lineindex.byword
+	word offset at end of each line
+linelength
+	line lengths in characters
+lines2files
+	puts each line in a different numbered file
+linkall
+	links all columns with <TKL>
+longgrep
+	simple grep, but without the 1024 character per line limit of Unix grep
+longpaste
+	simple paste, but without the 511 character per line limit of Unix paste
+longvgrep
+	simple grep -v, but without the 1024 character per line limit of Unix grep	
+lowercase
+	also takes care of ISO Latin-1 capitals
+lowercase_nonNP
+	lowercases all tokens, except those ending in ::NP, and removes POS tags
+multicount
+	Computes co-occurances between tokens and a variable set of collocations
+multimerge.inc
+	merges multiple string-sorted files; more efficient than `sort -m`
+multimerge2.inc
+	same as multimerge.inc, but ignores first column
+mycomm
+	a more stable version of Unix comm
+mysort
+	same as `bigsort`
+newline2space
+	converts each newline into a space
+nlplib.pl
+	general NLP library used by some other programs
+numberlines
+	a more stable version of cat -n
+numhorsort
+	like horsort, for numbers
+numtokenize
+	replaces all numbers with NUMTOK
+ocbmark
+	Marks obvious constituent boundries with <OCB>
+onetokenperline
+	like `space2newline`, but multiple spaces become one space
+pairlines
+	paste -s without the length restrictions
+paras2lines
+	puts each blank-line-separated paragraph on a single line
+parindex.byline
+	line offset at end of each paragraph
+partialsort
+	sorts input numerically, on first column, in given # of lines per sort	
+partialsort12
+	sorts input numerically, on first two columns, in given # of lines per sort		
+patposition
+	outputs all the words that match the given pattern, with their positions	
+penn2idm
+	converts Penn Treebank tagset to a simpler one
+percolate_holes
+	reconstructs recorded omissions in a text file	
+perl.template
+	starting template for writing new perl5 scripts
+permute
+	reorders lines according to index file
+reline
+	new lines, using a different EOL marker that a newline
+remclasses
+	removes given parts of speech from tagged text	
+remlinesp
+	Kills lines containing any POSs in positions prohibited by KILL-FILE
+remlinesp_any
+	Kills lines containing any POSs in KILL-FILE	
+remlinesw
+	Kills lines containing any tokens in KILL-FILE in the prohibited positions	
+remlinesw_any
+	Kills lines containing any tokens in KILL-FILE
+remtoks
+	Deletes tokens in KILL-FILE from every line.
+remmarkedregions
+	removes line ranges delimited by start/end patterns	
+rempunct
+	removes punctuation	
+remtags
+	removes POS tags
+remtlink
+	replaces all <TKL>s with a space	
+remu
+	replaces all underscores with a space
+replcol
+	given a search and replace file, does the replace in the specified column
+reserve_aligned_by_tokencount
+	outputs aligned line pairs within a specified token count range
+reserve_aligned_leave
+	outputs a random set of aligned lines, retaining a set of a specified size
+reserve_aligned_sample
+	outputs a specified size random set of aligned lines, retaining the rest
+selchars
+	selects given range of characters from a file
+self-same
+	finds identical lines within a file
+sellines
+	selects given range of lines	
+shell.template
+	starting template for writing new shell scripts
+shrinkspaces
+	replaces whitespace ranges of a minimum size with a single space
+shrinkspaces_inline
+	same as `shrinkspaces`, but only works within each line
+slashtokenize
+	tokenize slashes	
+space2newline
+	converts each space into a newline
+spacify
+	inserts a space after every character
+split-on-column
+	splits input into files on the value of given column
+split-on-column-fast
+	another version of split-on-column
+split_by_range
+	puts each range of column-1 numbers into separate files
+squishcr
+	subtracts one \n from all sequences of \n's; turns single \n's into spaces
+subcr
+	subracts one carriage return from every sequence of them
+tagmatch
+	checks for "matching" POS
+tokcomm
+	for each line, outputs tokens appearing in both file1 and file2
+tokdiff
+	for each line, outputs tokens that are different between file1 and file2
+tokdistsqvar
+	sqauare root of variance of distance between occurrences of identical tokens
+tokenize
+	basic text tokenizer
+tokinsert
+	inserts tokens at their given positions in the "base" file
+tokposlen
+	gives position and length of tokens separated by whitespace
+tokrelation
+	corresponding tokens in two files with equal number of tokens
+tr
+	the Unix utility, a recent version; older versions are buggy
+tralexcompare
+	intersection and marginals of two translation lexicons	
+trigram
+	Tallies trigrams in each line
+trimmap
+	outputs top N targets for each source in translation lexicon
+ucocount.simple
+	computes co-occurances between tokens in corresponding lines of two files
+ulink34
+	links tokens in columns 3 and 4 with an underscore
+ulink45
+	links tokens in columns 4 and 5 with an underscore
+ulinkall
+	links all columns with an underscore	
+undelete
+	undeletes files deleted with rmz -Z by removing their .Zap.? prefix
+unique
+	eliminates all but one occurrence of each line in a file; retains order
+unsuffix
+	removes inflectional suffixes given in a file
+unsuffix.axis
+	same as `unsuffix` but ignores first column
+uq_aligned
+	outputs two corresponding files of aligned lines, with duplicate line pairs removed	
+uq_aligned_sample
+	outputs random sample of aligned lines, with duplicate line pairs removed
+vrev
+	vertical reverse --- flips the order of lines in a file
+whitespace_ranges.inline
+	gives character positions of all whitespace in each line
+wordindex_bychar
+	character position at start of each word
+wordsperline
+	number of words in each line

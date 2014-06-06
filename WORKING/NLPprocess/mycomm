@@ -1,0 +1,64 @@
+#!/usr/local/bin/perl5
+
+# similar to Unix `comm`
+
+#check for correct usage
+if ($#ARGV < 0) {
+        print "usage:  mycomm [<file1>] [<file2>]\n";
+        exit; 
+};
+
+$| = 1;
+
+open(F1, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+shift;
+open(F2, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+shift;
+
+$line1 = <F1>;
+$line2 = <F2>;
+
+LOOP: while () {
+    if ($line1 eq $line2) {
+	if (eof(F1) or eof(F2)) {
+	    last LOOP;
+	};
+	print "BOTH: $line2";
+	$line1 = <F1>;
+	$line2 = <F2>;
+    } else {
+	while ($line1 lt $line2) {
+	    if (eof(F1)) {
+		last LOOP;
+	    };
+	    print "1: $line1";
+	    $line1 = <F1>;
+	};
+	while ($line1 gt $line2) {
+	    if (eof(F2)) {
+		last LOOP;
+	    };
+	    print "2: $line2";
+	    $line2 = <F2>;
+	};
+    };
+};
+
+#last one
+
+if ($line2 eq $line1) {
+    print "BOTH: $line2";
+} elsif ($line1 lt $line2) {
+    print "1: $line1";
+} else {
+    print "2: $line2";
+};
+
+while (<F1>) {
+    print "1: $_";
+};
+
+while (<F2>) {
+    print "2: $_";
+};
+

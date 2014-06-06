@@ -1,0 +1,14 @@
+#!/usr/local/bin/perl5
+
+# sorts on first two numeric columns
+# works for scientific notation and decimals
+
+while (<>) {
+    ($val, $rest) = split(' ', $_, 2);
+    $val[$.] = $val;
+    $rest[$.] = $rest;
+};
+
+foreach $ln (sort {$val[$b] <=> $val[$a]} (0 .. $#val)) {
+    print "$val[$ln] $rest[$ln]";
+};

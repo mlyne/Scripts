@@ -1,0 +1,5 @@
+# sorts tralex containing two counts,
+#  so that entries are grouped by source word,
+# 	but does not change the order within entries
+
+numberlines 1 | bigsort +3 -4 +0n | col1rm

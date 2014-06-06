@@ -1,0 +1,39 @@
+#!/usr/local/bin/perl5
+
+# blanks out given parts of speech in a tagged text
+# the parts to remove should be in a file, one per line
+
+
+#check for correct usage
+if ($#ARGV < 0) {
+        print "usage:  blankclasses <POS list> [<base file>]\n";
+        exit;
+};
+
+open(P, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+$killclasses = "\n";
+while (<P>) {
+	$killclasses .= $_;
+};
+close(P);
+shift;
+
+# print stderr "Processing line:\n";
+while (<>) {
+    s/^ *//;
+    @token = split;
+    for($i = 0; $i < @token; $i++) {
+	if ($token[$i] =~ /(.+)::(.+)/) {
+	    $word = $1;
+	    $tag = $2;
+	    if ($killclasses =~ /\n$tag\n/) {
+		$token[$i] = " " x length($word);
+	    };
+	} else {
+	    die "Word or Tag missing\n";
+	};
+    };
+
+    print join(' ', @token), "\n";
+};
+

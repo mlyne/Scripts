@@ -1,0 +1,6 @@
+db|protein
+term|mouse[orgn]+AND+srcdb+refseq[prop]+AND+apoptosis[title]
+usehistory|y
+rettype|fasta
+retmode|text
+outfile|4-1a.out

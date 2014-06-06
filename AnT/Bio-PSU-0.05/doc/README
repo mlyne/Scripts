@@ -1,0 +1,6 @@
+This is the README file for the Bio::PSU documentation
+
+- Nearly all the modules have full method documentation in pod format
+
+- Bio::PSU.dia is a UML-style class diagram in Gnome Dia format (see
+  http://www.lysator.liu.se/~allal/dia for information on the Dia program)

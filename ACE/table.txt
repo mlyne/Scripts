@@ -1,0 +1,2 @@
+Format  Locus  Seq_track 
+"clone_958210"	"NM_006290"	

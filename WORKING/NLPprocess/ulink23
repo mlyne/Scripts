@@ -1,0 +1,4 @@
+# assumes 4 columns
+# links tokens in columns 2 and 3 with an underscore
+
+awk '{printf "%s %s_%s %s\n", $1, $2, $3, $4}'

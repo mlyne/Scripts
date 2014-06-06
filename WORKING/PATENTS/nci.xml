@@ -1,0 +1,27 @@
+<NCI_PID_XML>
+  <Ontology>
+    <LabelType name="function" id="8">
+      <LabelValueList>
+        <LabelValue name="acyltransferase activity" id="8007" parent_idref="8000" GO="GO:0008415" />
+        <LabelValue name="calcium- and calmodulin-responsive adenylate cyclase activity" id="8008" parent_idref="8000" GO="GO:0008294" />
+        <LabelValue name="casein kinase I activity" id="11900" parent_idref="8000" GO="GO:0004681" />
+        <LabelValue name="casein kinase activity" id="9634" parent_idref="8000" GO="GO:0004680" />
+        <LabelValue name="function" id="75" parent_idref="75" />
+        <LabelValue name="guanylate cyclase activity" id="8009" parent_idref="8000" GO="GO:0004383" />
+        <LabelValue name="interleukin-12 receptor activity" id="8015" parent_idref="8000" GO="GO:0016517" />
+        <LabelValue name="metalloendopeptidase activity" id="8010" parent_idref="8000" GO="GO:0004222" />
+        <LabelValue name="molecular_function" id="8000" parent_idref="75" GO="GO:0003674" />
+        <LabelValue name="potassium channel inhibitor activity" id="10264" parent_idref="8000" GO="GO:0019870" />
+        <LabelValue name="protein serine/threonine phosphatase activity" id="8002" parent_idref="8000" GO="GO:0004722" />
+        <LabelValue name="protein tyrosine phosphatase activity" id="8013" parent_idref="8000" GO="GO:0004725" />
+        <LabelValue name="retinol isomerase activity" id="8012" parent_idref="8000" GO="GO:0050251" />
+        <LabelValue name="serine protease" id="8003" parent_idref="8000" />
+        <LabelValue name="specific transcriptional repressor activity" id="8019" parent_idref="8000" GO="GO:0016566" />
+        <LabelValue name="telomeric DNA binding" id="8005" parent_idref="8000" GO="GO:0042162" />
+        <LabelValue name="transcription factor activity" id="8018" parent_idref="8000" GO="GO:0003700" />
+        <LabelValue name="transcription repressor activity" id="8017" parent_idref="8000" GO="GO:0016564" />
+        <LabelValue name="tumor necrosis factor receptor activity" id="8004" parent_idref="8000" GO="GO:0005031" />
+      </LabelValueList>
+    </LabelType>
+  </Ontology>
+</NCI_PID_XML>

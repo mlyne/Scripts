@@ -1,0 +1,34 @@
+#!/usr/local/bin/perl5
+
+# greps for 2 patterns in alinged files
+
+#check for correct usage
+if ($#ARGV < 3) {
+        print "usage:  2grep  <filename1> <filename2> <pattern1> <pattern2>\n";
+        exit; 
+};
+
+open(F, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+shift;
+open(G, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+shift;
+
+
+$pat1  = shift(@ARGV);
+$pat2  = shift(@ARGV);
+
+
+while (<F>) {
+    $F = $_;
+    $G = <G>;
+
+    if ($F =~ /$pat1/ and $G =~ /$pat2/) {
+	print "$.\n";
+	print $F;
+	print '-' x 70;
+	print "\n$G";
+	print '=' x 70;
+	print "\n";
+    };
+};
+

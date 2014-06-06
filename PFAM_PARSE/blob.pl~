@@ -1,0 +1,32 @@
+#!/usr/local/bin/perl -w
+#
+# works with hmmpfam results
+# e.g. cat *.hmmpfam | hmmpfam_parse.pl
+
+use strict;
+
+#my $usage = "Usage: hmmpfam_parse.pl hmmpfam_out_file\n";
+
+#unless ( $ARGV[0] ) { die $usage }
+
+$/ = "//";
+$| = 1;
+
+my @result = ();
+
+READ_LOOP: while (<>)
+{
+  unless ($_ =~ /threshold/)
+  {
+    push(@result, $_);
+  }
+  next READ_LOOP;
+}
+
+foreach (@result)
+{
+  if (/Parsed for domains:/ ... /Alignments of top-scoring domains:/) 
+  {
+    print "$_";
+  }
+}

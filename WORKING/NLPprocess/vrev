@@ -1,0 +1,4 @@
+# vertical reverse
+# flips the order of lines in a file
+
+numberlines 1 | bigsort -nr | col1rm

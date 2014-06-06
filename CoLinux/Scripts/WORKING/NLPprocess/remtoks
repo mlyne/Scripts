@@ -1,0 +1,38 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# Deletes tokens in KILL-FILE from every line.
+
+# POS tags, if any, are ignored.
+########################################################################
+
+#check for correct usage
+if ($#ARGV < 0) {
+        print "usage: $0 <KILL-file> [<input-file>]\n";
+        exit;
+};
+
+
+open(K, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+while (<K>) {
+    # kill file can have comments
+    if (not /^\#/) {
+	chop;
+	$kill{$_}++;
+    };
+};
+close(K);
+shift;
+
+while (<>) {
+    @orig = split;
+    ($plain = $_) =~ s/::[^ :]+//g;
+    $plain =~ s/^\s+//;
+    @tokens = split(/\s+/, $plain);
+    for ($i = $#tokens; $i >= 0; $i--) {
+	if ($kill{$tokens[$i]}) {
+	    splice(@orig, $i, 1);
+	};
+    };
+    print join(' ', @orig), "\n";
+};

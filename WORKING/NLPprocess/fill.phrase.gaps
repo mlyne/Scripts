@@ -1,0 +1,123 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# Author:  I. Dan Melamed
+# Computes:	most likely missing internal parts of phrases in a corpus
+# Streams:	phrases in format like 0parta__2partc, where partb is missing
+#######################################################################
+
+$TRUE = 1;
+$FALSE = 0;
+$INFINITY = 9999999999;
+$TINY = 1 - $INFINITY / ($INFINITY + 1);
+$| = 1;
+
+#check for correct usage
+if ($#ARGV < 0) {
+    print "usage: $0 <corpus> [<phrase list>]\n";
+    exit; 
+};
+
+push(@INC, "$ENV{HOME}/bin");
+require "nlplib.pl";
+
+print STDERR "Reading and studying text...";
+open(F, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+undef $/;
+$text = <>;
+$/ = "\n";
+study $text;
+print STDERR " done.\n";
+
+PHRASE: while (<>) {
+    ($original, $offset, $left, $right) = split;
+    
+    # remove compound tag -- should not be necessary
+    # s/(::[^ _:]+)$//;
+    # $comptag = $1;
+
+    # normalize tags
+    s/_:/::/g;
+
+    s/(\W)/\\$1/g;
+    @part = split('__', $original);
+    $lastpos = -1;
+    $gapexists = $FALSE;
+    for($i = 0; $i < @part; $i++) {
+	$part[$i] =~ /^(\d)(.*)/;
+	$pos = $1;
+	$part = $2;
+	$gapsize = $pos - $lastpos - 1;
+	while ($gapsize) {
+	    $gapexists = $TRUE;
+	    splice(@part, $i, 0, "[^ ]+");
+	    $i++;
+	    $gapsize--;
+	};
+	$part[$i] = $part;
+	$lastpos = $i;
+    };
+
+    if ($gapexists) {
+	$pat = "." . join(' ', @part) . ".";
+	%seen = {};
+	while ($text =~ m/($pat)/gs) {
+	    $match = $1;
+	    if ($match =~ /^\w/s or $match =~ /\w$/s) {
+		next;
+	    };
+	    $match =~ s/.(.*)./$1/s;
+	    $seen{$match}++;
+	    if (scalar keys %seen > 3) {
+		# variable gap phrase
+		# $gapexists = $FALSE;
+		print "$original $offset $left $right\n";
+		next PHRASE;
+	    };
+	};
+
+	if (scalar keys %seen == 0) {
+	    warn "Never saw pattern $original\n";
+	    next;
+	};
+	
+	$highfrq = 0;
+	foreach $pat (keys %seen) {
+	    if (&breakpunctp($pat)) {
+		next;
+	    };
+	    if ($highfrq < $seen{$pat}) {
+		$highfrq = $seen{$pat};
+		$outpat = $pat;
+	    };
+	};
+	print &construct($outpat) . " $offset $left $right\n";
+    } else {
+	print "$original $offset $left $right\n";
+    };
+};
+
+
+sub construct {
+    my($phrase) = shift;
+    my(@part, $i, $out);
+
+    @part = split(' ', $phrase);
+
+    $out = "0" . $part[0];
+    for($i = 1; $i < @part; $i++) {
+	if ($part[$i] =~ /__/) {
+	    # got filled with another compound 
+	    $part[$i] =~ s/::[^:_ ]+$//;
+	    $part[$i] =~ s/__./ /g;
+	    $part[$i] =~ s/^.//;
+	    splice(@part, $i, 1, split(' ', $part[$i]));
+	    redo;
+	};
+	$out .= "__" . $i . $part[$i];
+    };
+
+    $out =~ s/::/_:/g;
+
+    return $out;
+};

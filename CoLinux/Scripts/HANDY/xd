@@ -1,0 +1,650 @@
+#!/usr/bin/wish
+########################################################################
+#                                                                      #
+# Name : tkxcd                                                         #
+#                                                                      #
+# Description  :                                                       #
+#   tkxcd is a diff front end which has a look and feel                #
+#   similar to Atria Clearcase's xcleardiff.                           #
+#                                                                      #
+# Autohor: John C. Quillan                                             #
+#                                                                      #
+# Version: 1.0.1                                                       #
+#                                                                      #
+# Copyright (C) 1996 John C. Quillan                                   #
+#                                                                      #
+# This program is free software; you can redistribute it and/or modify #
+# it under the terms of the GNU General Public License as published by #
+# the Free Software Foundation; either version 2 of the License, or    #
+# (at your option) any later version.                                  #
+#                                                                      #
+# This program is distributed in the hope that it will be useful,      #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of       #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the        #
+# GNU General Public License for more details.                         #
+#                                                                      #
+# You should have received a copy of the GNU General Public License    #
+# along with this program; if not, write to the Free Software          #
+# Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.            #
+#                                                                      #
+# WEB:                                                                 #
+#   http://www.doitnow.com/~quillan/john/tkxcd                         #
+#                                                                      #
+# author email:                                                        #
+#   quillan@doitnow.com                                                #
+#                                                                      #
+#                                                                      #
+########################################################################
+
+set diff_cmd "| /usr/bin/diff"
+
+set diff_append ""
+set file1  " "
+set file2  " "
+set file1_lbl  " "
+set file2_lbl  " "
+
+
+################################################################
+#                                                              #
+#  Do_Help : Show usage information and exit                   #
+#                                                              #
+################################################################
+proc Do_Help { } {
+
+   puts "usage:"
+   puts "   tkxcd \[ file_old file_new \] | "
+   puts "         \[ -rcs file_name version_old version_new \] |"
+   puts "         \[ -rcs file_name version_old \]"
+   puts ""
+   puts ""
+   exit 0
+
+}
+
+#
+# Process Command Line Arguements
+#
+
+#
+# if user needs help
+#
+# Note: The reason for pelp and p are because the wish interpreter
+#       catches the -h and -help before it gets to the script
+#
+if  { [ lindex $argv 0 ]  == "-pelp" || 
+      [ lindex $argv 0 ]  == "-p"    || 
+      [ lindex $argv 0 ]  == "" } {
+   Do_Help
+}
+
+#
+# If we are using rcs
+#
+if  { [ lindex $argv 0 ]  == "-rcs" } {
+
+   if { $argc != 3 && $argc != 4 } {
+      puts "Error: wrong number of args for -rcs"
+      exit 1
+   }
+
+   set pp [ pid ]
+
+   set argfn [ lindex $argv 1 ]
+   set vold  [ lindex $argv 2 ]
+
+
+
+   set tmp_dir "/tmp/tkxcd.$pp"
+   exec mkdir $tmp_dir
+
+   if { $argc == 3 } {
+
+
+      exec co -q -p$vold $argfn > ${tmp_dir}/${argfn}_${vold} 
+      set file1_lbl "${argfn}_${vold}"
+      set file1 "${tmp_dir}/${argfn}_${vold}"
+
+      exec cp $argfn $tmp_dir
+      set file2_lbl "$argfn"
+      set file2 "${tmp_dir}/${argfn}"
+
+
+   } else {
+
+
+      set vnew  [ lindex $argv 3 ]
+
+      exec co -q -p$vold $argfn > ${tmp_dir}/${argfn}_${vold}
+      set file1_lbl "${argfn}_${vold}"
+      set file1 "${tmp_dir}/${argfn}_${vold}"
+
+      exec co -q -p$vnew $argfn > ${tmp_dir}/${argfn}_${vnew}
+      set file2_lbl "${argfn}_${vnew}"
+      set file2 "${tmp_dir}/${argfn}_${vnew}"
+
+   }
+
+
+} else { 
+#
+# No rcs
+#
+   for { set n 0 } { $n < $argc } { incr n +1 } {
+
+      set this_arg [ lindex $argv $n ]
+
+      switch -glob -- $this_arg {
+
+         default {
+
+            if  { $file1 == " " } {
+               set file1 "$this_arg"
+               set file1_lbl "$this_arg"
+                
+            } elseif { $file2 ==  " " } {
+               set file2 "$this_arg"
+               set file2_lbl "$this_arg"
+            }
+
+         }
+
+      }
+
+   }
+
+}
+set diff_cmd "$diff_cmd $diff_append"
+
+
+
+set difflist {}
+set diffindx 0
+
+# Set the window manager Title
+wm title . "tkxcd v1.0.1"
+
+# Set the default to link both window movements
+set link 1
+
+################################################################
+#                                                              #
+# yv_t1, yv_t2, xv_t1, xv_t1:                                  #
+#                                                              #
+#    Process Linked and unlinked X and Y scroll bars.          #
+#                                                              #
+################################################################
+
+proc yv_t1 { xa1 args  } {
+
+   global link
+
+   eval { .frame1.l.tx1a yview  $xa1 }  $args 
+   eval { .frame1.l.tx1b yview  $xa1 } $args 
+
+   if { $link == 1 } {
+      eval { .frame1.r.tx2a yview $xa1 } $args 
+      eval { .frame1.r.tx2b yview $xa1 } $args 
+   }
+
+}
+
+proc yv_t2 { xa1 args  } {
+
+   global link
+
+   eval { .frame1.r.tx2a yview $xa1   } $args
+   eval { .frame1.r.tx2b yview $xa1   } $args
+
+   if { $link == 1 } {
+      eval { .frame1.l.tx1a yview  $xa1   } $args
+      eval { .frame1.l.tx1b yview  $xa1   } $args
+   }
+
+}
+
+proc xv_t1 { xa1 args  } {
+
+   global link
+
+   eval { .frame1.l.tx1a xview  $xa1  } $args 
+   eval { .frame1.l.tx1b xview  $xa1  } $args
+
+   if { $link == 1 } {
+      eval { .frame1.r.tx2a xview $xa1 } $args
+      eval { .frame1.r.tx2b xview $xa1  } $args
+   }
+}
+
+proc xv_t2 { xa1 args  } {
+
+   global link
+
+   eval { .frame1.r.tx2a xview $xa1 } $args 
+   eval { .frame1.r.tx2b xview $xa1  } $args
+
+   if { $link == 1 } {
+      eval { .frame1.l.tx1a xview $xa1  } $args
+      eval { .frame1.l.tx1b xview $xa1  } $args
+   }
+}
+
+################################################################
+#                                                              #
+# Link_Button :                                                #
+#                                                              #
+#   Process toggeling of the link and unlink button.           #
+#                                                              #
+################################################################
+proc Link_Button {} {
+
+   global link
+
+   if { $link == 0 } {
+      set link 1
+      .frame2.bu3 configure -relief raised -text "L"
+   }  else  {
+      set link 0
+      .frame2.bu3 configure -relief sunken -text "U"
+   }
+
+}
+
+################################################################
+#                                                              #
+# Prev_Diff :                                                  #
+#                                                              #
+#   Process the Previous Diff button                           #
+#                                                              #
+################################################################
+proc Prev_Diff {} {
+
+   global difflist
+   global diffindx  
+
+   if { $diffindx > 0 } {
+      set diffindx [ expr $diffindx - 1 ]
+      .frame2.bu2 configure -state normal
+   } 
+   if { $diffindx == 0 } {
+      .frame2.bu1 configure -state disabled
+   }
+
+   set tmp [ lindex $difflist $diffindx ]
+
+  .frame1.l.tx1a see $tmp
+  .frame1.l.tx1b see $tmp
+  .frame1.r.tx2a see $tmp
+  .frame1.r.tx2b see $tmp
+
+}  
+
+################################################################
+#                                                              #
+# Next_Diff :                                                  #
+#                                                              #
+#   Process the Next Diff button                               #
+#                                                              #
+################################################################
+proc Next_Diff {} {
+
+   global difflist
+   global diffindx  
+
+   if { $diffindx < [ expr [ llength $difflist ] - 1 ] } {
+      set diffindx [ expr $diffindx + 1 ]
+      .frame2.bu1 configure -state normal
+   } 
+   if {  $diffindx == [ expr [ llength $difflist ] - 1 ] } {
+      .frame2.bu2 configure -state disabled
+   }
+
+   set tmp [ lindex $difflist $diffindx ]
+
+  .frame1.l.tx1a see $tmp
+  .frame1.l.tx1b see $tmp
+  .frame1.r.tx2a see $tmp
+  .frame1.r.tx2b see $tmp
+}
+
+################################################################
+#                                                              #
+# Create_Widgets :                                             #
+#                                                              #
+#   Set up the default windows widgets.                        #
+#                                                              #
+################################################################
+proc Create_Widgets {} {
+
+
+   global file1_lbl
+   global file2_lbl
+
+   frame .frame1
+   frame .frame1.l
+   frame .frame1.r
+   frame .frame2
+
+   #####  Scrolling Text Areas for file a and b  #########
+   
+   label       .frame1.l.lbl  -text "file_1"
+   text        .frame1.l.tx1a -yscroll ".frame1.l.sc1 set" -setgrid 0  -wrap none -width 6
+   text        .frame1.l.tx1b -yscroll ".frame1.l.sc1 set" \
+                  -xscroll ".frame1.l.sh1 set" -setgrid 0  -wrap none -width 40
+   scrollbar   .frame1.l.sc1  -command "yv_t1"
+   scrollbar   .frame1.l.sh1  -command "xv_t1" -orient horiz 
+
+   label       .frame1.r.lbl  -text "file_2"
+   text        .frame1.r.tx2a -yscroll ".frame1.r.sc2 set" -setgrid 0  -wrap none -width 6
+   text        .frame1.r.tx2b -yscroll ".frame1.r.sc2 set" \
+                  -xscroll ".frame1.r.sh2 set" -setgrid 0  -wrap none -width 40
+   scrollbar   .frame1.r.sc2  -command "yv_t2"
+   scrollbar   .frame1.r.sh2  -command "xv_t2" -orient horiz 
+
+
+
+   #####  Previous and Next Diff Buttons  #########
+
+   button      .frame2.bu1 -text "Previous Diff" -width 12 -command "Prev_Diff"
+   button      .frame2.bu2 -text "Next Diff"     -width 12 -command "Next_Diff"
+
+   button      .frame2.bu3 -text "L" -command "Link_Button"
+   #####  menu stuff  ######### 
+
+   frame .menu -relief raised -borderwidth 2
+   pack  .menu -side top  -fill x 
+
+   menubutton .menu.file -text "File"     -menu .menu.file.m -underline 0
+   menubutton .menu.view -text "View"     -menu .menu.view.m -underline 0
+   menubutton .menu.opts -text "Options"  -menu .menu.opts.m -underline 0
+ 
+   menu .menu.file.m -tearoff false
+   menu .menu.view.m -tearoff false
+   menu .menu.opts.m -tearoff false
+
+   .menu.file.m add command -label "Quit" -command { exit }
+
+   .menu.view.m add check -label "$file1_lbl" 
+   .menu.view.m add check -label "$file2_lbl"  
+
+   pack .frame1   -side top  -expand 1 -fill both
+   pack .frame1.l -side left -expand 1 -fill both
+   pack .frame1.r -side left -expand 1 -fill both
+   pack .frame2 -side bottom  -fill x
+
+   pack .frame1.l.lbl   -anchor n
+   pack .frame1.l.sh1   -anchor s -side bottom -fill x
+   pack .frame1.l.tx1a  -anchor c -side left -fill y
+   pack .frame1.l.tx1b  -anchor c -side left -expand 1 -fill both
+   pack .frame1.l.sc1   -anchor c -side left  -fill y
+
+
+   pack .frame1.r.lbl   -anchor n
+   pack .frame1.r.sh2   -anchor s -side bottom -fill x
+   pack .frame1.r.tx2a  -side left -fill y
+   pack .frame1.r.tx2b  -side left -expand 1 -fill both
+   pack .frame1.r.sc2   -side left  -fill y
+
+
+   pack .frame2.bu1   -side left
+   pack .frame2.bu2   -side left
+   pack .frame2.bu3   -side right
+
+   pack .menu.file -side left
+   pack .menu.view -side left
+   pack .menu.opts -side left
+}
+
+################################################################
+#                                                              #
+# Set_Tags :                                                   #
+#                                                              #
+#   Set up the tags for the changes colors in the text widget  #
+#                                                              #
+################################################################
+proc Set_Tags {} {
+	.frame1.l.tx1a tag configure ch_color                         -relief raised -borderwidth 1
+	.frame1.l.tx1b tag configure ch_color                         -relief raised -borderwidth 1
+	.frame1.r.tx2a tag configure ch_color -background DodgerBlue1 -relief raised -borderwidth 1
+	.frame1.r.tx2b tag configure ch_color -background DodgerBlue1 -relief raised -borderwidth 1
+	
+	
+	.frame1.l.tx1a tag configure in_color                    -relief raised -borderwidth 1
+	.frame1.l.tx1b tag configure in_color                    -relief raised -borderwidth 1
+	.frame1.r.tx2a tag configure in_color -background green3 -relief raised -borderwidth 1
+	.frame1.r.tx2b tag configure in_color -background green3 -relief raised -borderwidth 1
+	
+	.frame1.l.tx1a tag configure dl_color                  -relief raised -borderwidth 1
+	.frame1.l.tx1b tag configure dl_color                  -relief raised -borderwidth 1
+	.frame1.r.tx2a tag configure dl_color -background red1 -relief raised -borderwidth 1
+	.frame1.r.tx2b tag configure dl_color -background red1 -relief raised -borderwidth 1
+}
+
+
+proc Do_Diff { f1 f2 } {
+   global diff_cmd
+   global difflist
+   global file1_lbl
+   global file2_lbl
+
+
+   .frame1.l.lbl configure -text "$file1_lbl"
+   .frame1.r.lbl configure -text "$file2_lbl"
+
+
+   # Clear the text Windows
+   .frame1.r.tx2b delete 1.0 end
+   .frame1.l.tx1b delete 1.0 end
+
+
+   # open the first file
+   set afile [ open "$f1" r ]
+
+   # open the diff process
+    
+    if { [string compare $f2 " " ] == 0 } {
+       set adiff [ open "| cvs diff $f1 | sed 1,/diff/d" r ]
+    } else {
+       puts "$f1 :$f2:"
+       set adiff [ open "$diff_cmd $f1 $f2" r ]
+    }
+
+   set linecnt  1
+
+   while { 1 } {
+      gets $adiff dline
+
+      regexp {^[0-9,]*([acd])[0-9,]*} $dline match type
+
+      set lnums [ split $dline acd ]
+      set oldlnums [ split [ lindex $lnums 0 ] \, ]
+      set newlnums [ split [ lindex $lnums 1 ] \, ]
+
+      set saveline [ lindex $oldlnums 0 ]
+
+      while { $linecnt != $saveline } {
+
+         # If file are same then put in both text boxes
+    
+            gets $afile line
+            if  { [ eof $afile ] } {
+               close $afile
+               return
+            }
+
+            .frame1.l.tx1b insert end "$line\n"
+            .frame1.l.tx1a insert end "\n"
+            .frame1.r.tx2b insert end "$line\n"
+            .frame1.r.tx2a insert end "\n"
+
+            set linecnt [ expr $linecnt + 1 ]
+
+      }
+
+      if { $type == "d" } {
+         #################################
+         #                               #    
+         # Deleted lines                 #
+         #                               #    
+         #################################
+
+         lappend difflist [ expr [ .frame1.l.tx1b index end ] - 1 ]
+
+         if { [ llength $oldlnums ] == 1 } {
+            set eline $saveline
+         } else {
+            set eline [ lindex $oldlnums 1 ]
+         }
+         
+         while { $linecnt <= $eline } {
+            gets $afile line
+            gets $adiff dummy
+            .frame1.l.tx1b insert end "$line\n" dl_color
+            .frame1.l.tx1a insert end "++++++\n" dl_color
+            .frame1.r.tx2b insert end "\n" dl_color
+            .frame1.r.tx2a insert end "Delete\n" dl_color
+
+            set linecnt [ expr $linecnt + 1 ]
+         }
+
+      } elseif { $type == "a" } {
+
+         #################################
+         #                               #    
+         # Added (inserted ) lines       #
+         #                               #    
+         #################################
+
+         lappend difflist [ .frame1.l.tx1b index end ]
+
+          gets $afile line
+
+         .frame1.l.tx1b insert end "$line\n"
+         .frame1.l.tx1a insert end "\n"
+         .frame1.r.tx2b insert end "$line\n"
+         .frame1.r.tx2a insert end "\n"
+
+         set tmpcnt 0
+
+         if { [ llength $newlnums ] == 1 } {
+            set clcnt 1
+         } else {
+            set clcnt [expr [ lindex $newlnums 1 ] - [ lindex $newlnums 0 ]  + 1 ]
+         }
+
+         while { $tmpcnt < $clcnt } {
+            gets $adiff line
+            set line [ string range "$line" 2 end ]
+
+            .frame1.l.tx1b insert end "\n" in_color 
+            .frame1.l.tx1a insert end "\n"   in_color
+            .frame1.r.tx2b insert end "$line\n" in_color 
+            .frame1.r.tx2a insert end "Insert\n"   in_color
+
+            set tmpcnt [ expr $tmpcnt + 1 ]
+         }
+
+         set linecnt [ expr $linecnt + 1 ]
+
+      } elseif { $type == "c" } {
+
+         #################################
+         #                               #    
+         # Changed lines                 #
+         #                               #    
+         #################################
+
+         lappend difflist [ expr [ .frame1.l.tx1b index end ] - 1 ]
+
+         if { [ llength $oldlnums ] == 1 } {
+            set oldclines 1
+         } else {
+            set oldclines [expr [ lindex $oldlnums 1 ] - [ lindex $oldlnums 0 ]  + 1 ]
+         }
+
+         if { [ llength $newlnums ] == 1 } {
+            set newclines 1
+         } else {
+            set newclines [expr [ lindex $newlnums 1 ] - [ lindex $newlnums 0 ]  + 1 ]
+         }
+
+         set tmpcnt 0
+         while { $tmpcnt < $oldclines } {
+            gets $afile line
+            gets $adiff dummy
+
+            .frame1.l.tx1b insert end "$line\n" ch_color 
+            .frame1.l.tx1a insert end "\n"   ch_color
+
+            set linecnt [ expr $linecnt + 1 ]
+            set tmpcnt [ expr $tmpcnt + 1 ]
+         }
+
+         gets $adiff dummy
+
+         set tmpcnt 0
+         while { $tmpcnt < $newclines } {
+
+            gets $adiff line
+            set line [ string range "$line" 2 end ]
+
+            .frame1.r.tx2b insert end "$line\n" ch_color 
+            .frame1.r.tx2a insert end "Change\n"   ch_color
+
+            set tmpcnt [ expr $tmpcnt + 1 ]
+         }
+
+         set padlines [expr abs( $oldclines - $newclines) ]
+         if { $oldclines < $newclines } {
+            set pada .frame1.l.tx1a
+            set padb .frame1.l.tx1b
+            set c "" 
+
+         }
+         if { $oldclines > $newclines } {
+            set pada .frame1.r.tx2a
+            set padb .frame1.r.tx2b 
+            set c "Change"
+         }
+
+         if { $oldclines != $newclines } {
+
+            set tmpcnt 0
+            while { $tmpcnt < $padlines } {
+
+               $padb insert end "\n" ch_color
+               $pada insert end "$c\n"   ch_color
+               
+               set tmpcnt [ expr $tmpcnt + 1 ]
+            }
+
+         }
+      } else {
+
+      }
+
+   }
+
+
+   close $afile
+   
+
+
+}
+
+
+Create_Widgets
+	
+Set_Tags
+
+Do_Diff $file1 $file2
+
+#
+# remove any tmp files
+#
+if  { [ lindex $argv 0 ]  == "-rcs" } {
+   eval exec rm [ glob ${tmp_dir}/* ]
+   exec rmdir $tmp_dir
+}
+
+

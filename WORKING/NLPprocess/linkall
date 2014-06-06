@@ -1,0 +1,8 @@
+#!/usr/local/bin/perl5 -p
+
+# links all columns with <TKL>
+
+$_ = join('<TKL>', split)."\n";
+
+
+

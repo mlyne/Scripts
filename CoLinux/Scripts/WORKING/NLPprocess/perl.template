@@ -1,0 +1,32 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# Author:  I. Dan Melamed
+# Computes:	
+# Loads:	
+# Streams:	
+# N.B.:		
+#######################################################################
+
+$TRUE = 1;
+$FALSE = 0;
+$INFINITY = 9999999999;
+$TINY = 1 - $INFINITY / ($INFINITY + 1);
+$| = 1;
+
+#check for correct usage
+if ($#ARGV < 0) {
+    print "usage: $0 \n";
+    exit; 
+};
+
+
+print STDERR "$0: Reading ...";
+open(F, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+while (<F>) {
+
+};
+close(F);
+shift;
+print STDERR " done.\n";
+

@@ -1,0 +1,47 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# Author:  I. Dan Melamed
+# Computes:	variance of distances between successive occurrences of 
+#                        each token type
+# Loads:	
+# Streams:	
+# N.B.:		
+#######################################################################
+
+$TRUE = 1;
+$FALSE = 0;
+$INFINITY = 9999999999;
+$TINY = 0.0000001;
+$| = 1;
+
+$marker = 1;
+
+while (<>) {
+#    print STDERR "$. ";
+    s/^ +//;
+    @tok = split;
+    for($i = 0; $i < @tok; $i++) {
+	$tok = $tok[$i];
+	if (not defined $lastpos{$tok}) {
+		$start{$tok} = $marker;
+	    };
+	    $dist = $marker - $lastpos{$tok};
+	    $sum{$tok} += $dist;
+	    $sumsq{$tok} += $dist ** 2;
+	    $count{$tok}++;
+	    $lastpos{$tok} = $marker;
+	};
+	$marker++;
+    };
+
+foreach $tok (keys %lastpos) {
+    $dist = $marker - $lastpos{$tok};
+    $sum{$tok} += $dist;
+    $sumsq{$tok} += $dist ** 2;
+    $count{$tok}++;
+    $mean = $sum{$tok} / $count{$tok};
+    $var = $sumsq{$tok} / $count{$tok} - ($sum{$tok} / $count{$tok}) ** 2;
+
+    printf "%5.3f\t%s\t%d\t%5.3f\n", $var, $tok, $count{$tok}, $mean;
+};

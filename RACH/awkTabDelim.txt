@@ -1,0 +1,5 @@
+awk -F"\t" '{if ($2 ~ /duck/) print}' FriendsTab.txt | less
+awk -F"\t" '{if ($2 !~ /duck/) print}' FriendsTab.txt | less
+awk -F"\t" '{if ($2 ~ /duck/) print $2}' FriendsTab.txt | less
+awk -F"\t" '{if ($2 !~ /duck/) print $3, $4}' FriendsTab.txt | less
+awk -F"\t" '{if ($2 !~ /duck/) print $3 "\t" $4}' FriendsTab.txt | less

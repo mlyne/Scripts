@@ -1,0 +1,113 @@
+#!/usr/local/bin/perl
+
+# evaluates percent correct in lexical translation map, using test bitext
+# ignores punctuation, numbers, etc.
+# all tokens treated as lowercase
+# variable name prefix meanings:
+# 	b: bag evaluation
+# 	s: set evaluation, also source
+#	t: target
+#	u: unknown words
+
+#check for correct usage
+if ($#ARGV != 3) {
+        print stderr "usage:  pceval <include punct.? [Y/N]> <map> <test source> <test target>\n";
+        exit;
+};
+
+$usepunct = ("Yy" =~ shift(@ARGV));
+
+open(F, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+while (<F>) {
+	($source, $target) = split;
+	$trans{$source} .= "$target ";
+};
+close(F);
+shift(@ARGV);
+
+open(S, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+open(T, $ARGV[1]) || die "Couldn't open $ARGV[1]: $!\n";
+
+while (<S>) {
+    $line++;
+    # print stderr "$line ";
+    @ssent = split;
+    $bcount += @ssent;
+    $target = <T>;
+    @tsent = split(/\s+/,$target);
+    for($i=0; $i < @ssent; $i++) {
+	$sword = $ssent[$i];
+	# ignore punctuation, numbers, etc.
+	if ($usepunct || $sword =~ /^[a-zA-Z]/) {
+	    $frq{$sword}++;
+	    if (defined($trans{$sword})) {
+		@currtrans = split(/\s+/,$trans{$sword});
+		if ($maxtrans < $#currtrans) {
+		    $maxtrans = $#currtrans;
+		};
+		for($t=0; $t< @currtrans; $t++) {
+		    ($ltrans{"$t $sword"} = $currtrans[$t]) =~ tr/A-Z/a-z/;
+		};
+	    } else {
+		splice(@ssent, $i--, 1);
+		$ufrq{$sword}++;
+	    };
+	} else {
+	    splice(@ssent, $i--, 1);
+	    $ufrq{$sword}++;
+	};
+    };
+    for($t=0; $t <= $maxtrans; $t++) {
+      SWORD: for($i=0; $i < @ssent; $i++) {
+	    $sword = $ssent[$i];
+	    if (defined($ltrans{"$t $sword"})) {
+		for($j=0; $j< @tsent; $j++) {
+		    ($ltarg = $tsent[$j]) =~ tr/A-Z/a-z/;
+		    if ($ltrans{"$t $sword"} eq $ltarg) {
+			$hit{"$t $sword"}++;
+			splice(@ssent, $i--, 1);
+			splice(@tsent, $j, 1);
+			$bcorr[$t]++;
+			next SWORD;
+		    };
+		};
+	    };
+	};
+    };
+    undef(%ltrans);
+};
+
+foreach $word (keys %ufrq) {
+	$uscount++;
+	$ubcount += $ufrq{$word};
+};
+
+print "\n\nOut of $bcount tokens:\n";
+print "Entry\tHits\tCumulative\n";
+for($t=0; $t< @bcorr; $t++) {
+    $bcorratio = $bcorr[$t] / $bcount;
+    $bcumul += $bcorratio;
+    printf "%d\t%5.4f\t%5.4f\n", $t+1, $bcorratio, $bcumul;
+};
+$ubratio = $ubcount / $bcount;
+printf "%d unknown = %5.4f\n", $ubcount, $ubratio;
+
+
+foreach $word (keys %frq) {
+	$scount++;
+	for($t=0; $t<= $maxtrans; $t++) {
+	    $hitratio[$t] += $hit{"$t $word"} / $frq{$word};
+	};
+};
+
+print "\n\nOut of $scount known types:\n";
+print "Entry\tHits\tCumulative\n";
+for($t=0; $t<= $maxtrans; $t++) {
+    $scorratio = $hitratio[$t] / $scount;
+    $scumul += $scorratio;
+    printf "%d\t%5.4f\t%5.4f\n", $t+1, $scorratio, $scumul;
+};
+$usratio = $uscount / ($scount + $uscount);
+printf "%d unknown = %5.4f\n", $uscount, $usratio;
+
+

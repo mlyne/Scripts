@@ -1,0 +1,15 @@
+#!/usr/local/bin/perl5
+
+# sorts the first N tokens on each line
+
+$cols = shift(@ARGV);
+
+while (<>) {
+	@words = split;
+	if (@words < $cols) {
+	    $cc = @words;
+	} else {
+	    $cc = $cols;
+	};
+	print join(' ', ((sort @words[0 .. $cc-1]), @words[$cc .. $#words])), "\n";
+};

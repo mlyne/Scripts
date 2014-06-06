@@ -1,0 +1,4 @@
+# Fri Jan 20 15:54:37 2006
+Name	RowSearch	pain
+ColSearch	Search	pain[tiab]
+morphine	morphine[tiab]	6261

@@ -1,0 +1,5 @@
+# assumes 5 columns
+# links tokens in columns 2 and 3 by replacing whitespace between them with
+#	"<TKL>"  (ToKenLink)
+
+gawk '{printf "%s %s<TKL>%s %s %s\n", $1, $2, $3, $4, $5}'

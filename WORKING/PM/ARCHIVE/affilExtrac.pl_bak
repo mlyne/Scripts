@@ -1,0 +1,63 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+
+my $usage = "Usage:terms2mesh.pl pubmed_xml search_term_file\n";
+
+unless ( $ARGV[1] ) { die $usage }
+
+# Take input from the command line
+my $addrFile = $ARGV[0];
+my $termFile = $ARGV[1];
+
+
+open(IFILE, "< $addrFile") || die "cannot open $addrFile: $!\n";
+
+my @entries;
+my @sTerms;
+
+while (<IFILE>)
+{
+  chomp;
+  push(@entries, $_);
+}
+
+# Close the file we've opened
+close(IFILE);
+
+open(TERM_FILE, "< $termFile")  || die "cannot open $termFile: $!";
+
+while (<TERM_FILE>)
+{
+  chomp;
+  $_ = lc($_);
+  push( @sTerms, $_ );
+}
+
+close(TERM_FILE);
+
+foreach my $entry (@entries)
+{
+#    $entry =~ s/[^a-zA-Z\d\s]//g;
+    $entry = lc($entry);
+    print "ADDR: ", $entry, "\n";
+  
+  my @termHits;
+  
+  foreach my $searchTerm (@sTerms)
+  {
+#      print "THERE: ", $searchTerm, "\n";
+    if ($entry =~ /\b\Q$searchTerm\E\b/)
+    {
+#	print "TERM MATCH: ", $searchTerm, "\n";
+      push(@termHits, $searchTerm);
+	#print $allText, "\n\n";
+    }
+   }
+
+  print "TERM HITS: ", join(", ", @termHits), "\n";
+  print "--- RECORD ---\n";
+
+}
+
+

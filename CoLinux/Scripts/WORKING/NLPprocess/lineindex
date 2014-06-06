@@ -1,0 +1,1 @@
+(echo "0"; perl -ne '$l = length($_); print "$l\n";')  | accumulate

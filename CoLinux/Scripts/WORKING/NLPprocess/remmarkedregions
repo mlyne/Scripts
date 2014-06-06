@@ -1,0 +1,37 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# Author:  I. Dan Melamed
+# Computes:	removes line ranges delimited by start/end patterns
+#######################################################################
+
+$TRUE = 1;
+$FALSE = 0;
+$INFINITY = 9999999999;
+$TINY = 0.0000001;
+$| = 1;
+
+#check for correct usage
+if ($#ARGV < 1) {
+    print "usage: remmarkedregions <start pattern> <end pattern> [<input>] \n";
+    exit; 
+};
+
+$start = shift;
+$end = shift;
+
+$deleting = $FALSE;
+while (<>) {
+    if ($deleting) {
+	if (/$end/) {
+	    $deleting = $FALSE;
+	};
+    } else {
+	if (/$start/) {
+	    $deleting = $TRUE;
+	    next;
+	};
+	print;
+    };
+};
+

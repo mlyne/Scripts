@@ -1,0 +1,17 @@
+#!/usr/local/bin/perl5
+
+# sorts the first N tokens on each line "by number"
+
+$cols = shift(@ARGV);
+
+while (<>) {
+	@words = split;
+	if (@words < $cols) {
+	    $cc = @words;
+	} else {
+	    $cc = $cols;
+	};
+	print join(' ', ((sort bynumber @words[0 .. $cc-1]), @words[$cc .. $#words])), "\n";
+};
+
+sub bynumber {$a <=> $b; }

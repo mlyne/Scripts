@@ -1,0 +1,304 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+
+use WebService::ClinicalTrialsdotGov;
+use Data::Dumper;
+
+my $rh_params = {
+      'term' => 'drug',
+      #'term'  => 'cancer',
+      #'cond'  => 'glaucoma',
+      'type'  => 'int',
+      'intr' => 'Drug',
+      'recr' => 'Recruiting',
+      'no_unk' => 'Y',
+      'phase' => '1',
+      'rcv_s' => '01/01/2009',
+      'lup_e' => '01/12/2012',
+      'start' => 0,
+#      'count' => 10,
+      'mode'  => 'search',
+};
+
+### Search parameters
+#      'term'  => 'cancer', # free text words eg. trabeculectomy
+#      'cond'  => 'glaucoma', # conditions
+#      'type'  => 'Int', # intervention
+#      'intr'  => 'drug' # also specific eg. timolol
+#      'phase' => '12', # phase 2 or 3, 0 is phI
+#      'rcv_s' => '01/01/2009', # first received mm/dd/yyyy
+
+#      'start' => 0,
+#      'count' => 10,
+#      'mode'  => 'search',
+
+### Other parameters
+# recr; rslt; titles; outc; spons; lead; id; 
+# state1; cntry1, state2; cntry2, state3; cntry3
+# received: rec_ - rev_s [from]; rec_e [to]
+# last updated: lup_ - lup_s [from]; lup_e [to]
+
+### See http://clinicaltrials.gov/ct2/help/how-find/advanced/field-defs
+### for more details
+
+### Search Fields
+# Recruitment
+# Exclude Unknown Status
+# Study Results
+# Study Type
+# Conditions
+# Interventions
+# Outcome Measures
+# Sponsor/Collaborators
+# Sponsor (Lead)
+# Study IDs
+# Country/State
+# Location Terms
+# Gender
+# Age Group
+# Phase
+# Funder Type
+# Safety Issue
+# First Received
+# Last Updated
+
+#type=Intr&cond=glaucoma&phase=12&rcv_s=01%2F01%2F2009
+
+my $CTsearch = WebService::ClinicalTrialsdotGov->new( $rh_params );
+my $Results = $CTsearch->results;
+my $ra_all = $Results->get_search_results if $Results;
+
+# print $ra_all, "\n"; # debug
+# print $Results, "\n"; # debug
+
+my @CTids;
+#= $ra_all->nct_id if $Results;
+
+foreach my $Study ( @$ra_all ) {
+#  print $Study->nct_id, "\n";
+  push (@CTids, $Study->nct_id);
+}
+
+foreach my $ct ( @CTids ) {
+
+  my $rh_params = {
+    #'id'    => "NCT01687465",
+    'id'    => "$ct",
+    'mode'  => 'show',
+  };
+
+  my $CTrial = WebService::ClinicalTrialsdotGov->new( $rh_params );
+
+  my $Result = $CTrial->results;
+  my $Study = $Result->get_study;
+  
+# print "\n ##### \n", Dumper($Study), "\n ##### \n";
+
+### Intervention - Drug test 
+  my $intChk = $Study->intervention;
+  my $drg_check = &drg_test($intChk);
+  
+  next unless $drg_check;
+#  print "intCl $intCl\n";
+  
+print "CLINICAL TRIAL: $ct\n";
+  
+### Brief Title
+  my $studyTitle = "StudyTitle";
+  my $studyTitleCl = $Study->official_title;
+  print "Study Title: $studyTitleCl\n";
+#  &ref_type(\$studyTitle, $studyTitleCl);
+
+### Primary outcome
+  my $primOutc = "Primary Outcome";
+  my $primOutCl = $Study->primary_outcome;
+#  &ref_type(\$primOutc, $primOutCl);
+  
+### Interventions  
+  my $intervention = "Intervention";
+  my $intCl = $Study->intervention;
+
+  if ($intCl) {
+    &ref_type(\$intervention, $intCl);
+  }
+  
+#   if ($intCl) {
+#     my $expr = "Drug";
+#     if ($intCl =~ /ARRAY/) {
+#       my @intervens = @{ $intCl };
+# #      next unless ( $expr ~~ @{ $intCl } );
+#       foreach my $hashRef (@intervens) {
+# 	my %intHash = %{ $hashRef };
+# 	if ( $intHash{'intervention_type'} =~ /Drug/) {
+# 	  
+# 	  &ref_type(\$intervention, $intCl);
+# 	}
+#       }
+#     }
+#     elsif ($intCl =~ /HASH/) {
+#       my %intervens = %{ $intCl };
+# #      if ( $intervens{'intervention_type'} ne $expr ) {
+#       if ( $intervens{'intervention_type'} =~ /Drug/) {
+# #	print "Drug ref found! $intervens{'intervention_type'}\n";
+# 	&ref_type(\$intervention, $intCl);
+#       }
+#     }
+#   }
+  
+### Keyword
+  my $kword = "Keyword";
+  my $kwordCl = $Study->keyword;
+  if ($kwordCl) {
+    if ($kwordCl =~ /ARRAY/) {
+      print "Keywords:", join("; ", @{ $kwordCl }), "\n";
+    } else {
+      print "Keyword:", $kwordCl, "\n";
+    }
+  } else {
+    print "$kword\tNOT FOUND\n";
+  }
+  
+### Sponsor
+  my $sponsor = "Sponsor";
+  my $sponsorCl = $Study->sponsors;
+  if ($sponsorCl) {
+#    print "TYPE:", %{$sponsorCl}, "\n\n";
+    my %sponsRefs = %{ $sponsorCl };
+    if (exists $sponsRefs{'lead_sponsor'} ) {
+      print "Lead sponsor: ", $sponsRefs{'lead_sponsor'}->{'agency_class'}, "; ", $sponsRefs{'lead_sponsor'}->{'agency'}, "\n";
+    }
+    
+    if (exists $sponsRefs{'collaborator'} ) {
+      if ( $sponsRefs{'collaborator'} =~ /ARRAY/) {
+	foreach my $collab ( @{ $sponsRefs{'collaborator'} } ) {
+#	  print "Collaborator: ", @{ $sponsRefs{'collaborator'} }[$colab]->{'agency_class'}, "; ", @{ $sponsRefs{'collaborator'} }[$colab]->{'agency'}, "\n";
+	  print "Collaborator: ", $collab->{'agency_class'}, "; ", $collab->{'agency'}, "\n";	  
+	}
+      } else {
+	print "Collaborator: ", $sponsRefs{'collaborator'}->{'agency_class'}, "; ", $sponsRefs{'collaborator'}->{'agency'}, "\n";
+      }
+    }    
+#    foreach my $key ( keys %sponsRefs ) {
+#      print "Sponsor: ", $key, "\t";
+#      my $hashRef = $sponsRefs{$key};
+ #     &ref_type(\$sponsor, $hashRef);
+#    }
+  } else {
+    print "$sponsor\tNOT FOUND\n";
+  }
+
+### Intervention MeSH
+  my $iMesh = "Intervention MeSH";
+  my $intBrws = $Study->intervention_browse;
+  my $iMeshRef = $intBrws->{'mesh_term'};
+  &mesh(\$iMesh, \$iMeshRef);
+  
+### Conditions MeSH
+  my $cMesh = "Condition MeSH";
+  my $condBrws = $Study->condition_browse;
+  my $cMeshRef = $condBrws->{'mesh_term'};
+  &mesh(\$cMesh, \$cMeshRef);
+
+
+  print "### END TRIAL DATA ###\n\n";
+}
+
+
+#print Dumper($Study);
+
+### Subs 
+
+sub drg_test {
+  my $chkRef = shift;
+  my $true;
+  
+  if ($chkRef) {
+    if ($chkRef =~ /ARRAY/) {
+      my @intervens = @{ $chkRef };
+#      next unless ( $expr ~~ @{ $intCl } );
+      foreach my $hashRef (@intervens) {
+	my %intHash = %{ $hashRef };
+	if ( $intHash{'intervention_type'} =~ /Drug/) {
+	  $true++;
+	}
+      }
+    }
+    elsif ($chkRef =~ /HASH/) {
+      my %intervens = %{ $chkRef };
+      if( $intervens{'intervention_type'} =~ /Drug/) {
+	$true++;
+      }
+    }
+  }
+  return $true;
+}
+
+sub ref_type {
+
+  my $fieldRef = shift;
+  my $field = $$fieldRef;
+  my $inRef = shift;
+  
+  unless ($inRef) {
+    print "$field\tNOT FOUND\n";
+    return;
+  }
+  
+  if ($inRef =~ /ARRAY/) {
+    foreach my $arVal ( @{ $inRef } ) {
+      &hash_print( $arVal );
+      #print join(", ", @{ $intCl } ), "\n";
+    }
+  } elsif ($inRef =~ /HASH/) {
+      #print %{ $intCl }, "\n";
+      &hash_print( $inRef );
+  } else {
+      &str_print( $inRef );
+  }
+}
+
+sub hash_print {
+
+  my $inRef = shift;
+  
+  foreach my $key ( keys %{ $inRef } ) {
+    if ($$inRef{$key} =~ /HASH/) {
+      print $key, "\t", $$inRef{$key}, "\n";
+    }
+    elsif ($$inRef{$key} =~ /ARRAY/) { 
+      foreach my $elVal ( @{ $$inRef{$key} } ) {
+	print $key, "\t", $elVal, "\n";
+      }
+    } else {
+      print $key, "\t", $$inRef{$key};
+    }
+    print "\n";
+  }
+  
+}
+
+sub str_print {
+  my $inRef = shift;
+  print $inRef, "\n";
+}
+
+### Mesh Browse
+sub mesh {
+  my $fieldRef = shift;
+  my $field = $$fieldRef;
+  my $inRefRef = shift;
+  my $inRef = $$inRefRef;
+  
+  unless ($inRef) {
+    print "$field\tNOT FOUND\n";
+    return;
+  }
+  
+  if ($inRef =~ /ARRAY/) {
+    print "$field:", join("; ", @{ $inRef }), "\n";
+  } else {
+    print "$field:", $inRef, "\n";
+  }
+}
+

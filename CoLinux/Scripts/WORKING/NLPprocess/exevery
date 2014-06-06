@@ -1,0 +1,10 @@
+#!/usr/local/bin/perl5
+# takes an integer N on command line
+# prints every Nth line from stdin
+ 
+$inc = shift(ARGV);
+while (<>) {
+        $i++; 
+        if ($i / $inc == int($i / $inc)) 
+                {print};
+};

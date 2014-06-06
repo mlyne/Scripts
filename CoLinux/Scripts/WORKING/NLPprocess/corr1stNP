@@ -1,0 +1,46 @@
+#!/usr/local/bin/perl5
+
+# If first word is capitalized and tagged NP, but it does not show up
+# in the lexicon, while its lowercased version does show up, then change
+# the tag to the first tag of the lowercased word, if it is closed class
+
+#check for correct usage
+if ($#ARGV != 0) {
+    print "usage:  corr1stNP <lexicon> < file\n";
+    exit; 
+};
+
+open(L, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+while (<L>) {
+    ($word, $firsttag, @rest) = split;
+    if ($word =~ /^[A-Z]/) {
+	$caps{$word} = 1;
+    } else {
+	$tag{$word} = $firsttag;
+    };
+};
+close(L);
+shift(@ARGV);
+
+while (<>) {
+    if (/^([^:]+)::NNPS?(.*)/) {
+	$fw = $1;
+	$rest = $2;
+	if (!$caps{$fw}) {
+	    ($lw = $fw) =~ tr/A-Z/a-z/;
+	    if (defined($tag{$lw}) && $tag{$lw} !~ "^NN"
+			&& $tag{$lw} !~ "^VB"
+			&& $tag{$lw} !~ "^JJ"
+			&& $tag{$lw} !~ "^RB") {
+		print "$fw::$tag{$lw}$rest\n";
+	    } else {
+		print;
+	    }
+	} else {
+	    print;
+	};
+    } else {
+	print;
+    };
+};
+

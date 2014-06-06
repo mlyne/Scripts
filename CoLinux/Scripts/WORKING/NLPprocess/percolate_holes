@@ -1,0 +1,19 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# Author:  I. Dan Melamed
+# Computes:	hole positions in decimated file
+# Streams:	hole file
+#######################################################################
+
+$_ = <>;
+($start, $end) = split;
+$offset = $end - $start + 1;
+print;
+while (<>) {
+	($start, $end) = split;
+	$start -= $offset;
+	$end -= $offset;
+	$offset += $end - $start + 1;
+	print "$start $end\n";
+};

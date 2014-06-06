@@ -1,0 +1,499 @@
+Geographic Locations;Z01
+Africa;Z01.058
+Africa, Northern;Z01.058.266
+Algeria;Z01.058.266.104
+Egypt;Z01.058.266.317
+Libya;Z01.058.266.513
+Morocco;Z01.058.266.629
+Tunisia;Z01.058.266.887
+Africa South of the Sahara;Z01.058.290
+Africa, Central;Z01.058.290.100
+Cameroon;Z01.058.290.100.110
+Central African Republic;Z01.058.290.100.120
+Chad;Z01.058.290.100.130
+Congo;Z01.058.290.100.140
+Democratic Republic of the Congo;Z01.058.290.100.220
+Equatorial Guinea;Z01.058.290.100.300
+Gabon;Z01.058.290.100.380
+Africa, Eastern;Z01.058.290.120
+Burundi;Z01.058.290.120.180
+Djibouti;Z01.058.290.120.275
+Eritrea;Z01.058.290.120.292
+Ethiopia;Z01.058.290.120.310
+Kenya;Z01.058.290.120.400
+Rwanda;Z01.058.290.120.680
+Somalia;Z01.058.290.120.730
+Sudan;Z01.058.290.120.760
+Tanzania;Z01.058.290.120.840
+Uganda;Z01.058.290.120.880
+Africa, Southern;Z01.058.290.175
+Angola;Z01.058.290.175.095
+Botswana;Z01.058.290.175.230
+Lesotho;Z01.058.290.175.400
+Malawi;Z01.058.290.175.500
+Mozambique;Z01.058.290.175.545
+Namibia;Z01.058.290.175.580
+South Africa;Z01.058.290.175.735
+Swaziland;Z01.058.290.175.795
+Zambia;Z01.058.290.175.920
+Zimbabwe;Z01.058.290.175.960
+Africa, Western;Z01.058.290.190
+Benin;Z01.058.290.190.200
+Burkina Faso;Z01.058.290.190.245
+Cape Verde;Z01.058.290.190.258
+Cote d'Ivoire;Z01.058.290.190.272
+Gambia;Z01.058.290.190.300
+Ghana;Z01.058.290.190.320
+Guinea;Z01.058.290.190.375
+Guinea-Bissau;Z01.058.290.190.380
+Liberia;Z01.058.290.190.425
+Mali;Z01.058.290.190.500
+Mauritania;Z01.058.290.190.520
+Niger;Z01.058.290.190.560
+Nigeria;Z01.058.290.190.565
+Senegal;Z01.058.290.190.710
+Sierra Leone;Z01.058.290.190.725
+Togo;Z01.058.290.190.800
+Americas;Z01.107
+Caribbean Region;Z01.107.084
+West Indies;Z01.107.084.900
+Antigua and Barbuda;Z01.107.084.900.050
+Bahamas;Z01.107.084.900.100
+Barbados;Z01.107.084.900.140
+Cuba;Z01.107.084.900.225
+Dominica;Z01.107.084.900.262
+Dominican Republic;Z01.107.084.900.300
+Grenada;Z01.107.084.900.362
+Guadeloupe;Z01.107.084.900.393
+Haiti;Z01.107.084.900.425
+Jamaica;Z01.107.084.900.525
+Martinique;Z01.107.084.900.600
+Netherlands Antilles;Z01.107.084.900.645
+Puerto Rico;Z01.107.084.900.750
+Saint Kitts and Nevis;Z01.107.084.900.787
+Saint Lucia;Z01.107.084.900.825
+Saint Vincent and the Grenadines;Z01.107.084.900.862
+Trinidad and Tobago;Z01.107.084.900.900
+Virgin Islands of the United States;Z01.107.084.900.970
+Central America;Z01.107.169
+Belize;Z01.107.169.133
+Costa Rica;Z01.107.169.238
+El Salvador;Z01.107.169.339
+Guatemala;Z01.107.169.454
+Honduras;Z01.107.169.534
+Nicaragua;Z01.107.169.690
+Panama;Z01.107.169.772
+Panama Canal Zone;Z01.107.169.772.584
+Gulf of Mexico;Z01.107.296
+Latin America;Z01.107.424
+North America;Z01.107.567
+Canada;Z01.107.567.176
+Alberta;Z01.107.567.176.064
+British Columbia;Z01.107.567.176.160
+Manitoba;Z01.107.567.176.410
+New Brunswick;Z01.107.567.176.494
+Newfoundland and Labrador;Z01.107.567.176.540
+Northwest Territories;Z01.107.567.176.564
+Nova Scotia;Z01.107.567.176.589
+Nunavut;Z01.107.567.176.614
+Ontario;Z01.107.567.176.639
+Prince Edward Island;Z01.107.567.176.732
+Quebec;Z01.107.567.176.791
+Saskatchewan;Z01.107.567.176.858
+Yukon Territory;Z01.107.567.176.929
+Greenland;Z01.107.567.403
+Mexico;Z01.107.567.589
+United States;Z01.107.567.875
+Appalachian Region;Z01.107.567.875.075
+Alabama;Z01.107.567.875.075.100
+Georgia;Z01.107.567.875.075.250
+Kentucky;Z01.107.567.875.075.400
+Maryland;Z01.107.567.875.075.418
+New York;Z01.107.567.875.075.437
+North Carolina;Z01.107.567.875.075.475
+Ohio;Z01.107.567.875.075.512
+Pennsylvania;Z01.107.567.875.075.550
+South Carolina;Z01.107.567.875.075.662
+Tennessee;Z01.107.567.875.075.775
+Virginia;Z01.107.567.875.075.837
+West Virginia;Z01.107.567.875.075.900
+Great Lakes Region;Z01.107.567.875.350
+Illinois;Z01.107.567.875.350.350
+Chicago;Z01.107.567.875.350.350.200
+Indiana;Z01.107.567.875.350.360
+Michigan;Z01.107.567.875.350.500
+Minnesota;Z01.107.567.875.350.510
+New York;Z01.107.567.875.350.530
+New York City;Z01.107.567.875.350.530.530
+Ohio;Z01.107.567.875.350.540
+Pennsylvania;Z01.107.567.875.350.550
+Wisconsin;Z01.107.567.875.350.900
+Mid-Atlantic Region;Z01.107.567.875.500
+Delaware;Z01.107.567.875.500.200
+District of Columbia;Z01.107.567.875.500.210
+Maryland;Z01.107.567.875.500.500
+Baltimore;Z01.107.567.875.500.500.100
+New Jersey;Z01.107.567.875.500.525
+New York;Z01.107.567.875.500.530
+New York City;Z01.107.567.875.500.530.530
+Pennsylvania;Z01.107.567.875.500.550
+Philadelphia;Z01.107.567.875.500.550.525
+Midwestern United States;Z01.107.567.875.510
+Illinois;Z01.107.567.875.510.350
+Chicago;Z01.107.567.875.510.350.200
+Indiana;Z01.107.567.875.510.360
+Iowa;Z01.107.567.875.510.370
+Kansas;Z01.107.567.875.510.390
+Kentucky;Z01.107.567.875.510.400
+Michigan;Z01.107.567.875.510.500
+Minnesota;Z01.107.567.875.510.510
+Missouri;Z01.107.567.875.510.515
+Nebraska;Z01.107.567.875.510.520
+North Dakota;Z01.107.567.875.510.525
+Ohio;Z01.107.567.875.510.540
+Oklahoma;Z01.107.567.875.510.550
+South Dakota;Z01.107.567.875.510.700
+Wisconsin;Z01.107.567.875.510.900
+New England;Z01.107.567.875.550
+Connecticut;Z01.107.567.875.550.200
+Maine;Z01.107.567.875.550.500
+Massachusetts;Z01.107.567.875.550.510
+Boston;Z01.107.567.875.550.510.210
+New Hampshire;Z01.107.567.875.550.580
+Rhode Island;Z01.107.567.875.550.680
+Vermont;Z01.107.567.875.550.880
+Northwestern United States;Z01.107.567.875.560
+Idaho;Z01.107.567.875.560.380
+Montana;Z01.107.567.875.560.500
+Oregon;Z01.107.567.875.560.550
+Washington;Z01.107.567.875.560.900
+Wyoming;Z01.107.567.875.560.925
+Pacific States;Z01.107.567.875.580
+Alaska;Z01.107.567.875.580.100
+California;Z01.107.567.875.580.200
+Los Angeles;Z01.107.567.875.580.200.450
+San Francisco;Z01.107.567.875.580.200.700
+Hawaii;Z01.107.567.875.580.375
+Oregon;Z01.107.567.875.580.550
+Washington;Z01.107.567.875.580.900
+Southeastern United States;Z01.107.567.875.750
+Alabama;Z01.107.567.875.750.100
+Arkansas;Z01.107.567.875.750.110
+Florida;Z01.107.567.875.750.350
+Georgia;Z01.107.567.875.750.370
+Louisiana;Z01.107.567.875.750.480
+New Orleans;Z01.107.567.875.750.480.500
+Mississippi;Z01.107.567.875.750.500
+North Carolina;Z01.107.567.875.750.530
+South Carolina;Z01.107.567.875.750.700
+Virginia;Z01.107.567.875.750.870
+West Virginia;Z01.107.567.875.750.900
+Southwestern United States;Z01.107.567.875.760
+Arizona;Z01.107.567.875.760.100
+California;Z01.107.567.875.760.200
+Los Angeles;Z01.107.567.875.760.200.450
+San Francisco;Z01.107.567.875.760.200.700
+Colorado;Z01.107.567.875.760.210
+Nevada;Z01.107.567.875.760.550
+New Mexico;Z01.107.567.875.760.560
+Texas;Z01.107.567.875.760.750
+Utah;Z01.107.567.875.760.800
+South America;Z01.107.757
+Argentina;Z01.107.757.077
+Bolivia;Z01.107.757.136
+Brazil;Z01.107.757.176
+Chile;Z01.107.757.235
+Colombia;Z01.107.757.284
+Ecuador;Z01.107.757.362
+French Guiana;Z01.107.757.435
+Guyana;Z01.107.757.488
+Paraguay;Z01.107.757.656
+Peru;Z01.107.757.702
+Suriname;Z01.107.757.833
+Uruguay;Z01.107.757.904
+Venezuela;Z01.107.757.943
+Antarctic Regions;Z01.158
+Arctic Regions;Z01.208
+Asia;Z01.252
+Asia, Central;Z01.252.100
+Kazakhstan;Z01.252.100.420
+Kyrgyzstan;Z01.252.100.450
+Tajikistan;Z01.252.100.900
+Turkmenistan;Z01.252.100.940
+Uzbekistan;Z01.252.100.975
+Asia, Southeastern;Z01.252.145
+Borneo;Z01.252.145.103
+Brunei;Z01.252.145.130
+Cambodia;Z01.252.145.182
+East Timor;Z01.252.145.281
+Indonesia;Z01.252.145.380
+Laos;Z01.252.145.435
+Malaysia;Z01.252.145.487
+Mekong Valley;Z01.252.145.530
+Myanmar;Z01.252.145.570
+Philippines;Z01.252.145.671
+Singapore;Z01.252.145.774
+Thailand;Z01.252.145.841
+Vietnam;Z01.252.145.945
+Asia, Western;Z01.252.245
+Bangladesh;Z01.252.245.131
+Bhutan;Z01.252.245.162
+India;Z01.252.245.393
+Sikkim;Z01.252.245.393.750
+Middle East;Z01.252.245.500
+Afghanistan;Z01.252.245.500.125
+Bahrain;Z01.252.245.500.175
+Iran;Z01.252.245.500.350
+Iraq;Z01.252.245.500.360
+Israel;Z01.252.245.500.375
+Jordan;Z01.252.245.500.400
+Kuwait;Z01.252.245.500.425
+Lebanon;Z01.252.245.500.450
+Oman;Z01.252.245.500.600
+Qatar;Z01.252.245.500.690
+Saudi Arabia;Z01.252.245.500.750
+Syria;Z01.252.245.500.795
+Turkey;Z01.252.245.500.850
+United Arab Emirates;Z01.252.245.500.900
+Yemen;Z01.252.245.500.950
+Nepal;Z01.252.245.674
+Pakistan;Z01.252.245.723
+Sri Lanka;Z01.252.245.840
+Far East;Z01.252.474
+China;Z01.252.474.164
+Hong Kong;Z01.252.474.164.450
+Macau;Z01.252.474.164.675
+Tibet;Z01.252.474.164.900
+Japan;Z01.252.474.463
+Tokyo;Z01.252.474.463.709
+Korea;Z01.252.474.557
+Democratic People's Republic of Korea;Z01.252.474.557.500
+Republic of Korea;Z01.252.474.557.750
+Mongolia;Z01.252.474.651
+Taiwan;Z01.252.474.872
+Atlantic Islands;Z01.295
+Azores;Z01.295.218
+Bermuda;Z01.295.390
+Falkland Islands;Z01.295.695
+Australia;Z01.338
+Australian Capital Territory;Z01.338.240
+New South Wales;Z01.338.480
+Northern Territory;Z01.338.500
+Queensland;Z01.338.520
+South Australia;Z01.338.600
+Tasmania;Z01.338.680
+Victoria;Z01.338.740
+Western Australia;Z01.338.800
+Cities;Z01.433
+Baltimore;Z01.433.100
+Berlin;Z01.433.128
+Boston;Z01.433.210
+Chicago;Z01.433.305
+District of Columbia;Z01.433.429
+London;Z01.433.553
+Los Angeles;Z01.433.565
+Moscow;Z01.433.653
+New Orleans;Z01.433.697
+New York City;Z01.433.741
+Paris;Z01.433.800
+Philadelphia;Z01.433.820
+Rome;Z01.433.850
+San Francisco;Z01.433.875
+Tokyo;Z01.433.900
+Europe;Z01.542
+Andorra;Z01.542.049
+Austria;Z01.542.088
+Belgium;Z01.542.115
+Europe, Eastern;Z01.542.248
+Albania;Z01.542.248.020
+Baltic States;Z01.542.248.136
+Estonia;Z01.542.248.136.360
+Latvia;Z01.542.248.136.560
+Lithuania;Z01.542.248.136.580
+Bosnia-Herzegovina;Z01.542.248.160
+Bulgaria;Z01.542.248.180
+Republic of Belarus;Z01.542.248.190
+Croatia;Z01.542.248.295
+Czech Republic;Z01.542.248.395
+Hungary;Z01.542.248.495
+Macedonia (Republic);Z01.542.248.517
+Moldova;Z01.542.248.540
+Montenegro;Z01.542.248.609
+Poland;Z01.542.248.679
+Romania;Z01.542.248.764
+Russia;Z01.542.248.775
+Bashkiria;Z01.542.248.775.150
+Dagestan;Z01.542.248.775.310
+Moscow;Z01.542.248.775.510
+Siberia;Z01.542.248.775.800
+Serbia;Z01.542.248.786
+Slovakia;Z01.542.248.797
+Slovenia;Z01.542.248.820
+Ukraine;Z01.542.248.960
+Yugoslavia;Z01.542.248.980
+Finland;Z01.542.267
+France;Z01.542.286
+Paris;Z01.542.286.588
+Germany;Z01.542.315
+Berlin;Z01.542.315.182
+Germany, East;Z01.542.315.315
+Germany, West;Z01.542.315.440
+Gibraltar;Z01.542.335
+Great Britain;Z01.542.363
+Channel Islands;Z01.542.363.161
+Guernsey;Z01.542.363.161.500
+England;Z01.542.363.300
+London;Z01.542.363.300.553
+Hebrides;Z01.542.363.423
+Northern Ireland;Z01.542.363.602
+Scotland;Z01.542.363.766
+Wales;Z01.542.363.914
+Greece;Z01.542.383
+Iceland;Z01.542.433
+Ireland;Z01.542.467
+Italy;Z01.542.489
+Rome;Z01.542.489.569
+Sicily;Z01.542.489.751
+Liechtenstein;Z01.542.524
+Luxembourg;Z01.542.550
+Mediterranean Region;Z01.542.580
+Mediterranean Islands;Z01.542.580.500
+Cyprus;Z01.542.580.500.300
+Malta;Z01.542.580.500.650
+Sicily;Z01.542.580.500.751
+Monaco;Z01.542.616
+Netherlands;Z01.542.651
+Portugal;Z01.542.727
+San Marino;Z01.542.786
+Scandinavia;Z01.542.808
+Denmark;Z01.542.808.224
+Norway;Z01.542.808.618
+Svalbard;Z01.542.808.618.650
+Sweden;Z01.542.808.843
+Spain;Z01.542.846
+Switzerland;Z01.542.883
+Transcaucasia;Z01.542.900
+Armenia;Z01.542.900.099
+Azerbaijan;Z01.542.900.120
+Georgia (Republic);Z01.542.900.420
+Vatican City;Z01.542.961
+Historical Geographic Locations;Z01.586
+Ancient Lands;Z01.586.035
+Arabia;Z01.586.035.100
+Armenia;Z01.586.035.150
+Byzantium;Z01.586.035.175
+Egypt;Z01.586.035.200
+Greece;Z01.586.035.450
+Persia;Z01.586.035.725
+Austria-Hungary;Z01.586.117
+Commonwealth of Independent States;Z01.586.200
+Armenia;Z01.586.200.099
+Azerbaijan;Z01.586.200.120
+Republic of Belarus;Z01.586.200.190
+Georgia (Republic);Z01.586.200.420
+Kazakhstan;Z01.586.200.440
+Kyrgyzstan;Z01.586.200.450
+Moldova;Z01.586.200.540
+Russia;Z01.586.200.775
+Bashkiria;Z01.586.200.775.150
+Dagestan;Z01.586.200.775.310
+Moscow;Z01.586.200.775.510
+Siberia;Z01.586.200.775.800
+Tajikistan;Z01.586.200.900
+Turkmenistan;Z01.586.200.940
+Ukraine;Z01.586.200.960
+Uzbekistan;Z01.586.200.975
+Confederate States of America;Z01.586.225
+Czechoslovakia;Z01.586.250
+Czech Republic;Z01.586.250.395
+Slovakia;Z01.586.250.750
+European Union;Z01.586.300
+Germany;Z01.586.315
+Germany, East;Z01.586.315.315
+Germany, West;Z01.586.315.440
+Prussia;Z01.586.315.720
+Holy Roman Empire;Z01.586.361
+Korea;Z01.586.407
+Middle East;Z01.586.500
+Afghanistan;Z01.586.500.125
+Bahrain;Z01.586.500.175
+Egypt;Z01.586.500.300
+Iran;Z01.586.500.350
+Iraq;Z01.586.500.360
+Israel;Z01.586.500.375
+Jordan;Z01.586.500.400
+Kuwait;Z01.586.500.425
+Lebanon;Z01.586.500.450
+Libya;Z01.586.500.460
+Oman;Z01.586.500.600
+Qatar;Z01.586.500.690
+Saudi Arabia;Z01.586.500.750
+Syria;Z01.586.500.795
+Turkey;Z01.586.500.850
+United Arab Emirates;Z01.586.500.900
+Yemen;Z01.586.500.950
+New Guinea;Z01.586.650
+Ottoman Empire;Z01.586.687
+Prussia;Z01.586.725
+Russia (Pre-1917);Z01.586.800
+USSR;Z01.586.950
+Armenia;Z01.586.950.099
+Azerbaijan;Z01.586.950.120
+Baltic States;Z01.586.950.140
+Estonia;Z01.586.950.140.360
+Latvia;Z01.586.950.140.560
+Lithuania;Z01.586.950.140.580
+Republic of Belarus;Z01.586.950.190
+Georgia (Republic);Z01.586.950.420
+Kazakhstan;Z01.586.950.440
+Kyrgyzstan;Z01.586.950.450
+Moldova;Z01.586.950.540
+Russia;Z01.586.950.775
+Bashkiria;Z01.586.950.775.150
+Dagestan;Z01.586.950.775.310
+Moscow;Z01.586.950.775.510
+Siberia;Z01.586.950.775.800
+Tajikistan;Z01.586.950.900
+Turkmenistan;Z01.586.950.940
+Ukraine;Z01.586.950.960
+Uzbekistan;Z01.586.950.975
+Yugoslavia;Z01.586.980
+Bosnia-Herzegovina;Z01.586.980.160
+Croatia;Z01.586.980.295
+Macedonia (Republic);Z01.586.980.557
+Slovenia;Z01.586.980.820
+Indian Ocean Islands;Z01.600
+Comoros;Z01.600.200
+Madagascar;Z01.600.500
+Mauritius;Z01.600.520
+Reunion;Z01.600.700
+Seychelles;Z01.600.750
+Oceania;Z01.678
+Australasia;Z01.678.100
+Australia;Z01.678.100.373
+New Zealand;Z01.678.100.747
+Pacific Islands;Z01.678.100.873
+Oceans and Seas;Z01.756
+Atlantic Ocean;Z01.756.092
+North Sea;Z01.756.092.650
+Black Sea;Z01.756.217
+Indian Ocean;Z01.756.342
+Mediterranean Sea;Z01.756.592
+Pacific Ocean;Z01.756.700
+Pacific Islands;Z01.782
+Melanesia;Z01.782.590
+Fiji;Z01.782.590.373
+New Caledonia;Z01.782.590.620
+Papua New Guinea;Z01.782.590.715
+Vanuatu;Z01.782.590.736
+Micronesia;Z01.782.680
+Guam;Z01.782.680.435
+Palau;Z01.782.680.717
+New Zealand;Z01.782.747
+Polynesia;Z01.782.815
+Hawaii;Z01.782.815.482
+Pitcairn Island;Z01.782.815.700
+Samoa;Z01.782.815.800
+American Samoa;Z01.782.815.800.100
+Independent State of Samoa;Z01.782.815.800.400
+Tonga;Z01.782.815.890

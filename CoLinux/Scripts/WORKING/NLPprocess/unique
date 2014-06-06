@@ -1,0 +1,14 @@
+#!/usr/local/bin/perl5
+
+# eliminates all but one occurrence of each line in a file, but
+#	doesn't change the order otherwise
+
+
+while (<>) {
+    if ($seen{$_}) {
+	next;
+    } else {
+	$seen{$_}++;
+	print;
+    };
+};

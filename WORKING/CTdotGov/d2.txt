@@ -1,0 +1,554 @@
+CLINICAL TRIAL: NCT00856765
+$VAR1 = bless( {
+                 'oversight_info' => {
+                                     'has_dmc' => 'Yes',
+                                     'authority' => [
+                                                    'Netherlands: Ministry of Health, Welfare and Sport',
+                                                    'Netherlands: The Central Committee on Research Involving Human Subjects (CCMO)'
+                                                  ]
+                                   },
+                 'study_type' => 'Interventional',
+                 'primary_completion_date' => {
+                                              'content' => 'March 2013',
+                                              'type' => 'Anticipated'
+                                            },
+                 'primary_outcome' => {
+                                      'time_frame' => '6 months',
+                                      'measure' => 'Angiographic in-segment late lumen loss (expressed in millimeters)  as determined by quantitative coronary analysis (QCA)',
+                                      'safety_issue' => 'No'
+                                    },
+                 'intervention' => [
+                                   {
+                                     'other_name' => 'Dior (EuroCor)',
+                                     'intervention_type' => 'Device',
+                                     'arm_group_label' => '1',
+                                     'description' => 'Percutaneous transluminal coronary balloon angioplasty catheter eluting paclitaxel',
+                                     'intervention_name' => 'Drug eluting balloon'
+                                   },
+                                   {
+                                     'other_name' => 'Magic (EuroCor)',
+                                     'intervention_type' => 'Device',
+                                     'arm_group_label' => [
+                                                          '1',
+                                                          '3'
+                                                        ],
+                                     'description' => 'Bare metal stent',
+                                     'intervention_name' => 'Bare metal stent'
+                                   },
+                                   {
+                                     'other_name' => "Taxus Libert\x{e9} (Boston scientific)",
+                                     'intervention_type' => 'Device',
+                                     'arm_group_label' => '2',
+                                     'description' => 'Paclitaxel eluting stent',
+                                     'intervention_name' => 'Drug eluting stent'
+                                   }
+                                 ],
+                 'has_expanded_access' => 'No',
+                 'arm_group' => [
+                                {
+                                  'arm_group_type' => 'Experimental',
+                                  'description' => 'Drug eluting balloon followed immediately by implantation of bare metal stent',
+                                  'arm_group_label' => '1'
+                                },
+                                {
+                                  'arm_group_type' => 'Active Comparator',
+                                  'description' => 'Drug eluting stent',
+                                  'arm_group_label' => '2'
+                                },
+                                {
+                                  'arm_group_type' => 'Active Comparator',
+                                  'description' => 'Bare metal stent',
+                                  'arm_group_label' => '3'
+                                }
+                              ],
+                 'number_of_arms' => '3',
+                 'overall_official' => {
+                                       'affiliation' => 'UMC Utrecht',
+                                       'role' => 'Principal Investigator',
+                                       'last_name' => 'Pieter Stella, MD'
+                                     },
+                 'brief_title' => 'Drug-eluting Balloon in Acute Myocardial Infarction',
+                 'study_design' => 'Allocation: Randomized, Endpoint Classification: Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Treatment',
+                 'location' => [
+                               {
+                                 'investigator' => {
+                                                   'role' => 'Principal Investigator',
+                                                   'last_name' => 'Giuseppe M Sangiorgi, MD'
+                                                 },
+                                 'status' => 'Recruiting',
+                                 'contact' => {
+                                              'last_name' => 'Giuseppe M Sangiorgi, MD'
+                                            },
+                                 'facility' => {
+                                               'name' => 'University of Modena, Department of Cardiology',
+                                               'address' => {
+                                                            'country' => 'Italy',
+                                                            'city' => 'Modena'
+                                                          }
+                                             }
+                               },
+                               {
+                                 'investigator' => [
+                                                   {
+                                                     'role' => 'Sub-Investigator',
+                                                     'last_name' => 'Pierfrancesco Agostoni, MD, PhD'
+                                                   },
+                                                   {
+                                                     'role' => 'Sub-Investigator',
+                                                     'last_name' => 'Eric Van Belle, MD, PhD'
+                                                   },
+                                                   {
+                                                     'role' => 'Principal Investigator',
+                                                     'last_name' => 'Pieter Stella, MD'
+                                                   }
+                                                 ],
+                                 'status' => 'Recruiting',
+                                 'contact' => {
+                                              'email' => 'p.stella@umcutrecht.nl',
+                                              'phone' => '+31887556167',
+                                              'last_name' => 'Pieter Stella, MD'
+                                            },
+                                 'facility' => {
+                                               'name' => 'UMC Utrecht',
+                                               'address' => {
+                                                            'country' => 'Netherlands',
+                                                            'zip' => '3584 cx',
+                                                            'city' => 'Utrecht'
+                                                          }
+                                             }
+                               }
+                             ],
+                 'acronym' => 'DEB-AMI',
+                 'id_info' => {
+                              'nct_id' => 'NCT00856765',
+                              'org_study_id' => 'METC 08-255'
+                            },
+                 'firstreceived_date' => 'March 5, 2009',
+                 'overall_contact' => {
+                                      'email' => 'p.stella@umcutrecht.nl',
+                                      'phone' => '+31887556167',
+                                      'last_name' => 'Pieter Stella, MD'
+                                    },
+                 'overall_status' => 'Recruiting',
+                 'verification_date' => 'March 2009',
+                 'source' => 'UMC Utrecht',
+                 'sponsors' => {
+                               'lead_sponsor' => {
+                                                 'agency_class' => 'Other',
+                                                 'agency' => 'UMC Utrecht'
+                                               }
+                             },
+                 'completion_date' => {
+                                      'content' => 'March 2018',
+                                      'type' => 'Anticipated'
+                                    },
+                 'official_title' => 'Randomized Comparison of Drug Eluting Balloon/Bare Metal Stent Versus Drug Eluting Stent Versus Bare Metal Stent for the Treatment of Patients With Acute ST-elevation Myocardial Infarction',
+                 'enrollment' => {
+                                 'content' => '150',
+                                 'type' => 'Anticipated'
+                               },
+                 'condition_browse' => {
+                                       'mesh_term' => [
+                                                      'Atherosclerosis',
+                                                      'Coronary Artery Disease',
+                                                      'Myocardial Ischemia',
+                                                      'Coronary Disease',
+                                                      'Infarction',
+                                                      'Myocardial Infarction',
+                                                      'Thrombosis'
+                                                    ]
+                                     },
+                 'brief_summary' => {
+                                    'textblock' => '
+      The investigators hypothesize that patients with Acute ST Elevation Myocardial Infarction
+      may benefit from primary angioplasty with use of a drug eluting balloon/bare metal stent
+      combination without impairing the process of normal vascular healing and endothelial
+      function.
+
+      The goals of this study are:
+
+        1. To compare 6-month angiographic outcome after primary angioplasty using drug eluting
+           balloon/bare metal stent combination versus drug eluting stent versus bare metal stent.
+
+        2. To compare stent apposition and stent endothelialization after primary angioplasty
+           using drug eluting balloon/bare metal stent versus drug eluting stent versus bare metal
+           stent.
+
+        3. To compare coronary endothelial function after primary angioplasty using drug eluting
+           balloon/bare metal stent versus drug eluting stent versus bare metal stent.
+    '
+                                  },
+                 'location_countries' => {
+                                         'country' => [
+                                                      'Italy',
+                                                      'Netherlands'
+                                                    ]
+                                       },
+                 'secondary_outcome' => [
+                                        {
+                                          'time_frame' => '6 months',
+                                          'measure' => 'Binary restenosis using QCA',
+                                          'safety_issue' => 'No'
+                                        },
+                                        {
+                                          'time_frame' => '6 months',
+                                          'measure' => 'stent malapposition and re-endothelialization assessed by Optical Coherence Tomography (OCY)',
+                                          'safety_issue' => 'Yes'
+                                        },
+                                        {
+                                          'time_frame' => '6 months',
+                                          'measure' => 'coronary endothelial dysfunction after acetylcholine infusion',
+                                          'safety_issue' => 'Yes'
+                                        },
+                                        {
+                                          'time_frame' => '5 years',
+                                          'measure' => 'Clinical outcomes (death, myocardial infarction, repeated revascularization procedures)',
+                                          'safety_issue' => 'Yes'
+                                        }
+                                      ],
+                 'responsible_party' => {
+                                        'name_title' => 'Dr. Pieter Stella',
+                                        'organization' => 'UMC Utrecht'
+                                      },
+                 'eligibility' => {
+                                  'healthy_volunteers' => 'No',
+                                  'minimum_age' => '18 Years',
+                                  'criteria' => {
+                                                'textblock' => '
+        Inclusion Criteria:
+
+          -  STEMI within 12 hours of onset of complaints
+
+          -  Candidate for primary PCI with stent-implantation
+
+          -  Successful thrombus aspiration defined by no angiographic signs of thrombus a the
+             site of plaque rupture and TIMI flow more or equal 1
+
+        Exclusion Criteria:
+
+          -  Unable to give written informed consent
+
+          -  Diabetes and Type C- coronary lesion
+
+          -  Previous PCI or CABG of infarct related vessel
+
+          -  Left main stenosis more than 50%.
+
+          -  Triple vessel disease with stenosis more than 50% in 3 epicardial coronary arteries
+
+          -  Target vessel reference diameter less than 2.5 and more than 4.0 mm
+
+          -  Target lesion length more than 25 mm
+
+          -  Intolerance for aspirin or clopidogrel
+
+          -  Life expectancy less than 12 months
+
+          -  Women with child bearing potential
+      '
+                                              },
+                                  'maximum_age' => '80 Years',
+                                  'gender' => 'Both'
+                                },
+                 'phase' => 'Phase 2/Phase 3',
+                 'lastchanged_date' => 'June 29, 2010',
+                 'start_date' => 'March 2009',
+                 'is_fda_regulated' => 'No',
+                 'required_header' => {
+                                      'download_date' => 'ClinicalTrials.gov processed this data on October 07, 2013',
+                                      'url' => 'http://clinicaltrials.gov/show/NCT00856765',
+                                      'link_text' => 'Link to the current ClinicalTrials.gov record.'
+                                    },
+                 'condition' => [
+                                'Coronary Artery Disease',
+                                'Atherosclerosis',
+                                'Thrombosis',
+                                'Acute Myocardial Infarction'
+                              ]
+               }, 'WebService::ClinicalTrialsdotGov::Study' );
+
+ ### 
+
+ ##### 
+time_frame	6 months
+measure	Angiographic in-segment late lumen loss (expressed in millimeters)  as determined by quantitative coronary analysis (QCA)
+safety_issue	No
+other_name	Dior (EuroCor)
+intervention_type	Device
+arm_group_label	1
+description	Percutaneous transluminal coronary balloon angioplasty catheter eluting paclitaxel
+intervention_name	Drug eluting balloon
+other_name	Magic (EuroCor)
+intervention_type	Device
+arm_group_label	1
+arm_group_label	3
+
+description	Bare metal stent
+intervention_name	Bare metal stent
+other_name	Taxus Liberté (Boston scientific)
+intervention_type	Device
+arm_group_label	2
+description	Paclitaxel eluting stent
+intervention_name	Drug eluting stent
+Study Title: Randomized Comparison of Drug Eluting Balloon/Bare Metal Stent Versus Drug Eluting Stent Versus Bare Metal Stent for the Treatment of Patients With Acute ST-elevation Myocardial Infarction
+Keyword	NOT FOUND
+lead_sponsor	HASH(0x9de0358)
+
+MeSH	NOT FOUND
+### END TRIAL DATA ###
+
+CLINICAL TRIAL: NCT01322009
+$VAR1 = bless( {
+                 'oversight_info' => {
+                                     'has_dmc' => 'Yes',
+                                     'authority' => 'United States: Institutional Review Board'
+                                   },
+                 'detailed_description' => {
+                                           'textblock' => '
+      Specific Aim: Define the capacity of the combination of probenecid and NAC to safely and
+      synergistically preserve levels of GSH and reduce oxidative stress in children with severe
+      TBI. We will enroll 20 children age 2 to less than 18 years old (less than 216 months) after
+      severe TBI in a randomized, controlled study of administration of the combinational therapy
+      and test if the administration of these drugs is safe and if antioxidant reserve can be
+      preserved within the serum and CSF.
+
+      Probenecid (at the same dose that is used as an adjunct to antibiotic therapy) and NAC (at
+      the same dose that is used for acetaminophen-induced liver disease), or vehicles will be
+      given for 3 days. The primary outcomes of the study will be the safety of drug
+      administration and the CSF and serum levels anti-oxidant reserve (AOR), with the presumption
+      that maintaining anti-oxidant levels within the brain may prove neuroprotective. Other
+      secondary outcomes (CSF and serum probenecid, NAC, GSH and phenytoin concentrations) will
+      also be tested. Adverse events occuring during treatment with these drugs after TBI will be
+      monitored by a local Data Safety Monitoring Board.
+    '
+                                         },
+                 'study_type' => 'Interventional',
+                 'primary_completion_date' => {
+                                              'content' => 'March 2014',
+                                              'type' => 'Anticipated'
+                                            },
+                 'primary_outcome' => {
+                                      'time_frame' => '14 days after drug administration',
+                                      'measure' => 'Adverse Events',
+                                      'description' => 'A number of a prior defined adverse events have been defined. The number of adverse events in the treatment arms will be calculated and compared.',
+                                      'safety_issue' => 'Yes'
+                                    },
+                 'intervention' => [
+                                   {
+                                     'intervention_type' => 'Drug',
+                                     'arm_group_label' => 'Drug',
+                                     'description' => 'After obtaining written parental consent, patients will be randomized by the use of a blind envelope system to one of the following: to receive probenecid (initial: 25 mg/kg/dose; maintenance: 10mg/kg/dose 4 x per day for 11 doses) and NAC (initial: 140mg/kg/dose; maintenance: 70mg/kg/dose 6 x per day for 17 doses) or the placebo via nasogastric (NG) or orogastric (OG) tube for 3 days or to receive placebos.',
+                                     'intervention_name' => 'Probenecid and N-acetyl cysteine'
+                                   },
+                                   {
+                                     'other_name' => 'Ora Plus',
+                                     'intervention_type' => 'Drug',
+                                     'arm_group_label' => 'Placebo',
+                                     'description' => 'After obtaining written parental consent, patients will be randomized by the use of a blind envelope system to one of the following: to receive probenecid (initial: 25 mg/kg/dose; maintenance: 10mg/kg/dose 4 x per day for 11 doses) and NAC (initial: 140mg/kg/dose; maintenance: 70mg/kg/dose 6 x per day for 17 doses) or the placebo via nasogastric (NG) or orogastric (OG) tube for 3 days. Placebo contents include equal volumes and dosing regimens of lactose powder (for opacity) suspended in Ora-Plus and normal saline.',
+                                     'intervention_name' => 'Placebo'
+                                   }
+                                 ],
+                 'intervention_browse' => {
+                                          'mesh_term' => [
+                                                         'Acetylcysteine',
+                                                         'N-monoacetylcystine',
+                                                         'Probenecid'
+                                                       ]
+                                        },
+                 'has_expanded_access' => 'No',
+                 'number_of_arms' => '2',
+                 'arm_group' => [
+                                {
+                                  'arm_group_type' => 'Experimental',
+                                  'description' => 'Probenecid and N-acetyl cysteine will be administered at standard doses for the first 4 days after TBI.',
+                                  'arm_group_label' => 'Drug'
+                                },
+                                {
+                                  'arm_group_type' => 'Placebo Comparator',
+                                  'description' => 'Placebos will be prepared for the two experimental drugs and administered at identical time periods.',
+                                  'arm_group_label' => 'Placebo'
+                                }
+                              ],
+                 'overall_official' => [
+                                       {
+                                         'affiliation' => 'University of Pittsburgh',
+                                         'role' => 'Principal Investigator',
+                                         'last_name' => 'Michael J Bell, MD'
+                                       },
+                                       {
+                                         'affiliation' => 'University of Pittsburgh',
+                                         'role' => 'Study Director',
+                                         'last_name' => 'Robert SB Clark, MD'
+                                       }
+                                     ],
+                 'brief_title' => 'Overcoming Membrane Transporters to Improve CNS Drug Delivery - Improving Brain Antioxidants After Traumatic Brain Injury',
+                 'study_design' => 'Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Double Blind (Subject, Caregiver, Investigator, Outcomes Assessor), Primary Purpose: Treatment',
+                 'location' => {
+                               'investigator' => [
+                                                 {
+                                                   'role' => 'Principal Investigator',
+                                                   'last_name' => 'Michael J Bell, MD'
+                                                 },
+                                                 {
+                                                   'role' => 'Principal Investigator',
+                                                   'last_name' => 'Robert SB Clark, MD'
+                                                 }
+                                               ],
+                               'status' => 'Recruiting',
+                               'contact' => {
+                                            'email' => 'bellmj4@upmc.edu',
+                                            'phone' => '412-692-5164',
+                                            'last_name' => 'Michael J Bell, MD'
+                                          },
+                               'facility' => {
+                                             'name' => 'Children\'s Hospital of Pittsburgh of UPMC',
+                                             'address' => {
+                                                          'country' => 'United States',
+                                                          'zip' => '15213',
+                                                          'city' => 'Pittsburgh',
+                                                          'state' => 'Pennsylvania'
+                                                        }
+                                           }
+                             },
+                 'acronym' => 'Pro-NAC',
+                 'id_info' => {
+                              'secondary_id' => '1R01NS069247-01',
+                              'nct_id' => 'NCT01322009',
+                              'org_study_id' => 'NS069247'
+                            },
+                 'overall_contact' => {
+                                      'email' => 'bellmj4@upmc.edu',
+                                      'phone' => '412-692-5164',
+                                      'last_name' => 'Michael J Bell, MD'
+                                    },
+                 'firstreceived_date' => 'March 22, 2011',
+                 'overall_status' => 'Recruiting',
+                 'verification_date' => 'March 2011',
+                 'keyword' => [
+                              'Children',
+                              'Brain injury',
+                              'Trauma'
+                            ],
+                 'source' => 'University of Pittsburgh',
+                 'sponsors' => {
+                               'lead_sponsor' => {
+                                                 'agency_class' => 'Other',
+                                                 'agency' => 'University of Pittsburgh'
+                                               },
+                               'collaborator' => [
+                                                 {
+                                                   'agency_class' => 'NIH',
+                                                   'agency' => 'National Institutes of Health (NIH)'
+                                                 },
+                                                 {
+                                                   'agency_class' => 'NIH',
+                                                   'agency' => 'National Institute of Neurological Disorders and Stroke (NINDS)'
+                                                 }
+                                               ]
+                             },
+                 'completion_date' => {
+                                      'content' => 'March 2014',
+                                      'type' => 'Anticipated'
+                                    },
+                 'official_title' => 'Overcoming Membrane Transporters to Improve CNS Drug Delivery',
+                 'enrollment' => {
+                                 'content' => '20',
+                                 'type' => 'Anticipated'
+                               },
+                 'condition_browse' => {
+                                       'mesh_term' => 'Brain Injuries'
+                                     },
+                 'brief_summary' => {
+                                    'textblock' => '
+      The overall purpose of this research study is to investigate the safety of pharmacological
+      therapies that may potentially improve pediatric outcomes after traumatic brain injury.
+      Traumatic brain injuries are the leading cause of death and disability among children and
+      young adults.
+
+      Hypothesis: Combinational therapy with a membrane transporter and antioxidant are safe after
+      TBI and can overcome barriers to the brain and synergistically improve bioavailability and
+      efficacy the antioxidant content of the body and CNS after TBI.
+    '
+                                  },
+                 'location_countries' => {
+                                         'country' => 'United States'
+                                       },
+                 'secondary_outcome' => {
+                                        'time_frame' => 'Within 5 days of injury',
+                                        'measure' => 'Antioxidant Reserve',
+                                        'description' => 'Antioxidant reserves in CSF and serum will be calculated in both treatment arms and compared.',
+                                        'safety_issue' => 'No'
+                                      },
+                 'responsible_party' => {
+                                        'name_title' => 'Michael Bell/Associate Professor of Critical Care Medicine, Neurological Surgery and Pediatrics',
+                                        'organization' => 'University of Pittsburgh'
+                                      },
+                 'eligibility' => {
+                                  'healthy_volunteers' => 'No',
+                                  'minimum_age' => '2 Years',
+                                  'criteria' => {
+                                                'textblock' => '
+        Inclusion Criteria:
+
+          -  Children (age 2 - 18 y) with severe TBI (GCS < or = 8) with an externalized
+             ventricular drain placed for measurement of intracranial pressure
+
+        Exclusion Criteria:
+
+          1. Brain dead on admission to ICU
+
+          2. Pregnancy
+
+          3. Contraindications to enteral medications
+
+          4. Contraindications to probenecid:
+
+               -  status epilepticus
+
+               -  blood dyscrasias
+
+               -  under 2 years-of-age
+
+               -  coadministration of salicylates
+
+               -  renal dysfunction or urate kidney stones
+
+               -  hypersensitivity to probenecid
+
+          5. Contraindications to N-acetylcysteine: hypersensitivity to N-acetylcysteine
+
+          6. Family unwilling to consent
+      '
+                                              },
+                                  'maximum_age' => '18 Years',
+                                  'gender' => 'Both'
+                                },
+                 'lastchanged_date' => 'March 23, 2011',
+                 'phase' => 'Phase 1/Phase 2',
+                 'start_date' => 'March 2011',
+                 'is_fda_regulated' => 'No',
+                 'required_header' => {
+                                      'download_date' => 'ClinicalTrials.gov processed this data on October 07, 2013',
+                                      'url' => 'http://clinicaltrials.gov/show/NCT01322009',
+                                      'link_text' => 'Link to the current ClinicalTrials.gov record.'
+                                    },
+                 'condition' => 'Pediatric Traumatic Brain Injury'
+               }, 'WebService::ClinicalTrialsdotGov::Study' );
+
+ ### 
+
+ ##### 
+time_frame	14 days after drug administration
+measure	Adverse Events
+description	A number of a prior defined adverse events have been defined. The number of adverse events in the treatment arms will be calculated and compared.
+safety_issue	Yes
+intervention_type	Drug
+arm_group_label	Drug
+description	After obtaining written parental consent, patients will be randomized by the use of a blind envelope system to one of the following: to receive probenecid (initial: 25 mg/kg/dose; maintenance: 10mg/kg/dose 4 x per day for 11 doses) and NAC (initial: 140mg/kg/dose; maintenance: 70mg/kg/dose 6 x per day for 17 doses) or the placebo via nasogastric (NG) or orogastric (OG) tube for 3 days or to receive placebos.
+intervention_name	Probenecid and N-acetyl cysteine
+other_name	Ora Plus
+intervention_type	Drug
+arm_group_label	Placebo
+description	After obtaining written parental consent, patients will be randomized by the use of a blind envelope system to one of the following: to receive probenecid (initial: 25 mg/kg/dose; maintenance: 10mg/kg/dose 4 x per day for 11 doses) and NAC (initial: 140mg/kg/dose; maintenance: 70mg/kg/dose 6 x per day for 17 doses) or the placebo via nasogastric (NG) or orogastric (OG) tube for 3 days. Placebo contents include equal volumes and dosing regimens of lactose powder (for opacity) suspended in Ora-Plus and normal saline.
+intervention_name	Placebo
+Study Title: Overcoming Membrane Transporters to Improve CNS Drug Delivery

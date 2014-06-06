@@ -1,0 +1,179 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use Getopt::Std;
+use utf8;
+use Text::Unidecode;
+use XML::Twig::XPath;
+
+my $usage = "Usage:terms2mesh.pl pubmed_xml\n
+
+Options:
+\t-h\tThis help
+\t-a\tPrint Authorsl\n
+";
+
+unless ( $ARGV[0] ) { die $usage }
+
+### command line options ###
+my (%opts, $optAuth);
+
+getopts('ha', \%opts);
+defined $opts{"h"} and die $usage;
+defined $opts{"a"} and $optAuth++;
+
+# Take input from the command line
+
+my $xmlFile = $ARGV[0];
+
+open(IFILE, "< $xmlFile") || die "cannot open $xmlFile: $!\n";
+
+$/ = undef;
+
+my (@entries, @addXMLheaders, @sTerms);
+
+while (<IFILE>)
+{
+	$_ =~ s/\<PubmedArticleSet\>\n\<PubmedArticle\>/\<PubmedArticleSet\>\n\n\n\<PubmedArticle\>/;
+# 	$_ =~ s/\&lt\;/lt/g;
+# 	$_ =~ s/\&gt\;/gt/g;
+# 	$_ =~ s/\&amp\;/and/g;
+# 	$_ =~ s/\#38\;//g;
+#	my $asci = unidecode($_);
+	#print "*** ", $asci, " ***\n";
+#	@entries = split(/\n\n/, $asci);
+	@entries = split(/\n\n/, $_);
+}
+
+my $xmlHead = shift(@entries);
+#print "HEAD: ", $xmlHead, "\n";
+my $xmlTail = "<\/PubmedArticleSet>";
+
+# Close the file we've opened
+close(IFILE);
+
+$/ = "\n";
+
+# recreate xml record
+#for (@addXMLheaders = @asci)
+for (@addXMLheaders = @entries)
+{
+  $_ = $xmlHead . "\n". $_ . "\n" . $xmlTail;
+}
+
+#print "\nENTRY: \n", $_, "\n\n" foreach @addXMLhead; 
+
+our ($title, $address, $author_data);
+our @authors;
+my (%authCount, %authAddr);
+
+my $pubCnt = (scalar(@addXMLheaders) -1);
+#print "pubs: ", $pubCnt, "\n";
+my $loopCnt;
+
+foreach my $entry (@addXMLheaders)
+{
+@authors = ();
+
+#  print "*** RECORD ***\n";
+  $loopCnt++;
+#  print "loop: ", $loopCnt, "\n";
+
+  my $twig=XML::Twig->new(
+      twig_roots   => 
+      {
+		'Article/ArticleTitle'    => \&title,
+		'Abstract/AbstractText'   => \&abstract,
+		'Affiliation'       => \&address,
+		'Author'       => \&author, 
+      },
+	      twig_handlers =>
+	      { },
+	      pretty_print => 'indented',  # output will be nicely formatted
+	 ); 
+	 
+  $twig->parse($entry); # build it
+#  print "TITLE: ", $title, "\n";
+#  print "ADDR: ", $address, "\n";
+  
+#  print "AUTH: ", join(', ', @authors);
+  
+  foreach my $auth (@authors) {
+#     my $asciAuth = unidecode($auth);
+#     my $asciAddr = unidecode($address);
+#     $authCount{$asciAuth}++;
+#     $authAddr{$asciAuth} = "$asciAddr";
+#      print "AUTH: ", $asciAuth, "\n";
+
+    $authCount{$auth}++;
+    $authAddr{$auth} = "$address";
+#    print "AUTH: ", $auth, "\n";
+    }
+    
+#  print "AUTH: ", join(', ', @authors), "\n";
+
+  $twig->purge;
+   
+   if ($loopCnt >= $pubCnt) {
+    #print "THE END\n";
+      foreach my $key (sort { $authCount {$b} <=> $authCount {$a} } keys %authCount) 
+      {
+	my $asciAuth = unidecode($key);
+	my $asciAddr = unidecode($authAddr{$key});
+	print $authCount{$key}, " ", $asciAuth, " ADDR:", $asciAddr, "\n";
+#	print $authCount{$key}, " ", $key, " ADDR:", $authAddr{$key}, "\n";
+	#$authCount{$key}, "\tcount: ", $key, "\n"; 
+      }
+    }
+    
+#    print "-------------- --------------\n";
+}
+
+
+##########################################
+#Functions for parsing the XML
+##########################################
+
+sub title {
+    
+    my ($twig, $elt)= @_;
+    $title = $elt->text;
+#    print "TITLE: ", $elt->text, "\n";
+    $twig->purge;
+#    return $title;
+}
+
+
+
+sub abstract {
+    my ($twig, $elt)= @_;
+#    $publication->uniquename($elt->text) ;
+
+    $twig->purge
+}
+
+sub address {
+    my ($twig, $elt)= @_;
+#    $publication->uniquename($elt->text) ;
+    $address = $elt->text;
+#    print "ADDR: ", $elt->text, "\n";
+    $twig->purge
+}
+
+sub author {
+    my ($twig, $elt)= @_;
+    
+    my $lastname=$elt->children_text('LastName');
+    my $initials=$elt->children_text('Initials');  
+    my $collective=$elt->children_text('CollectiveName');
+    #sometimes the firstname has no initials but full first name 'ForName'..
+  
+    if (!$initials) {  $initials=$elt->children_text('ForeName') || $elt->children_text('FirstName') ; }
+    
+    $author_data=  $lastname ." " . $initials ; 
+    if ((!$lastname) && ($collective)) { $author_data = $collective; }
+    push( @authors, $author_data);
+#    print "AUTHOR: ", $author_data, "\n";
+
+    $twig->purge;
+}

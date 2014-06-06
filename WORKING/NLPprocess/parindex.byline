@@ -1,0 +1,20 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# Author:  I. Dan Melamed
+# Computes:	line numbers ending each paragraph
+# N.B.:		para. boundaries marked by 2 newlines
+#######################################################################
+
+$TRUE = 1;
+$FALSE = 0;
+$INFINITY = 9999999999;
+$TINY = 0.0000001;
+$| = 1;
+
+while (<>) {
+    if (length == 1) {
+	print "$.\n";
+    };
+};
+

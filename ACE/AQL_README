@@ -1,0 +1,5 @@
+tace /d1/acedbs/target
+
+acedb>aql -f reagentTableQuery.aql -o file
+acedb>quit
+

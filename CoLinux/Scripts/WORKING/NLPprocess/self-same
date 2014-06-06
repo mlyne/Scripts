@@ -1,0 +1,12 @@
+#!/usr/local/bin/perl5
+
+# finds identical lines within a file.
+
+while (<>) {
+	$line++;
+	if ($loc{$_}) {
+		print "$line is like $loc{$_}\n";
+	} else {
+		$loc{$_} = $line;
+	};
+};

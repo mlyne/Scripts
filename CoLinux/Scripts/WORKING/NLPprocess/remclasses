@@ -1,0 +1,32 @@
+#!/usr/local/bin/perl5
+
+# removes given parts of speech from tagged text
+# the parts to remove should be in a file, one per line
+
+
+#check for correct usage
+if ($#ARGV < 0) {
+        print "usage:  remclasses <POS list> [<base file>]\n";
+        exit;
+};
+
+open(P, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+
+while (<P>) {
+	chop;
+	$killclass[$.] = $_;
+};
+
+
+open(B, $ARGV[1]) || die "Couldn't open $ARGV[1]: $!\n";
+
+# print stderr "Processing line:\n";
+while (<B>) {
+    s/^ *//;
+    foreach $pos (@killclass) {
+	s/[^ ]*::$pos //g;
+	s/[^ ]*::$pos$//;
+    };
+    print;
+};
+

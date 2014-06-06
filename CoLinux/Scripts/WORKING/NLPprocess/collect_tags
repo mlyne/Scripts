@@ -1,0 +1,15 @@
+#!/usr/local/bin/perl5
+
+# concatenates all the POS tags in each line into an appended last
+#	column
+
+while (<>) {
+    chop;
+    $remainder = $_;
+    $tags = "";
+    while ($remainder =~ /(.*)(::[^: ]+)(.*)/) {
+	$tags = $2.$tags;
+	$remainder = $1.$3;
+    };
+    print "$_ $tags\n";
+};

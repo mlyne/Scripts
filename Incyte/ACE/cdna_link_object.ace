@@ -1,0 +1,196 @@
+Sequence : clone_958210_link_cdna
+Gene_summary_cdna	clone_958210
+Subsequence	GB:NM_006290 1 4426
+
+//
+
+
+Sequence GB:NM_006290
+Title "Homo sapiens tumor necrosis factor, alpha-induced protein 3 (TNFAIP3), mRNA."
+From_database GENBANK
+DB_annotation GENBANK GB:NM_006290
+Database GENBANK
+Database GENBANK NM_006290
+!Accession NM_006290
+!Nucleotide_id 
+Species "Homo sapiens"
+Reference [Medline:90368626]
+Subsequence GB:NM_006290.1 67 2439
+misc_feature 1216 1293
+misc_feature 1222 1293
+misc_feature 1489 1563
+misc_feature 1489 1566
+misc_feature 1876 1953
+misc_feature 1876 1953
+misc_feature 2026 2103
+misc_feature 2203 2280
+misc_feature 2341 2418
+misc_feature 2341 2418
+
+Sequence GB:NM_006290.1
+CDS
+
+Paper [Medline:90368626]
+Title "The A20 cDNA induced by tumor necrosis factor alpha encodes a novel type of zinc finger protein"
+Author "Opipari A.W. Jr."
+Author "Boguski M.S."
+Author "Dixit V.M."
+Journal "J. Biol. Chem."
+Year 1990
+Volume 265
+Page 14705 14708
+Web_location "Medline"
+Medline_ID 90368626
+
+
+DNA GB:NM_006290
+tgccttgaccaggacttgggactttgcgaaaggatcgcggggcccggagaggtgttggag
+agcacaatggctgaacaagtccttcctcaggctttgtatttgagcaatatgcggaaagct
+gtgaagatacgggagagaactccagaagacatttttaaacctactaatgggatcattcat
+cattttaaaaccatgcaccgatacacactggaaatgttcagaacttgccagttttgtcct
+cagtttcgggagatcatccacaaagccctcatcgacagaaacatccaggccaccctggaa
+agccagaagaaactcaactggtgtcgagaagtccggaagcttgtggcgctgaaaacgaac
+ggtgacggcaattgcctcatgcatgccacttctcagtacatgtggggcgttcaggacaca
+gacttggtactgaggaaggcgctgttcagcacgctcaaggaaacagacacacgcaacttt
+aaattccgctggcaactggagtctctcaaatctcaggaatttgttgaaacggggctttgc
+tatgatactcggaactggaatgatgaatgggacaatcttatcaaaatggcttccacagac
+acacccatggcccgaagtggacttcagtacaactcactggaagaaatacacatatttgtc
+ctttgcaacatcctcagaaggccaatcattgtcatttcagacaaaatgctaagaagtttg
+gaatcaggttccaatttcgcccctttgaaagtgggtggaatttacttgcctctccactgg
+cctgcccaggaatgctacagataccccattgttctcggctatgacagccatcattttgta
+cccttggtgaccctgaaggacagtgggcctgaaatccgagctgttccacttgttaacaga
+gaccggggaagatttgaagacttaaaagttcactttttgacagatcctgaaaatgagatg
+aaggagaagctcttaaaagagtacttaatggtgatagaaatccccgtccaaggctgggac
+catggcacaactcatctcatcaatgccgcaaagttggatgaagctaacttaccaaaagaa
+atcaatctggtagatgattactttgaacttgttcagcatgagtacaagaaatggcaggaa
+aacagcgagcaggggaggagagaggggcacgcccagaatcccatggaaccttccgtgccc
+cagctttctctcatggatgtaaaatgtgaaacgcccaactgccccttcttcatgtctgtg
+aacacccagcctttatgccatgagtgctcagagaggcggcaaaagaatcaaaacaaactc
+ccaaagctgaactccaagccgggccctgaggggctccctggcatggcgctcggggcctct
+cggggagaagcctatgagcccttggcgtggaaccctgaggagtccactggggggcctcat
+tcggccccaccgacagcacccagcccttttctgttcagtgagaccactgccatgaagtgc
+aggagccccggctgccccttcacactgaatgtgcagcacaacggattttgtgaacgttgc
+cacaacgcccggcaacttcacgccagccacgccccagaccacacaaggcacttggatccc
+gggaagtgccaagcctgcctccaggatgttaccaggacatttaatgggatctgcagtact
+tgcttcaaaaggactacagcagaggcctcctccagcctcagcaccagcctccctccttcc
+tgtcaccagcgttccaagtcagatccctcgcggctcgtccggagcccctccccgcattct
+tgccacagagctggaaacgacgcccctgctggctgcctgtctcaagctgcacggactcct
+ggggacaggacggggacgagcaagtgcagaaaagccggctgcgtgtattttgggactcca
+gaaaacaagggcttttgcacactgtgtttcatcgagtacagagaaaacaaacattttgct
+gctgcctcagggaaagtcagtcccacagcgtccaggttccagaacaccattccgtgcctg
+gggagggaatgcggcacccttggaagcaccatgtttgaaggatactgccagaagtgtttc
+attgaagctcagaatcagagatttcatgaggccaaaaggacagaagagcaactgagatcg
+agccagcgcagagatgtgcctcgaaccacacaaagcacctcaaggcccaagtgcgcccgg
+gcctcctgcaagaacatcctggcctgccgcagcgaggagctctgcatggagtgtcagcat
+cccaaccagaggatgggccctggggcccaccggggtgagcctgcccccgaagaccccccc
+aagcagcgttgccgggcccccgcctgtgatcattttggcaatgccaagtgcaacggctac
+tgcaacgaatgctttcagttcaagcagatgtatggctaaccggaaacaggtgggtcacct
+cctgcaagaagtggggcctcgagctgtcagtcatcatggtgctatcctctgaacccctca
+gctgccactgcaacagtgggcttaagggtgtctgagcaggagaggaaagataagctcttc
+gtggtgcccacgatgctcaggtttggtaacccgggagtgttcccaggtggccttagaaag
+caaagcttgtaactggcaagggatgatgtcagattcagcccaaggttcctcctctcctac
+caagcaggaggccaggaacttctttggacttggaaggtgtgcggggactggccgaggccc
+ctgcaccctgcgcatcaggactgcttcatcgtcttggctgagaaagggaaaagacacaca
+agtcgcgtgggttggagaagccagagccattccacctcccctcccccagcatctctcaga
+gatgtgaagccagatcctcatggcagcgaggccctctgcaagaagctcaaggaagctcag
+ggaaaatggacgtattcagagagtgtttgtagttcatggtttttccctacctgcccggtt
+cctttcctgaggacccggcagaaatgcagaaccatccatggactgtgattctgaggctgc
+tgagactgaacatgttcacattgacagaaaaacaagctgctctttataatatgcaccttt
+taaaaaattagaatattttactgggaagacgtgtaactctttgggttattactgtcttta
+cttctaaagaagttagcttgaactgaggagtaaaagtgtgtacatatataatataccctt
+acattatgtatgagggatttttttaaattatattgaaatgctgccctagaagtacaatag
+gaaggctaaataataataacctgttttctggttgttgttggggcatgagcttgtgtatac
+actgcttgcataaactcaaccagctgcctttttaaagggagctctagtcctttttgtgta
+attcactttatttattttattacaaacttcaagattatttaagtgaagatatttcttcag
+ctctggggaaaatgccacagtgttctcctgagagaacatccttgctttgagtcaggctgt
+gggcaagttcctgaccacagggagtaaattggcctctttgatacacttttgcttgcctcc
+ccaggaaagaaggaattgcatccaaggtatacatacatattcatcgatgtttcgtgcttc
+tccttatgaaactccagctatgtaataaaaaactatactctgtgttctgttaatgcctct
+gagtgtcctacctccttggagatgagatagggaaggagcagggatgagactggcaatggt
+cacagggaaagatgtggccttttgtgatggttttattttctgttaacactgtgtcctggg
+ggggctgggaagtcccctgcatcccatggtaccctggtattgggacagcaaaagccagta
+accatgagtatgaggaaatctctttctgttgctggcttacagtttctctgtgtgctttgt
+ggttgctgtcatatttgctctagaagaaaaaaaaaaaaggaggggaaatgcattttcccc
+agagataaaggctgccattttgggggtctgtacttatggcctgaaaatatttgtgatcca
+taactctacacagcctttactcatactattaggcacactttccccttagagccccctaag
+tttttcccagacgaatctttataatttcctttccaaagataccaaataaacttcagtgtt
+ttcatctaattctcttaaagttgatatcttaatattttgtgttgatcattatttccattc
+ttaatgtgaaaaaaagtaattatttatacttattataaaaagtatttgaaatttgcacat
+ttaattgtccctaatagaaagccacctattctttgttggatttcttcaagtttttctaaa
+taaatgtaacttttcacaagagtcaacattaaaaaataaattattt
+
+LongText GB:NM_006290
+LOCUS       NM_006290    4426 bp    mRNA            PRI       01-NOV-2000
+DEFINITION  Homo sapiens tumor necrosis factor, alpha-induced protein 3
+            (TNFAIP3), mRNA.
+ACCESSION   NM_006290
+VERSION     NM_006290.1  GI:5454131
+KEYWORDS    .
+SOURCE      human.
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Primates; Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 4426)
+  AUTHORS   Opipari,A.W. Jr., Boguski,M.S. and Dixit,V.M.
+  TITLE     The A20 cDNA induced by tumor necrosis factor alpha encodes a novel
+            type of zinc finger protein
+  JOURNAL   J. Biol. Chem. 265 (25), 14705-14708 (1990)
+  MEDLINE   90368626
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from M59465.1.
+FEATURES             Location/Qualifiers
+     source          1..4426
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+                     /chromosome="6"
+                     /map="6"
+     gene            1..4426
+                     /gene="TNFAIP3"
+                     /note="TNFA1P2; A20"
+                     /db_xref="LocusID:7128"
+                     /db_xref="MIM:191163"
+     CDS             67..2439
+                     /gene="TNFAIP3"
+                     /note="tumor necrosis factor alpha inducible protein"
+                     /codon_start=1
+                     /db_xref="LocusID:7128"
+                     /db_xref="MIM:191163"
+                     /product="tumor necrosis factor, alpha-induced protein 3"
+                     /protein_id="NP_006281.1"
+                     /db_xref="GI:5454132"
+                     /translation="MAEQVLPQALYLSNMRKAVKIRERTPEDIFKPTNGIIHHFKTMH
+                     RYTLEMFRTCQFCPQFREIIHKALIDRNIQATLESQKKLNWCREVRKLVALKTNGDGN
+                     CLMHATSQYMWGVQDTDLVLRKALFSTLKETDTRNFKFRWQLESLKSQEFVETGLCYD
+                     TRNWNDEWDNLIKMASTDTPMARSGLQYNSLEEIHIFVLCNILRRPIIVISDKMLRSL
+                     ESGSNFAPLKVGGIYLPLHWPAQECYRYPIVLGYDSHHFVPLVTLKDSGPEIRAVPLV
+                     NRDRGRFEDLKVHFLTDPENEMKEKLLKEYLMVIEIPVQGWDHGTTHLINAAKLDEAN
+                     LPKEINLVDDYFELVQHEYKKWQENSEQGRREGHAQNPMEPSVPQLSLMDVKCETPNC
+                     PFFMSVNTQPLCHECSERRQKNQNKLPKLNSKPGPEGLPGMALGASRGEAYEPLAWNP
+                     EESTGGPHSAPPTAPSPFLFSETTAMKCRSPGCPFTLNVQHNGFCERCHNARQLHASH
+                     APDHTRHLDPGKCQACLQDVTRTFNGICSTCFKRTTAEASSSLSTSLPPSCHQRSKSD
+                     PSRLVRSPSPHSCHRAGNDAPAGCLSQAARTPGDRTGTSKCRKAGCVYFGTPENKGFC
+                     TLCFIEYRENKHFAAASGKVSPTASRFQNTIPCLGRECGTLGSTMFEGYCQKCFIEAQ
+                     NQRFHEAKRTEEQLRSSQRRDVPRTTQSTSRPKCARASCKNILACRSEELCMECQHPN
+                     QRMGPGAHRGEPAPEDPPKQRCRAPACDHFGNAKCNGYCNECFQFKQMYG"
+     misc_feature    1216..1293
+                     /note="zf-A20; Region: A20-like zinc finger"
+     misc_feature    1222..1293
+                     /note="ZnF_A20; Region: A20-like zinc fingers"
+     misc_feature    1489..1563
+                     /note="zf-A20; Region: A20-like zinc finger"
+     misc_feature    1489..1566
+                     /note="ZnF_A20; Region: A20-like zinc fingers"
+     misc_feature    1876..1953
+                     /note="ZnF_A20; Region: A20-like zinc fingers"
+     misc_feature    1876..1953
+                     /note="zf-A20; Region: A20-like zinc finger"
+     misc_feature    2026..2103
+                     /note="zf-A20; Region: A20-like zinc finger"
+     misc_feature    2203..2280
+                     /note="zf-A20; Region: A20-like zinc finger"
+     misc_feature    2341..2418
+                     /note="ZnF_A20; Region: A20-like zinc fingers"
+     misc_feature    2341..2418
+                     /note="zf-A20; Region: A20-like zinc finger"
+BASE COUNT     1192 a   1070 c   1055 g   1109 t
+***LongTextEnd***

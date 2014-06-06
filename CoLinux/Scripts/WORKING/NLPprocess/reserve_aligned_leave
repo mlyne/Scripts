@@ -1,0 +1,47 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# Takes two aligned files
+# and outputs a random sample (without replacement) of 
+# corresponding lines to two files, until the specified number of line
+# pairs remain.  Line pairs not in the sample are 
+# dumped to two other files, their order intact.  This is useful for
+# creating a random test set of aligned lines, while retaining a 
+# training set of a specified size.
+########################################################################
+
+#check for correct usage
+unless ($#ARGV == 2) {
+    print "usage:  reserve_aligned_leave <leave-size> <E-file1> <F-file2>\n";
+    exit;
+};
+
+$leave = $ARGV[0];
+
+open(EN, $ARGV[1]) || die "Couldn't open $ARGV[1]: $!\n";
+open(FR, $ARGV[2]) || die "Couldn't open $ARGV[2]: $!\n";
+open(Eout, ">Eselected") || die "Couldn't open Eselected: $!\n";
+open(Fout, ">Fselected") || die "Couldn't open Fselected: $!\n";
+
+srand;
+
+while (<EN>) {
+	$en[$count] = $_;
+	$fr[$count] = <FR>;
+	++$count;
+};	
+
+while ($count > $leave) {
+	$ind = rand $count--;
+	print Eout splice(@en, $ind, 1);
+	print Fout splice(@fr, $ind, 1);
+};
+
+open(Eout, ">Eunselected") || die "Couldn't open Eunselected: $!\n";
+open(Fout, ">Funselected") || die "Couldn't open Funselected: $!\n";
+
+for($i = 0; $i < @en; $i++) {
+    print Eout $en[$i];
+    print Fout $fr[$i];
+};
+

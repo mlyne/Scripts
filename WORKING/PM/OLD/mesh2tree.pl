@@ -1,0 +1,69 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+
+my $usage = "Usage:term2treeMesh.pl mesh_tree " .
+    "mesh_term_file\n";
+
+unless ( $ARGV[1] ) { die $usage }
+
+my $meshTree = $ARGV[0];
+my $meshTerms = $ARGV[1];
+
+my ($concept, $treePath);
+my %conceptHash;
+my %pathHash;
+my %meshCnt;
+
+open(TREE_FILE, "< $meshTree")  || die "cannot open $meshTree: $!";
+
+while (<TREE_FILE>)
+{
+  chomp;
+  ($concept, $treePath) = split(/;/, $_);
+  $conceptHash{$concept} = $treePath;
+  $pathHash{$treePath} = $concept;
+}
+
+close(TREE_FILE);
+
+open(TERM_FILE, "< $meshTerms")  || die "cannot open $meshTerms: $!";
+
+#foreach my $key (sort keys %pathHash) 
+#{
+#  print "KEY: ", $key, "\tVAL: ", $pathHash{$key}, "\n"; 
+#  print " VAL: ", $pathHash{$key}, "\tKEY: ", $key, "\n";
+#}
+
+while (<TERM_FILE>)
+{
+  chomp;
+
+  if ( exists($conceptHash{$_}) )
+    {
+    print "-- CONCEPT --\n";
+    my (@path) = split(/\./, $conceptHash{$_});
+    #my $node = join(".", @path);
+    while (scalar(@path) > 0)
+    {
+      my ($node) = join(".", @path);
+      my $term = $node;
+
+      print "MeSH: ", $pathHash{$node}, "\tTREE: ", $node, "\n";
+      $meshCnt{$node}++;
+#      print $term, "\t", $meshCnt{$term}, "\n";
+      pop(@path);
+    }
+      print "\n";
+    } 
+
+}
+
+print "\n";
+
+foreach my $key (sort { $meshCnt {$b} <=> $meshCnt {$a}} keys %meshCnt) 
+{
+  print "COUNT: ", $meshCnt{$key}, "\tCONCEPT: ", $pathHash{$key}, " \[TREE: ", $key, "\]\n"; 
+#  print " VAL: ", $pathHash{$key}, "\tKEY: ", $key, "\n";
+}
+

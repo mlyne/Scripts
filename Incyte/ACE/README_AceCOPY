@@ -1,0 +1,4 @@
+new_ace TARG_COPY
+cp -f ~acedata/databases/target/database/* ~/TEMP/TARGET/TARG_COPY/database
+xace ~/TEMP/TARGET/TARG_COPY/ &
+make_cdna_link.pl -f table.txt -a cdna_link_objects.ace

@@ -1,0 +1,34 @@
+&range=1
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/2.6.2/style/exchange.xsl"?>
+<ops:world-patent-data xmlns:ops="http://ops.epo.org" xmlns="http://www.epo.org/exchange" xmlns:ccd="http://www.epo.org/ccd" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <ops:meta name="elapsed-time" value="245"/>
+    <ops:biblio-search total-result-count="46">
+        <ops:query syntax="CQL">pa=arakis and pd>2005</ops:query>
+        <ops:range begin="1" end="1"/>
+        <ops:search-result>
+            <ops:publication-reference system="ops.epo.org" family-id="9889490">
+                <document-id document-id-type="docdb">
+                    <country>AU</country>
+                    <doc-number>2010200660</doc-number>
+                    <kind>A1</kind>
+                </document-id>
+            </ops:publication-reference>
+        </ops:search-result>
+    </ops:biblio-search>
+</ops:world-patent-data><?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/2.6.2/style/exchange.xsl"?>
+<ops:world-patent-data xmlns:ops="http://ops.epo.org" xmlns="http://www.epo.org/exchange" xmlns:ccd="http://www.epo.org/ccd" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <ops:meta name="elapsed-time" value="1074"/>
+    <ops:biblio-search total-result-count="9">
+        <ops:query syntax="CQL">pa="university of cambridge" and ipc=A61</ops:query>
+        <ops:range begin="1" end="1"/>
+        <ops:search-result>
+            <ops:publication-reference system="ops.epo.org" family-id="37335257">
+                <document-id document-id-type="docdb">
+                    <country>WO</country>
+                    <doc-number>2007101948</doc-number>
+                    <kind>A2</kind>
+                </document-id>
+            </ops:publication-reference>
+        </ops:search-result>
+    </ops:biblio-search>
+</ops:world-patent-data>

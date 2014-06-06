@@ -1,0 +1,52 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use Getopt::Std;
+use HTML::TagCloud;
+
+my $usage = "Usage:cloudMaker.pl termFreq_file [:number]\n
+
+Options:
+\t-h\tThis help
+\t[number] of levels to display\n";
+
+
+unless ( $ARGV[0] ) { die $usage }
+
+### command line options ###
+my (%opts);
+
+getopts('hd', \%opts);
+defined $opts{"h"} and die $usage;
+
+#my $usage = "Usage:terms2mesh.pl pubmed_xml search_term_file\n";
+#unless ( $ARGV[1] ) { die $usage }
+
+# Take input from the command line
+
+my $tagFile = $ARGV[0];
+my $levelCount = ($ARGV[1]) ? $ARGV[1] : 30;
+
+open(IFILE, "< $tagFile") || die "cannot open $tagFile: $!\n";
+
+my $cloud = HTML::TagCloud->new(levels=>$levelCount);
+
+#my $cloud = HTML::TagCloud->new(levels=>40);
+#my $cloud = HTML::TagCloud->new(distinguish_adjacent_tags=>1);
+my $site = "http\:\/\/www\.ncbi\.nlm\.nih\.gov\/pubmed\?term\=";
+my $addr = "\&quotuniversity of cambridge\&quot\[ad\] AND ";
+
+while (<IFILE>)
+{
+  chomp;
+  my ($count, $tag) = split(/\t/, $_);
+    $cloud->add($tag, "$site$addr$tag\[tiab\]", $count);
+#  $cloud->add_static($tag, $count)
+}
+
+# Close the file we've opened
+close(IFILE);
+
+#my $html = $cloud->html_and_css(200);
+
+print $cloud->html_and_css(2000);

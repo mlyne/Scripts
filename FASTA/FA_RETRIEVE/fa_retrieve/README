@@ -1,0 +1,5 @@
+1)  This lt_retrieve/lt_create_idx combination is totally incompatible
+    with the programs of the same name that come with LifeTools.
+
+2)  The indexes are platform-specific.  You will need to rebuild them
+    on individual hardware platforms.

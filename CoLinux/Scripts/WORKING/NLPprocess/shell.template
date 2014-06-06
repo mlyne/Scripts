@@ -1,0 +1,12 @@
+#!/usr/local/bin/tcsh
+ 
+if ($#argv != 5) then
+   echo "usage: $0 <French input file> <English input file>"
+   echo "                      <translation lexicon> (or use empty file)"
+   echo "                      <French output file> <English output file>"
+   exit 0
+endif
+
+
+
+noteme "$0 done"

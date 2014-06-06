@@ -1,0 +1,27 @@
+#!/usr/local/bin/perl5
+
+# computes the permutation of items in file2, assuming the source is
+#	file1
+# outputs a file of indexes 
+
+#check for correct usage
+if ($#ARGV != 1) {
+    print "usage:  get_permutation <orig-target-file> <orig-source-file>\n";
+    exit; 
+};
+
+open(S, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+while (<S>) {
+    $item{$_} = ++$line;
+};
+close(S);
+
+
+open(T, $ARGV[1]) || die "Couldn't open $ARGV[1]: $!\n";
+while (<T>) {
+	if (defined($item{$_})) {
+	    print $item{$_}, "\n";
+	} else {
+		die "Bad Line: $_";
+	};
+};

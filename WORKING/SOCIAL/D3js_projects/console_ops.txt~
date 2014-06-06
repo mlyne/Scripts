@@ -1,0 +1,96 @@
+
+http://www.dashingd3js.com/
+Basic HTML
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="d3.v3.min.js"></script>
+  </head>
+  <body>
+    <p>Hello world!</p>
+  </body>
+</html>
+
+Then... 
+Console
+
+Example 1.
+var theData = [ 1, 2, 3 ]
+
+var p = d3.select("body").selectAll("p")
+  .data(theData)
+  .enter()
+  .append("p")
+  .text("hello ");
+
+2.
+console.log(d3.select("body"));
+
+3.
+console.log(d3.select("body").data([1]));var theData = [ 1, 2, 3 ]
+
+4.
+var theData = [ 1, 2, 3 ]
+
+var p = d3.select("body").selectAll("p")
+  .data(theData)
+  .enter()
+  .append("p")
+  .text("hello ");
+
+console.log(p);
+
+5.
+var theData = [ 1, 2, 3 ]
+
+var p = d3.select("body").selectAll("p")
+  .data(theData)
+  .enter()
+  .append("p")
+  .text( function (d) { return d; } );
+
+6.
+.text( function (d) { return d; } );
+>> syntax error
+
+7.
+var theData = [ 1, 2, 3 ]
+
+function (d) { 
+  var addedNumber = 2;
+  var tempNumber;
+  // we add the number 2 to our input
+  tempNumber = d + addedNumber;
+  return tempNumber; 
+}
+
+8.
+var theData = [ 1, 2, 3 ]
+
+var p = d3.select("body").selectAll("p")
+  .data(theData)
+  .enter()
+  .append("p")
+  .text(function (d,i) { 
+    return "i = " + i + " d = "+d; 
+   });
+
+Graphics:
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="d3.v2.min.js"></script>
+  </head>
+  <body>
+  </body>
+</html>
+
+var circleRadii = [40, 20, 10];
+
+var svgContainer = d3.select("body").append("svg")
+                                    .attr("width", 200)
+                                    .attr("height", 200);
+
+
+

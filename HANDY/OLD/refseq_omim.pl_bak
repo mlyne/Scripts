@@ -1,0 +1,58 @@
+#!/usr/bin/perl -w
+
+# pragmas
+use strict;
+
+$/ = "//";
+
+my (@result, @results);
+
+while (<>) 
+    {    
+    chomp;
+    
+	my @lines = split(/\n/, $_);
+	my $locus;
+	@result = ();
+	foreach my $line (@lines)
+	{
+		chomp;
+	  	
+	  	if ($line =~ /^VERSION\s+(\w+\.\d+)\s+/)
+	  	{
+	  		$locus = $1;
+	 		push (@result, $locus);
+#	    	print "$locus\n";
+		}
+				
+		if ($line =~ /\/db_xref=\"MIM:(\d+)\"/)
+		{
+	  		my $omim = $1;
+#	  		print "$omim\n";
+	  		push (@result, $omim);
+	  	}
+	  	
+	  	if ($line =~ /\/protein_id=\"([XN]P_\d+\.\d+)\"/)
+		{
+	  		my $prot_id = $1;
+#	  		print "$prot_id\n";
+	  		unshift (@result, $prot_id);
+	  	}
+	  	
+	  	
+	}
+#	print join("\t", @result), "\n";
+	push(@results, [@result]);			 	
+}
+
+
+for my $arRef (@results)
+{
+	print "$arRef->[0]\t";
+	print "$arRef->[1]\t";
+	if (defined ($arRef->[2]))
+	{
+		print "$arRef->[2]\n";
+	} else { print "NONE\n"; }
+	
+}

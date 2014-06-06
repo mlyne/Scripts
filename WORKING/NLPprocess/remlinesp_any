@@ -1,0 +1,34 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# Kills lines containing any POSs in KILL-FILE.
+# Prints the rest.
+
+# Default output to STDOUT.
+
+########################################################################
+
+#check for correct usage
+if ($#ARGV < 0) {
+        print "usage:  $0 <KILL-file> [<input-file>]\n";
+        exit;
+};
+
+open(K, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+while (<K>) {
+	chop;
+	$kill{$_}++;
+};
+close(K);
+shift;
+
+ LINE: while (<>) {
+     ($tags = $_) =~ s/[^: ]+:://g;
+     @tag = split(' ', $tags);
+     for ($i=0; $i < @tag; $i++) {
+	 if (exists $kill{$tag[$i]}) {
+	     next LINE;
+	 };
+     };
+     print;
+ };

@@ -1,0 +1,19 @@
+8	function	8007	acyltransferase activity	GO:0008415
+8	function	8008	calcium- and calmodulin-responsive adenylate cyclase activity	GO:0008294
+8	function	11900	casein kinase I activity	GO:0004681
+8	function	9634	casein kinase activity	GO:0004680
+8	function	75	function	
+8	function	8009	guanylate cyclase activity	GO:0004383
+8	function	8015	interleukin-12 receptor activity	GO:0016517
+8	function	8010	metalloendopeptidase activity	GO:0004222
+8	function	8000	molecular_function	GO:0003674
+8	function	10264	potassium channel inhibitor activity	GO:0019870
+8	function	8002	protein serine/threonine phosphatase activity	GO:0004722
+8	function	8013	protein tyrosine phosphatase activity	GO:0004725
+8	function	8012	retinol isomerase activity	GO:0050251
+8	function	8003	serine protease	
+8	function	8019	specific transcriptional repressor activity	GO:0016566
+8	function	8005	telomeric DNA binding	GO:0042162
+8	function	8018	transcription factor activity	GO:0003700
+8	function	8017	transcription repressor activity	GO:0016564
+8	function	8004	tumor necrosis factor receptor activity	GO:0005031

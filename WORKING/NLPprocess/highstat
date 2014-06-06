@@ -1,0 +1,17 @@
+#!/usr/local/bin/perl5
+
+# selects the line with the highest # in the first column, for each
+#	value of the 3rd column.
+
+while (<>) {
+	$line = $_;
+	($val, $c2, $c3, @rest) = split;
+	if (! defined($maxval{$c3}) || $val > $maxval{$c3}) {
+		$maxval{$c3} = $val;
+		$maxline{$c3} = join(' ', $c3, @rest);
+	};
+};
+
+while (($key, $line) = each %maxline) {
+        print "$line\n";
+};

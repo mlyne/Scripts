@@ -1,0 +1,11 @@
+select l,r,
+r->Requested_by[1],
+r->Requested_by[2],
+r->Requested_from[1],
+r->Requested_from[2],
+r->Order_no,
+r->Supplied_to[1],
+r->Supplied_to[2],
+r->Received[1],
+r->Received[2] from l in class Locus where exists_tag l->Reagents, 
+r in l->Reagents[2]

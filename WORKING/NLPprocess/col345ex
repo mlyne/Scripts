@@ -1,0 +1,5 @@
+# extracts third, fourth and fifth columns from a file
+
+gawk '{print $3, $4, $5;}'
+
+

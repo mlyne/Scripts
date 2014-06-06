@@ -1,0 +1,46 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# takes a file of tokens with positions and a "base" file
+# inserts the tokens at their given positions in the "base" file
+# assumes that tokens will not be inserted in more than two 
+#          consecutive positions
+########################################################################
+#check for correct usage
+if ($#ARGV < 0) {
+        print "usage:  tokinsert <token-position list> [<base file>]\n";
+        exit; 
+};
+
+open(P, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+
+($nextintok, $nextpos) = split(/\s+/, <P>);
+
+open(B, $ARGV[1]) || die "Couldn't open $ARGV[1]: $!\n";
+
+# print stderr "Processing line:\n";
+while (<B>) {
+    s/^ *//;
+    @token = split;
+    for ($i = 0; $i < @token; $i++) {
+	if ($base + $i == $nextpos) {
+	    push(@outlist, $nextintok);
+	    ($nextintok, $nextpos) = split(/\s+/, <P>);
+	    $base++;
+	    if ($base + $i == $nextpos) {
+		push(@outlist, $nextintok);
+		($nextintok, $nextpos) = split(/\s+/, <P>);
+		$base++;
+	    };
+	};
+	push(@outlist, $token[$i]);
+    };
+    $base += @token;
+    if ($base == $nextpos) {
+	push(@outlist, $nextintok);
+	$base++;
+	($nextintok, $nextpos) = split(/\s+/, <P>);
+    };
+    print join(' ', @outlist), "\n";
+    undef(@outlist);
+};

@@ -1,0 +1,95 @@
+#!/usr/bin/perl -w
+
+use LWP;
+use strict;
+use Getopt::Long;
+
+
+
+# Take input from the command line
+my $drug_file = $ARGV[0];
+my $query_file = $ARGV[1];
+
+# Shortcircuit "if:then:else" operator
+my $dispmax = ($ARGV[2]) ? $ARGV[2] : 10;
+
+open(DFILE, "< $drug_file") || die "cannot open $drug_file: $!\n";
+open(QFILE, "< $query_file") || die "cannot open $query_file: $!\n";
+
+chomp (my @query = <QFILE>); 
+
+my (@res, @reg);
+my $row = 1;
+
+
+
+# Loops through file
+READ_DRUG_LOOP:while (<DFILE>)
+{
+	chomp;
+	my $drugExp = $_;
+	my ($drugName) = $drugExp =~ m/^(.+)\[.+$/;
+#	print $drugName, "\n";
+#	print $drugExp, "\n";
+	my $col = "A";
+	
+	READ_QUERY_LOOP: foreach my $entry (@query)
+	{
+	# Make use of LWP to make call to PubMed query website
+        my $url = "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Search" .
+        "&db=pubmed&term=$drugExp+$entry&doptcmdl=docsum&dispmax=$dispmax";
+        my $agent    = LWP::UserAgent->new;
+        my $request  = HTTP::Request->new(GET => $url);
+        my $response = $agent->request($request);
+        $response->is_success or die "failed";
+
+# Results are slurped back in HTML - we only want the Summary Text data
+# Split each line into the array
+        @res = split("\n", $response->content);
+
+# Then use grep to retrieve the line with reference info
+# feed into results array "@reg
+        @reg = grep /PMID/, @res;
+
+# Process results through a subroutine
+# Pass values as references so that they can be accessed separately from @_
+#        results_out(\@reg, \$drugName, \$drugExp, \$col);
+
+        print $drugExp, "\t", $entry, "\t", $col, $row, "\n";
+        
+        $col++;
+
+	}# End QUERY_LOOP
+	
+	$row++;
+	
+}# End DRUG_LOOP
+
+# Close the file we've opened
+close(DFILE);
+close(QFILE);
+
+###### Results Subroutine ######
+
+sub results_out
+{
+# Retrieve references from @_
+my ($arrRef, $drugRef, $expRef, $countRef)  = @_;
+
+# Derefence
+my @results = @$arrRef;
+my $drugName = $$drugRef;
+my $drugExpr = $$expRef;
+my $drgCount = $$countRef;
+
+# print $drugExpr, "\t", $query, "\n";
+
+# Make a count of hits
+my $hitCount = (scalar(@results)) ? scalar(@results) : "0";
+
+# Process Stats output format if --stat used
+#print $drugName, "\t", $hitCount, "\n";
+
+}
+
+

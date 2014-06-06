@@ -1,0 +1,30 @@
+#!/usr/local/bin/perl5
+
+# for each line, outputs tokens appearing in both file1 and file2
+
+#check for correct usage
+if ($#ARGV != 1) {
+        print "usage:  tokcomm <file1> <file2>\n";
+        exit;
+};
+
+open(C, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+open(T, $ARGV[1]) || die "Couldn't open $ARGV[1]: $!\n";
+
+while (<C>) {
+    $line++;
+    print stderr "$line ";
+	@control = split;
+	$test = <T>;
+	@test = split(/\s+/,$test);
+	TEST:  foreach $tword (@test) {
+		for($i=0; $i<=$#control; $i++) {
+			if ($tword eq @control[$i]) {
+				print "$tword ";
+				splice(@control, $i, 1);
+				next TEST;
+			};
+		};
+	};
+	print "\n";
+};

@@ -1,0 +1,10 @@
+Name	RowSearch	pain
+ColSearch	Search	pain[tiab]
+morphine	morphine[tiab]	pubmed</DbName>
+                  <MenuName>PubMed</MenuName>
+                  <Count>6226</Count>
+                  <Status>Ok</Status>
+             </ResultItem>
+
+             <ResultItem>
+                  

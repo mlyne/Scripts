@@ -1,0 +1,29 @@
+#!/usr/local/bin/perl5
+
+# selects the 2 lines with the highest #s in the first column, for each
+#	value of the 3rd column.
+
+# output sorted by 3rd column to STDOUT
+
+while (<>) {
+	$line = $_;
+	($val, $c2, $c3, @rest) = split;
+	if (! defined($maxval2{$c3}) || $val > $maxval2{$c3}) {
+	    if (! defined($maxval2{$c3}) || $val > $maxval{$c3}) {
+		$maxval2{$c3} = $maxval{$c3};
+		$maxline2{$c3} = $maxline{$c3};
+		$maxval{$c3} = $val;
+		$maxline{$c3} = join(' ', $c3, @rest);
+	    } else {
+		$maxval2{$c3} = $val;
+		$maxline2{$c3} = join(' ', $c3, @rest);
+	    };
+	};
+};
+
+foreach $k (sort keys %maxline) {
+	print $maxline{$k}, "\n";
+};
+foreach $k (sort keys %maxline2) {
+	print $maxline2{$k}, "\n";
+};

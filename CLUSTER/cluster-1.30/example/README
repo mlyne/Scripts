@@ -1,0 +1,14 @@
+The file example.c contains a small C program that calls the routines in the
+C Clustering Library. To compile this program, type "make".
+
+In addition to the C Clustering Library (cluster.c), the ranlib files ranlib.c,
+com.c, and linpack.c are needed for random number generation. The ranlib files
+are stored in the ranlib subdirectory; the ranlib library may also be already
+present on your system.
+
+If you want to call the routines in the C Clustering Library, in most cases the
+file data.c is not needed. This file contains code to communicate between the
+GUI program Cluster 3.0 and the routines in the C Clustering Library. For your
+own program, you only need cluster.c, the ranlib files, and the corresponding
+header files cluster.h and ranlib.h. See chapter 11 in the manual for more
+information on compiling and linking the C Clustering Library.

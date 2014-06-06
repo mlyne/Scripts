@@ -1,0 +1,3423 @@
+
+PMID- 20878559
+OWN - NLM
+STAT- In-Data-Review
+DA  - 20110516
+IS  - 1528-1132 (Electronic)
+IS  - 0009-921X (Linking)
+VI  - 469
+IP  - 6
+DP  - 2011 Jun
+TI  - Preoperative Radiographic Assessment of Limb-length Discrepancy in Total Hip
+      Arthroplasty.
+PG  - 1677-82
+AB  - BACKGROUND: Pelvic radiographs are helpful in assessing limb-length discrepancy
+      (LLD) before and after THA but are subject to variation. Different methods are
+      used to determine LLDs. As a pelvic reference, both ischial tuberosities and the 
+      teardrops are used, and as a femoral reference, the lesser trochanter and center 
+      of the femoral head are used. QUESTIONS/PURPOSES: We validated the different
+      methods for preoperative radiographic measurement of LLDs and evaluated their
+      reliability. PATIENTS AND METHODS: LLDs were measured on full-leg radiographs for
+      52 patients (29 men, 23 women) with osteoarthritis (OA) of the hip and compared
+      with different methods for measuring LLDs on AP radiographs of the pelvis.
+      RESULTS: The true LLD varied from -8.0 to 9.1 mm. When the biischial line was
+      used as a pelvic reference, the LLD measured on AP pelvis radiographs was
+      different from the true LLD. No difference was found when the interteardrop line 
+      was used as a pelvic reference. There was substantial interobserver agreement
+      when the lesser trochanter was used as a femoral reference (kappa = 0.66-0.70)
+      and excellent interobserver and intraobserver agreement for all other
+      measurements (kappa = 0.84-0.93). CONCLUSIONS: Our data show use of the biischial
+      line as a pelvic reference should be discouraged and the interteardrop line is a 
+      better alternative. The center of the femoral head is a more reliable femoral
+      landmark compared with the lesser trochanter. LEVEL OF EVIDENCE: Level I,
+      diagnostic study. See Guidelines for Authors for a complete description of levels
+      of evidence.
+AD  - Department of Orthopaedics, University College London Hospital, London, UK,
+      geertmeermans@hotmail.com.
+FAU - Meermans, Geert
+AU  - Meermans G
+FAU - Malik, Ahmad
+AU  - Malik A
+FAU - Witt, Johan
+AU  - Witt J
+FAU - Haddad, Fares
+AU  - Haddad F
+LA  - eng
+PT  - Journal Article
+DEP - 20100929
+PL  - United States
+TA  - Clin Orthop Relat Res
+JT  - Clinical orthopaedics and related research
+JID - 0075674
+SB  - AIM
+SB  - IM
+EDAT- 2010/09/30 06:00
+MHDA- 2010/09/30 06:00
+CRDT- 2010/09/30 06:00
+PHST- 2010/04/30 [received]
+PHST- 2010/09/10 [accepted]
+PHST- 2010/09/29 [aheadofprint]
+AID - 10.1007/s11999-010-1588-x [doi]
+PST - ppublish
+SO  - Clin Orthop Relat Res. 2011 Jun;469(6):1677-82. Epub 2010 Sep 29.
+
+PMID- 21543689
+OWN - NLM
+STAT- In-Process
+DA  - 20110505
+IS  - 1535-1386 (Electronic)
+VI  - 93 Suppl 2
+DP  - 2011 May
+TI  - Hip arthroscopy: analysis of a single surgeon's learning experience.
+PG  - 52-6
+AB  - BACKGROUND: The aim of this study was to objectively quantify a surgeon's
+      learning experience for hip arthroscopy. METHODS: We prospectively reviewed the
+      first 100 hip arthroscopic procedures performed between 1999 and 2004 by a single
+      experienced consultant orthopaedic surgeon. In the second part of the study,
+      three groups of patients were sequentially analyzed: Group 1 included the first
+      thirty patients treated by the surgeon; group 2, the sixty-first through
+      ninetieth patients; and group 3, the 121st through 150th patients. The groups
+      were compared with regard to the diagnosis, the duration of the central and
+      peripheral compartment procedure, patient satisfaction, conversion to
+      arthroplasty, and the nonarthritic hip score. RESULTS: There was a decrease in
+      complications from the first thirty cases to the remaining seventy operations.
+      There was an overall decrease in operative time over the 100 cases, representing 
+      a gradual learning process. A marked decrease in the operative time for central
+      compartment arthroscopy was noted when we compared group 1 (mean, seventy
+      minutes; range, forty-five to ninety-eight minutes), group 2 (mean, forty-eight
+      minutes; range, twenty-six to fifty-nine minutes), and group 3 (mean,
+      thirty-seven minutes; range, eighteen to sixty-one minutes). The operative time
+      for peripheral compartment arthroscopy also decreased from group 2 (mean,
+      ninety-one minutes; range, sixty to 126 minutes) to group 3 (mean, forty-five
+      minutes; range, thirty-six to sixty-two minutes). There was an overall decrease
+      in operative time over the first 100 cases. No difference among groups was noted 
+      in the number of cases requiring a reoperation or conversion to arthroplasty.
+      There was a higher complication rate in the first thirty cases. An increase in
+      the nonarthritic hip scores was noted postoperatively in the two groups in which 
+      the preoperative score had been measured. The postoperative score improved from
+      group 1 (mean, 69; range, 39 to 84) to group 2 (mean, 79; range, 58 to 92) to
+      group 3 (mean, 86; range, 51 to 98). Patient satisfaction was highest in group 3.
+      CONCLUSIONS: Hip arthroscopy is associated with high patient satisfaction and
+      good short-term outcomes, but there is a learning curve that we estimate to be
+      approximately thirty cases.
+AD  - Department of Trauma and Orthopaedics, University College London Hospital, 235
+      Euston Road, London NW1 2BU, England. docsujith@yahoo.co.uk
+FAU - Konan, Sujith
+AU  - Konan S
+FAU - Rhee, Shin-Jae
+AU  - Rhee SJ
+FAU - Haddad, Fares S
+AU  - Haddad FS
+LA  - eng
+PT  - Journal Article
+PL  - United States
+TA  - J Bone Joint Surg Am
+JT  - The Journal of bone and joint surgery. American volume
+JID - 0014030
+SB  - AIM
+SB  - IM
+EDAT- 2011/05/13 06:00
+MHDA- 2011/05/13 06:00
+CRDT- 2011/05/06 06:00
+AID - 93/Supplement_2/52 [pii]
+AID - 10.2106/JBJS.J.01587 [doi]
+PST - ppublish
+SO  - J Bone Joint Surg Am. 2011 May;93 Suppl 2:52-6.
+
+PMID- 21521449
+OWN - NLM
+STAT- Publisher
+DA  - 20110427
+IS  - 1467-789X (Electronic)
+IS  - 1467-7881 (Linking)
+DP  - 2011 Apr 27
+TI  - Body mass index, waist circumference and waist-hip ratio: which is the better
+      discriminator of cardiovascular disease mortality risk? Evidence from an
+      individual-participant meta-analysis of 82 864 participants from nine cohort
+      studies.
+LID - 10.1111/j.1467-789X.2011.00879.x [doi]
+AB  - Few studies have examined both the relative magnitude of association and the
+      discriminative capability of multiple indicators of obesity with cardiovascular
+      disease (CVD) mortality risk. We conducted an individual-participant
+      meta-analysis of nine cohort studies of men and women drawn from the British
+      general population resulting in sample of 82 864 individuals. Body mass index
+      (BMI), waist circumference (WC) and waist-to-hip ratio (WHR) were measured
+      directly. There were 6641 deaths (1998 CVD) during a mean of 8.1 years of
+      follow-up. After adjustment, a one SD higher in WHR and WC was related to a
+      higher risk of CVD mortality (hazard ratio [95% CI]): 1.15 (1.05-1.25) and 1.15
+      (1.04-1.27), respectively. The risk of CVD mortality also increased linearly
+      across quintiles of both these abdominal obesity markers with a 66% increased
+      risk in the highest quintile of WHR. In age- and sex-adjusted models only, BMI
+      was related to CVD mortality but not in any other analyses. No major differences 
+      were revealed in the discrimination capabilities of models with BMI, WC or WHR
+      for cardiovascular or total mortality outcomes. In conclusion, measures of
+      abdominal adiposity, but not BMI, were related to an increased risk of CVD
+      mortality. No difference was observed in discrimination capacities between
+      adiposity markers.
+CI  - (c) 2011 The Authors. obesity reviews (c) 2011 International Association for the 
+      Study of Obesity.
+AD  - INSERM U1018, Centre for Research in Epidemiology and Population Health, Hopital 
+      Paul Brousse, Villejuif, France Departement de Sante Publique, Hopital Avicenne, 
+      Universite Paris 13, Bobigny, France The George Institute for International
+      Health, Sydney, Australia Department of Epidemiology and Public Health,
+      University College London, London, UK Medical Research Council Social & Public
+      Health Sciences Unit, Glasgow, UK.
+AU  - Czernichow S
+AU  - Kengne AP
+AU  - Stamatakis E
+AU  - Hamer M
+AU  - Batty GD
+LA  - ENG
+PT  - JOURNAL ARTICLE
+DEP - 20110427
+TA  - Obes Rev
+JT  - Obesity reviews : an official journal of the International Association for the
+      Study of Obesity
+JID - 100897395
+EDAT- 2011/04/28 06:00
+MHDA- 2011/04/28 06:00
+CRDT- 2011/04/28 06:00
+AID - 10.1111/j.1467-789X.2011.00879.x [doi]
+PST - aheadofprint
+SO  - Obes Rev. 2011 Apr 27. doi: 10.1111/j.1467-789X.2011.00879.x.
+
+PMID- 20948519
+OWN - NLM
+STAT- In-Process
+DA  - 20110328
+IS  - 1930-7381 (Print)
+IS  - 1930-7381 (Linking)
+VI  - 19
+IP  - 4
+DP  - 2011 Apr
+TI  - Stress and adiposity: a meta-analysis of longitudinal studies.
+PG  - 771-8
+AB  - Psychosocial stress has been strongly implicated in the biology of adiposity but 
+      epidemiological studies have produced inconsistent results. The aim of this
+      analysis was to bring together results from published, longitudinal, prospective 
+      studies examining associations between psychosocial stress and objectively
+      measured adiposity in a meta-analysis. Searches were conducted on Medline,
+      PsycINFO, Web of Science, and PubMed (to January 2009) and reference lists from
+      relevant articles were examined. Prospective studies relating psychosocial stress
+      (general life stress (including caregiver stress), work stress) to BMI, body fat,
+      body weight, waist circumference, or waist-to-hip ratio were included. Analyses
+      from 14 cohorts were collated and evaluated. There was no significant
+      heterogeneity, no evidence of publication bias, and no association between study 
+      quality and outcomes. The majority of analyses found no significant relationship 
+      between stress and adiposity (69%), but among those with significant effects,
+      more found positive than negative associations (25 vs. 6%). Combining results in 
+      a meta-analysis showed that stress was associated with increasing adiposity (r = 
+      0.014; confidence interval (CI) = 0.002-0.025, P < 0.05). Effects were stronger
+      for men than women, in analyses with longer rather than shorter follow-ups, and
+      in better quality studies. We conclude that psychosocial stress is a risk factor 
+      for weight gain but effects are very small. Variability across studies indicates 
+      there are moderating variables to be elucidated.
+AD  - Department of Epidemiology and Public Health, University College London, London, 
+      UK. j.wardle@ucl.ac.uk
+FAU - Wardle, Jane
+AU  - Wardle J
+FAU - Chida, Yoichi
+AU  - Chida Y
+FAU - Gibson, E Leigh
+AU  - Gibson EL
+FAU - Whitaker, Katriina L
+AU  - Whitaker KL
+FAU - Steptoe, Andrew
+AU  - Steptoe A
+LA  - eng
+GR  - British Heart Foundation/United Kingdom
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20101014
+PL  - United States
+TA  - Obesity (Silver Spring)
+JT  - Obesity (Silver Spring, Md.)
+JID - 101264860
+SB  - IM
+EDAT- 2010/10/16 06:00
+MHDA- 2010/10/16 06:00
+CRDT- 2010/10/16 06:00
+PHST- 2010/10/14 [aheadofprint]
+AID - oby2010241 [pii]
+AID - 10.1038/oby.2010.241 [doi]
+PST - ppublish
+SO  - Obesity (Silver Spring). 2011 Apr;19(4):771-8. Epub 2010 Oct 14.
+
+PMID- 21462150
+OWN - NLM
+STAT- Publisher
+DA  - 20110509
+IS  - 1724-6067 (Electronic)
+IS  - 1120-7000 (Linking)
+VI  - 21
+IP  - 2
+DP  - 2011 Mar 31
+TI  - Revision hip arthroplasty using an extensively porous coated stem: medium term
+      results.
+PG  - 129-135
+LID - 10.5301/HIP.2011.6504 [doi]
+AB  - Abstract. This is a medium-term, prospective assessment of 56 revision total hip 
+      replacements using a.cementless, extensively porous-coated femoral stem.with a
+      mean follow-up of 6 years. All implants demonstrated evidence of bony ingrowth
+      and stable fixation with no cases of loosening, instability, deep infection,
+      stress shielding, subsidence or osteolysis at last follow-up. Complications
+      included two intra-operative fractures, three dislocations, one superficial
+      infection, and one patient with thigh pain. No femoral stems were revised. Good
+      to excellent clinical outcomes were achieved on Harris Hip Score (90% (n =
+      47/52), Western Ontario and McMaster Universities Index (92% (n = 48/52), and
+      University of California Los Angeles activity score (96% (n=50/52). This supports
+      the use of this system in the revision hip surgery armamentarium.
+AD  - University College London Hospital, London - UK.
+AU  - Jayakumar P
+AU  - Malik AK
+AU  - Islam SU
+AU  - Haddad FS
+LA  - ENG
+PT  - JOURNAL ARTICLE
+DEP - 20110331
+TA  - Hip Int
+JT  - Hip international : the journal of clinical and experimental research on hip
+      pathology and therapy
+JID - 9200413
+EDAT- 2011/04/05 06:00
+MHDA- 2011/04/05 06:00
+CRDT- 2011/04/05 06:00
+PHST- 2010/11/29 [accepted]
+AID - 81E6E3DE-BDB1-47B8-B4C9-A0725D95652E [pii]
+PST - aheadofprint
+SO  - Hip Int. 2011 Mar 31;21(2):129-135. doi: 10.5301/HIP.2011.6504.
+
+PMID- 21240111
+OWN - NLM
+STAT- MEDLINE
+DA  - 20110117
+DCOM- 20110317
+IS  - 1750-8460 (Print)
+IS  - 1750-8460 (Linking)
+VI  - 72
+IP  - 1
+DP  - 2011 Jan
+TI  - Gluteus medius tears: an under-diagnosed pathology.
+PG  - 12-6
+AB  - Tears of the gluteus medius tendon contribute to greater trochanteric pain
+      syndrome, but they are often overlooked as a cause of lateral hip pain and
+      tenderness. This review presents the relevant anatomy, pathophysiology,
+      diagnostic workup, differential diagnosis and management of these tears.
+AD  - Department of Trauma and Orthopaedics, University College London Hospitals,
+      London.
+FAU - El-Husseiny, Moataz
+AU  - El-Husseiny M
+FAU - Patel, Shelain
+AU  - Patel S
+FAU - Rayan, Faizal
+AU  - Rayan F
+FAU - Haddad, Fares
+AU  - Haddad F
+LA  - eng
+PT  - Journal Article
+PT  - Review
+PL  - England
+TA  - Br J Hosp Med (Lond)
+JT  - British journal of hospital medicine (London, England : 2005)
+JID - 101257109
+SB  - IM
+MH  - Delayed Diagnosis
+MH  - Diagnosis, Differential
+MH  - Humans
+MH  - Magnetic Resonance Imaging
+MH  - Muscle, Skeletal/*injuries
+MH  - Pain/*etiology
+MH  - Rupture/pathology
+EDAT- 2011/01/18 06:00
+MHDA- 2011/03/18 06:00
+CRDT- 2011/01/18 06:00
+PST - ppublish
+SO  - Br J Hosp Med (Lond). 2011 Jan;72(1):12-6.
+
+PMID- 21196541
+OWN - NLM
+STAT- MEDLINE
+DA  - 20110103
+DCOM- 20110210
+IS  - 0301-620X (Print)
+VI  - 93
+IP  - 1
+DP  - 2011 Jan
+TI  - Systematic review and meta-analysis of the use of tranexamic acid in total hip
+      replacement.
+PG  - 39-46
+AB  - We report a systematic review and meta-analysis of published randomised
+      controlled trials evaluating the efficacy of tranexamic acid (TXA) in reducing
+      blood loss and transfusion in total hip replacement (THR). The data were
+      evaluated using the generic evaluation tool designed by the Cochrane Bone, Joint 
+      and Muscle Trauma Group. We identified 11 clinical trials which were suitable for
+      detailed extraction of data. There were no trials that used TXA in revision THR. 
+      A total of seven studies (comprising 350 patients) were eligible for the blood
+      loss outcome data. The use of TXA reduced intra-operative blood loss by a mean of
+      104 ml (95% confidence interval (CI) -164 to -44, p = 0.0006, heterogeneity I(2) 
+      0%), postoperative blood loss by a mean of 172 ml (95% CI -263 to -81, p =
+      0.0002, heterogeneity I(2) 63%) and total blood loss by a mean of 289 ml (95% CI 
+      -440 to -138, p < 0.0002, heterogeneity I(2) 54%). TXA led to a significant
+      reduction in the proportion of patients requiring allogeneic blood transfusion
+      (risk difference -0.20, 95% CI -0.29 to -0.11, p < 0.00001, I(2) 15%). There were
+      no significant differences in deep-vein thrombosis, pulmonary embolism, infection
+      rates or other complications among the study groups.
+AD  - Department of Trauma and Orthopaedics, University College London Hospital, 235
+      Euston Road, London NW1 2BU, UK. msukeik@hotmail.com
+FAU - Sukeik, M
+AU  - Sukeik M
+FAU - Alshryda, S
+AU  - Alshryda S
+FAU - Haddad, F S
+AU  - Haddad FS
+FAU - Mason, J M
+AU  - Mason JM
+LA  - eng
+PT  - Journal Article
+PT  - Meta-Analysis
+PT  - Review
+PL  - England
+TA  - J Bone Joint Surg Br
+JT  - The Journal of bone and joint surgery. British volume
+JID - 0375355
+RN  - 0 (Antifibrinolytic Agents)
+RN  - 1197-18-8 (Tranexamic Acid)
+SB  - AIM
+SB  - IM
+MH  - Antifibrinolytic Agents/*therapeutic use
+MH  - *Arthroplasty, Replacement, Hip
+MH  - Blood Transfusion
+MH  - Hemostasis, Surgical/methods
+MH  - Humans
+MH  - Postoperative Hemorrhage/*prevention & control
+MH  - Randomized Controlled Trials as Topic
+MH  - Tranexamic Acid/*therapeutic use
+EDAT- 2011/01/05 06:00
+MHDA- 2011/02/11 06:00
+CRDT- 2011/01/04 06:00
+AID - 93-B/1/39 [pii]
+AID - 10.1302/0301-620X.93B1.24984 [doi]
+PST - ppublish
+SO  - J Bone Joint Surg Br. 2011 Jan;93(1):39-46.
+
+PMID- 20947780
+OWN - NLM
+STAT- MEDLINE
+DA  - 20110105
+DCOM- 20110325
+IS  - 1534-7796 (Electronic)
+IS  - 0033-3174 (Linking)
+VI  - 73
+IP  - 1
+DP  - 2011 Jan
+TI  - Ethnic and gender differences in the relationship between hostility and metabolic
+      and autonomic risk factors for coronary heart disease.
+PG  - 53-8
+AB  - OBJECTIVE: To examine the relationship between hostility and biological risk
+      factors for coronary heart disease (CHD) in a population of white European and
+      South Asian men and women living in the United Kingdom. METHODS: This
+      cross-sectional study involved a community-based sample of 1,757 healthy white
+      and South Asian men and women aged between 35 years and 75 years from West
+      London. Participants completed the Cook-Medley Hostility Scale, together with
+      measures of standard biological risk factors and heart rate variability.
+      Associations between hostility and CHD risk factors were evaluated, controlling
+      for age, education, smoking, physical activity, body mass index, and waist/hip
+      ratio, using regression models. RESULTS: In white men, hostility was associated
+      positively with fasting glucose, glycosylated hemoglobin, and negatively with
+      high-density lipoprotein cholesterol. High levels of hostility were also related 
+      to increased prevalence of diabetes and the metabolic syndrome in white men.
+      Hostility in South Asian men was associated with impaired autonomic function.
+      Hostility was not related to any biological CHD risk factors in South Asian or
+      white women. CONCLUSIONS: Our results showed that hostility was independently
+      associated with glucose metabolism and dyslipidemia in white men, and with
+      autonomic dysfunction in South Asian men. Hostility was found not to be relevant 
+      for measured CHD risk factors in females. Longitudinal data are required to
+      establish whether the impact of hostility on CHD risk in men is mediated through 
+      metabolic and autonomic processes.
+AD  - Psychobiology Group, Department of Epidemiology and Public Health, University
+      College London, 1-19 Torrington Place, London, United Kingdom.
+      emily.williams@ucl.ac.uk
+FAU - Williams, Emily D
+AU  - Williams ED
+FAU - Steptoe, Andrew
+AU  - Steptoe A
+FAU - Chambers, John C
+AU  - Chambers JC
+FAU - Kooner, Jaspal S
+AU  - Kooner JS
+LA  - eng
+GR  - British Heart Foundation/United Kingdom
+GR  - Medical Research Council/United Kingdom
+PT  - Comparative Study
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20101014
+PL  - United States
+TA  - Psychosom Med
+JT  - Psychosomatic medicine
+JID - 0376505
+RN  - 0 (Cholesterol, HDL)
+RN  - 0 (Cholesterol, LDL)
+SB  - IM
+MH  - Adult
+MH  - Aged
+MH  - Asian Continental Ancestry Group/*statistics & numerical data
+MH  - Autonomic Nervous System Diseases/*epidemiology/*ethnology
+MH  - Cholesterol, HDL/blood
+MH  - Cholesterol, LDL/blood
+MH  - Coronary Disease/blood/*epidemiology/*ethnology
+MH  - European Continental Ancestry Group/*statistics & numerical data
+MH  - Female
+MH  - Great Britain/epidemiology
+MH  - *Hostility
+MH  - Humans
+MH  - London
+MH  - Male
+MH  - Metabolic Syndrome X/blood/*epidemiology/*ethnology
+MH  - Middle Aged
+MH  - Prevalence
+MH  - Risk Factors
+MH  - Sex Distribution
+MH  - Sex Factors
+EDAT- 2010/10/16 06:00
+MHDA- 2011/03/26 06:00
+CRDT- 2010/10/16 06:00
+PHST- 2010/10/14 [aheadofprint]
+AID - PSY.0b013e3181fd944c [pii]
+AID - 10.1097/PSY.0b013e3181fd944c [doi]
+PST - ppublish
+SO  - Psychosom Med. 2011 Jan;73(1):53-8. Epub 2010 Oct 14.
+
+PMID- 20950405
+OWN - NLM
+STAT- MEDLINE
+DA  - 20101112
+DCOM- 20110103
+IS  - 1365-2141 (Electronic)
+IS  - 0007-1048 (Linking)
+VI  - 151
+IP  - 5
+DP  - 2010 Dec
+TI  - The impact of elective knee/hip replacement surgery and thromboprophylaxis with
+      rivaroxaban or dalteparin on thrombin generation.
+PG  - 469-76
+LID - 10.1111/j.1365-2141.2010.08433.x [doi]
+AB  - Total hip/knee replacement surgeries are associated with an increased risk of
+      venous thromboembolism and post-operative thromboprophylaxis has become standard 
+      treatment. This study aimed to: (i) assess the impact of hip/knee replacement
+      surgery on ex vivo thrombin generation (TG), prothrombin fragments 1 + 2 (F1 +
+      2), thrombin-antithrombin complexes (TAT) and D-dimer; (ii) compare the
+      anticoagulant effects of dalteparin and rivaroxaban on TG 24 h after surgery.
+      Haemostatic variables were assessed in plasma samples of 51 patients taken
+      pre-operatively, peri-operatively, and 24 h post-operatively. Prophylaxis, once a
+      day, with dalteparin or rivaroxaban, starting 6-8 h post-operatively, was
+      administered in 25 (14 knee/11 hip) and 26 patients (13 knee/13 hip)
+      respectively. TG, F1 + 2, TAT and D-dimer increased during surgery. Dalteparin
+      patients showed a variable TG response 24 h after surgery: conversely, the effect
+      of rivaroxaban on TG was consistent across individuals. Good correlation was seen
+      between rivaroxaban levels and TG-lag-time (rs = 0.46, P = 0.01); TG-time-to-Peak
+      (rs = 0.53, P = 0.005); TG-peak-thrombin (rs = -0.59, P = 0.001); and
+      TG-velocity-index-rate (rs = -0.61, P = 0.0009). Patients who received
+      rivaroxaban showed a greater decrease of TG, F1 + 2 and TAT (but not D-dimer)
+      than those on dalteparin. TG increases during hip/knee replacement surgery.
+      Rivaroxaban inhibits TG more than dalteparin at 24 h after surgery.
+CI  - (c) 2010 Blackwell Publishing Ltd.
+AD  - Department of Haematology, Haemostasis Research Unit, University College London
+      Department of Orthopaedics, University College London Hospitals, London, UK.
+      l.green@ucl.ac.uk
+FAU - Green, Laura
+AU  - Green L
+FAU - Lawrie, Andrew S
+AU  - Lawrie AS
+FAU - Patel, Shelain
+AU  - Patel S
+FAU - Hossain, Fahad
+AU  - Hossain F
+FAU - Chitolie, Andrew
+AU  - Chitolie A
+FAU - Mackie, Ian J
+AU  - Mackie IJ
+FAU - Haddad, Fares S
+AU  - Haddad FS
+FAU - Machin, Samuel J
+AU  - Machin SJ
+LA  - eng
+PT  - Comparative Study
+PT  - Controlled Clinical Trial
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20101018
+PL  - England
+TA  - Br J Haematol
+JT  - British journal of haematology
+JID - 0372544
+RN  - 0 (Anticoagulants)
+RN  - 0 (Dalteparin)
+RN  - 0 (Morpholines)
+RN  - 0 (Thiophenes)
+RN  - 0 (rivaroxaban)
+RN  - EC 3.4.21.5 (Thrombin)
+RN  - EC 3.4.21.6 (Factor Xa)
+SB  - IM
+MH  - Aged
+MH  - Aged, 80 and over
+MH  - Anticoagulants/*therapeutic use
+MH  - *Arthroplasty, Replacement, Hip
+MH  - *Arthroplasty, Replacement, Knee
+MH  - Dalteparin/therapeutic use
+MH  - Factor Xa/immunology
+MH  - Female
+MH  - Humans
+MH  - Male
+MH  - Middle Aged
+MH  - Morpholines/therapeutic use
+MH  - Postoperative Complications/prevention & control
+MH  - Prospective Studies
+MH  - Thiophenes/therapeutic use
+MH  - Thrombin/*biosynthesis
+MH  - Treatment Outcome
+MH  - Venous Thromboembolism/*prevention & control
+EDAT- 2010/10/19 06:00
+MHDA- 2011/01/05 06:00
+CRDT- 2010/10/19 06:00
+PHST- 2010/10/18 [aheadofprint]
+AID - 10.1111/j.1365-2141.2010.08433.x [doi]
+PST - ppublish
+SO  - Br J Haematol. 2010 Dec;151(5):469-76. doi: 10.1111/j.1365-2141.2010.08433.x.
+      Epub 2010 Oct 18.
+
+PMID- 20672202
+OWN - NLM
+STAT- MEDLINE
+DA  - 20110419
+DCOM- 20110622
+IS  - 1465-3419 (Electronic)
+IS  - 1355-7858 (Linking)
+VI  - 15
+IP  - 6
+DP  - 2010 Dec
+TI  - Religious and ethnic differences in health: evidence from the Health Surveys for 
+      England 1999 and 2004.
+PG  - 549-68
+AB  - OBJECTIVES: To examine the role of religion in the patterning of health
+      inequities, and how this is related to ethnicity and socioeconomic status.
+      DESIGN: Multivariate analyses using nationally representative data on
+      self-assessed fair or poor health, longstanding limiting illness, diagnosed
+      diabetes, diagnosed hypertension, waist-hip ratio, body mass index, current
+      tobacco use and participating in no regular physical activity from 14,924
+      Christians, 4337 Muslims, 656 Sikhs, 1197 Hindus and 2682 people reporting not
+      identifying with any religion with different ethnic backgrounds, who were
+      interviewed as part of the Health Survey for England in either 1999 or 2004,
+      adjusted for age, gender and socioeconomic status and periodicity. RESULTS: Odds 
+      ratios for general health, hypertension, diabetes, waist-hip ratio, tobacco use
+      and physical activity speak to the importance of ethnicity in the patterning of
+      health inequalities. But there is also evidence of an important, independent role
+      for religion, with risks for the different health indicators varying between
+      people with the same ethnic, but different religious, identifications. Adjusting 
+      for socioeconomic status attenuated the ethnic/religious patterning of,
+      particularly, self-assessed health, longstanding activity-limiting illness,
+      waist-hip ratio, body mass index and tobacco use. CONCLUSIONS: This evidence
+      enables greater understanding of the complexities of the relationship between
+      ethnicity, religion and health, recognising the need to understand the
+      heterogeneity underlying both ethnic and religious group membership and the
+      processes producing the structural disadvantage facing certain religious and
+      ethnic groups in the mediation of the relationship between health and
+      ethnicity/religion.
+AD  - Department of Epidemiology & Public Health, University College London, 1-19
+      Torrington Place, London, UK. s.karlsen@ucl.ac.uk
+FAU - Karlsen, Saffron
+AU  - Karlsen S
+FAU - Nazroo, James Y
+AU  - Nazroo JY
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PL  - England
+TA  - Ethn Health
+JT  - Ethnicity & health
+JID - 9608374
+SB  - IM
+MH  - Adolescent
+MH  - Adult
+MH  - Age Factors
+MH  - Aged
+MH  - Aged, 80 and over
+MH  - Child
+MH  - Child, Preschool
+MH  - England/epidemiology
+MH  - Ethnic Groups/*statistics & numerical data
+MH  - Female
+MH  - *Health Status Disparities
+MH  - Health Surveys/*statistics & numerical data
+MH  - Humans
+MH  - Male
+MH  - Middle Aged
+MH  - Minority Health
+MH  - Multivariate Analysis
+MH  - *Religion
+MH  - Self Report
+MH  - Sex Factors
+MH  - Social Class
+MH  - Socioeconomic Factors
+MH  - Young Adult
+EDAT- 2010/07/31 06:00
+MHDA- 2011/06/23 06:00
+CRDT- 2010/07/31 06:00
+AID - 924861366 [pii]
+AID - 10.1080/13557858.2010.497204 [doi]
+PST - ppublish
+SO  - Ethn Health. 2010 Dec;15(6):549-68.
+
+PMID- 21118873
+OWN - NLM
+STAT- MEDLINE
+DA  - 20101201
+DCOM- 20101214
+LR  - 20110124
+IS  - 1468-5833 (Electronic)
+IS  - 0959-535X (Linking)
+VI  - 341
+DP  - 2010
+TI  - Explaining variation in referral from primary to secondary care: cohort study.
+PG  - c6267
+LID - 10.1136/bmj.c6267 [doi]
+LID - bmj.c6267 [pii]
+AB  - OBJECTIVES: To determine the extent to which referral for defined symptoms from
+      primary care varies by age, sex, and social deprivation and whether any
+      sociodemographic variations in referral differ according to the presence of
+      national referral guidance and the potential of the symptoms to be life
+      threatening. DESIGN: Cohort study using individual patient data from the health
+      improvement network database in primary care. SETTING: United Kingdom.
+      PARTICIPANTS: 5492 patients with postmenopausal bleeding, 23 121 with hip pain,
+      and 101 212 with dyspepsia from 326 general practices, 2001-7. MAIN OUTCOME
+      MEASURES: Multivariable associations between odds of immediate referral for
+      postmenopausal bleeding and age and social deprivation; hazard rates of referral 
+      for hip pain or dyspepsia and age, sex, and social deprivation. Analyses for
+      dyspepsia were stratified for people aged less than and more than 55 years
+      because referral guidance differs by age. RESULTS: 61.4% (3374/5492) of patients 
+      with postmenopausal bleeding, 17.4% (4019/23 121) with hip pain, and 13.8% (13
+      944/101 212) with dyspepsia were referred. The likelihood of referral for
+      postmenopausal bleeding declined with increasing age: the adjusted odds ratio for
+      patients aged 85 or more compared with those aged 55-64 was 0.39 (95% confidence 
+      interval 0.31 to 0.49). Patients aged 85 or more with hip pain were also less
+      likely to be referred than those aged 55-64 (0.68, 0.57 to 0.81). Women were less
+      likely than men to be referred for hip pain (hazard ratio 0.90, 95% confidence
+      interval 0.84 to 0.96). More deprived patients with hip pain or dyspepsia (if
+      aged <55) were less likely to be referred. Adjusted hazard ratios for those in
+      the most deprived Townsend fifth compared with the least deprived were 0.72 (95% 
+      confidence interval 0.62 to 0.82) and 0.76 (0.68 to 0.85), respectively. No
+      socioeconomic gradient was evident in referral for postmenopausal bleeding.
+      CONCLUSIONS: Inequalities in referral associated with socioeconomic circumstances
+      were more likely to occur in the absence of both explicit guidance and
+      potentially life threatening conditions, whereas inequalities with age were
+      evident for all conditions.
+AD  - Department of Epidemiology and Public Health, University College London, London
+      WC1E 6BT, UK. dulciemcbride@googlemail.com
+FAU - McBride, Dulcie
+AU  - McBride D
+FAU - Hardoon, Sarah
+AU  - Hardoon S
+FAU - Walters, Kate
+AU  - Walters K
+FAU - Gilmour, Stuart
+AU  - Gilmour S
+FAU - Raine, Rosalind
+AU  - Raine R
+LA  - eng
+PT  - Journal Article
+PT  - Multicenter Study
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20101130
+PL  - England
+TA  - BMJ
+JT  - BMJ (Clinical research ed.)
+JID - 8900488
+SB  - AIM
+SB  - IM
+CIN - BMJ. 2010;341:c6175. PMID: 21118872
+CIN - BMJ. 2011;342:d129. PMID: 21224319
+CIN - BMJ. 2010;341:c7407. PMID: 21193507
+MH  - Adult
+MH  - Aged
+MH  - Aged, 80 and over
+MH  - Arthralgia/therapy
+MH  - Dyspepsia/therapy
+MH  - Female
+MH  - General Practice/*statistics & numerical data
+MH  - Great Britain
+MH  - Hip Joint
+MH  - Hospitalization/*statistics & numerical data
+MH  - Humans
+MH  - Male
+MH  - Middle Aged
+MH  - Postmenopause
+MH  - Referral and Consultation/*statistics & numerical data
+MH  - Socioeconomic Factors
+MH  - Uterine Hemorrhage/therapy
+PMC - PMC2995017
+OID - NLM: PMC2995017
+EDAT- 2010/12/02 06:00
+MHDA- 2010/12/16 06:00
+CRDT- 2010/12/02 06:00
+PST - epublish
+SO  - BMJ. 2010 Nov 30;341:c6267. doi: 10.1136/bmj.c6267.
+
+PMID- 21157753
+OWN - NLM
+STAT- MEDLINE
+DA  - 20101215
+DCOM- 20110407
+IS  - 1724-6067 (Electronic)
+IS  - 1120-7000 (Linking)
+VI  - 20
+IP  - 4
+DP  - 2010 Oct-Dec
+TI  - Anterior approaches to the hip for the treatment of femoro-acetabular
+      impingement: a cadaveric study.
+PG  - 482-8
+AB  - Femoroacetabular impingement (FAI) may be a cause of early osteoarthritis of the 
+      hip. The aim of surgical treatment is to improve the head-neck offset in the
+      presence of a cam lesion and to perform acetabular rim resection when pincer
+      impingement is evident, either by open surgery or arthroscopically. We
+      investigated two mini anterior approaches to the hip joint based on the Heuter
+      and direct anterior approach to assess their potential for treating FAI. The two 
+      approaches were employed in 20 hips in 10 human cadaveric specimens. The area of 
+      femoral head and the portion of the acetabular rim that could be exposed was
+      documented. We found that the two approaches were easy and reproducible. Both
+      allowed adequate exposure to the femoral head. The area of acetabular rim
+      accessible varied significantly according to the approach (p<0.05). We also found
+      that the position of the anterior inferior iliac spine in relation to the
+      acetabular rim also affected the area of acetabular rim exposed (p<0.05). In
+      summary, cam and pincer impingement of the hip can be treated by either the
+      direct anterior or by the Heuter approach. The choice of approach is dictated by 
+      the site of the acetabular pincer lesion identified on pre-operative imaging,
+      with a more medial exposure possible through the direct anterior approach and
+      more anterolateral exposure via the Heuter approach.
+AD  - University College London Hospital NHS Trust, London, UK. akmalik100@hotmail.com
+FAU - Malik, Ahmad K
+AU  - Malik AK
+FAU - Chou, Daud T S
+AU  - Chou DT
+FAU - Witt, Johan D
+AU  - Witt JD
+LA  - eng
+PT  - Journal Article
+PL  - Italy
+TA  - Hip Int
+JT  - Hip international : the journal of clinical and experimental research on hip
+      pathology and therapy
+JID - 9200413
+SB  - IM
+MH  - Acetabulum/*surgery
+MH  - Cadaver
+MH  - Female
+MH  - Femur Head/*surgery
+MH  - Hip Dislocation/*surgery
+MH  - Humans
+MH  - Male
+MH  - Orthopedic Procedures/*methods
+MH  - Reproducibility of Results
+EDAT- 2010/12/16 06:00
+MHDA- 2011/04/08 06:00
+CRDT- 2010/12/16 06:00
+PHST- 2010/08/26 [accepted]
+AID - 7FE1A04A-058C-46AA-B45D-B4017BE962E6 [pii]
+PST - ppublish
+SO  - Hip Int. 2010 Oct-Dec;20(4):482-8.
+
+PMID- 21157744
+OWN - NLM
+STAT- MEDLINE
+DA  - 20101215
+DCOM- 20110407
+IS  - 1724-6067 (Electronic)
+IS  - 1120-7000 (Linking)
+VI  - 20
+IP  - 4
+DP  - 2010 Oct-Dec
+TI  - Periprosthetic femoral fractures in total hip arthroplasty - a review.
+PG  - 418-26
+AB  - Periprosthetic femoral fractures (PFF) are among the more difficult and expensive
+      complications of total hip arthroplasty. A rise in the elderly population and
+      increase use of primary hip replacement has led to an escalating incidence. They 
+      can occur intra operatively and post operatively. The treatment algorithm defined
+      by the Vancouver classification has universal acceptance. The epidemiology,
+      etiology, classification and the management of periprosthetic femoral fractures
+      in total hip arthroplasty are reviewed.
+AD  - Department of Orthopaedics, University College London Hospitals, London, UK.
+      rayanmarakkar@yahoo.co.uk
+FAU - Rayan, Faizal
+AU  - Rayan F
+FAU - Haddad, Fares
+AU  - Haddad F
+LA  - eng
+PT  - Journal Article
+PT  - Review
+PL  - Italy
+TA  - Hip Int
+JT  - Hip international : the journal of clinical and experimental research on hip
+      pathology and therapy
+JID - 9200413
+SB  - IM
+MH  - Algorithms
+MH  - Arthroplasty, Replacement, Hip/*adverse effects
+MH  - Female
+MH  - Femoral Fractures/*etiology/therapy
+MH  - Humans
+MH  - *Intraoperative Complications
+MH  - Male
+MH  - Periprosthetic Fractures/*etiology/therapy
+MH  - *Postoperative Complications
+MH  - Prosthesis Failure/etiology
+MH  - Reoperation
+MH  - Sweden/epidemiology
+EDAT- 2010/12/16 06:00
+MHDA- 2011/04/08 06:00
+CRDT- 2010/12/16 06:00
+PHST- 2010/01/20 [accepted]
+AID - 4BF50C71-ED42-40F9-B3A7-8871FDCA2B8D [pii]
+PST - ppublish
+SO  - Hip Int. 2010 Oct-Dec;20(4):418-26.
+
+PMID- 20171047
+OWN - NLM
+STAT- MEDLINE
+DA  - 20101004
+DCOM- 20110120
+IS  - 1532-8406 (Electronic)
+IS  - 0883-5403 (Linking)
+VI  - 25
+IP  - 7
+DP  - 2010 Oct
+TI  - Modification of the explant system for the removal of well fixed hip resurfacing 
+      sockets.
+PG  - 1170.e7-9
+AB  - A major concern during revision hip arthroplasty is acetabular bone loss during
+      the extraction of well-fixed acetabular components. Despite the good early
+      survivorship of resurfacing prostheses, revision surgery may be necessary. We
+      recommend the use of the Explant acetabular extraction system (Zimmer, Warsaw,
+      Ind) with a trial liner to preserve acetabular bone stock. We present 2 cases of 
+      revised resurfacings using this technique, demonstrating minimal interference to 
+      the remaining acetabular bone.
+CI  - Copyright (c) 2010 Elsevier Inc. All rights reserved.
+AD  - Department of Trauma and Orthopedics, University College London Hospital, London,
+      United Kingdom.
+FAU - Rawal, Jaikirty S
+AU  - Rawal JS
+FAU - Soler, J Agustin
+AU  - Soler JA
+FAU - Rhee, Jae S
+AU  - Rhee JS
+FAU - Dobson, Michael H
+AU  - Dobson MH
+FAU - Konan, Sujith
+AU  - Konan S
+FAU - Haddad, Fares S
+AU  - Haddad FS
+LA  - eng
+PT  - Case Reports
+PT  - Journal Article
+DEP - 20100219
+PL  - United States
+TA  - J Arthroplasty
+JT  - The Journal of arthroplasty
+JID - 8703515
+SB  - IM
+MH  - Acetabulum/*surgery
+MH  - Arthroplasty, Replacement, Hip/*instrumentation/methods
+MH  - Device Removal/*methods
+MH  - *Hip Prosthesis
+MH  - Humans
+MH  - Reoperation/instrumentation/methods
+MH  - Treatment Outcome
+EDAT- 2010/02/23 06:00
+MHDA- 2011/01/21 06:00
+CRDT- 2010/02/23 06:00
+PHST- 2008/12/15 [received]
+PHST- 2009/10/07 [revised]
+PHST- 2009/11/04 [accepted]
+PHST- 2010/02/19 [aheadofprint]
+AID - S0883-5403(09)00514-2 [pii]
+AID - 10.1016/j.arth.2009.11.003 [doi]
+PST - ppublish
+SO  - J Arthroplasty. 2010 Oct;25(7):1170.e7-9. Epub 2010 Feb 19.
+
+PMID- 20538956
+OWN - NLM
+STAT- MEDLINE
+DA  - 20100913
+DCOM- 20100927
+LR  - 20110316
+IS  - 1535-4970 (Electronic)
+IS  - 1073-449X (Linking)
+VI  - 182
+IP  - 6
+DP  - 2010 Sep 15
+TI  - Survival in critical illness is associated with early activation of mitochondrial
+      biogenesis.
+PG  - 745-51
+AB  - RATIONALE: We previously reported outcome-associated decreases in muscle
+      energetic status and mitochondrial dysfunction in septic patients with multiorgan
+      failure. We postulate that survivors have a greater ability to maintain or
+      recover normal mitochondrial functionality. OBJECTIVES: To determine whether
+      mitochondrial biogenesis, the process promoting mitochondrial capacity, is
+      affected in critically ill patients. METHODS: Muscle biopsies were taken from 16 
+      critically ill patients recently admitted to intensive care (average 1-2 d) and
+      from 10 healthy, age-matched patients undergoing elective hip surgery.
+      MEASUREMENTS AND MAIN RESULTS: Survival, mitochondrial morphology, mitochondrial 
+      protein content and enzyme activity, mitochondrial biogenesis factor mRNA,
+      microarray analysis, and phosphorylated (energy) metabolites were determined. Ten
+      of 16 critically ill patients survived intensive care. Mitochondrial size
+      increased with worsening outcome, suggestive of swelling. Respiratory protein
+      subunits and transcripts were depleted in critically ill patients and to a
+      greater extent in nonsurvivors. The mRNA content of peroxisome
+      proliferator-activated receptor gamma coactivator 1-alpha (transcriptional
+      coactivator of mitochondrial biogenesis) was only elevated in survivors, as was
+      the mitochondrial oxidative stress protein manganese superoxide dismutase.
+      Eventual survivors demonstrated elevated muscle ATP and a decreased
+      phosphocreatine/ATP ratio. CONCLUSIONS: Eventual survivors responded early to
+      critical illness with mitochondrial biogenesis and antioxidant defense responses.
+      These responses may partially counteract mitochondrial protein depletion, helping
+      to maintain functionality and energetic status. Impaired responses, as suggested 
+      in nonsurvivors, could increase susceptibility to mitochondrial damage and
+      cellular energetic failure or impede the ability to recover normal function.
+      Clinical trial registered with clinical trials.gov (NCT00187824).
+AD  - Bloomsbury Institute for Intensive Care Medicine, Department of Medicine and
+      Wolfson Institute of Biomedical Research, University College London, London,
+      United Kingdom.
+FAU - Carre, Jane E
+AU  - Carre JE
+FAU - Orban, Jean-Christophe
+AU  - Orban JC
+FAU - Re, Lorenza
+AU  - Re L
+FAU - Felsmann, Karen
+AU  - Felsmann K
+FAU - Iffert, Wiebke
+AU  - Iffert W
+FAU - Bauer, Michael
+AU  - Bauer M
+FAU - Suliman, Hagir B
+AU  - Suliman HB
+FAU - Piantadosi, Claude A
+AU  - Piantadosi CA
+FAU - Mayhew, Terry M
+AU  - Mayhew TM
+FAU - Breen, Patrick
+AU  - Breen P
+FAU - Stotz, Martin
+AU  - Stotz M
+FAU - Singer, Mervyn
+AU  - Singer M
+LA  - eng
+SI  - ClinicalTrials.gov/NCT00187824
+GR  - G0400905/Medical Research Council/United Kingdom
+GR  - Department of Health/United Kingdom
+PT  - Clinical Trial
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20100610
+PL  - United States
+TA  - Am J Respir Crit Care Med
+JT  - American journal of respiratory and critical care medicine
+JID - 9421642
+RN  - 0 (Mitochondrial Proteins)
+RN  - 0 (Transcription Factors)
+SB  - AIM
+SB  - IM
+CIN - Am J Respir Crit Care Med. 2010 Sep 15;182(6):726-8. PMID: 20833826
+MH  - Aged
+MH  - Case-Control Studies
+MH  - Critical Illness/*mortality
+MH  - Energy Metabolism
+MH  - Female
+MH  - Humans
+MH  - Male
+MH  - Middle Aged
+MH  - Mitochondria, Muscle/*metabolism/pathology
+MH  - Mitochondrial Diseases/physiopathology
+MH  - Mitochondrial Proteins/metabolism
+MH  - Multiple Organ Failure/metabolism/*mortality
+MH  - Muscle, Skeletal/*metabolism/pathology
+MH  - Survival Rate
+MH  - Time Factors
+MH  - Transcription Factors/*metabolism
+PMC - PMC2949402
+OID - NLM: PMC2949402
+EDAT- 2010/06/12 06:00
+MHDA- 2010/09/29 06:00
+CRDT- 2010/06/12 06:00
+PHST- 2010/06/10 [aheadofprint]
+AID - 201003-0326OC [pii]
+AID - 10.1164/rccm.201003-0326OC [doi]
+PST - ppublish
+SO  - Am J Respir Crit Care Med. 2010 Sep 15;182(6):745-51. Epub 2010 Jun 10.
+
+PMID- 19838644
+OWN - NLM
+STAT- MEDLINE
+DA  - 20100507
+DCOM- 20100520
+LR  - 20110602
+IS  - 1528-1132 (Electronic)
+IS  - 0009-921X (Linking)
+VI  - 468
+IP  - 6
+DP  - 2010 Jun
+TI  - Cerebral microembolization during primary total hip arthroplasty and
+      neuropsychologic outcome: a pilot study.
+PG  - 1621-9
+AB  - BACKGROUND: Intraoperative cerebral microembolization occurs in a substantial
+      proportion of patients undergoing THA. Historically, postoperative cognitive
+      dysfunction has been attributed to different factors, including anesthesia, but
+      the influence of the surgery has not been thoroughly examined.
+      QUESTIONS/PURPOSES: We conducted a prospective, controlled clinical trial to
+      assess intraoperative cerebral microembolization during THA and neuropsychologic 
+      outcome. METHODS: The presence of a patent foramen ovale (PFO) also was
+      investigated, using transcranial Doppler, to determine whether this affected
+      cerebral microembolic incidence and load and whether microemboli occurred as a
+      result of specific surgical activity. Forty-five patients were recruited who
+      underwent THA and neuropsychologic assessment; a battery of tests was
+      administered preoperatively and at 6 weeks and 6 months postoperatively. RESULTS:
+      Overall, patients showed improvement in total neuropsychologic change scores at
+      both postoperative intervals. The incidence of cerebral microembolization for THA
+      was 23%. The prevalence of PFO was 37%. PFO did not appear to influence
+      microemboli load or incidence. More microemboli were seen during femoral
+      component insertion and impaction. CONCLUSIONS: Intraoperative cerebral
+      microembolization occurs in a substantial proportion of patients during THA
+      recorded by transcranial Doppler. The microemboli load is low and is not
+      influenced by the presence of PFO. Certain surgical activities seem responsible
+      for greater cerebral microemboli generation. However, neuropsychologic outcome
+      was not affected postoperatively by microemboli or other operative or patient
+      variables.
+AD  - Department of Trauma & Orthopaedics, University College London Hospitals Trust,
+      Flat 3, 39 Priory Terrace, NW6 4DG London, UK. rp@rahulpatel.net
+FAU - Patel, Rahul V
+AU  - Patel RV
+FAU - Stygall, Jan
+AU  - Stygall J
+FAU - Harrington, Jane
+AU  - Harrington J
+FAU - Newman, Stanton P
+AU  - Newman SP
+FAU - Haddad, Fares S
+AU  - Haddad FS
+LA  - eng
+PT  - Controlled Clinical Trial
+PT  - Journal Article
+DEP - 20091017
+PL  - United States
+TA  - Clin Orthop Relat Res
+JT  - Clinical orthopaedics and related research
+JID - 0075674
+SB  - AIM
+SB  - IM
+MH  - Aged
+MH  - Arthroplasty, Replacement, Hip/*adverse effects/psychology
+MH  - Cognition Disorders/diagnosis/epidemiology/*etiology
+MH  - Female
+MH  - Foramen Ovale, Patent/*complications/epidemiology/ultrasonography
+MH  - Humans
+MH  - Incidence
+MH  - Intracranial Embolism/epidemiology/*etiology/ultrasonography
+MH  - Male
+MH  - Middle Aged
+MH  - Neuropsychological Tests
+MH  - Osteoarthritis, Hip/*surgery
+MH  - Pilot Projects
+MH  - Prevalence
+MH  - Prospective Studies
+MH  - Risk Assessment
+MH  - Risk Factors
+MH  - Time Factors
+MH  - Treatment Outcome
+MH  - Ultrasonography, Doppler, Transcranial
+PMC - PMC2865620
+OID - NLM: PMC2865620
+EDAT- 2009/10/20 06:00
+MHDA- 2010/05/21 06:00
+CRDT- 2009/10/20 06:00
+PHST- 2009/03/30 [received]
+PHST- 2009/10/02 [accepted]
+PHST- 2009/10/17 [aheadofprint]
+AID - 10.1007/s11999-009-1140-z [doi]
+PST - ppublish
+SO  - Clin Orthop Relat Res. 2010 Jun;468(6):1621-9. Epub 2009 Oct 17.
+
+PMID- 20210822
+OWN - NLM
+STAT- MEDLINE
+DA  - 20100707
+DCOM- 20101122
+IS  - 1365-2753 (Electronic)
+IS  - 1356-1294 (Linking)
+VI  - 16
+IP  - 3
+DP  - 2010 Jun
+TI  - Major elective joint replacement surgery: socioeconomic variations in surgical
+      risk, postoperative morbidity and length of stay.
+PG  - 529-38
+AB  - BACKGROUND: Patient deprivation is associated with greater need for total hip and
+      knee replacement surgery (THR/TKR) and a higher prevalence of risk factors for
+      surgical complications. Our aim was to examine associations between deprivation
+      and aspects of the inpatient episode for patients undergoing these procedures.
+      METHODS: We analysed socioeconomic variations in preoperative surgical risk,
+      postoperative morbidity and length of stay for 655 patients undergoing elective
+      THR/TKR at a large metropolitan hospital. Surgical risk was assessed using the
+      orthopaedic version of the POSSUM scoring system, postoperative morbidity was
+      assessed using the postoperative morbidity survey, and socioeconomic status was
+      measured using the Index of Multiple Deprivation. We adjusted for age, sex,
+      surgical site and primary vs. revision surgery. RESULTS: We found only a modest, 
+      clinically insignificant socioeconomic gradient in preoperative surgical risk and
+      no socioeconomic gradient in postoperative morbidity. There was a strong
+      socioeconomic gradient in length of stay, but only for patients undergoing TKR.
+      This was due to deprived patients being more likely to remain in hospital without
+      morbidity following TKR. CONCLUSIONS: Our findings suggest differential selection
+      of healthier patients for surgery. Hospitals serving deprived communities may
+      have excess, unfunded costs because of the increased length of stay of
+      socioeconomically disadvantaged patients.
+AD  - Department of Epidemiology and Public Health, University College London, London, 
+      UK. jennifer.hollowell@npeu.ox.ac.uk
+FAU - Hollowell, Jennifer
+AU  - Hollowell J
+FAU - Grocott, Mike P W
+AU  - Grocott MP
+FAU - Hardy, Rebecca
+AU  - Hardy R
+FAU - Haddad, Fares S
+AU  - Haddad FS
+FAU - Mythen, Monty G
+AU  - Mythen MG
+FAU - Raine, Rosalind
+AU  - Raine R
+LA  - eng
+GR  - Medical Research Council/United Kingdom
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20100218
+PL  - England
+TA  - J Eval Clin Pract
+JT  - Journal of evaluation in clinical practice
+JID - 9609066
+SB  - IM
+MH  - Aged
+MH  - Aged, 80 and over
+MH  - Arthroplasty, Replacement, Hip/*adverse effects
+MH  - Arthroplasty, Replacement, Knee/*adverse effects
+MH  - Databases as Topic
+MH  - Female
+MH  - Humans
+MH  - *Length of Stay
+MH  - London
+MH  - Male
+MH  - Morbidity/*trends
+MH  - *Postoperative Complications
+MH  - *Social Class
+MH  - State Medicine
+MH  - *Surgical Procedures, Elective
+EDAT- 2010/03/10 06:00
+MHDA- 2010/12/14 06:00
+CRDT- 2010/03/10 06:00
+PHST- 2010/02/18 [aheadofprint]
+AID - JEP1154 [pii]
+AID - 10.1111/j.1365-2753.2009.01154.x [doi]
+PST - ppublish
+SO  - J Eval Clin Pract. 2010 Jun;16(3):529-38. Epub 2010 Feb 18.
+
+PMID- 20503943
+OWN - NLM
+STAT- MEDLINE
+DA  - 20100527
+DCOM- 20100706
+IS  - 0001-6462 (Print)
+IS  - 0001-6462 (Linking)
+VI  - 76
+IP  - 2
+DP  - 2010 Apr
+TI  - Prevalence of acetabular cartilage lesions and labral tears in femoroacetabular
+      impingement.
+PG  - 181-8
+AB  - The goal of this study was to determine the prevalence of associated acetabular
+      cartilage lesions and labral tears in patients with cam-type femoro-acetabular
+      impingement (FAI). We evaluated acetabular cartilage lesions and labral tears
+      found during hip arthroscopy in 52 patients with radiological signs of cam-type
+      FAI. We found a high prevalence of associated lesions (86.5%) in patients with
+      cam-type FAI. They were graded according to the morphology, extent, and location 
+      of the lesion. Forty-one patients (78.8%) had an acetabular cartilage lesion.
+      Labral tears were found in 31 patients (59.6%). There was a high correlation
+      between age and the presence and extent of acetabular cartilage and labral
+      lesions (r = 0.70; p < 0.0001 and r = 0.45; p <0.001 respectively). There was
+      also a high correlation between the extent of the acetabular cartilage lesion and
+      the presence of labral lesions (r = 0.62; p < 0.0001). Despite the recognized
+      consequences of associated lesions on treatment and outcome, no classification
+      system includes this aspect of FAI. Based on our findings, we developed a system 
+      to grade acetabular cartilage lesions according to their morphology and extent.
+      This information can help to define the natural history of cam-type FAI, and to
+      determine appropriate treatment.
+AD  - University College London Hospital, London, United Kingdom.
+      geertmeermans@hotmail.com
+FAU - Meermans, Geert
+AU  - Meermans G
+FAU - Konan, Sujith
+AU  - Konan S
+FAU - Haddad, Fares S
+AU  - Haddad FS
+FAU - Witt, Johan D
+AU  - Witt JD
+LA  - eng
+PT  - Journal Article
+PL  - Belgium
+TA  - Acta Orthop Belg
+JT  - Acta orthopaedica Belgica
+JID - 2985165R
+SB  - IM
+MH  - Acetabulum/*pathology/physiopathology
+MH  - Adolescent
+MH  - Adult
+MH  - Arthroscopy
+MH  - Biomechanics
+MH  - Cartilage, Articular/*pathology
+MH  - Female
+MH  - Femur/physiopathology
+MH  - Hip Joint/*physiopathology
+MH  - Humans
+MH  - Male
+MH  - Middle Aged
+MH  - Retrospective Studies
+MH  - Young Adult
+EDAT- 2010/05/28 06:00
+MHDA- 2010/07/07 06:00
+CRDT- 2010/05/28 06:00
+PST - ppublish
+SO  - Acta Orthop Belg. 2010 Apr;76(2):181-8.
+
+PMID- 20353992
+OWN - NLM
+STAT- MEDLINE
+DA  - 20100331
+DCOM- 20100630
+LR  - 20100901
+IS  - 1477-0962 (Electronic)
+IS  - 0961-2033 (Linking)
+VI  - 19
+IP  - 4
+DP  - 2010 Apr
+TI  - Antithrombotic treatment failures in antiphospholipid syndrome: the new
+      anticoagulants?
+PG  - 486-91
+AB  - Anticoagulation with oral vitamin K antagonists (VKA) is the mainstay of the
+      treatment of venous and/or arterial thromboembolism in patients with
+      antiphospholipid syndrome (APS), although the optimal intensity of
+      anticoagulation remains controversial. The limitations of existing anticoagulants
+      have driven a search for novel agents. Dabigatran etexilate (Pradaxa), a direct
+      thrombin inhibitor (DTI), and rivaroxaban (Xarelto), the first in a new class of 
+      drugs, the oral direct factor Xa (FXa) inhibitors, are both fixed-dose orally
+      administered agents. They are now licensed in the UK and Europe for the
+      prevention of venous thromboembolism (VTE) in adult patients undergoing elective 
+      total hip replacement (THR) or total knee replacement (TKR). Prospective
+      randomized clinical trials suggest that these agents, and also apixaban, a
+      further oral direct anti-Xa inhibitor, may have potential in other areas
+      including the treatment of acute VTE, prevention of stroke or systemic embolism
+      in patients with atrial fibrillation (AF) and acute coronary syndromes. Here, we 
+      summarize current indications for these agents and address the potential for
+      their use in patients with thrombotic APS.
+AD  - Department of Haematology, University College London, London, UK.
+      hannah.cohen@uclh.nhs.uk
+FAU - Cohen, H
+AU  - Cohen H
+FAU - Machin, S J
+AU  - Machin SJ
+LA  - eng
+PT  - Journal Article
+PT  - Review
+PL  - England
+TA  - Lupus
+JT  - Lupus
+JID - 9204265
+RN  - 0 (Anticoagulants)
+RN  - 0 (Fibrinolytic Agents)
+RN  - 12001-79-5 (Vitamin K)
+SB  - IM
+MH  - Adult
+MH  - Animals
+MH  - Anticoagulants/pharmacology/*therapeutic use
+MH  - Antiphospholipid Syndrome/complications/*drug therapy
+MH  - Drug Design
+MH  - Fibrinolytic Agents/pharmacology/*therapeutic use
+MH  - Humans
+MH  - Randomized Controlled Trials as Topic
+MH  - Thromboembolism/drug therapy/etiology
+MH  - Treatment Outcome
+MH  - Vitamin K/antagonists & inhibitors
+RF  - 23
+EDAT- 2010/04/01 06:00
+MHDA- 2010/07/01 06:00
+CRDT- 2010/04/01 06:00
+AID - 19/4/486 [pii]
+AID - 10.1177/0961203310361355 [doi]
+PST - ppublish
+SO  - Lupus. 2010 Apr;19(4):486-91.
+
+PMID- 20082696
+OWN - NLM
+STAT- MEDLINE
+DA  - 20100215
+DCOM- 20100429
+LR  - 20100928
+IS  - 1745-6215 (Electronic)
+IS  - 1745-6215 (Linking)
+VI  - 11
+IP  - 1
+DP  - 2010
+TI  - Multi-centre cluster randomised trial comparing a community group exercise
+      programme with home based exercise with usual care for people aged 65 and over in
+      primary care: protocol of the ProAct 65+ trial.
+PG  - 6
+AB  - BACKGROUND: Regular physical activity reduces the risk of mortality from all
+      causes, with a powerful beneficial effect on risk of falls and hip fractures.
+      However, physical activity levels are low in the older population and previous
+      studies have demonstrated only modest, short-term improvements in activity levels
+      with intervention. DESIGN/METHODS: Pragmatic 3 arm parallel design cluster
+      controlled trial of class-based exercise (FAME), home-based exercise (OEP) and
+      usual care amongst older people (aged 65 years and over) in primary care. The
+      primary outcome is the achievement of recommended physical activity targets 12
+      months after cessation of intervention. Secondary outcomes include functional
+      assessments, predictors of exercise adherence, the incidence of falls, fear of
+      falling, quality of life and continuation of physical activity after
+      intervention, over a two-year follow up. An economic evaluation including
+      participant and NHS costs will be embedded in the clinical trial. DISCUSSION: The
+      ProAct65 trial will explore and evaluate the potential for increasing physical
+      activity among older people recruited through general practice. The trial will be
+      conducted in a relatively unselected population, and will address problems of
+      selective recruitment, potentially low retention rates, variable quality of
+      interventions and falls risk. TRIAL REGISTRATION: Trial Registration:
+      ISRCTN43453770.
+AD  - Department of Primary Care & Population Health, University College London,
+      Rowland Hill St, London NW3 2PF, UK. s.iliffe@pcps.ucl.ac.uk
+FAU - Iliffe, Steve
+AU  - Iliffe S
+FAU - Kendrick, Denise
+AU  - Kendrick D
+FAU - Morris, Richard
+AU  - Morris R
+FAU - Skelton, Dawn
+AU  - Skelton D
+FAU - Gage, Heather
+AU  - Gage H
+FAU - Dinan, Susie
+AU  - Dinan S
+FAU - Stevens, Zoe
+AU  - Stevens Z
+FAU - Pearl, Mirilee
+AU  - Pearl M
+FAU - Masud, Tahir
+AU  - Masud T
+LA  - eng
+SI  - ISRCTN/ISRCTN43453770
+PT  - Comparative Study
+PT  - Journal Article
+PT  - Multicenter Study
+PT  - Randomized Controlled Trial
+PT  - Research Support, N.I.H., Extramural
+DEP - 20100118
+PL  - England
+TA  - Trials
+JT  - Trials
+JID - 101263253
+SB  - IM
+MH  - Accidental Falls/prevention & control
+MH  - Aged
+MH  - Cluster Analysis
+MH  - *Community Health Services/economics
+MH  - Cost-Benefit Analysis
+MH  - England
+MH  - *Exercise Therapy/economics
+MH  - Fear/psychology
+MH  - Health Care Costs
+MH  - *Health Services for the Aged/economics
+MH  - *Home Care Services/economics
+MH  - Humans
+MH  - Patient Compliance
+MH  - *Peer Group
+MH  - *Primary Health Care/economics
+MH  - Quality of Life
+MH  - Research Design
+MH  - Time Factors
+MH  - Treatment Outcome
+PMC - PMC2821309
+OID - NLM: PMC2821309
+EDAT- 2010/01/20 06:00
+MHDA- 2010/04/30 06:00
+CRDT- 2010/01/20 06:00
+PHST- 2009/07/24 [received]
+PHST- 2010/01/18 [accepted]
+PHST- 2010/01/18 [aheadofprint]
+AID - 1745-6215-11-6 [pii]
+AID - 10.1186/1745-6215-11-6 [doi]
+PST - epublish
+SO  - Trials. 2010 Jan 18;11(1):6.
+
+PMID- 20235071
+OWN - NLM
+STAT- MEDLINE
+DA  - 20100412
+DCOM- 20100816
+IS  - 1724-6067 (Electronic)
+IS  - 1120-7000 (Linking)
+VI  - 20
+IP  - 1
+DP  - 2010 Jan-Mar
+TI  - Custom uncemented revision stems based on a femoral classification.
+PG  - 18-25
+AB  - From the outcome of 175 cases, a group of 4 types of custom-designed HA-coated
+      hip stems, based upon an incremental scale of bone condition, was demonstrated to
+      be sufficient for use with the variety of cavitary defects encountered in
+      revision hip surgery. Harris Hip Score evaluation showed a significant
+      improvement in hip pain and function. Radiographic measurements of axial
+      migration over a 4-year period were less than 2 mm. The migration data were
+      similar across the 4 types of revision stem. A follow-up using DEXA scans showed 
+      preservation of bone in all regions up to 4 years, which justifies the design
+      rationale for the close fit of the stems in the proximal region in achieving
+      initial stability and strain transfer.
+AD  - Institute of Orthopaedics and Musculoskeletal Science, University College London,
+      London, UK. j.hua@ucl.ac.uk
+FAU - Hua, Jia
+AU  - Hua J
+FAU - Walker, Peter S
+AU  - Walker PS
+FAU - Muirhead-Allwood, Sarah K
+AU  - Muirhead-Allwood SK
+FAU - Engelhardt, Fred
+AU  - Engelhardt F
+FAU - Bentley, George
+AU  - Bentley G
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PL  - Italy
+TA  - Hip Int
+JT  - Hip international : the journal of clinical and experimental research on hip
+      pathology and therapy
+JID - 9200413
+SB  - IM
+MH  - Adult
+MH  - Aged
+MH  - Aged, 80 and over
+MH  - Arthroplasty, Replacement, Hip/*methods
+MH  - Female
+MH  - Femur
+MH  - *Hip Prosthesis
+MH  - Humans
+MH  - Male
+MH  - Middle Aged
+MH  - Prosthesis Design
+MH  - Prosthesis Failure
+MH  - Reoperation
+EDAT- 2010/03/18 06:00
+MHDA- 2010/08/17 06:00
+CRDT- 2010/03/18 06:00
+PHST- 2010/02/02 [accepted]
+AID - 9EA57742-AFFF-4931-82DC-7C700004BCF4 [pii]
+PST - ppublish
+SO  - Hip Int. 2010 Jan-Mar;20(1):18-25.
+
+PMID- 20235063
+OWN - NLM
+STAT- MEDLINE
+DA  - 20100412
+DCOM- 20100816
+IS  - 1724-6067 (Electronic)
+IS  - 1120-7000 (Linking)
+VI  - 20
+IP  - 1
+DP  - 2010 Jan-Mar
+TI  - Uncemented revision hip arthroplasty in B2 and B3 periprosthetic femoral
+      fractures - A prospective analysis.
+PG  - 38-42
+AB  - Periprosthetic femoral fractures are an increasingly common complication of total
+      hip arthroplasty. If there is a fracture of the femur in the presence of an
+      unstable prosthesis (Vancouver type B2 and B3), revision of the stem is
+      imperative. We describe our experience of cementless femoral revision in
+      management of twenty-six patients who sustained periprosthetic fractures of the
+      Vancouver type B2 or B3, between February 1999 and March 2005. All patients were 
+      managed by revision arthroplasty, using cementless femoral stems. Cortical
+      struts, cable plating systems, bone allograft and demineralised bone matrix were 
+      used to aid the reconstruction where indicated. All the fractures had clinical
+      and radiological union. The outcome was graded, subjectively as satisfactory by
+      all patients and this is substantiated objectively, by a post operative mean
+      Harris hip score of 83.04. Uncemented revision appears to be an attractive option
+      for periprosthetic fractures with unstable femoral stems.
+AD  - Department of Orthopaedics, University College London Hospitals, London, UK.
+      rayanmarakkar@yahoo.co.uk
+FAU - Rayan, Faizal
+AU  - Rayan F
+FAU - Konan, Sujith
+AU  - Konan S
+FAU - Haddad, Fares S
+AU  - Haddad FS
+LA  - eng
+PT  - Journal Article
+PL  - Italy
+TA  - Hip Int
+JT  - Hip international : the journal of clinical and experimental research on hip
+      pathology and therapy
+JID - 9200413
+SB  - IM
+MH  - Aged
+MH  - Aged, 80 and over
+MH  - Female
+MH  - Femoral Fractures/classification/*surgery
+MH  - *Hip Prosthesis
+MH  - Humans
+MH  - Male
+MH  - Middle Aged
+MH  - Periprosthetic Fractures/classification/*surgery
+MH  - Prospective Studies
+MH  - Reoperation/methods
+EDAT- 2010/03/18 06:00
+MHDA- 2010/08/17 06:00
+CRDT- 2010/03/18 06:00
+AID - 9ACA9685-0813-4D83-A6C4-EF18E1553B9B [pii]
+PST - ppublish
+SO  - Hip Int. 2010 Jan-Mar;20(1):38-42.
+
+PMID- 19816044
+OWN - NLM
+STAT- MEDLINE
+DA  - 20100217
+DCOM- 20100513
+IS  - 1660-2110 (Electronic)
+IS  - 1660-2110 (Linking)
+VI  - 114
+IP  - 1
+DP  - 2010
+TI  - Does diabetes mellitus predispose to increased fluid overload in peritoneal
+      dialysis patients?
+PG  - c60-6
+AB  - BACKGROUND: Diabetic peritoneal dialysis patients have been reported to have
+      faster peritoneal solute transport and may be at risk of reduced ultrafiltration 
+      volumes, leading to fluid overload. METHODS: We audited multi-frequency
+      bioimpedance data from 198 consecutive peritoneal dialysis patients (141
+      nondiabetics and 57 diabetics). RESULTS: Diabetic patients had increased body
+      mass index (males 27 +/- 4 vs. 26 +/- 4; females 28 +/- 5 vs. 25 +/- 4; p < 0.01 
+      for both), waist to hip ratio (males 0.94 +/- 0.07 vs. 0.94 +/- 0.04; females
+      0.99 +/- 0.9 vs. 0.94 +/- 0.09; p < 0.01 for both) and body fat (males 31 +/- 8
+      vs. 26 +/- 11%, p < 0.05; females 40 +/- 8 vs. 33 +/- 10%, p < 0.01) compared to 
+      nondiabetic patients. D4/P creatinine was greater for the female diabetic
+      patients than the nondiabetic patients (0.75 +/- 0.1 vs. 0.69 +/- 0.1; p =
+      0.044); otherwise, the peritoneal equilibrium test (PET) results did not differ. 
+      Extracellular water (ECW) adjusted for height was similar in diabetic and
+      nondiabetic patients, but the ratio of ECW to total body water (TBW) was greater 
+      for diabetics (males 0.40 +/- 0.01 vs. 0.39 +/- 0.01; females 0.39 +/- 0.01 vs.
+      0.38 +/- 0.01; p < 0.05 for both). CONCLUSIONS: Diabetic and nondiabetic patients
+      had similar PET results, 24-hour net peritoneal ultrafiltration and blood
+      pressure control. The ratio of ECW to TBW was greater in diabetic patients, and
+      although this could be due to a loss of intracellular water, as albumin and
+      C-reactive protein did not differ, it suggests that diabetic peritoneal dialysis 
+      patients have an expanded extracellular volume.
+CI  - Copyright 2009 S. Karger AG, Basel.
+AD  - University College London Center for Nephrology, Royal Free and University
+      College Medical School, London, UK. andrew.davenport@royalfree.nhs.uk
+FAU - Davenport, Andrew
+AU  - Davenport A
+FAU - Willicombe, Michelle Kay
+AU  - Willicombe MK
+LA  - eng
+PT  - Journal Article
+DEP - 20091009
+PL  - Switzerland
+TA  - Nephron Clin Pract
+JT  - Nephron. Clinical practice
+JID - 101159763
+RN  - 0 (Hemoglobin A, Glycosylated)
+SB  - IM
+MH  - Adult
+MH  - Aged
+MH  - Blood Volume/physiology
+MH  - Body Composition
+MH  - Cross-Sectional Studies
+MH  - Diabetic Nephropathies/*physiopathology/*therapy
+MH  - Electric Impedance
+MH  - Female
+MH  - Hemoglobin A, Glycosylated
+MH  - Humans
+MH  - Kidney Failure, Chronic/*physiopathology/therapy
+MH  - Male
+MH  - Middle Aged
+MH  - *Peritoneal Dialysis/methods
+MH  - Ultrafiltration
+MH  - Water-Electrolyte Imbalance/*physiopathology
+MH  - Young Adult
+EDAT- 2009/10/10 06:00
+MHDA- 2010/05/14 06:00
+CRDT- 2009/10/10 06:00
+PHST- 2009/04/27 [received]
+PHST- 2009/07/01 [accepted]
+PHST- 2009/10/09 [aheadofprint]
+AID - 000245070 [pii]
+AID - 10.1159/000245070 [doi]
+PST - ppublish
+SO  - Nephron Clin Pract. 2010;114(1):c60-6. Epub 2009 Oct 9.
+
+PMID- 19505197
+OWN - NLM
+STAT- MEDLINE
+DA  - 20091209
+DCOM- 20100203
+IS  - 1937-335X (Electronic)
+IS  - 1937-3341 (Linking)
+VI  - 15
+IP  - 12
+DP  - 2009 Dec
+TI  - Augmentation of bone growth onto the acetabular cup surface using bone marrow
+      stromal cells in total hip replacement surgery.
+PG  - 3689-96
+AB  - Aseptic loosening of acetabular components in total hip arthroplasty is the major
+      cause of implant failure. Our hypothesis was that spraying autologous bone
+      marrow-derived stromal cells (BMSCs) in fibrin glue onto the surface of
+      hydroxyapatite-coated uncemented acetabular components would increase bone
+      formation and contact in a caprine model. Ten million BMSCs were sprayed onto the
+      acetabular cup at the time of surgery. Animals in the control group received
+      fibrin glue only. Ground reaction force measurements were taken preoperatively
+      and at 6 and 12 weeks postsurgery. After retrieval at 12 weeks new bone
+      formation, bone-implant contact and fibrous tissue thickness adjacent to the cup 
+      were quantified. Viability and proliferation assays showed that the majority of
+      the BMSCs survived spraying in fibrin glue at pressures of up to 1.5 atm. New
+      bone growth adjacent to the bone implant interface in the BMSC-treated group
+      (71.42 +/- 8.97%) was 30% greater than in control (54.22 +/- 16.56%) although
+      this difference was not statistically significant. However, significantly
+      increased new bone formation was measured at the periphery of the cup (zone 5) in
+      the BMSC-treated group (71.97 +/- 10.91%) when compared with control (23.85 +/-
+      15.13%, p = 0.028). Bone-implant contact was significantly greater in the
+      BMSC-treated group (20.03 +/- 4.64%) (control: 13.71 +/- 8.32%, p = 0.027);
+      correspondingly, the average thickness of the fibrous tissue membrane where
+      present was significantly reduced at the periphery of the cups in the
+      BMSC-treated group (327.49 +/- 20.38 mum) when compared with control (887.21 +/- 
+      158.89 mum) (p = 0.02). This study has clinical applications as greater bone
+      contact at the cup surface will improve fixation and may decrease longer-term
+      aseptic loosening by preventing wear debris-induced bone loss at the implant
+      interface.
+AD  - Division of Surgery and Interventional Science, Centre for Biomedical
+      Engineering, Institute of Orthopaedics and Musculoskeletal Science, Royal
+      National Orthopaedic Hospital, University College London, Middlesex, United
+      Kingdom.
+FAU - Kalia, Priya
+AU  - Kalia P
+FAU - Coathup, Melanie Jean
+AU  - Coathup MJ
+FAU - Oussedik, Samir
+AU  - Oussedik S
+FAU - Konan, Sujith
+AU  - Konan S
+FAU - Dodd, Matthew
+AU  - Dodd M
+FAU - Haddad, Fares S
+AU  - Haddad FS
+FAU - Blunn, Gordon W
+AU  - Blunn GW
+LA  - eng
+PT  - Journal Article
+PL  - United States
+TA  - Tissue Eng Part A
+JT  - Tissue engineering. Part A
+JID - 101466659
+RN  - 0 (Fibrin Tissue Adhesive)
+SB  - IM
+MH  - Acetabulum/drug effects/*surgery
+MH  - Animals
+MH  - *Arthroplasty, Replacement, Hip
+MH  - Biomechanics/drug effects
+MH  - Bone Development/drug effects/*physiology
+MH  - Bone Marrow Cells/*cytology
+MH  - Cell Proliferation/drug effects
+MH  - Cell Survival/drug effects
+MH  - Female
+MH  - Fibrin Tissue Adhesive/pharmacology
+MH  - Goats
+MH  - Implants, Experimental
+MH  - Postoperative Care
+MH  - Pressure
+MH  - Stromal Cells/cytology/drug effects/metabolism/*transplantation
+MH  - Surface Properties/drug effects
+EDAT- 2009/06/10 09:00
+MHDA- 2010/02/04 06:00
+CRDT- 2009/06/10 09:00
+AID - 10.1089/ten.TEA.2008.0676 [doi]
+PST - ppublish
+SO  - Tissue Eng Part A. 2009 Dec;15(12):3689-96.
+
+PMID- 19858156
+OWN - NLM
+STAT- MEDLINE
+DA  - 20091027
+DCOM- 20091231
+IS  - 1098-4275 (Electronic)
+IS  - 0031-4005 (Linking)
+VI  - 124
+IP  - 5
+DP  - 2009 Nov
+TI  - Aluminum exposure from parenteral nutrition in preterm infants: bone health at
+      15-year follow-up.
+PG  - 1372-9
+AB  - OBJECTIVE: Aluminum has known neurotoxicity and may impair short-term bone
+      health. In a randomized trial, we showed reduced neurodevelopmental scores in
+      preterm infants who were previously exposed to aluminum from parenteral nutrition
+      solutions. Here, in the same cohort, we test the hypothesis that neonatal
+      aluminum exposure also adversely affects long-term bone health, as indicated by
+      reduced bone mass. METHODS: Bone area (BA) and bone mineral content (BMC) of
+      lumbar spine, hip, and whole body were measured with dual radiograph
+      absorptiometry in 13- to 15-year-olds who were born preterm and randomly assigned
+      standard or aluminum-depleted parenteral nutrition solutions during the neonatal 
+      period. RESULTS: Fifty-nine children (32% of survivors) were followed. Those who 
+      were randomly assigned to standard parenteral nutrition solution had lower lumbar
+      spine BMC, apparently explained by a concomitant decrease in bone size. In
+      nonrandomized analyses, children who were exposed to neonatal aluminum intakes
+      above the median (55 microg/kg) had lower hip BMC (by 7.6% [95% confidence
+      interval: 0.12-13.8]; P = 0.02), [corrected] independent of bone (or body) size. 
+      CONCLUSIONS: Neonates who are exposed to parenteral aluminum may have reduced
+      lumbar spine and hip bone mass during adolescence, potential risk factors for
+      later osteoporosis and hip fracture. These findings need confirmation in larger, 
+      more detailed studies. Nevertheless, given our previous finding of adverse
+      developmental outcome in these individuals and the sizeable number of
+      contemporary infants who undergo intensive neonatal care and are still exposed to
+      aluminum via parenteral feeding solutions, the potential adverse long-term
+      consequences of early aluminum exposure now deserve renewed attention.
+AD  - Medical Research Council Childhood Nutrition Research Centre, University College 
+      London Institute of Child Health, London, United Kingdom.
+      m.fewtrell@ich.ucl.ac.uk
+FAU - Fewtrell, Mary S
+AU  - Fewtrell MS
+FAU - Bishop, Nick J
+AU  - Bishop NJ
+FAU - Edmonds, Caroline J
+AU  - Edmonds CJ
+FAU - Isaacs, Elizabeth B
+AU  - Isaacs EB
+FAU - Lucas, Alan
+AU  - Lucas A
+LA  - eng
+GR  - Medical Research Council/United Kingdom
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20091026
+PL  - United States
+TA  - Pediatrics
+JT  - Pediatrics
+JID - 0376422
+RN  - 7429-90-5 (Aluminum)
+SB  - AIM
+SB  - IM
+EIN - Pediatrics. 2009 Dec;124(6):1709
+MH  - Absorptiometry, Photon
+MH  - Adolescent
+MH  - Aluminum/*adverse effects/analysis
+MH  - Bone Density/*drug effects
+MH  - Bone and Bones/*drug effects
+MH  - Cognition/drug effects
+MH  - Follow-Up Studies
+MH  - Food, Formulated/*adverse effects/analysis
+MH  - Hip Joint/drug effects/pathology
+MH  - Humans
+MH  - Infant, Newborn
+MH  - *Infant, Premature
+MH  - Lumbar Vertebrae/drug effects/pathology
+MH  - Parenteral Nutrition/*adverse effects
+MH  - Whole Body Imaging
+EDAT- 2009/10/28 06:00
+MHDA- 2010/01/01 06:00
+CRDT- 2009/10/28 06:00
+PHST- 2009/10/26 [aheadofprint]
+AID - peds.2009-0783 [pii]
+AID - 10.1542/peds.2009-0783 [doi]
+PST - ppublish
+SO  - Pediatrics. 2009 Nov;124(5):1372-9. Epub 2009 Oct 26.
+
+PMID- 19999881
+OWN - NLM
+STAT- MEDLINE
+DA  - 20091216
+DCOM- 20100108
+IS  - 0001-6462 (Print)
+IS  - 0001-6462 (Linking)
+VI  - 75
+IP  - 5
+DP  - 2009 Oct
+TI  - Intra-operative cerebral microembolisation during primary hybrid total hip
+      arthroplasty compared with primary hip resurfacing.
+PG  - 671-7
+AB  - Fat embolism during total joint arthroplasty or intramedullary procedures is well
+      documented and is infrequently fatal. Considerable morbidity is associated with
+      fat embolism syndrome, and post operative cognitive dysfunction is frequently
+      seen, yet the exact pathophysiology remains unclear. Intraoperative cerebral
+      microemboli can be detected using transcranial Doppler ultrasound and moreover
+      the presence of a patent foramen ovale (PFO) may be examined for using a
+      validated technique employing this modality. Persistent patent foramen ovale may 
+      act as a conduit for embolic material to traverse from the venous to the systemic
+      circulation and consequently affect cerebral function. We wished to 1)
+      investigate the incidence of cerebral microembolisation during primary hybrid
+      total hip arthroplasty and compare this with hip resurfacing, 2) examine the
+      influence of patent foramen ovale on cerebral microembolisation and 3)assess the 
+      influence of cerebral microemboli on the outcome of patients undergoing these
+      procedures. We prospectively compared 12 patients undergoing hip resurfacing with
+      12 patients undergoing hybrid total hip replacement (THR) for the incidence and
+      load of intraoperative cerebral microemboli, using transcranial Doppler. All
+      patients were tested for the presence of a patent foramen ovale using a validated
+      technique. Outcome was assessed using the WOMAC, Harris Hip Score, Oxford Hip
+      Score and EuroQoL quality of life measure. No patient in the hip resurfacing
+      group demonstrated intra-operative cerebral microembolisation. Five patients in
+      the THR group showed transcranial Doppler evidence of microemobli during the
+      procedure. With the small numbers of patients available, there was not a
+      significant difference in microemboli load between the groups (p = 0.09). There
+      was no significant difference between the groups regarding the incidence of PFO
+      (p = 0.78). There was no significant relationship between the incidence and total
+      microemboli load and the incidence of PFO (p = 0.56). There was no significant
+      difference in outcome at six months between patients who demonstrated microemboli
+      and those who did not. The incidence of cerebral microembolisation during hip
+      resurfacing appears to be very low. Although our study demonstrated cerebral
+      microemboli in a significant proportion of patients undergoing primary hybrid
+      THR, the numbers of microemboli were low and the presence of a patent foramen
+      ovale did not influence microemboli incidence or load. Finally, patients who
+      demonstrated cerebral microemboli did not have a worse outcome than patients who 
+      did not.
+AD  - University College London, United Kingdom. rp@rahulpatel.net
+FAU - Patel, Rahul
+AU  - Patel R
+FAU - Stygall, Jan
+AU  - Stygall J
+FAU - Harrington, Jane
+AU  - Harrington J
+FAU - Newman, Stanton
+AU  - Newman S
+FAU - Haddad, Fares
+AU  - Haddad F
+LA  - eng
+PT  - Comparative Study
+PT  - Journal Article
+PL  - Belgium
+TA  - Acta Orthop Belg
+JT  - Acta orthopaedica Belgica
+JID - 2985165R
+SB  - IM
+MH  - Adult
+MH  - Aged
+MH  - Arthroplasty, Replacement, Hip/*adverse effects/methods
+MH  - Female
+MH  - Foramen Ovale, Patent/diagnosis/epidemiology
+MH  - Humans
+MH  - Intracranial Embolism/*epidemiology/ultrasonography
+MH  - Intraoperative Complications/*epidemiology
+MH  - Male
+MH  - Middle Aged
+MH  - Risk Factors
+MH  - Ultrasonography, Doppler, Transcranial
+EDAT- 2009/12/17 06:00
+MHDA- 2010/01/09 06:00
+CRDT- 2009/12/17 06:00
+PST - ppublish
+SO  - Acta Orthop Belg. 2009 Oct;75(5):671-7.
+
+PMID- 19834591
+OWN - NLM
+STAT- MEDLINE
+DA  - 20091016
+DCOM- 20100114
+LR  - 20100927
+IS  - 1449-1907 (Electronic)
+IS  - 1449-1907 (Linking)
+VI  - 6
+IP  - 5
+DP  - 2009
+TI  - Two-stage procedure in the treatment of late chronic hip infections--spacer
+      implantation.
+PG  - 253-7
+AB  - Infection after total hip arthroplasties (THA) is a devastating complication with
+      significant consequences for both the patients and the healthcare systems. In
+      recent times, a two stage procedure using antibiotic-impregnated interim spacers 
+      has become the most popular treatment for late chronic hip joint infections after
+      THA with success rates over 90%. In this review, we discuss the different types
+      of spacers used in the treatment of chronically infected THA and conclude that
+      hip spacers are effective in the treatment of hip joint infections.
+AD  - Department of Orthopaedics, University College London Hospital, 235 Euston Road, 
+      London, NW1 2BU, United Kingdom. msukeik@hotmail.com
+FAU - Sukeik, Mohamed
+AU  - Sukeik M
+FAU - Haddad, Fares S
+AU  - Haddad FS
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20090902
+PL  - Australia
+TA  - Int J Med Sci
+JT  - International journal of medical sciences
+JID - 101213954
+RN  - 0 (Anti-Bacterial Agents)
+RN  - 0 (Bone Cements)
+SB  - IM
+MH  - Anti-Bacterial Agents/*therapeutic use
+MH  - Arthroplasty, Replacement, Hip/*adverse effects
+MH  - Bone Cements/chemistry/therapeutic use
+MH  - Humans
+MH  - Prosthesis-Related Infections/drug therapy/prevention & control/surgery/*therapy
+RF  - 42
+PMC - PMC2755121
+OID - NLM: PMC2755121
+EDAT- 2009/10/17 06:00
+MHDA- 2010/01/15 06:00
+CRDT- 2009/10/17 06:00
+PHST- 2009/07/26 [received]
+PHST- 2009/09/02 [accepted]
+PHST- 2009/09/02 [epublish]
+PST - epublish
+SO  - Int J Med Sci. 2009 Sep 2;6(5):253-7.
+
+PMID- 19751009
+OWN - NLM
+STAT- MEDLINE
+DA  - 20090915
+DCOM- 20091201
+IS  - 1938-2367 (Electronic)
+IS  - 0147-7447 (Linking)
+VI  - 32
+IP  - 9
+DP  - 2009 Sep
+TI  - The role of impaction grafting: the when and how.
+LID - 10.3928/01477447-20090728-19 [doi]
+LID - orthosupersite.com/view.asp?rID=42842 [pii]
+AB  - The challenges of acetabular revision include bone loss and poor bone biology.
+      Favorable 10-year reports exist of uncemented acetabular revision using
+      hemispherical uncemented sockets. In the presence of bone stock deficiency,
+      adjunctive morsellized impaction bone grafting is a recognized means of restoring
+      bone stock. We attempt to restore bone stock with impaction grafting beneath a
+      cementless cup for contained defects, defects that can be rendered contained, and
+      whenever there is capacity for rim fixation. The technique of bone graft
+      preparation is important. We use a mixture of bone milling and bone chips of
+      various sizes. Morsellized allograft is inserted, packed, and/or reverse reamed
+      into any defects. The reconstruction relies on the ability to gain biological
+      fixation of the component to the underlying host bone. This requires intimate
+      host bone contact and rigid implant stability. The fixation is therefore
+      augmented with screws in all cases. It is important to achieve host bone contact 
+      in a least part of the dome and posterior column. When this is possible, and
+      particularly when there is a good rim fit, we have not found it absolutely
+      necessary to have contact with host bone over >50% of the surface. Stability of
+      primary fixation is a better predictor of outcome than volume of graft or
+      percentage of host bone contact. The advantages of bone grafting in acetabular
+      reconstruction include the ability to restore bone stock, rebuild a normal hip
+      center and hip biomechanics, and increase bone stock for future revisions.
+AD  - University College London, Princess Grace Hospital, 42 Nottingham Place, London, 
+      United Kingdom.
+FAU - Haddad, Fares S
+AU  - Haddad FS
+FAU - Rayan, Faizal
+AU  - Rayan F
+LA  - eng
+PT  - Journal Article
+PT  - Review
+PL  - United States
+TA  - Orthopedics
+JT  - Orthopedics
+JID - 7806107
+SB  - IM
+MH  - Acetabulum/*surgery
+MH  - Arthroplasty, Replacement, Hip/*instrumentation/*methods
+MH  - Bone Transplantation/*instrumentation/*methods
+MH  - *Hip Prosthesis
+MH  - Humans
+RF  - 33
+EDAT- 2009/09/16 06:00
+MHDA- 2009/12/16 06:00
+CRDT- 2009/09/16 06:00
+AID - orthopedics.42842 [pii]
+AID - 10.3928/01477447-20090728-19 [doi]
+PST - ppublish
+SO  - Orthopedics. 2009 Sep;32(9). pii: orthosupersite.com/view.asp?rID=42842. doi:
+      10.3928/01477447-20090728-19.
+
+PMID- 19324976
+OWN - NLM
+STAT- MEDLINE
+DA  - 20090512
+DCOM- 20090602
+IS  - 1479-683X (Electronic)
+IS  - 0804-4643 (Linking)
+VI  - 160
+IP  - 6
+DP  - 2009 Jun
+TI  - Treatment for 24 months with recombinant human GH has a beneficial effect on bone
+      mineral density in young adults with childhood-onset GH deficiency.
+PG  - 899-907
+AB  - OBJECTIVE: Discontinuation of growth hormone (GH) therapy on completion of linear
+      growth may adversely affect bone mineral density (BMD) in young adults with
+      childhood-onset GH-deficiency (GHD). In the present study, we analyzed the impact
+      of GH treatment on bone in young adults with GHD. METHODS: BMD at the lumbar
+      spine (L2-L4), total hip, and total body was measured at baseline and after 24
+      months in a cohort of young adults (18-25 years; n=160) with severe GHD treated
+      with GH during childhood who were randomized to GH (n=109) or no treatment (n=51)
+      in a multicenter, multinational, open-label study. GH starting doses (0.2 mg/day 
+      (males), 0.4 mg/day (females)) were increased after 1 month to 0.6 mg/day (males)
+      and 0.9 mg/day (females) and then to 1.0 mg/day (males) and 1.4 mg/day (females) 
+      at 3 months for the remainder of the study. RESULTS: After 24 months, lumbar
+      spine BMD had increased significantly more in GH-treated patients than in
+      controls (6 vs 2%; estimated treatment difference; 3.5% (95% confidence interval,
+      1.52-5.51) P<0.001). GH also had a significant positive effect on total hip BMD
+      (P=0.015). Total body BMD was unchanged from baseline (P=0.315). CONCLUSIONS: In 
+      young adults treated for childhood-onset GHD, there is a beneficial effect of
+      continued GH treatment on BMD in adult life. Twenty-four months of GH treatment
+      in these young adults was associated with an estimated 3.5% greater increase in
+      BMD of the lumbar spine compared with controls.
+AD  - Department of Endocrinology and Diabetes, University College London Hospitals,
+      250 Euston Road, London NW1 2PQ, UK. g.conway@ucl.ac.uk
+FAU - Conway, G S
+AU  - Conway GS
+FAU - Szarras-Czapnik, M
+AU  - Szarras-Czapnik M
+FAU - Racz, K
+AU  - Racz K
+FAU - Keller, A
+AU  - Keller A
+FAU - Chanson, P
+AU  - Chanson P
+FAU - Tauber, M
+AU  - Tauber M
+FAU - Zacharin, M
+AU  - Zacharin M
+CN  - 1369 GHD to GHDA Transition Study Group
+LA  - eng
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20090326
+PL  - England
+TA  - Eur J Endocrinol
+JT  - European journal of endocrinology / European Federation of Endocrine Societies
+JID - 9423848
+RN  - 0 (Recombinant Proteins)
+RN  - 12629-01-5 (Human Growth Hormone)
+RN  - 67763-96-6 (Insulin-Like Growth Factor I)
+RN  - EC 3.1.3.1 (Alkaline Phosphatase)
+SB  - IM
+MH  - Absorptiometry, Photon
+MH  - Adolescent
+MH  - Adult
+MH  - Age of Onset
+MH  - Alkaline Phosphatase/metabolism
+MH  - Bone Density
+MH  - Bone Remodeling/*physiology
+MH  - Bone and Bones/metabolism
+MH  - Female
+MH  - Growth Disorders/*drug therapy
+MH  - Human Growth Hormone/adverse effects/*deficiency/*therapeutic use
+MH  - Humans
+MH  - Insulin-Like Growth Factor I/metabolism
+MH  - Male
+MH  - Recombinant Proteins/adverse effects/*therapeutic use
+MH  - Treatment Outcome
+MH  - Young Adult
+IR  - Jones T
+FIR - Jones, Timothy
+IR  - Johnston R
+FIR - Johnston, Rob
+IR  - Price G
+FIR - Price, Glynic
+IR  - Epstein M
+FIR - Epstein, Martin
+IR  - Zacharin M
+FIR - Zacharin, Margaret
+IR  - Cameron F
+FIR - Cameron, Fergus
+IR  - Holdaway I
+FIR - Holdaway, Ian
+IR  - Grey A
+FIR - Grey, Andrew
+IR  - Maiter D
+FIR - Maiter, Dominique
+IR  - Gaillard RC
+FIR - Gaillard, Rolf-Christian
+IR  - De Luca AM
+FIR - De Luca, Anna Maria
+IR  - Mullis P
+FIR - Mullis, Primus
+IR  - Meinhart U
+FIR - Meinhart, Udo
+IR  - Bachmann S
+FIR - Bachmann, Sara
+IR  - Tschaeppeler H
+FIR - Tschaeppeler, Heinz
+IR  - Lippuner K
+FIR - Lippuner, Kurt
+IR  - Wolf R
+FIR - Wolf, Rainer
+IR  - Giger A
+FIR - Giger, Andreas
+IR  - Rohrbach M
+FIR - Rohrbach, Marianne
+IR  - Vuissoz JM
+FIR - Vuissoz, Jean-Marc
+IR  - Keller E
+FIR - Keller, Eberhard
+IR  - Keller A
+FIR - Keller, Alexandra
+IR  - Carrascosa A
+FIR - Carrascosa, Antonio
+IR  - Yeste D
+FIR - Yeste, Diego
+IR  - Chanson P
+FIR - Chanson, Phillipe
+IR  - Brue T
+FIR - Brue, Thierry
+IR  - Tauber M
+FIR - Tauber, Maithe
+IR  - Conway G
+FIR - Conway, Gerry
+IR  - Sturrock A
+FIR - Sturrock, Alison
+IR  - Connell J
+FIR - Connell, John
+IR  - Ahmed F
+FIR - Ahmed, Faisel
+IR  - Racz K
+FIR - Racz, Karoly
+IR  - Szucs N
+FIR - Szucs, Nokolette
+IR  - Gabriella G
+FIR - Gabriella, Gyori
+IR  - Horvath C
+FIR - Horvath, Csaba
+IR  - Mondok A
+FIR - Mondok, Agnes
+IR  - Goth M
+FIR - Goth, Miklos
+IR  - Kovacs L
+FIR - Kovacs, Laszlo
+IR  - Hubina E
+FIR - Hubina, Erica
+IR  - Johansson G
+FIR - Johansson, Gudmundur
+IR  - Svensson J
+FIR - Svensson, Johan
+IR  - Romer T
+FIR - Romer, Tomasz
+IR  - Szarras-Czapnik M
+FIR - Szarras-Czapnik, Maria
+IR  - Oczkowska U
+FIR - Oczkowska, Urszula
+IR  - Starzyk J
+FIR - Starzyk, Jerzy
+IR  - Gorska A
+FIR - Gorska, Agata
+IR  - Janus D
+FIR - Janus, Dominika
+IR  - Kalicka-Kasperczyk A
+FIR - Kalicka-Kasperczyk, Anna
+IR  - Kumorowicz-Kopiec M
+FIR - Kumorowicz-Kopiec, Malgorzata
+IR  - Gorska A
+FIR - Gorska, Aleksandra
+IR  - Dolezal-Oltarzewska K
+FIR - Dolezal-Oltarzewska, Katarzyna
+IR  - Roztoczanska D
+FIR - Roztoczanska, Dorota
+IR  - Wojtys J
+FIR - Wojtys, Joann
+IR  - Pietkowska E
+FIR - Pietkowska, Edyta
+IR  - Krzyzanowska-Siniarska B
+FIR - Krzyzanowska-Siniarska, Barbara
+IR  - Ogonoswki J
+FIR - Ogonoswki, Jaroslaw
+IR  - Miazgowski T
+FIR - Miazgowski, Tomasz
+IR  - Korpal-Szczyrska M
+FIR - Korpal-Szczyrska, Maria
+IR  - Dorant B
+FIR - Dorant, Bohdana
+IR  - Kaminska H
+FIR - Kaminska, Halina
+IR  - Birkholtz D
+FIR - Birkholtz, Dorota
+IR  - Wejs LR
+FIR - Wejs, Ludomira Rzepecka
+IR  - Turek K
+FIR - Turek, Krystyna
+IR  - Barg E
+FIR - Barg, Ewa
+IR  - Wikiera B
+FIR - Wikiera, Beata
+IR  - Jedrzejczuk D
+FIR - Jedrzejczuk, Diana
+IR  - Bollerslev J
+FIR - Bollerslev, Jens
+EDAT- 2009/03/28 09:00
+MHDA- 2009/06/03 09:00
+CRDT- 2009/03/28 09:00
+PHST- 2009/03/26 [aheadofprint]
+AID - EJE-08-0436 [pii]
+AID - 10.1530/EJE-08-0436 [doi]
+PST - ppublish
+SO  - Eur J Endocrinol. 2009 Jun;160(6):899-907. Epub 2009 Mar 26.
+
+PMID- 19339576
+OWN - NLM
+STAT- MEDLINE
+DA  - 20090402
+DCOM- 20090429
+LR  - 20101025
+IS  - 1535-1386 (Electronic)
+VI  - 91
+IP  - 4
+DP  - 2009 Apr
+TI  - The effect of the femoral head ossific nucleus in the treatment of developmental 
+      dysplasia of the hip. A meta-analysis.
+PG  - 911-8
+AB  - BACKGROUND: The role of the presence of the femoral head ossific nucleus as a
+      risk factor for the development of osteonecrosis of the femoral head in infants
+      with developmental dysplasia of the hip has been investigated in several small
+      studies, but the results have been inconsistent. The purpose of the present study
+      was to determine the effect of the presence of the ossific nucleus on the
+      development of osteonecrosis. METHODS: A systematic review of the medical
+      literature from 1966 to 2007 was performed. Two independent reviewers evaluated
+      all articles. Interrater agreement was determined, and the quality of evidence
+      was evaluated. A meta-analysis was then performed with the main outcome defined
+      as the development of osteonecrosis of the femoral head two years after
+      reduction. RESULTS: Six observational studies (five retrospective and one
+      prospective) met the inclusion criteria. Inconsistency was found in that half of 
+      the studies demonstrated a protective effect of the ossific nucleus on the
+      development of osteonecrosis whereas half of the studies did not. A meta-analysis
+      (including 358 patients) showed no significant effect of the presence of the
+      ossific nucleus on the development of grades-I through IV osteonecrosis, with
+      forty-one cases of osteonecrosis (19%) found in infants in whom the ossific
+      nucleus had been present at the time of hip reduction compared with thirty cases 
+      (22%) in the group without an ossific nucleus (relative risk=0.75, 95% confidence
+      interval=0.46 to 1.21). When only radiographic changes of grade II or worse were 
+      considered to represent osteonecrosis, a significant difference in the prevalence
+      of osteonecrosis was found, with fourteen cases of osteonecrosis (7%) in infants 
+      with an ossific nucleus compared with eighteen cases (16%) in those without an
+      ossific nucleus (relative risk=0.43, 95% confidence interval=0.20 to 0.90). A
+      subgroup analysis showed that the presence of the ossific nucleus reduced the
+      probability of osteonecrosis by 60% (relative risk=0.41, 95% confidence
+      interval=0.18 to 0.91) after closed reduction, but no significant effect was
+      found in patients treated with open reduction (relative risk=1.14, 95% confidence
+      interval=0.62 to 2.07). All studies demonstrated methodological weaknesses
+      compromising the quality of evidence. CONCLUSIONS: We did not find that the
+      presence of the ossific nucleus had a significant effect on the development of
+      osteonecrosis of any grade after hip reduction in infants with developmental
+      dysplasia of the hip. The meta-analysis suggested that the presence of the
+      ossific nucleus has a protective effect against the development of the more
+      severe forms of femoral head osteonecrosis. However, the quality of evidence is
+      moderate, and additional research is likely to have an important impact on the
+      confidence in the estimate of the effect and may change this estimate.
+AD  - Department of Orthopaedic Surgery, Great Ormond Street Hospital for Children, and
+      the Institute of Child Health, University College London, Great Ormond Street,
+      London WC1N 3JH, United Kingdom. a.roposch@ich.ucl.ac.uk
+FAU - Roposch, Andreas
+AU  - Roposch A
+FAU - Stohr, Kuldeep K
+AU  - Stohr KK
+FAU - Dobson, Michael
+AU  - Dobson M
+LA  - eng
+GR  - Arthritis Research Campaign/United Kingdom
+PT  - Journal Article
+PT  - Meta-Analysis
+PT  - Research Support, Non-U.S. Gov't
+PL  - United States
+TA  - J Bone Joint Surg Am
+JT  - The Journal of bone and joint surgery. American volume
+JID - 0014030
+SB  - AIM
+SB  - IM
+MH  - Femur Head/*pathology
+MH  - Femur Head Necrosis/*etiology/pathology
+MH  - Hip Dislocation, Congenital/pathology/*therapy
+MH  - Humans
+MH  - Infant
+MH  - Orthopedic Procedures/adverse effects
+MH  - Postoperative Complications
+MH  - Risk Factors
+EDAT- 2009/04/03 09:00
+MHDA- 2009/04/30 09:00
+CRDT- 2009/04/03 09:00
+AID - 91/4/911 [pii]
+AID - 10.2106/JBJS.H.00096 [doi]
+PST - ppublish
+SO  - J Bone Joint Surg Am. 2009 Apr;91(4):911-8.
+
+PMID- 19405437
+OWN - NLM
+STAT- MEDLINE
+DA  - 20090501
+DCOM- 20090528
+LR  - 20090608
+IS  - 0954-4119 (Print)
+IS  - 0954-4119 (Linking)
+VI  - 223
+IP  - 3
+DP  - 2009 Apr
+TI  - The importance of a thick cement mantle depends on stem geometry and stem-cement 
+      interfacial bonding.
+PG  - 315-27
+AB  - The thickness of the cement mantle around the femoral component of total hip
+      replacements is a contributing factor to aseptic loosening and revision.
+      Nevertheless, various designs of stems and surgical tooling lead to cement
+      mantles of different thicknesses. Opinion is divided on whether a thick mantle
+      enhances implant longevity. This study investigates the effect of cement mantle
+      thickness on accumulated damage in the cement, and how this is influenced by the 
+      presence or absence of a proximal collar and on whether the stem-cement interface
+      remains bonded. Three-dimensional finite element simulations incorporating creep 
+      and non-linear damage accumulation were performed to investigate cracking in the 
+      cement mantles around Stanmore Hips under physiologically informed stair-climbing
+      and gait loads. Cement mantle thickness, stem-cement interfacial bonding, and
+      collar design were varied to assess the interactive effects of these parameters. 
+      In all cases, damage levels were three to six times higher when the stem-cement
+      interface remained bonded. Cement mantle thickness had little effect on cement
+      damage accumulation around debonded collared stems but was critical in both
+      bonded and collarless cases, where a thicker mantle reduced cement cracking.
+      Damage around a smooth debonded stem with a collar is thus much less sensitive to
+      cement thickness than around bonded or collarless stems.
+AD  - Centre for Biomedical Engineering, Institute of Orthopaedics & Musculoskeletal
+      Science, University College London, Stanmore, UK. j.caruana@ucl.ac.uk
+FAU - Caruana, J
+AU  - Caruana J
+FAU - Janssen, D
+AU  - Janssen D
+FAU - Verdonschot, N
+AU  - Verdonschot N
+FAU - Blunn, G W
+AU  - Blunn GW
+LA  - eng
+PT  - Journal Article
+PL  - England
+TA  - Proc Inst Mech Eng H
+JT  - Proceedings of the Institution of Mechanical Engineers. Part H, Journal of
+      engineering in medicine
+JID - 8908934
+RN  - 0 (Bone Cements)
+SB  - IM
+MH  - Adhesiveness
+MH  - Arthroplasty, Replacement, Hip/*instrumentation/*methods
+MH  - Bone Cements/*chemistry
+MH  - Cementation/*methods
+MH  - Femur/*physiopathology/*surgery
+MH  - Humans
+MH  - *Materials Testing
+MH  - *Models, Biological
+MH  - Surface Properties
+EDAT- 2009/05/02 09:00
+MHDA- 2009/05/29 09:00
+CRDT- 2009/05/02 09:00
+PST - ppublish
+SO  - Proc Inst Mech Eng H. 2009 Apr;223(3):315-27.
+
+PMID- 17717536
+OWN - NLM
+STAT- MEDLINE
+DA  - 20081203
+DCOM- 20090223
+IS  - 0954-3007 (Print)
+IS  - 0954-3007 (Linking)
+VI  - 62
+IP  - 12
+DP  - 2008 Dec
+TI  - Television viewing and obesity: a prospective study in the 1958 British birth
+      cohort.
+PG  - 1355-63
+AB  - OBJECTIVE: To assess whether frequency of television viewing in adolescence (11
+      and 16 years) or early adulthood (23 years) affected subsequent changes in body
+      mass index (BMI) through to mid-adulthood life, and waist-hip ratio in
+      mid-adulthood. SUBJECTS: The 1958 British birth cohort includes all births in 1
+      week in March 1958 in England, Scotland and Wales. The main analyses included at 
+      least 11 301 participants. Outcome measures included BMI at 16, 23, 33 and 45
+      years and waist-hip ratio at 45 years. RESULTS: Watching television 'often' at 16
+      years (but not 11 years) was associated with a faster gain in BMI between 16 and 
+      45 years in males (0.011 kg m(-2) per year, 95% confidence interval (CI) 0.003,
+      0.019) and females (0.013 kg m(-2) per year, 95%CI 0.003, 0.023). More frequent
+      television viewing at 11, 16 and 23 years was associated with a faster gain in
+      BMI between 23 and 45 years in females, but not in males. Television viewing at
+      23 years was associated with waist-hip ratio at 45 years: participants watching >
+      or = 5 times per week had a waist-hip ratio 0.01 higher than those watching less 
+      often. At 45 years, those watching television for > or = 4 h day(-1) had a
+      waist-hip ratio 0.03-0.04 higher than those watching for <1 h day(-1).
+      CONCLUSIONS: More frequent television viewing in adolescence and early adulthood 
+      is associated with greater BMI gains through to mid-adulthood and with central
+      adiposity in mid-life. Television viewing may be a useful behaviour to target in 
+      strategies to prevent obesity.
+AD  - Department of Paediatric Epidemiology and Biostatistics, Institute of Child
+      Health, University College London, London, UK. t.parsons@ich.ucl.ac.uk
+FAU - Parsons, T J
+AU  - Parsons TJ
+FAU - Manor, O
+AU  - Manor O
+FAU - Power, C
+AU  - Power C
+LA  - eng
+GR  - G0000934/Medical Research Council/United Kingdom
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20070822
+PL  - England
+TA  - Eur J Clin Nutr
+JT  - European journal of clinical nutrition
+JID - 8804070
+SB  - IM
+MH  - *Activities of Daily Living
+MH  - Adolescent
+MH  - Adult
+MH  - Age Factors
+MH  - Body Mass Index
+MH  - Child
+MH  - Cohort Studies
+MH  - Exercise/*physiology
+MH  - Female
+MH  - Great Britain/epidemiology
+MH  - Humans
+MH  - Longitudinal Studies
+MH  - Male
+MH  - Middle Aged
+MH  - Obesity/*epidemiology/*etiology/prevention & control
+MH  - Sex Factors
+MH  - *Television
+MH  - Waist-Hip Ratio
+MH  - Weight Gain
+MH  - Young Adult
+EDAT- 2007/08/25 09:00
+MHDA- 2009/02/24 09:00
+CRDT- 2007/08/25 09:00
+PHST- 2007/08/22 [aheadofprint]
+AID - 1602884 [pii]
+AID - 10.1038/sj.ejcn.1602884 [doi]
+PST - ppublish
+SO  - Eur J Clin Nutr. 2008 Dec;62(12):1355-63. Epub 2007 Aug 22.
+
+PMID- 18801885
+OWN - NLM
+STAT- MEDLINE
+DA  - 20081027
+DCOM- 20081105
+IS  - 1476-6256 (Electronic)
+IS  - 0002-9262 (Linking)
+VI  - 168
+IP  - 9
+DP  - 2008 Nov 1
+TI  - Child-to-adult body mass index and height trajectories: a comparison of 2 British
+      birth cohorts.
+PG  - 1008-15
+AB  - Markers of growth and changes of body mass index (BMI) are associated with adult 
+      chronic disease risk. To better understand such associations, the authors
+      examined the 1946 (n approximately 5,300) and 1958 (n approximately 17,000)
+      British birth cohorts to establish how child-to-adult height and BMI have changed
+      across generations. Individuals born in 1958 were no heavier at birth than those 
+      born in 1946, but they were taller in childhood by about 1 cm on average, grew
+      faster thereafter, and were 3-4 cm taller by adolescence. The 1958 cohort
+      achieved adult height earlier and were taller by 1 cm, an increase that was
+      entirely due to their longer leg length. BMI trajectories diverged from early
+      adulthood, with a faster rate of BMI gain in the 1958 cohort than in the 1946
+      cohort, although the mean BMI at 7 years and rate of childhood gain had not shown
+      an increase. By midadulthood, the 1958 cohort had on average a greater BMI (1-2
+      kg/m(2)), larger waist (6-7 cm) and hip (5 cm) circumferences, and a higher
+      prevalence of obesity (25.1% vs. 10.8% in males and 23.7% vs. 14.8% in females). 
+      Changes in height and adiposity over a relatively short period of 12 years
+      suggest the likelihood of opposing trends of influences on later disease risk in 
+      these populations.
+AD  - Centre for Paediatric Epidemiology and Biostatistics/Medical Research Council
+      Centre of Epidemiology for Child Health, Institute of Child Health, University
+      College London, 30 Guilford Street, London WC1N1EH, United Kingdom.
+      L.Li@ich.ucl.ac.uk
+FAU - Li, Leah
+AU  - Li L
+FAU - Hardy, Rebecca
+AU  - Hardy R
+FAU - Kuh, Diana
+AU  - Kuh D
+FAU - Lo Conte, Rossella
+AU  - Lo Conte R
+FAU - Power, Chris
+AU  - Power C
+LA  - eng
+GR  - G0000934/Medical Research Council/United Kingdom
+PT  - Comparative Study
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20080918
+PL  - United States
+TA  - Am J Epidemiol
+JT  - American journal of epidemiology
+JID - 7910653
+SB  - IM
+MH  - *Birth Weight
+MH  - *Body Height
+MH  - *Body Mass Index
+MH  - Cohort Studies
+MH  - Female
+MH  - Great Britain
+MH  - Humans
+MH  - Infant, Newborn
+MH  - *Linear Models
+MH  - Male
+MH  - Middle Aged
+EDAT- 2008/09/20 09:00
+MHDA- 2008/11/06 09:00
+CRDT- 2008/09/20 09:00
+PHST- 2008/09/18 [aheadofprint]
+AID - kwn227 [pii]
+AID - 10.1093/aje/kwn227 [doi]
+PST - ppublish
+SO  - Am J Epidemiol. 2008 Nov 1;168(9):1008-15. Epub 2008 Sep 18.
+
+PMID- 18814609
+OWN - NLM
+STAT- MEDLINE
+DA  - 20080925
+DCOM- 20090106
+IS  - 0147-7447 (Print)
+IS  - 0147-7447 (Linking)
+VI  - 31
+IP  - 9
+DP  - 2008 Sep
+TI  - Infection following hip replacement: solution options.
+PG  - 907-8
+AB  - The key to the optimal management of an acutely infected arthroplasty is an
+      expeditious diagnosis with careful assessment of the mode of presentation and
+      treatment variables to determine the appropriate management strategy. At our
+      institution acute infection is managed early and aggressively with debridement
+      and exchange of mobile parts and change of the implant if it is cementless. For
+      established chronic infection, each case is considered individually, using
+      single-stage exchange in selected circumstances (1 in 6 cases). Two-stage
+      exchange with an articulating spacer is used in the remainder. Single-stage
+      revision offers clinical and economic advantages over a two-stage revision in
+      selected patients, and although ongoing evaluation is still in place, currently
+      we have had no reinfections in our single-stage revision cohort.
+AD  - University College London & Princess Grace Hospitals and Institute of
+      Orthopaedics, UCL, United Kingdom.
+FAU - Haddad, Fares S
+AU  - Haddad FS
+FAU - Bridgens, Anna
+AU  - Bridgens A
+LA  - eng
+PT  - Journal Article
+PL  - United States
+TA  - Orthopedics
+JT  - Orthopedics
+JID - 7806107
+SB  - IM
+MH  - Arthroplasty, Replacement, Hip
+MH  - *Debridement
+MH  - Device Removal
+MH  - Hip Prosthesis/*adverse effects
+MH  - Humans
+MH  - Prosthesis Failure
+MH  - Prosthesis-Related Infections/*surgery
+EDAT- 2008/09/26 09:00
+MHDA- 2009/01/07 09:00
+CRDT- 2008/09/26 09:00
+PST - ppublish
+SO  - Orthopedics. 2008 Sep;31(9):907-8.
+
+PMID- 18316176
+OWN - NLM
+STAT- MEDLINE
+DA  - 20080708
+DCOM- 20080812
+IS  - 1090-2139 (Electronic)
+IS  - 0889-1591 (Linking)
+VI  - 22
+IP  - 6
+DP  - 2008 Aug
+TI  - Arterial stiffness and inflammatory response to psychophysiological stress.
+PG  - 941-8
+AB  - The processes through which psychological stress influences cardiovascular
+      disease are poorly understood, but may involve activation of hemodynamic,
+      neuroendocrine and inflammatory responses. We assessed the relationship between
+      carotid arterial stiffness and inflammatory responses to acute psychophysiologic 
+      stress. Participants were 155 healthy men and women aged 55.3, SD 2.7 years.
+      Blood samples for the assessment of plasma fibrinogen, tumor necrosis factor
+      (TNF) alpha and interleukin (IL) 6 were drawn at baseline, immediately following 
+      standardized behavioral tasks, and 45 min later. Carotid artery stiffness was
+      measured ultrasonically three years later, and blood pressure and heart rate
+      responses were recorded. The tasks induced substantial increases in blood
+      pressure and heart rate, together with increased fibrinogen, TNFalpha and IL-6
+      concentration. Carotid stiffness was positively associated with body mass,
+      waist/hip ratio, blood pressure, low density lipoprotein cholesterol, and
+      C-reactive protein, and inversely with high density lipoprotein and grade of
+      employment. Baseline levels of inflammatory variables were not related to carotid
+      artery stiffness. But carotid stiffness was greater in participants with larger
+      fibrinogen (p=0.037) and TNFalpha (p=0.036) responses to psychophysiological
+      stress. These effects were independent of age, gender, grade of employment,
+      smoking, body mass, waist/hip ratio, systolic and diastolic pressure, high and
+      low density lipoprotein cholesterol, and C-reactive protein. There were no
+      associations between carotid stiffness and stress responses in IL-6, blood
+      pressure, or heart rate. We conclude that individual differences in inflammatory 
+      responses to psychophysiological stress are independently related to structural
+      changes in artery walls that reflect increased cardiovascular disease risk.
+AD  - Vascular Physiology Unit, Institute of Child Health, University College London,
+      30 Guilford Street, London WC1N 1EH, UK.
+FAU - Ellins, Elizabeth
+AU  - Ellins E
+FAU - Halcox, Julian
+AU  - Halcox J
+FAU - Donald, Ann
+AU  - Donald A
+FAU - Field, Bryony
+AU  - Field B
+FAU - Brydon, Lena
+AU  - Brydon L
+FAU - Deanfield, John
+AU  - Deanfield J
+FAU - Steptoe, Andrew
+AU  - Steptoe A
+LA  - eng
+GR  - British Heart Foundation/United Kingdom
+GR  - Medical Research Council/United Kingdom
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20080307
+PL  - United States
+TA  - Brain Behav Immun
+JT  - Brain, behavior, and immunity
+JID - 8800478
+RN  - 0 (Cholesterol, HDL)
+RN  - 0 (Cholesterol, LDL)
+RN  - 0 (Interleukin-6)
+RN  - 0 (Tumor Necrosis Factor-alpha)
+RN  - 9001-32-5 (Fibrinogen)
+RN  - 9007-41-4 (C-Reactive Protein)
+SB  - IM
+MH  - Atherosclerosis/blood/pathology/physiopathology
+MH  - Blood Pressure/physiology
+MH  - Body Mass Index
+MH  - C-Reactive Protein/analysis
+MH  - Carotid Arteries/*pathology/physiopathology
+MH  - Cholesterol, HDL/blood
+MH  - Cholesterol, LDL/blood
+MH  - Female
+MH  - Fibrinogen/analysis
+MH  - Heart Rate/physiology
+MH  - Humans
+MH  - Inflammation/blood/*physiopathology
+MH  - Interleukin-6/blood
+MH  - Male
+MH  - Middle Aged
+MH  - Stress, Psychological/blood/*physiopathology/psychology
+MH  - Tumor Necrosis Factor-alpha/blood
+EDAT- 2008/03/05 09:00
+MHDA- 2008/08/13 09:00
+CRDT- 2008/03/05 09:00
+PHST- 2007/11/26 [received]
+PHST- 2008/01/03 [revised]
+PHST- 2008/01/21 [accepted]
+PHST- 2008/03/07 [aheadofprint]
+AID - S0889-1591(08)00036-6 [pii]
+AID - 10.1016/j.bbi.2008.01.009 [doi]
+PST - ppublish
+SO  - Brain Behav Immun. 2008 Aug;22(6):941-8. Epub 2008 Mar 7.
+
+PMID- 18463105
+OWN - NLM
+STAT- MEDLINE
+DA  - 20080804
+DCOM- 20080819
+IS  - 1479-683X (Electronic)
+IS  - 0804-4643 (Linking)
+VI  - 159
+IP  - 2
+DP  - 2008 Aug
+TI  - Comparison of bone mineral density and body proportions between women with
+      complete androgen insensitivity syndrome and women with gonadal dysgenesis.
+PG  - 179-85
+AB  - OBJECTIVES: To compare bone mineral density (BMD) and body proportions between
+      women with complete androgen insensitivity syndrome (CAIS) and with gonadal
+      dysgenesis (GD). SETTING: Adult Disorders of Sexual Development and Ovarian
+      Failure Clinics at University College London Hospitals. DESIGN: Retrospective
+      cross-sectional study of three groups of women aged 17-58 years with varying
+      degrees of exposure to sex hormones and different combinations of sex
+      chromosomes. Forty-six subjects had CAIS, 18 had GD and 46,XY (GD(XY)), and 25
+      had GD and 46,XX (GD(XX)). In addition, body proportions of subgroups of these
+      women were analysed. OUTCOME MEASURES: Oestrogen therapy, karyotype,
+      anthropometry and BMD. RESULTS: Height differed between groups (F ratio 5.2,
+      P=0.007)), with GD(XX) women being the shortest (mean+/-s.d.: 1.66+/-0.10 m),
+      GD(XY) women the tallest (1.74+/-0.09 m) and CAIS women were in-between
+      (1.70+/-0.07 m). Delayed gonadectomy resulted in taller stature in CAIS women
+      (P=0.011). The ratio of lower to upper body length in GD(XY) women was
+      significantly (P=0.001) greater than that of CAIS women. Multivariate logistic
+      regression analysis (adjusted for age and height) showed that among women with XY
+      karyotype, GD(XY) women were 5.2 times (95% confidence interval (CI): 1.3-20.1,
+      P=0.018) more likely than CAIS women to have a low hip BMD. This difference was
+      not evident among women with GD of different karyotypes (P=0.938). Spinal BMD did
+      not differ between subject groups. Further adjustment for oestrogen replacement
+      did not alter these relationships. CONCLUSIONS: Taller stature in late
+      gonadectomised CAIS women suggests an oestrogen deficiency in these women prior
+      to gonadectomy. Increased lower to upper body ratio in GD(XY) women compared with
+      the other groups implies that these subjects have the greatest degree of
+      oestrogen deficiency in puberty. Androgen rather than sex chromosomes may play an
+      important role in cortical bone mineralisation in CAIS women, probably via
+      estrogen receptor-alpha either directly or via aromatisation during critical
+      periods of growth prior to gonadectomy.
+AD  - Department of Endocrinology, University College London Hospitals, 250 Euston
+      Road, London NW12PQ, UK.
+FAU - Han, T S
+AU  - Han TS
+FAU - Goswami, D
+AU  - Goswami D
+FAU - Trikudanathan, S
+AU  - Trikudanathan S
+FAU - Creighton, S M
+AU  - Creighton SM
+FAU - Conway, G S
+AU  - Conway GS
+LA  - eng
+PT  - Comparative Study
+PT  - Journal Article
+DEP - 20080507
+PL  - England
+TA  - Eur J Endocrinol
+JT  - European journal of endocrinology / European Federation of Endocrine Societies
+JID - 9423848
+RN  - 0 (Estrogens)
+SB  - IM
+MH  - Adolescent
+MH  - Adult
+MH  - Androgen-Insensitivity Syndrome/*pathology
+MH  - *Body Weights and Measures
+MH  - *Bone Density
+MH  - Case-Control Studies
+MH  - Cross-Sectional Studies
+MH  - Estrogens/blood/therapeutic use
+MH  - Female
+MH  - Gonadal Dysgenesis/*pathology
+MH  - Hormone Replacement Therapy
+MH  - Humans
+MH  - Male
+MH  - Middle Aged
+MH  - Odds Ratio
+MH  - Retrospective Studies
+EDAT- 2008/05/09 09:00
+MHDA- 2008/08/20 09:00
+CRDT- 2008/05/09 09:00
+PHST- 2008/05/07 [aheadofprint]
+AID - EJE-08-0166 [pii]
+AID - 10.1530/EJE-08-0166 [doi]
+PST - ppublish
+SO  - Eur J Endocrinol. 2008 Aug;159(2):179-85. Epub 2008 May 7.
+
+PMID- 18541580
+OWN - NLM
+STAT- MEDLINE
+DA  - 20080610
+DCOM- 20080801
+LR  - 20090515
+IS  - 1938-3207 (Electronic)
+IS  - 0002-9165 (Linking)
+VI  - 87
+IP  - 6
+DP  - 2008 Jun
+TI  - Association of age at menarche with cardiovascular risk factors, vascular
+      structure, and function in adulthood: the Cardiovascular Risk in Young Finns
+      study.
+PG  - 1876-82
+AB  - BACKGROUND: It is unclear whether age at menarche is an independent determinant
+      of future cardiovascular risk. OBJECTIVE: We aimed to determine whether
+      menarcheal age is an independent predictor of body mass index (BMI) and a wide
+      range of cardiovascular risk factors in adolescence and adulthood. DESIGN: We
+      examined the associations of menarcheal age with BMI (in kg/m(2)) and other
+      cardiovascular risk factors in adolescence and adulthood in a population-based
+      sample of 794 female adolescents aged 9-18 y at baseline. Their age at first
+      menstruation was requested at baseline and again 3 and 6 y later. Cardiovascular 
+      risk factors were assessed at baseline and at age 30-39 y. RESULTS: A 1-y
+      decrease in menarcheal age was associated with 0.81 (95% CI: 0.53, 1.08) higher
+      adult BMI as well as greater waist circumference and waist-to-hip ratio, elevated
+      systolic blood pressure, higher insulin resistance, and greater risk of metabolic
+      syndrome (P < 0.05 for all). In multivariable analysis in which these adult risk 
+      factors were mutually adjusted for, only the inverse association between age at
+      menarche and adult BMI remained. However, this inverse association was lost after
+      adjustment for premenarcheal BMI (beta: -0.16; 95% CI -0.55, 0.23; P = 0.42).
+      Higher premenarcheal BMI predicted earlier menarche, and the strong association
+      between premenarcheal BMI and adult BMI was robust to adjustment for age at
+      menarche. CONCLUSIONS: These findings suggest that early menarche is only a risk 
+      marker. Greater childhood BMI seems to contribute to earlier age at menarche and,
+      because of tracking, greater adult BMI and associated cardiovascular risk. An
+      independent effect of early menarche on adult adiposity cannot be excluded, but
+      it is likely to be small at best.
+AD  - Department of Epidemiology and Public Health, University College London, London, 
+      United Kingdom. m.kivimaki@ucl.ac.uk
+FAU - Kivimaki, Mika
+AU  - Kivimaki M
+FAU - Lawlor, Debbie A
+AU  - Lawlor DA
+FAU - Smith, George Davey
+AU  - Smith GD
+FAU - Elovainio, Marko
+AU  - Elovainio M
+FAU - Jokela, Markus
+AU  - Jokela M
+FAU - Keltikangas-Jarvinen, Liisa
+AU  - Keltikangas-Jarvinen L
+FAU - Vahtera, Jussi
+AU  - Vahtera J
+FAU - Taittonen, Leena
+AU  - Taittonen L
+FAU - Juonala, Markus
+AU  - Juonala M
+FAU - Viikari, Jorma S A
+AU  - Viikari JS
+FAU - Raitakari, Olli T
+AU  - Raitakari OT
+LA  - eng
+GR  - Department of Health/United Kingdom
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PL  - United States
+TA  - Am J Clin Nutr
+JT  - The American journal of clinical nutrition
+JID - 0376027
+SB  - AIM
+SB  - IM
+MH  - Adolescent
+MH  - Adult
+MH  - Age of Onset
+MH  - Birth Weight
+MH  - Blood Pressure
+MH  - Body Height
+MH  - Body Mass Index
+MH  - Cardiovascular Diseases/*epidemiology
+MH  - Child
+MH  - Female
+MH  - Finland/epidemiology
+MH  - Follow-Up Studies
+MH  - Humans
+MH  - Menarche/*physiology
+MH  - Menstruation
+MH  - Multivariate Analysis
+MH  - Overweight/complications
+MH  - Risk Factors
+EDAT- 2008/06/11 09:00
+MHDA- 2008/08/02 09:00
+CRDT- 2008/06/11 09:00
+AID - 87/6/1876 [pii]
+PST - ppublish
+SO  - Am J Clin Nutr. 2008 Jun;87(6):1876-82.
+
+PMID- 18271017
+OWN - NLM
+STAT- MEDLINE
+DA  - 20080520
+DCOM- 20080708
+IS  - 1554-527X (Electronic)
+IS  - 0736-0266 (Linking)
+VI  - 26
+IP  - 6
+DP  - 2008 Jun
+TI  - Use of mesenchymal stem cells to enhance bone formation around revision hip
+      replacements.
+PG  - 880-5
+AB  - Tissue engineering approaches to regenerate bone stock in revision total hip
+      replacements could enhance the longevity of the implant and benefit the quality
+      of the patient's life. This study investigated the impaction of allograft with
+      mesenchymal stem cells in an ovine hip hemiarthroplasty model. In total, 10 sheep
+      were divided into two groups with 5 sheep in each group. The groups were: 1)
+      mesenchymal stem cells mixed with allograft; 2) allograft only as a control.
+      Ground reaction force was assessed for limb function and showed that there was no
+      significant difference in the recovery for animals in different groups. The
+      amount of bone regenerated around the hip replacement was assessed using
+      un-decalcified histology. The results showed that the stem cell group generated
+      significantly more new bone at the implant-allograft interface and within the
+      graft than the control group. The results from this study indicate that the use
+      of stem cells on an allograft scaffold increases bone formation indicating that
+      the use of stem cells for revision hip arthroplasty may be beneficial for
+      patients undergoing revision surgery where the bone stock is compromised.
+CI  - (c) 2008 Orthopaedic Research Society.
+AD  - Centre for Biomedical Engineering, Institute of Orthopaedics and Musculo-Skeletal
+      Science, University College London, Royal National Orthopaedic Hospital Trust,
+      Brockley Hill, Stanmore, Middlesex HA7 4LP, United Kingdom.
+FAU - Korda, Michelle
+AU  - Korda M
+FAU - Blunn, Gordon
+AU  - Blunn G
+FAU - Goodship, Allen
+AU  - Goodship A
+FAU - Hua, Jia
+AU  - Hua J
+LA  - eng
+GR  - Biotechnology and Biological Sciences Research Council/United Kingdom
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PL  - United States
+TA  - J Orthop Res
+JT  - Journal of orthopaedic research : official publication of the Orthopaedic
+      Research Society
+JID - 8404726
+RN  - 0 (Biocompatible Materials)
+RN  - 1306-06-5 (Durapatite)
+SB  - IM
+MH  - Animals
+MH  - Arthroplasty, Replacement, Hip/*methods
+MH  - Biocompatible Materials
+MH  - *Bone Transplantation
+MH  - Durapatite
+MH  - Femur/surgery
+MH  - *Mesenchymal Stem Cell Transplantation
+MH  - Models, Animal
+MH  - *Osteogenesis
+MH  - Osteolysis
+MH  - Sheep
+MH  - Tissue Engineering/*methods
+MH  - Transplantation, Homologous
+EDAT- 2008/02/14 09:00
+MHDA- 2008/07/09 09:00
+CRDT- 2008/02/14 09:00
+AID - 10.1002/jor.20598 [doi]
+PST - ppublish
+SO  - J Orthop Res. 2008 Jun;26(6):880-5.
+
+PMID- 18450615
+OWN - NLM
+STAT- MEDLINE
+DA  - 20080502
+DCOM- 20080904
+LR  - 20101110
+IS  - 0301-620X (Print)
+VI  - 90
+IP  - 5
+DP  - 2008 May
+TI  - Outcome measures for orthopaedic interventions on the hip.
+PG  - 545-9
+AB  - Orthopaedic outcome measures are used to evaluate the effect of operative
+      interventions. They are used for audit and research. Knowledge of these measures 
+      is becoming increasingly important with league tables comparing surgeons and
+      hospitals being made accessible to the profession and the general public. Several
+      types of tool are available to describe outcome after hip surgery such as generic
+      quality-of-life questionnaires, disease-specific quality-of-life questionnaires, 
+      hip-specific outcome measures and general short-term clinical measures. We
+      provide an overview of the outcome measures commonly used to evaluate hip
+      interventions.
+AD  - University College London Hospital, 235 Euston Road, London NW12BU, UK.
+      elizabethashby@doctors.org.uk
+FAU - Ashby, E
+AU  - Ashby E
+FAU - Grocott, M P W
+AU  - Grocott MP
+FAU - Haddad, F S
+AU  - Haddad FS
+LA  - eng
+PT  - Journal Article
+PT  - Review
+PL  - England
+TA  - J Bone Joint Surg Br
+JT  - The Journal of bone and joint surgery. British volume
+JID - 0375355
+SB  - AIM
+SB  - IM
+MH  - Arthroplasty, Replacement, Hip/*standards
+MH  - Health Services Research/*methods
+MH  - Health Status Indicators
+MH  - Hip Prosthesis/*standards
+MH  - Humans
+MH  - Outcome Assessment (Health Care)/*standards
+MH  - Patient Satisfaction
+MH  - *Quality of Life
+MH  - Questionnaires
+RF  - 46
+EDAT- 2008/05/03 09:00
+MHDA- 2008/09/05 09:00
+CRDT- 2008/05/03 09:00
+AID - 90-B/5/545 [pii]
+AID - 10.1302/0301-620X.90B5.19746 [doi]
+PST - ppublish
+SO  - J Bone Joint Surg Br. 2008 May;90(5):545-9.
+
+PMID- 18050308
+OWN - NLM
+STAT- MEDLINE
+DA  - 20080408
+DCOM- 20080519
+IS  - 1554-527X (Electronic)
+IS  - 0736-0266 (Linking)
+VI  - 26
+IP  - 5
+DP  - 2008 May
+TI  - Prevention of strain-related osteopenia in aseptic loosening of hip prostheses
+      using perioperative bisphosphonate.
+PG  - 693-703
+AB  - The hypothesis tested in this study was that perioperative administration of the 
+      bisphosphonate zoledronate will reduce strain protection-related calcar
+      osteopenia and maintain functional integration of the femoral component in an
+      ovine hemiarthroplasty model. Twelve sheep received a unilateral cemented
+      hemiarthroplasty where six animals were given nine intravenous infusions of
+      zoledronate (10 microg/kg) pre-, peri-, and postsurgery over 8 months. Control
+      animals received physiological saline only. Implants remained in vivo for 9
+      months. Ground reaction force (GRF) was used to assess functional loading of the 
+      implanted limb, bone mineral density (BMD) was quantified using dual energy X-ray
+      absorptiometry (DEXA). Cortical bone area, thickness, and viable osteocytes were 
+      assessed histologically. No significant differences in GRF data between groups
+      was identified. Results demonstrated a significant drop in BMD values in the
+      control group (9.7%) when compared with the bisphosphonate-treated group (3.2%)
+      (p = 0.0159). Histological results showed that cortical area, thickness, and the 
+      percentage of lacunae with viable osteocytes was significantly greater in the
+      bisphosphonate-treated group when compared with control (p = 0.002, p = 0.001, p 
+      = 0.003, respectively). The administration of zoledronate reduced cortical
+      osteopenia in the calcar region of the proximal femur and this therapy could be
+      used as a preventive measure to combat strain protection osteopenia and its
+      contribution to associated aseptic loosening in total hip replacement surgery.
+CI  - (c) 2007 Orthopaedic Research Society. Published by Wiley Periodicals, Inc.
+AD  - The Institute of Orthopaedics and Musculoskeletal Science, University College
+      London, The Royal National Orthopaedic Hospital Trust, Brockley Hill, Stanmore,
+      Middlesex HA7 4LP, United Kingdom.
+FAU - Goodship, Allen E
+AU  - Goodship AE
+FAU - Blunn, Gordon W
+AU  - Blunn GW
+FAU - Green, Jonathan
+AU  - Green J
+FAU - Coathup, Melanie J
+AU  - Coathup MJ
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PL  - United States
+TA  - J Orthop Res
+JT  - Journal of orthopaedic research : official publication of the Orthopaedic
+      Research Society
+JID - 8404726
+RN  - 0 (Bone Density Conservation Agents)
+RN  - 0 (Diphosphonates)
+RN  - 0 (Imidazoles)
+RN  - 118072-93-8 (zoledronic acid)
+SB  - IM
+MH  - Animals
+MH  - Arthroplasty, Replacement, Hip/*adverse effects
+MH  - Bone Density/drug effects
+MH  - Bone Density Conservation Agents/pharmacology/*therapeutic use
+MH  - Bone Diseases, Metabolic/diagnosis/etiology/*prevention & control
+MH  - Diphosphonates/pharmacology/*therapeutic use
+MH  - Female
+MH  - Hip Joint/pathology
+MH  - Imidazoles/pharmacology/*therapeutic use
+MH  - Locomotion/drug effects
+MH  - Microradiography
+MH  - *Prosthesis Failure
+MH  - Random Allocation
+MH  - Sheep
+MH  - Stress, Mechanical
+EDAT- 2007/12/01 09:00
+MHDA- 2008/05/20 09:00
+CRDT- 2007/12/01 09:00
+AID - 10.1002/jor.20533 [doi]
+PST - ppublish
+SO  - J Orthop Res. 2008 May;26(5):693-703.
+
+PMID- 18256099
+OWN - NLM
+STAT- MEDLINE
+DA  - 20080207
+DCOM- 20080623
+LR  - 20101110
+IS  - 0301-620X (Print)
+VI  - 90
+IP  - 2
+DP  - 2008 Feb
+TI  - Impaction grafting with a bone-graft substitute in a sheep model of revision hip 
+      replacement.
+PG  - 246-53
+AB  - An experimental sheep model was used for impaction allografting of 12
+      hemiarthroplasty femoral components placed into two equal-sized groups. In group 
+      1, a 50:50 mixture of ApaPore hydroxyapatite bone-graft substitute and allograft 
+      was used. In group 2, ApaPore and allograft were mixed in a 90:10 ratio. Both
+      groups were killed at six months. Ground reaction force results demonstrated no
+      significant differences (p > 0.05) between the two groups at 8, 16 and 24 weeks
+      post-operatively, and all animals remained active. The mean bone turnover rates
+      were significantly greater in group 1, at 0.00206 mm/day, compared to group 2 at 
+      0.0013 mm/day (p < 0.05). The results for the area of new bone formation
+      demonstrated no significant differences (p > 0.05) between the two groups. No
+      significant differences were found between the two groups in thickness of the
+      cement mantle (p > 0.05) and percentage ApaPore-bone contact (p > 0.05). The
+      results of this animal study demonstrated that a mixture of ApaPore allograft in 
+      a 90:10 ratio was comparable to using a 50:50 mixture.
+AD  - Centre for Biomedical Engineering, Institute of Orthopaedics and Musculoskeletal 
+      Science University College London, The Royal National Orthopaedic Hospital,
+      Brockley Hill, Stanmore, Middlesex HA7 4LP, UK.
+FAU - Coathup, M
+AU  - Coathup M
+FAU - Smith, N
+AU  - Smith N
+FAU - Kingsley, C
+AU  - Kingsley C
+FAU - Buckland, T
+AU  - Buckland T
+FAU - Dattani, R
+AU  - Dattani R
+FAU - Ascroft, G P
+AU  - Ascroft GP
+FAU - Blunn, G
+AU  - Blunn G
+LA  - eng
+PT  - Journal Article
+PL  - England
+TA  - J Bone Joint Surg Br
+JT  - The Journal of bone and joint surgery. British volume
+JID - 0375355
+RN  - 0 (Anti-Bacterial Agents)
+RN  - 0 (Biological Markers)
+RN  - 0 (Bone Substitutes)
+RN  - 60-54-8 (Tetracycline)
+SB  - AIM
+SB  - IM
+MH  - Animals
+MH  - Anti-Bacterial Agents/administration & dosage
+MH  - Arthroplasty, Replacement, Hip/*methods
+MH  - Biological Markers/*metabolism
+MH  - Biomechanics
+MH  - *Bone Substitutes
+MH  - Bone Transplantation/*methods
+MH  - Female
+MH  - Femur/physiopathology/*transplantation
+MH  - Microscopy, Electron, Scanning
+MH  - Osteogenesis/*physiology
+MH  - Prosthesis Design/standards
+MH  - Sheep
+MH  - Tetracycline/administration & dosage
+EDAT- 2008/02/08 09:00
+MHDA- 2008/06/24 09:00
+CRDT- 2008/02/08 09:00
+AID - 90-B/2/246 [pii]
+AID - 10.1302/0301-620X.90B2.19675 [doi]
+PST - ppublish
+SO  - J Bone Joint Surg Br. 2008 Feb;90(2):246-53.
+
+PMID- 17916595
+OWN - NLM
+STAT- MEDLINE
+DA  - 20071218
+DCOM- 20080108
+IS  - 1476-6256 (Electronic)
+IS  - 0002-9262 (Linking)
+VI  - 167
+IP  - 1
+DP  - 2008 Jan 1
+TI  - Neuroendocrine and inflammatory factors associated with positive affect in
+      healthy men and women: the Whitehall II study.
+PG  - 96-102
+AB  - Positive affective states are associated with favorable health outcomes, but the 
+      underlying mechanisms are poorly understood. The authors assessed associations
+      between positive affect, cortisol sampled over the day, and inflammatory markers 
+      (C-reactive protein and interleukin-6) among 2,873 healthy members of the
+      Whitehall II study. Data for this study were collected in 2002-2004 in London,
+      United Kingdom. Saliva free cortisol was assessed on waking, 30 minutes later,
+      and four times over the day and evening. Positive affect was indexed by
+      aggregating ecological momentary assessments of positive mood over the day.
+      Salivary cortisol averaged over the day was inversely associated with positive
+      affect after controlling for age, gender, income, ethnicity, body mass index,
+      waist/hip ratio, smoking, paid employment, time of waking in the morning, and
+      depression (p = 0.003). There was no association with cortisol responses to
+      waking. The adjusted odds of C-reactive protein >/=3.00 mg/liter was 1.89 (95%
+      confidence interval: 1.08, 3.31) in low- compared with high-positive-affect
+      women, and plasma interleukin-6 was also inversely related to positive affect in 
+      women (p = 0.016). Neither inflammatory marker was related to positive affect in 
+      men. These results confirm findings from smaller studies relating cortisol with
+      positive affect while suggesting that in women, positive affect is associated
+      with reduced levels of inflammatory markers.
+AD  - Department of Epidemiology and Public Health, University College London, London, 
+      United Kingdom. a.steptoe@ucl.ac.uk
+FAU - Steptoe, Andrew
+AU  - Steptoe A
+FAU - O'Donnell, Katie
+AU  - O'Donnell K
+FAU - Badrick, Ellena
+AU  - Badrick E
+FAU - Kumari, Meena
+AU  - Kumari M
+FAU - Marmot, Michael
+AU  - Marmot M
+LA  - eng
+GR  - AG13196/AG/NIA NIH HHS/United States
+GR  - HL36310/HL/NHLBI NIH HHS/United States
+GR  - HS06516/HS/AHRQ HHS/United States
+PT  - Comparative Study
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20071004
+PL  - United States
+TA  - Am J Epidemiol
+JT  - American journal of epidemiology
+JID - 7910653
+RN  - 0 (Adrenal Cortex Hormones)
+RN  - 0 (Interleukin-6)
+RN  - 9007-41-4 (C-Reactive Protein)
+SB  - IM
+MH  - Adrenal Cortex Hormones/*metabolism
+MH  - Adult
+MH  - Affect/*physiology
+MH  - Aged
+MH  - C-Reactive Protein/*metabolism
+MH  - Depression/epidemiology/metabolism
+MH  - Enzyme-Linked Immunosorbent Assay
+MH  - Female
+MH  - Follow-Up Studies
+MH  - Happiness
+MH  - *Health Status
+MH  - Humans
+MH  - Inflammation/epidemiology/*metabolism
+MH  - Interleukin-6/*metabolism
+MH  - London/epidemiology
+MH  - Male
+MH  - Middle Aged
+MH  - Nephelometry and Turbidimetry
+MH  - Prevalence
+MH  - Reference Values
+MH  - Retrospective Studies
+MH  - Sex Factors
+MH  - Walking/physiology
+EDAT- 2007/10/06 09:00
+MHDA- 2008/01/09 09:00
+CRDT- 2007/10/06 09:00
+PHST- 2007/10/04 [aheadofprint]
+AID - kwm252 [pii]
+AID - 10.1093/aje/kwm252 [doi]
+PST - ppublish
+SO  - Am J Epidemiol. 2008 Jan 1;167(1):96-102. Epub 2007 Oct 4.
+
+PMID- 17980673
+OWN - NLM
+STAT- MEDLINE
+DA  - 20071218
+DCOM- 20080411
+IS  - 1525-5050 (Print)
+IS  - 1525-5050 (Linking)
+VI  - 12
+IP  - 1
+DP  - 2008 Jan
+TI  - The representation of epilepsy in popular music.
+PG  - 165-9
+AB  - Much can be learned about the contemporary stereotypes associated with epilepsy
+      by studying the representation of the disorder in paintings, literature, and
+      movies. Popular music is arguably the most accessible and ubiquitous of the
+      creative art forms, touching most of us on a daily basis. Reviewed here are the
+      ways in which epilepsy and seizures are used in the lyrics of musicians from a
+      wide variety of musical genres, from hip-hop to rhythm and blues. Many of the
+      ancient associations of epilepsy with madness, horror, and lunacy can be found in
+      these lyrics. However, the language of epilepsy has also been appropriated by
+      some musical artists to represent a state of sexual ecstasy and dance euphoria.
+      The references to these states as "epilepsy" or a "seizure" in numerous songs
+      suggest that this shorthand is widely recognized within some subcultures.
+      Although epilepsy has frequently been associated with female sexual availability 
+      in other creative art forms, this novel use of the language of epilepsy
+      represents a contemporary departure in the artistic application of
+      epilepsy-related images and associations in the 21st century.
+AD  - Institute of Neurology, University College London, London, UK.
+      sallieb@ion.ucl.ac.uk
+FAU - Baxendale, Sallie
+AU  - Baxendale S
+LA  - eng
+PT  - Historical Article
+PT  - Journal Article
+PT  - Review
+DEP - 20071105
+PL  - United States
+TA  - Epilepsy Behav
+JT  - Epilepsy & behavior : E&B
+JID - 100892858
+SB  - IM
+MH  - Epilepsy/physiopathology/*psychology
+MH  - History, 20th Century
+MH  - History, 21st Century
+MH  - Humans
+MH  - Music/*history/psychology
+MH  - Sexual Behavior
+RF  - 14
+EDAT- 2007/11/06 09:00
+MHDA- 2008/04/12 09:00
+CRDT- 2007/11/06 09:00
+PHST- 2007/08/21 [received]
+PHST- 2007/09/11 [accepted]
+PHST- 2007/11/05 [aheadofprint]
+AID - S1525-5050(07)00318-6 [pii]
+AID - 10.1016/j.yebeh.2007.09.012 [doi]
+PST - ppublish
+SO  - Epilepsy Behav. 2008 Jan;12(1):165-9. Epub 2007 Nov 5.
+
+PMID- 18409006
+OWN - NLM
+STAT- MEDLINE
+DA  - 20080711
+DCOM- 20081118
+IS  - 0393-2990 (Print)
+IS  - 0393-2990 (Linking)
+VI  - 23
+IP  - 8
+DP  - 2008
+TI  - The association between father's social class and adult obesity is not explained 
+      by educational attainment and an unhealthy lifestyle in adulthood.
+PG  - 573-9
+AB  - OBJECTIVES: To investigate the effect of father's social class on central and
+      general obesity in adulthood. To test the role of educational attainment and
+      adult health behaviours as mediators in this association. METHODS: BMI,
+      Waist-hip-ratio, smoking status, alcohol consumption, leisure-time physical
+      activity and dietary intake (semi-quantitative food-frequency questionnaire) were
+      assessed at phase 5 (1997-1998) of the Whitehall II cohort study. We used
+      retrospective data on educational attainment and father's social class. Our study
+      sample was 4598 participants (3364 men, 1234 women) aged 44-69, with a valid
+      obesity measure and information on father's social class and educational
+      attainment. RESULTS: Father's social class was inversely associated with adult
+      life central (Waist-hip-ratio) and general (BMI) obesity in women but not in men.
+      For example, mean BMI difference between the highest and lowest childhood social 
+      class was 2.04 kg/m(2) (95% confidence intervals: 0.90; 3.18). These associations
+      remained robust to adjustment for adult life socioeconomic position. Adjusting
+      for educational attainment resulted in a reduction of 10-15% in the difference in
+      mean obesity measures between lowest and highest father's social class. In our
+      fully adjusted model, adult life health behaviours did not provide further
+      attenuation of the effect of father's social class on adult obesity. CONCLUSION: 
+      We provide evidence for an independent effect of father's social class on adult
+      central and general obesity in women, which is not explained by educational
+      attainment and an unhealthy lifestyle in adulthood. Policies aiming at reducing
+      inequalities in obesity should tackle the problem of social inequality early in
+      life.
+AD  - Department of Epidemiology and Public Health, Royal Free and University College
+      London Medical School, London, UK. a.heraclides@ucl.ac.uk
+FAU - Heraclides, Alexandros
+AU  - Heraclides A
+FAU - Witte, Daniel
+AU  - Witte D
+FAU - Brunner, Eric J
+AU  - Brunner EJ
+LA  - eng
+GR  - AG 13196/AG/NIA NIH HHS/United States
+GR  - HL 36310/HL/NHLBI NIH HHS/United States
+GR  - HS 06516/HS/AHRQ HHS/United States
+GR  - British Heart Foundation/United Kingdom
+GR  - Medical Research Council/United Kingdom
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+PT  - Research Support, Non-U.S. Gov't
+PT  - Research Support, U.S. Gov't, P.H.S.
+DEP - 20080412
+PL  - Netherlands
+TA  - Eur J Epidemiol
+JT  - European journal of epidemiology
+JID - 8508062
+SB  - IM
+MH  - Adult
+MH  - Body Mass Index
+MH  - Confidence Intervals
+MH  - Cross-Sectional Studies
+MH  - Educational Status
+MH  - *Fathers
+MH  - Female
+MH  - Health Behavior
+MH  - Humans
+MH  - Life Style
+MH  - London/epidemiology
+MH  - Male
+MH  - Middle Aged
+MH  - Obesity/*economics/*epidemiology
+MH  - Retrospective Studies
+MH  - *Social Class
+MH  - Socioeconomic Factors
+MH  - Waist-Hip Ratio
+EDAT- 2008/04/15 09:00
+MHDA- 2008/11/19 09:00
+CRDT- 2008/04/15 09:00
+PHST- 2007/10/31 [received]
+PHST- 2008/03/23 [accepted]
+PHST- 2008/04/12 [aheadofprint]
+AID - 10.1007/s10654-008-9245-3 [doi]
+PST - ppublish
+SO  - Eur J Epidemiol. 2008;23(8):573-9. Epub 2008 Apr 12.

@@ -1,0 +1,176 @@
+#!/usr/bin/perl -w
+
+use strict;
+use Tk;
+require Tk::FileSelect;
+use Cwd;
+use LWP;
+
+my $main = new MainWindow;
+
+
+
+$main->Label(-text => 'BRITISH LIBRARY BATCH ORDER FILE PROCESSING',
+	     -foreground => 'red',
+	     -height => 3,
+	     -width => 3,
+	     -borderwidth => 10,
+	     -relief => 'groove',
+	    )->pack (-fill => 'both');
+    
+my $top_frame = $main->Frame(#-label => "FILES TO PROCESS", 
+			     -relief => 'groove', 
+			     #-labelPack => [-foreground => 'purple'],
+			     -borderwidth => 10, 
+			     -width => 20, 
+			     -height => 10)->pack (-ipadx => 60);
+
+
+my $label1 = $top_frame->Label(-text => "FILES TO PROCESS",
+			       -foreground => 'purple',
+			       #-height => 2, 
+			      )->pack (-padx => 2, -pady =>2);
+
+
+
+
+my $label2 = $top_frame->Label(-text => "Please select files for processing:",
+			       -foreground => 'purple',
+			       #-height => 2, 
+			      )->pack (-padx => 2, -pady =>2);
+
+
+$top_frame->Button(-text => 'File Selector',
+		   -foreground => 'purple',
+                   -command => \&open_directory,
+		   -relief => 'groove',
+		   -borderwidth => 10,
+		   -activebackground => 'purple',
+		  )->pack;
+
+
+
+my $analysis = $main->Button(-text => "Process File", 
+			     -command => [\&Process],
+			     -relief => 'raised',
+			     -cursor => 'mouse',
+			     -borderwidth => 10,
+			     -foreground => 'red',
+			     -activebackground => 'red',
+			    )->pack;
+
+$main->Button(-text => 'Exit',
+              -command => sub{exit},
+	      -cursor => 'man',
+             )->pack (-side => 'bottom', -fill => 'x') ;
+
+MainLoop;
+
+my $ofile;
+my $fs;
+sub open_directory {
+
+
+$ofile = $main->getOpenFile(-defaultextension => ".txt",
+		      -filetypes        =>
+		      [
+		       ['Text Files',       ['.txt', '.text']],		       		       		       
+		       ['All Files',        '*',             ],
+		      ],
+		      
+		      -initialdir       => Cwd::cwd(),
+		      #-initialfile      => "getopenfile",
+		      -title            => "PMID File Open",
+		     ),
+		     
+}
+
+
+
+sub Save
+{
+
+#my $sfile = $main->getSaveFile(-defaultextension => ".txt",
+			$main->getSaveFile(-defaultextension => ".txt",
+		      -filetypes        =>
+		      [['Text Files',       ['.txt', '.text']],		     
+		       ['All Files',        '*',             ],
+		      ],
+		      
+		      -initialdir       => Cwd::cwd(),
+		      #-initialfile      => "getopenfile",
+		      -title            => "Save File",
+		     ),
+}
+
+
+sub Process
+{
+
+my $sfile = Save();
+
+	if ( defined($ofile) ) {
+		open(SFILE, "> $sfile") || die "cannot open $sfile: $!\n";
+		} else {
+		die "Doh! You need an input file: $!\n";
+	}
+
+open(OFILE, "< $ofile") || die "cannot open $ofile: $!\n";
+
+print SFILE "88-0619\n6MJYATY\n\n\n\n\n";
+
+READ_LOOP:while (<OFILE>)
+{
+  	my $pmid = (/(\d+)/) ? $1 : die "Not a PMID or Wrong fileformat\nPlease check your file!: $!\n";
+	#print "PMID $pmid\n";
+#chomp(my $pmid = <STDIN>);
+
+	print $pmid, "\n";
+
+	my $url = "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=text&db=PubMed&uid=$pmid&dopt=abstract";  
+
+	my $agent    = LWP::UserAgent->new;
+	my $request  = HTTP::Request->new(GET => $url);
+	my $response = $agent->request($request);
+	$response->is_success or die "failed";
+
+	my @ref = split(/\n\n/, $response->content);
+		
+#	unless ($ref[3] =~ /\)\:\d/) { splice(@ref, 3, 1) };
+
+	my $journ = $ref[0];
+	$journ =~ s/\<pre>\n\d+:\s+//;
+	my ($jtit, $jdet) = ($journ =~ /^(.+?)(\d.+)\./);
+	$jdet =~ s/\. \w.+//;
+	$jtit = (length($jtit le 40)) ? $jtit : substr($jtit, 0, 40);
+	$jdet = (length($jdet le 40)) ? $jdet : substr($jdet, 0, 40);
+	
+	my $titl = $ref[1];
+	$titl =~ s/^\s+//;
+	$titl =~ s/(\[|\])//g;
+	$titl =~ s/\n//;
+	$titl = (length($titl le 40)) ? $titl : substr($titl, 0, 40);
+
+	my $auth = $ref[2];
+	$auth = (length($auth le 40)) ? $auth : substr($auth, 0, 40);
+
+
+
+
+	print SFILE "TXCOPYRT\n";
+	print SFILE $jtit, "\n";
+	print SFILE $jdet, "\n";
+#	print SFILE $journ, "\n";
+	print SFILE $titl, "\n";
+	print SFILE $auth, "\n";
+	print SFILE "\n\n\n\n";
+
+#print join("*\n\n", @ref), "\n";
+
+}
+print SFILE "NNNN\n";
+print "I've Finished!\nYou can now EXIT safely :)\n";
+close (OFILE);
+close (SFILE);
+}
+

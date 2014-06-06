@@ -1,0 +1,48 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# Author:  I. Dan Melamed
+# Computes:	variance of distances between successive occurrences of 
+#                        each token type
+# Loads:	
+# Streams:	
+# N.B.:		
+#######################################################################
+
+$TRUE = 1;
+$FALSE = 0;
+$INFINITY = 9999999999;
+$TINY = 0.0000001;
+$| = 1;
+
+$marker = 0;
+
+while (<>) {
+#    print STDERR "$. ";
+    s/^ +//;
+    @tok = split;
+    for($i = 0; $i < @tok; $i++) {
+	$tok = $tok[$i];
+	if (not defined $lastoc{$tok}) {
+	    $first{$tok} = ($i + $marker + .5);
+	} else {
+	    $dist = ($i + $marker + .5) - $lastoc{$tok} - 1;
+	    $sum{$tok} += $dist;
+	    $sumsq{$tok} += $dist ** 2;
+	};
+	$count{$tok}++;
+	$lastoc{$tok} = $i + $marker + .5;
+    };
+    $marker += $i;
+};
+
+foreach $tok (keys %lastoc) {
+    $dist = $marker - $lastoc{$tok} + $first{$tok} - 1;
+    $sum{$tok} += $dist;
+    $sumsq{$tok} += $dist ** 2;
+    $mean = $sum{$tok} / $count{$tok};
+    $sqvar = sqrt($sumsq{$tok} / $count{$tok} -
+		  ($sum{$tok} / $count{$tok}) ** 2);
+
+    printf "%d\t%s\t%d\t%d\n", $sqvar, $tok, $count{$tok}, $mean;
+};

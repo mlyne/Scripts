@@ -1,0 +1,8 @@
+{'ops:search-result'}->{'exchange-documents'}->{'exchange-document'}
+
+
+# parse it into a Perl data structure
+my $folders = from_json($json_data);
+
+# extract the hrefs that contain the folders we care about
+my @sharedfolders = grep { exists $ _->{ownerId} and $ _->{view} eq 'appointment' } @{ $folders->{children} };

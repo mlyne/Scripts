@@ -1,0 +1,40 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# Author:  I. Dan Melamed
+# Computes:	sorts input numerically, on first two columns, 
+#                     in given # of lines per sort
+# Loads:        moving window
+# Streams:	lines
+#######################################################################
+
+$| = 1;
+
+#check for correct usage
+if ($#ARGV < 0) {
+    print "usage:  partialsort <sort size> [<input>]\n";
+    exit; 
+};
+
+$sortsize = shift;
+
+POINT:  while (<>) {
+    ($x, $y, @rest) = split;
+    $rest = join(' ', @rest);
+    push @x, $x;
+    push @y, $y;
+    push @tail, $rest;
+    if (@x < $sortsize) {
+	next POINT;
+    };
+
+    # sort points on x and y
+    @ind = sort {$x[$a] <=> $x[$b] || $y[$a] <=> $y[$b]} (0 .. $sortsize - 1);
+
+    # output
+    foreach $p (0 .. $#ind) {
+	print "$x[$ind[$p]] $y[$ind[$p]] $tail[$ind[$p]]\n";
+    };
+
+    @x = @y = @tail = ();
+};

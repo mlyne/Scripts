@@ -1,0 +1,2 @@
+# computes histogram
+mysort | uniq -c | mysort -nr 

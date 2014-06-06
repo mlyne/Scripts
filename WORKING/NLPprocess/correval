@@ -1,0 +1,64 @@
+#!/usr/local/bin/perl5
+
+# evaluates lexical correspondence between two texts
+# variable prefixe meanings:
+# 	b: bag evaluation
+# 	s: set evaluation
+#	c: control or source
+#	t: test or target
+
+#check for correct usage
+if ($#ARGV != 1) {
+    print stderr "usage:  correval <control> <test>\n";
+    exit;
+};
+
+open(S, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+open(T, $ARGV[1]) || die "Couldn't open $ARGV[1]: $!\n";
+
+while (<S>) {
+    $line++;
+    # print stderr "$line ";
+    @csent = split;
+    $bcount += @csent;
+    $target = <T>;
+    @tsent = split(/\s+/,$target);
+  TEST:foreach $cword (@csent) {
+      # ignore punctuation, numbers, etc.
+      if ($cword !~ /^[a-zA-Z]/) {
+	  next TEST;
+      };
+      $frq{$cword}++;
+      for($i=0; $i< @tsent; $i++) {
+	  ($ltrn = $cword) =~ tr/A-Z/a-z/;
+	  ($ltarg = $tsent[$i]) =~ tr/A-Z/a-z/;
+	  if ($ltrn eq $ltarg) {
+	      $hit{$cword}++;
+	      splice(@tsent, $i, 1);
+	      $bcorr++;
+	      next TEST;
+	  };
+      };
+  };
+};
+
+
+print "\n\nOut of $bcount tokens:\n";
+print "Entry\tHits\tCumulative\n";
+$bcorratio = $bcorr / $bcount;
+$bcumul += $bcorratio;
+printf "%d\t%5.4f\t%5.4f\n", $t+1, $bcorratio, $bcumul;
+
+
+foreach $word (keys %frq) {
+    $scount++;
+    $hitratio += $hit{$word} / $frq{$word};
+};
+
+print "\n\nOut of $scount types:\n";
+print "Entry\tHits\tCumulative\n";
+$scorratio = $hitratio / $scount;
+$scumul = $scorratio;
+printf "%d\t%5.4f\t%5.4f\n", $t+1, $scorratio, $scumul;
+
+

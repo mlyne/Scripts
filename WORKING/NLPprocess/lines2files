@@ -1,0 +1,13 @@
+#!/usr/local/bin/perl5
+
+# puts each line into separate file
+# argument is prefix for output file names
+
+$prefix = shift(@ARGV);
+
+while (<>) {
+    $filename = $prefix.$.;
+    close(out);
+    open(out, "> $filename") || die "Couldn't open $filename: $!\n";
+    print out $_;
+};

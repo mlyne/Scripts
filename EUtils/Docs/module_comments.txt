@@ -1,0 +1,232 @@
+E-utility Perl module
+NCBI PowerScripting
+
+version 1.4 4/18/05
+
+Contains the following subroutines:
+read_params
+egquery
+esearch
+esummary
+efetch
+efetch_batch
+elink
+elink_history
+elink_batch
+elink_by_id
+epost_uids
+epost_file
+epost_set
+print_summary
+print_links
+print_link_summaries
+
+*************************************************************
+sub read_params 
+ Reads input parameters from file supplied on command line
+ Input file must have lines of the following format:
+   parameter|value
+ where parameter is the URL parameter name and value is the
+ value to be assigned to parameter
+ For ELink, the parameter "dbfrom" must be on a line before 
+ the id parameters. This allows multiple &id parameters
+ Input: file named on command line
+ Output: %params; keys are parameter names, values are values
+ Example: $params{'db'} = 'nucleotide'
+ $params{'id'} is an array if "dbfrom" parameter is in input file
+
+************************************************************************
+sub egquery 
+ Performs EGQuery.
+ Input: %params:
+ $params{'term'} - Entrez query
+ $params{'tool'} - tool name
+ $params{'email'} - e-mail address
+ Output = %results; keys are databases, values are UID counts
+*********************************************************************
+sub esearch 
+ Performs ESearch. 
+ Input: %params
+ $params{'db'} - database
+ $params{'term'} - Entrez query
+ $params{'usehistory'} (y/n) - flag for using the Entrez history server
+ $params{'retstart'} - first item in results list to display (default = 0)
+ $params{'retmax'} - number of items in results list to display (default = 20)
+ $params{'WebEnv'} - Web Environment for accessing existing data sets
+ $params{'tool'} - tool name
+ $params{'email'} - e-mail address
+
+ Output: %results: keys are 'count', 'query_key', 'WebEnv', 'uids'
+ $results{'uids'} is an array
+****************************************************************
+sub esummary 
+ Performs ESummary. 
+ Input: %params:
+ $params{'db'} - database
+ $params{'id'} - UID list (ignored if query_key exists)
+ $params{'query_key'} - query_key
+ $params{'WebEnv'} - web environment
+ $params{'retstart'} - first DocSum to retrieve
+ $params{'retmax'} - number of DocSums to retrieve
+ $params{'xml'} - outputs raw ESummary XML if set to 'y'
+ $params{'tool'} - tool name
+ $params{'email'} - e-mail address
+
+ Output: %results: $results{id}{item} = value
+ where id = UID, item = Item Name
+****************************************************************
+sub efetch 
+ Performs EFetch. 
+ Input: %params:
+ $params{'db'} - database
+ $params{'id'} - UID list (ignored if query_key exists)
+ $params{'query_key'} - query key 
+ $params{'WebEnv'} - web environment
+ $params{'retmode'} - output data format
+ $params{'rettype'} - output data record type
+ $params{'retstart'} - first record in set to retrieve
+ $params{'retmax'} - number of records to retrieve
+ $params{'seq_start'} - retrieve sequence starting at this position
+ $params{'seq_stop'} - retrieve sequence until this position
+ $params{'strand'} - which DNA strand to retrieve (1=plus, 2=minus)
+ $params{'complexity'} - determines what data object to retrieve
+ $params{'tool'} - tool name
+ $params{'email'} - e-mail address
+
+ Output: $raw; raw EFetch output
+****************************************************************
+sub efetch_batch 
+ Uses efetch to download a large data set in 500 record batches
+ The data set must be stored on the History server
+ The output is sent to a file named $params{'outfile'}
+ Input: %params:
+ $params{'db'} - link to database
+ $params{'query_key'} - query key
+ $params{'WebEnv'} - web environment
+ $params{'retmode'} - output data format
+ $params{'rettype'} - output data record type
+ $params{'seq_start'} - retrieve sequence starting at this position
+ $params{'seq_stop'} - retrieve sequence until this position
+ $params{'strand'} - which DNA strand to retrieve (1=plus, 2=minus)
+ $params{'complexity'} - determines what data object to retrieve
+ $params{'tool'} - tool name
+ $params{'email'} - e-mail address
+ $params{'outfile'} - name of output file
+
+ Output: nothing returned; raw EFetch output sent to $params{'outfile'}
+ Other output: periodic status messages sent to standard output
+
+****************************************************************
+sub elink 
+ Performs ELink. 
+ Input: %params:
+ $params{'dbfrom'} - link from database
+ $params{'db'} - link to database
+ $params{'id'} - array of UID lists (ignored if query_key exists)
+ $params{'query_key'} - query key
+ $params{'WebEnv'} - web environment)
+ $params{'term'} - Entrez term used to limit link results
+ $params{'tool'} - tool name
+ $params{'email'} - e-mail address
+
+ Output: %links: 
+ @{$links{'from'}{$set}} = array of input UIDs in set $set
+ @{$links{'to'}{$db}{$set}} = array of linked UIDs in $db in set $set
+ where $set = integer corresponding to one &id parameter
+ value in the ELink URL
+
+************************************************************
+sub elink_history 
+ Uses ELink with &cmd=neighbor_history to post ELink results
+ on the History server
+ Input: %params:
+ $params{'dbfrom'} - link from database
+ $params{'db'} - link to database
+ $params{'id'} - array of UID lists (ignored if query_key exists)
+ $params{'query_key'} - query key
+ $params{'WebEnv'} - web environment
+ $params{'term'} - Entrez term used to limit link results
+ $params{'tool'} - tool name
+ $params{'email'} - e-mail address
+
+ Output: %links: 
+ @{$links{'from'}{$set}} = array of input UIDs in set $set
+ $links{'to'}{$set}{$db}{'query_key'} = query_key of linked UIDs in $db in set $set
+ $links{'WebEnv'} = Web Environment of linked UID sets
+ where $set = integer corresponding to one &id parameter
+ value in the ELink URL
+
+********************************************************************
+sub elink_batch 
+ Produces links for a single set of records posted on the history server
+ from dbfrom to db. The routine segments the set in batches of size $batch
+ and then produces a non-redundant set of links for the entire set.
+input hash: {'WebEnv'} = web environment of input set
+	     {'query_key'} = query key of input set
+	     {'id'} = list of UIDs (ignored if query_key exists)
+	     {'dbfrom'} = database of input set, source db
+	     {'db'} = destination db for elink
+	     {'term'} = term parameter for elink
+output: %links{'query_key'} - query key for unique link set
+              {'WebEnv'} - web environment for unique link set
+
+*********************************************************************
+sub elink_by_id 
+ Produces links for each member of a set of records posted on the history server
+ from dbfrom to db. The routine segments the set in batches of size $batch
+ and then produces a set of links for each UID in the set and places these on the
+ history using elink_history.
+input hash: {'WebEnv'} = web environment of input set
+	     {'query_key'} = query key of input set
+	     {'id'} = list of UIDs (ignored if query_key exists)
+	     {'dbfrom'} = database of input set, source db
+	     {'db'} = destination db for elink
+	     {'term'} = term parameter for elink
+output: %links: 
+ $links{'id'}{'query_key'} - query key for UIDs in db linked to id in dbfrom
+ $links{'id'}{'WebEnv'} - web environment for UIDs in db linked to id in dbfrom
+
+*********************************************************************
+sub epost_uids 
+ Performs EPost, placing UIDs in the URL. 
+ Input: %params:
+ $params{'db'} - database
+ $params{'id'} - list of UIDs
+ $params{'WebEnv'} - Web environment for existing history sets
+ $params{'tool'} - tool name
+ $params{'email'} - e-mail address
+
+Output: %results: keys are 'WebEnv' and 'query_key'
+*********************************************************************
+sub epost_file 
+ Performs EPost, accepts input from file. 
+ Input file must have one UID per line.
+ Input: %params:
+ $params{'db'} - database
+ $params{'id'} - filename containing a list of UIDs
+ $params{'WebEnv'} - Web environment for existing history sets
+ $params{'tool'} - tool name
+ $params{'email'} - e-mail address
+
+ Output: %results: keys are 'WebEnv' and 'query_key'
+
+***********************************************************
+sub epost_set 
+ Uses EPost to post a set of UIDs using the POST method
+ Useful for large sets of UIDs not from a disk file
+ Accepts a comma-delimited list of UIDs in $params{'id'}
+ $params{'WebEnv'} - Web environment for existing history sets
+ Output: $results{'query_key'}, $results{'WebEnv'}
+
+***********************************************************
+sub print_summary 
+ Input: %results output from sub esummary
+***********************************************************
+sub print_links 
+ Input: %results output from sub elink
+**********************************************************
+sub print_link_summaries 
+ Input: %results output from sub link_history
+ Output: Docsums for linked records arranged by input UID 
+ set and linked database
+**********************************************************

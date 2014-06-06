@@ -1,0 +1,2 @@
+rabbit	dog	fox	snake	lettuce
+daisy	hedgehog	frog	cobra	dandelion

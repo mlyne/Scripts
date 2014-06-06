@@ -1,0 +1,25 @@
+#!/usr/local/bin/tcsh
+
+# bilingual concordancer
+# first two args are two files of aligned text segments
+# remaining args are files of search pattern pairs
+# It may be useful to run the aligned segment pairs through 
+#	`merge.short.aligned.segs` and `overlap.segments`
+
+if ($#argv < 2) then
+   echo "usage: 2concord <segments 1> <segments 2> [<search pattern pairs>]"
+   exit 0
+endif
+
+set ltext = $1
+set rtext = $2
+shift
+shift
+
+foreach file ($*)
+        foreach line (`sed -e 's/\^/\\\^/g;' $file | sed -e 's/ /_/g;'`)
+                echo "********************************************************************" 
+                echo "*** $line ***" | perl -pe 's/_/ /g' | han2iso
+                2grep $ltext $rtext `echo $line | perl -pe 's/_/ /g' ` | han2iso | head -50
+        end
+end

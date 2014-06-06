@@ -1,0 +1,36 @@
+#!/usr/local/bin/perl5
+
+########################################################################
+# Prints only lines containing any tokens in KEEP-FILE, in 
+#	specified column
+
+# Default output to STDOUT.
+
+########################################################################
+
+#check for correct usage
+if ($#ARGV < 1) {
+        print "usage:  keeplines <filter column> <KEEP-file> [<input-file>]\n";
+        exit;
+};
+
+$kc = shift(@ARGV);
+
+open(K, $ARGV[0]) || die "Couldn't open $ARGV[0]: $!\n";
+while (<K>) {
+        @keeptokens = split;
+	while (@keeptokens) {
+		$keep{shift @keeptokens}++;
+	};
+};
+close(K);
+shift(@ARGV);
+
+while (<>) {
+	@tokens = split;
+	if ($keep{@tokens[$kc - 1]}) {
+		print $_;
+	};
+};
+
+	

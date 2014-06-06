@@ -1,0 +1,33 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+
+use HTML::TagCloud;
+
+#my $usage = "Usage:terms2mesh.pl pubmed_xml search_term_file\n";
+#unless ( $ARGV[1] ) { die $usage }
+
+# Take input from the command line
+
+my $tagFile = $ARGV[0];
+
+open(IFILE, "< $tagFile") || die "cannot open $tagFile: $!\n";
+
+my $cloud = HTML::TagCloud->new(levels=>40);
+#my $cloud = HTML::TagCloud->new(distinguish_adjacent_tags=>1);
+my $site = "http\:\/\/www\.ncbi\.nlm\.nih\.gov\/pubmed\?term\=";
+
+while (<IFILE>)
+{
+  chomp;
+  my ($count, $tag) = split(/\t/, $_);
+    $cloud->add($tag, "$site$tag\[tiab\]", $count);
+#  $cloud->add_static($tag, $count)
+}
+
+# Close the file we've opened
+close(IFILE);
+
+#my $html = $cloud->html_and_css(200);
+
+print $cloud->html_and_css(2000);

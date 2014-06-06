@@ -1,0 +1,18 @@
+#!/usr/local/bin/perl5
+
+# gives position and length of tokens separated by whitespace
+
+while (<>) {
+    $li += length;
+    @tok=split(/\s/);
+    for (@tok) {
+	if (($l = length) > 0) {
+	    printf("%-25s %-8s pos = %-8d len = %-3d\n", "<$_>", "????", $p, $l);
+	};
+	$p+=$l+1;
+    };
+    if ($p < $li) {
+	$p = $li;
+    };
+};
+
