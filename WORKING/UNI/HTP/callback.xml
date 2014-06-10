@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <counter name="music">
+        <report type="week">
+            <stringSet index="4">
+                <string>music week 4</string>
+            </stringSet>
+        </report> 
+    </counter>
+    <counter name="xmusic">
+        <report type="month">
+            <stringSet index="4">
+                <string>xmusic month 4</string>
+            </stringSet>
+        </report> 
+    </counter>
+    <counter name="music">
+        <report type="month"> 
+            <stringSet index="4">
+                <string>music month 4 zz</string>
+                <string>music month 4 xx</string>
+            </stringSet>
+        </report>
+    </counter>
+</root>

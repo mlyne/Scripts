@@ -1,0 +1,4 @@
+<query model="genomic" view="GOTerm.identifier GOTerm.name GOTerm.parents.identifier GOTerm.parents.name" sortOrder="GOTerm.identifier ASC" constraintLogic="A and B" >
+  <constraint path="GOTerm" op="!=" value="GOTerm.parents" code="A" />
+  <constraint path="GOTerm.namespace" op="=" value="biological_process" code="B" />
+</query>

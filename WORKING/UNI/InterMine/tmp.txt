@@ -1,0 +1,20 @@
+BSU00120 NC_000964.3 19968..20558 1	19868..19993
+$VAR1 = '{"features":[
+{"start":19868,"seq":"gagcttggtactgcaatgaaagggattgaaatctcaaacttacttccagaacagcgtatgcaagaacgcggctggtaagaacataggagcgctgctgacatgttaacaataggtgtactaggact","end":19993}
+],"executionTime":"2013.12.13 10:50::29","wasSuccessful":true,"error":null,"statusCode":200}';
+	
+BSU00200 NC_000964.3 28529..28852 1	28429..28554
+$VAR1 = '{"features":[
+{"start":28429,"seq":"accggctgaagaagacccgcttattgccgaagcgaaaaagcttgttggagcggatttaattgaaataaaagactaacaaaatgaaagagagtgaatgctatgcgtggcggaatgggtaatatgca","end":28554}
+],"executionTime":"2013.12.13 10:50::29","wasSuccessful":true,"error":null,"statusCode":200}';
+	
+BSU00290 NC_000964.3 39871..40200 1	39771..39896
+$VAR1 = '{"features":[
+{"start":39771,"seq":"aagcgttgaaaaaaattcaattgtgacctgtttcccaatagttgatataataatgtaaacgagatcacgttgtttccaatctaaaggaggccttcacagatgaaattgatagtggcagttgtaca","end":39896}
+],"executionTime":"2013.12.13 10:50::29","wasSuccessful":true,"error":null,"statusCode":200}';
+	
+BSU00300 NC_000964.3 40213..40653 1	40113..40238
+$VAR1 = '{"features":[
+{"start":40113,"seq":"gattcctatgtcccttatccagtcgaagttgaagttggcggagcgacagtatttgtccttccagtcgatgaatttcatcaattttaaggatctgaaactgtgaaaattaataaagatatacgtac","end":40238}
+],"executionTime":"2013.12.13 10:50::29","wasSuccessful":true,"error":null,"statusCode":200}';
+	

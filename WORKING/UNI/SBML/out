@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" xmlns:mts="http://purl.org/modeltosequence/1.0#" level="2" version="4">
+  <model metaid="SpaK_SpaR_model_meta" id="SpaK_SpaR_model" name="SpaK_SpaR_model">
+    <listOfReactions>
+      <reaction metaid="SpaK_SpaR_meta" id="SpaK_SpaR" name="SpaK_SpaR" reversible="false">
+        <annotation>
+          <ModelToSequence xmlns="http://purl.org/modeltosequence/1.0#">
+            <rdf:RDF xmlns:j.0="mts:" xmlns:mts="http://purl.org/modeltosequence/1.0#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#SpaK_SpaR_meta">
+                <rdf:type rdf:resource="mts:Non_cis_Interaction"/>
+                <mts:VisualName>SpaK_SpaR</mts:VisualName>
+              </rdf:Description>
+            </rdf:RDF>
+          </ModelToSequence>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#SpaK_SpaR_meta">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016310"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="SpaKPhosphorylated"/>
+          <speciesReference species="SpaR"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="SpaK"/>
+          <speciesReference species="SpaRPhosphorylated"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> SpaKSpaRkf </ci>
+              <ci> SpaKPhosphorylated </ci>
+              <ci> SpaR </ci>
+            </apply>
+          </math>
+          <listOfParameters>
+            <parameter metaid="SpaKSpaRkf_meta" id="SpaKSpaRkf" name="SpaKSpaRkf" value="0.0001"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>
