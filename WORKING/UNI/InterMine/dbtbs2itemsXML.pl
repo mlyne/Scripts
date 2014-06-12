@@ -3,10 +3,12 @@
 use strict;
 use warnings;
 use XML::Twig;
-
-use feature ':5.12';
 use Getopt::Std;
 
+use feature ':5.12';
+
+use InterMine::Item::Document;
+use InterMine::Model;
 
 use SynbioGene2Location qw/geneLocation/;
 use SynbioRegionSearch qw/regionSearch/;
@@ -16,7 +18,7 @@ binmode(STDOUT, 'utf8');
 # Silence warnings when printing null fields
 no warnings ('uninitialized');
 
-my $usage = "Usage:parseDBTBS.pl DBTBS_XML.xml OUT_FILE
+my $usage = "Usage:parseDBTBS.pl DBTBS_XML.xml InterMine_model OUT_FILE
 
 ";
 
@@ -27,11 +29,10 @@ getopts('hd', \%opts);
 defined $opts{"h"} and die $usage;
 defined $opts{"d"} and $debug++;
 
-unless ( $ARGV[0] ) { die $usage };
+unless ( $ARGV[2] ) { die $usage };
 
 # specify and open query file (format: )
-my $xml_file = $ARGV[0];
-my $out_file = $ARGV[1];
+my ($xml_file, $model_file, $out_file) = @ARGV;
 
 # synonyms file downloaded from bacilluscope: ids, symbols and synonyms extracted
 my $synonyms_file = "/home/ml590/MIKE/InterMine/SynBioMine/DataSources/DATA/bsub_id_symbol_synonyms_May2014.txt";
@@ -43,6 +44,10 @@ our %id2synonym; # hash lookup for symbols/ synonyms
 our %seen_genes; # store genes that have been resolved to unique identifiers
 our %seen_refs; # store of refs that have already been processed
 my %seen_promoters; # store promoter ids so that we can create unique identifiers
+our %seen_gene_items; # track processed gene items
+our %seen_ref_items; # track processed reference items
+our %seen_tfac_items;
+
 
 while (<SYN_FILE>) {
   chomp;
@@ -74,11 +79,48 @@ while (<SYN_FILE>) {
 }
 close SYN_FILE;
 
-foreach my $key (keys %id2synonym) {
-  say $key, " : ", join("; ", @{ $id2synonym{$key} }) if ($debug);
+if ($debug) {
+  foreach my $key (keys %id2synonym) {
+    say $key, " : ", join("; ", @{ $id2synonym{$key} });
+  }
 }
 
 open OUT_FILE, ">$out_file" or die $!; 
+
+my $taxon_id = "224308";
+my $title = "DBTBS - Regulatory features for Bacillus subtilis 168";
+my $url = "http://dbtbs.hgc.jp";
+my $chromosome = "NC_000964.3";
+
+my $model = new InterMine::Model(file => $model_file);
+my $doc = new InterMine::Item::Document(model => $model);
+
+my $org_item = make_item(
+    Organism => (
+        taxonId => $taxon_id,
+    )
+);
+
+my $data_source_item = make_item(
+    DataSource => (
+        name => $title,
+	url => $url,
+    ),
+);
+
+my $data_set_item = make_item(
+    DataSet => (
+        name => "DBTBS Promoters for taxon id: $taxon_id",
+	dataSource => $data_source_item,
+    ),
+);
+
+my $chromosome_item = make_item(
+    Chromosome => (
+        primaryIdentifier => $chromosome,
+    ),
+);
+
 
 my $twig = XML::Twig->new(
     twig_handlers => {
@@ -89,6 +131,10 @@ my $twig = XML::Twig->new(
 );
 
 $twig->parsefile( "$xml_file" );
+
+
+##$doc->close(); # writes the xml
+##exit(0);
 
 # 
 close OUT_FILE;
@@ -122,7 +168,7 @@ sub process_promoters {
 
   my $region;
   if ( scalar(@prom_regions) > 1) {
-    warn "Sequence is not unique: $prom_seq\n" if ($debug);
+    warn "Sequence is not unique: $prom_seq\n";
     next;
   } else {
     $region = $prom_regions[0];
@@ -138,7 +184,7 @@ sub process_promoters {
   $sigmaDBidentifier = &resolver($sigma, undef) if $sigma;
 
 # generate a unique identifier for each promoter
-  my $promoter_id = $gene_DBTBS . "_" . $geneDBidentifier . "_" . "224308";
+  my $promoter_id = $gene_DBTBS . "_" . $geneDBidentifier . "_" . $taxon_id;
   $seen_promoters{$promoter_id}++;
   
   my $promoter_uid = $promoter_id . "_" . $seen_promoters{$promoter_id};
@@ -162,12 +208,6 @@ sub process_promoters {
   if (@evidence) {
     say OUT_FILE "Evidence: ", join("; ", @evidence);
   }
-
-#   say OUT_FILE "$gene_DBTBS $tfac $sigma $id $regulation $location";
-#   say OUT_FILE "$prom_seq";
-#   say OUT_FILE "REGION: ", join("; ", @prom_regions);
-
-
   
   $twig->purge();
 }
@@ -562,17 +602,40 @@ NB	Northern Blot
 ND	No Data
 END
 
-  my @descriptions;
+  my %evidenceCode_items;
+
+  my @evidenceCode_items;
   for my $code (@evidence_codes) {
-    if (exists $evidence{$code}) {
-      my $description = $evidence{$code};
-      push(@descriptions, $description);
-    } else {
-      say "Evidence lookup failed for $code";
-      next;
+    say "Code: ", $code;
+    next unless (exists $evidence{$code});
+
+    if (exists $evidenceCode_items{$code}) {
+      my $item = $evidence{$code};
+      push(@evidenceCode_items, $item);
+    } 
+    else {
+      my $evidenceCode_item = &make_item(
+	PromoterEvidenceCode => (
+	  abbreviation => $code,
+	  name => $evidence{$code},
+	),
+      );
+      $evidenceCode_items{$code} = $evidenceCode_item;
+      push(@evidenceCode_items, $evidenceCode_item);
     }
   }
 
-  return \@descriptions;
+  return \@evidenceCode_items;
 
+}
+
+######## helper subroutines:
+
+sub make_item {
+    my @args = @_;
+    my $item = $doc->add_item(@args);
+    if ($item->valid_field('organism')) {
+        $item->set(organism => $org_item);
+    }
+    return $item;
 }

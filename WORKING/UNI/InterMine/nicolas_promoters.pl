@@ -85,7 +85,6 @@ my $data_source_item = make_item(
     ),
 );
 
-
 my $publication_item = make_item(
     Publication => (
         pubMedId => $pmid,
