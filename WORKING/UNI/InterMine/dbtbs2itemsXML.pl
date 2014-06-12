@@ -40,13 +40,14 @@ my $synonyms_file = "/home/ml590/MIKE/InterMine/SynBioMine/DataSources/DATA/bsub
 open(SYN_FILE, "< $synonyms_file") || die "cannot open $synonyms_file: $!\n";
 
 # process id, symbol, synonyms file
-our %id2synonym; # hash lookup for symbols/ synonyms
-our %seen_genes; # store genes that have been resolved to unique identifiers
-our %seen_refs; # store of refs that have already been processed
+my %id2synonym; # hash lookup for symbols/ synonyms
+my %seen_genes; # store genes that have been resolved to unique identifiers
+my %seen_refs; # store of refs that have already been processed
 my %seen_promoters; # store promoter ids so that we can create unique identifiers
-our %seen_gene_items; # track processed gene items
-our %seen_ref_items; # track processed reference items
-our %seen_tfac_items;
+my %seen_gene_items; # track processed gene items
+my %seen_ref_items; # track processed reference items
+my %seen_tfac_items;
+my %evidenceCode_items;
 
 
 while (<SYN_FILE>) {
@@ -133,8 +134,8 @@ my $twig = XML::Twig->new(
 $twig->parsefile( "$xml_file" );
 
 
-##$doc->close(); # writes the xml
-##exit(0);
+$doc->close(); # writes the xml
+exit(0);
 
 # 
 close OUT_FILE;
@@ -300,25 +301,52 @@ sub process_refs {
 #    say OUT_FILE $evidence if ($experiment);
 
     if ($pmid) {
-      if (exists $seen_refs{$pmid}) {
+      if (exists $seen_ref_items{$pmid}) {
 	say "Already seen $pmid. Reusing @{ $seen_refs{$pmid} }" if ($debug);
 #	say OUT_FILE "seen ref\t", @{ $seen_refs{$pmid} };
-	push(@processed_refs, @{ $seen_refs{$pmid} });
+	push(@processed_refs, $seen_ref_items{$pmid} );
       } else {
-	$seen_refs{$pmid} = ["P", $author, $year, $pmid, \@evidence_descriptions];
-	push(@processed_refs, @{ $seen_refs{$pmid} });
+	my $publication_item = &make_item(
+	  Publication => (
+	    pubMedId => $pmid,
+	    firstAuthor => $author,
+	    year => $year,
+	  ),
+	);
+
+	my $evidence_item = &make_item(
+	  PromoterEvidence => (
+	    publications => [ $publication_item ],
+	    evidenceCodes => $evidenceRefs,
+	  ),
+	);
+	$seen_ref_items{$pmid} = $evidence_item;
+	push(@processed_refs, $seen_ref_items{$pmid});
 	say OUT_FILE "new ref\t$author $year $pmid", join("; ", @evidence_descriptions) if ($debug);
       }
     } 
     elsif ( $title ) {
-     if (exists $seen_refs{$title}) {
+     if (exists $seen_ref_items{$title}) {
 	say "Already seen $title. Reusing @{ $seen_refs{$title} }" if ($debug);
 #	say OUT_FILE "seen ref\t", @{ $seen_refs{$title} };
-	push(@processed_refs, @{ $seen_refs{$title} });
+	push(@processed_refs, $seen_ref_items{$title});
       } else {
-	$seen_refs{$title} = ["T", $author, $year, $title, \@evidence_descriptions];
-	say "new ref\t$author $year $title", join("; ", @evidence_descriptions) if ($debug);
-	push(@processed_refs, @{ $seen_refs{$title} });
+	my $publication_item = &make_item(
+	  Publication => (
+	    title => $title,
+	    firstAuthor => $author,
+	    year => $year,
+	  ),
+	);
+
+	my $evidence_item = &make_item(
+	  PromoterEvidence => (
+	    publications => [ $publication_item ],
+	    evidenceCodes => $evidenceRefs,
+	  ),
+	);
+	$seen_ref_items{$title} = $evidence_item;
+	push(@processed_refs, $seen_ref_items{$title});
       }
     } 
     elsif ( $link ) {
@@ -602,7 +630,7 @@ NB	Northern Blot
 ND	No Data
 END
 
-  my %evidenceCode_items;
+
 
   my @evidenceCode_items;
   for my $code (@evidence_codes) {
@@ -610,7 +638,7 @@ END
     next unless (exists $evidence{$code});
 
     if (exists $evidenceCode_items{$code}) {
-      my $item = $evidence{$code};
+      my $item = $evidenceCode_items{$code};
       push(@evidenceCode_items, $item);
     } 
     else {
