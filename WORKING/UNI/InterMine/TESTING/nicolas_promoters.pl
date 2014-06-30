@@ -85,7 +85,6 @@ my $data_source_item = make_item(
     ),
 );
 
-
 my $publication_item = make_item(
     Publication => (
         pubMedId => $pmid,
@@ -106,7 +105,7 @@ my $chromosome_item = make_item(
     ),
 );
 
-my %seen_genes;;
+my %seen_genes;
 for my $entry (@matrix)
 {
 #  chomp $entry;
@@ -130,13 +129,14 @@ for my $entry (@matrix)
 
     my ($prefix, $chars, @chars, @pred_sig_factors);
     if ($pred_sig_factor) {
-      if ($pred_sig_factor =~ /^(Sig)([A-Z]+)/) {
+      if ($pred_sig_factor =~ /^(Sig)([A-Z]+)/) { 
+# split multipart identifier eg SigABC into Sig ABC
 	$prefix = $1;
 	$chars = $2;
-	@chars = split(//, $chars);
-	@pred_sig_factors = map { "Sig$_" } @chars;
+	@chars = split(//, $chars); # split ABC part
+	@pred_sig_factors = map { "Sig$_" } @chars; # add 'Sig' prefix to each eg. SigA
       } else {
-	push (@pred_sig_factors, $pred_sig_factor);
+	push (@pred_sig_factors, $pred_sig_factor); # if it's not multipart, add it to our array
       } 
     }
 
@@ -146,8 +146,8 @@ for my $entry (@matrix)
       for my $factor (@pred_sig_factors) {
 	my $pred_sig_item = make_item(
 	  PredictedSigmaFactor => (
-	    identifier => "$factor",
-	    probability => "$psig",
+	    identifier => $factor,
+	    probability => $psig,
 	  ),
 	);
         push (@pred_sig_objects, $pred_sig_item); # array of sigma factor items
@@ -172,7 +172,7 @@ for my $entry (@matrix)
       for my $sig_bs (@sig_Bsites) {
 	my $sig_bsite_item = make_item(
 	  SigmaBindingSite => (
-	    identifier => "$sig_bs",
+	    identifier => $sig_bs,
 	  ),
 	);
         push (@sig_Bsite_objects, $sig_bsite_item); # array of sigma factor binding items
@@ -195,31 +195,31 @@ for my $entry (@matrix)
     next if ($gene_id =~ /NA/);
 
   ############################################
-  # Set info for gene 
+  # Set info for gene - first, check if we've seen it before
     my $gene_item;
     unless (exists $seen_genes{$gene_id}) {
       $gene_item = make_item(
 	  Gene => (
-	      symbol => "$gene_id",
+	      symbol => $gene_id,
 	  ),
       );
     }
 
 
   ############################################
-  # Set info for seuence 
+  # Set info for sequence 
     my $seq_item = make_item(
 	Sequence => (
-	    "length" => $seq_length,
-	    residues => "$SigmaFactorBS",
+	    'length' => $seq_length,
+	    residues => $SigmaFactorBS,
 	),
     );
 
     my $location_item = make_item(
 	Location => (
-	    start => "$start_found",
-	    end => "$end_found",
-	    strand => "$strand_found",
+	    start => $start_found,
+	    end => $end_found,
+	    strand => $strand_found,
 	    dataSets => [$data_set_item],
 	),
     );
@@ -241,9 +241,10 @@ for my $entry (@matrix)
       $promoter_item->set( gene => $seen_genes{$gene_id} );
     } else {
       $promoter_item->set( gene => $gene_item );
+      $seen_genes{$gene_id} = $gene_item;
     }
 
-   $seen_genes{$gene_id} = $gene_item unless (exists $seen_genes{$gene_id});
+#   $seen_genes{$gene_id} = $gene_item unless (exists $seen_genes{$gene_id});
 
    for (@sig_Bsite_objects) {
     $_->{promoter} = $promoter_item;
@@ -257,7 +258,6 @@ for my $entry (@matrix)
 
  }
 }
-
 
 $doc->close(); # writes the xml
 exit(0);

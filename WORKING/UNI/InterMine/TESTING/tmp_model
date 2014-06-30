@@ -396,8 +396,30 @@
 	<attribute name="url" type="java.lang.String"/>
 </class>
 <class name="ChromosomeBand" extends="Region" is-interface="true"></class>
+<class name="Promoter" extends="RegulatoryRegion" is-interface="true"></class>
 <class name="NicolasPromoter" extends="Promoter" is-interface="true">
-        <attribute name="predictedSigmaFactor" type="java.lang.String"/>
-        <attribute name="predictedCluster" type="java.lang.String"/>
+    <attribute name="predictedCluster" type="java.lang.String"/>
+    <attribute name="clusterProbability" type="java.lang.String"/>
+    <attribute name="predictedSigmaProbability" type="java.lang.String"/>
+    <reference name="gene" referenced-type="Gene"/>
+    <collection name="predictedSigmaFactors" referenced-type="PredictedSigmaFactor" reverse-reference="promoter"/>
+    <collection name="sigmaBindingFactors" referenced-type="SigmaBindingFactor" reverse-reference="promoter"/>
+</class>
+<class name="PredictedSigmaFactor" is-interface="true">
+    <reference name="primaryIdentifier" referenced-type="Gene"/>
+    <attribute name="probability" type="java.lang.Double"/>
+    <reference name="promoter" referenced-type="NicolasPromoter" reverse-reference="predictedSigmaFactors"/>
+</class>
+<class name="SigmaBindingFactor" is-interface="true">
+    <reference name="primaryIdentifier" referenced-type="Gene"/>
+    <reference name="promoter" referenced-type="NicolasPromoter" reverse-reference="sigmaBindingSites"/>
+</class>
+<class name="PromoterEvidence" is-interface="true">
+	<collection name="publications" referenced-type="Publication"/>
+	<collection name="evidenceCodes" referenced-type="PromoterEvidenceCode"/>
+</class>
+<class name="PromoterEvidenceCode" is-interface="true">
+	<attribute name="abbreviation" type="java.lang.String"/>
+	<attribute name="name" type="java.lang.String"/>
 </class>
 </model>

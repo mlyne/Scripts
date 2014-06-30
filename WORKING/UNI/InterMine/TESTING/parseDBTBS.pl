@@ -408,6 +408,29 @@ sub run_BLAST {
   return \@regions;
 }
 
+sub resolver {
+  my ($symbol, $region) = @_;
+  my $gene_DBTBS = lcfirst($symbol);
+
+  my $geneLookupRef = &gene_lookup($gene_DBTBS, $region);
+  my @geneDBids = @{ $geneLookupRef } if ($geneLookupRef);
+
+  my $geneDBidentifier;
+  if ($geneLookupRef) {
+    for my $identifier (@geneDBids) {
+      say "Success: $gene_DBTBS resolved to $identifier" if ($debug);
+      $geneDBidentifier = $identifier;
+      $seen_genes{$gene_DBTBS} = $identifier unless (exists $seen_genes{$gene_DBTBS});
+    }
+  } else {
+    warn "Fail: Nothing returned from gene lookup with: $gene_DBTBS\n" if ($debug);
+    return;
+  }
+  
+  return $geneDBidentifier;
+
+}
+
 sub gene_lookup {
 
   my ($gene_DBTBS, $region) = @_;
@@ -513,33 +536,13 @@ sub synbiomine_genes {
 
 }
 
-sub resolver {
-  my ($symbol, $region) = @_;
-  my $gene_DBTBS = lcfirst($symbol);
-
-  my $geneLookupRef = &gene_lookup($gene_DBTBS, $region);
-  my @geneDBids = @{ $geneLookupRef } if ($geneLookupRef);
-
-  my $geneDBidentifier;
-  if ($geneLookupRef) {
-    for my $identifier (@geneDBids) {
-      say "Success: $gene_DBTBS resolved to $identifier" if ($debug);
-      $geneDBidentifier = $identifier;
-      $seen_genes{$gene_DBTBS} = $identifier unless (exists $seen_genes{$gene_DBTBS});
-    }
-  } else {
-    warn "Fail: Nothing returned from gene lookup with: $gene_DBTBS\n" if ($debug);
-    return;
-  }
-  
-  return $geneDBidentifier;
-
-}
-
 sub evidence_lookup {
   
   my $evidenceRef = shift;
   my @evidence_codes = @{ $evidenceRef };
+
+## use a heredoc to hold formatted list
+# then use to poplulate a hash based on a simple RE
 
   my %evidence = <<END =~ /(\w+)\t(.+)/g;
 AR	DNA microarray and macroarray

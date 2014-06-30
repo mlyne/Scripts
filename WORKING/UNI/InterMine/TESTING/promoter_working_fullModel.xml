@@ -396,8 +396,37 @@
 	<attribute name="url" type="java.lang.String"/>
 </class>
 <class name="ChromosomeBand" extends="Region" is-interface="true"></class>
-<class name="NicolasPromoter" extends="Promoter" is-interface="true">
-        <attribute name="predictedSigmaFactor" type="java.lang.String"/>
-        <attribute name="predictedCluster" type="java.lang.String"/>
+<class name="Promoter" extends="RegulatoryRegion" is-interface="true"></class>
+<class name="SynbioPromoter" extends="Promoter" is-interface="true">
+    <attribute name="predictedCluster" type="java.lang.String"/>
+    <attribute name="clusterProbability" type="java.lang.String"/>
+    <attribute name="predictedSigmaProbability" type="java.lang.String"/>
+    <reference name="gene" referenced-type="Gene" reverse-reference="promoters"/>
+    <collection name="evidence" referenced-type="PromoterEvidence"/>
+    <attribute name="primaryIdentifier" type="java.lang.String"/>
+    <attribute name="synonym" type="java.lang.String"/>
+    <collection name="predictedSigmaFactors" referenced-type="PredictedSigmaFactor" reverse-reference="promoters"/>
+    <collection name="sigmaBindingFactors" referenced-type="SigmaBindingFactor" reverse-reference="promoters"/>
+    <collection name="evidence" referenced-type="PromoterEvidence"/>    
+</class>
+<class name="PredictedSigmaFactor" is-interface="true">
+    <reference name="primaryIdentifier" referenced-type="Gene"/>
+    <attribute name="probability" type="java.lang.Double"/>
+    <collection name="promoters" referenced-type="SynbioPromoter" reverse-reference="predictedSigmaFactors"/>
+</class>
+<class name="SigmaBindingFactor" is-interface="true">
+    <reference name="primaryIdentifier" referenced-type="Gene"/>
+    <collection name="promoters" referenced-type="SynbioPromoter" reverse-reference="sigmaBindingFactors"/>
+</class>
+<class name="PromoterEvidence" is-interface="true">
+	<collection name="publications" referenced-type="Publication"/>
+	<collection name="evidenceCodes" referenced-type="PromoterEvidenceCode"/>
+</class>
+<class name="PromoterEvidenceCode" is-interface="true">
+	<attribute name="abbreviation" type="java.lang.String"/>
+	<attribute name="name" type="java.lang.String"/>
+</class>
+<class name="Gene" is-interface="true">
+	<collection name="promoters" referenced-type="SynbioPromoter" reverse-reference="gene"/>
 </class>
 </model>

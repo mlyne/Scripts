@@ -10,6 +10,7 @@ use feature ':5.12';
 use InterMine::Item::Document;
 use InterMine::Model;
 
+use BlastSynbio qw/run_BLAST/;
 use SynbioGene2Location qw/geneLocation/;
 use SynbioRegionSearch qw/regionSearch/;
 
@@ -34,6 +35,16 @@ unless ( $ARGV[2] ) { die $usage };
 # specify and open query file (format: )
 my ($xml_file, $model_file, $out_file) = @ARGV;
 
+### Keep a track of processed identifiers and items
+my %seen_genes; # store genes that have been resolved to unique identifiers
+my %seen_refs; # store of refs that have already been processed
+my %seen_promoters; # store promoter ids so that we can create unique identifiers
+my %seen_gene_items; # track processed gene items
+my %seen_ref_items; # track processed reference items
+my %seen_tfac_items; # track processed tfac items
+my %seen_sigma_items; # track processed tfac items
+my %evidenceCode_items;
+
 # synonyms file downloaded from bacilluscope: ids, symbols and synonyms extracted
 my $synonyms_file = "/home/ml590/MIKE/InterMine/SynBioMine/DataSources/DATA/bsub_id_symbol_synonyms_May2014.txt";
 
@@ -41,13 +52,6 @@ open(SYN_FILE, "< $synonyms_file") || die "cannot open $synonyms_file: $!\n";
 
 # process id, symbol, synonyms file
 my %id2synonym; # hash lookup for symbols/ synonyms
-my %seen_genes; # store genes that have been resolved to unique identifiers
-my %seen_refs; # store of refs that have already been processed
-my %seen_promoters; # store promoter ids so that we can create unique identifiers
-my %seen_gene_items; # track processed gene items
-my %seen_ref_items; # track processed reference items
-my %seen_tfac_items;
-my %evidenceCode_items;
 
 
 while (<SYN_FILE>) {
@@ -156,17 +160,23 @@ sub process_promoters {
   my @refs = $entry->children( 'reference' );
 
   $id =~ s/,/_/g;
+  my $synonym = $id if ($id);
   
   $prom_seq =~ tr|[A-Z]|[a-z]|;
   $prom_seq =~ s|\{(.+?)\}|uc($1)|eg;
   $prom_seq =~ s|\/(.+)\/|uc($1)|eg;
 
   my $query = ">$gene_DBTBS\n$prom_seq";
-  my $seq_len = &seq_length( $prom_seq ) if ($prom_seq);
+  my $seq_length = &seq_length( $prom_seq ) if ($prom_seq);
 
-  my $region_ref = &run_BLAST( $query, $seq_len ) if ($prom_seq);
+# BLAST promoter seq against B. sub genome to get location
+# Set working directory
+  my $work_dir = "/home/ml590/MIKE/InterMine/SynBioMine/DataSources/DATA/BLAST/Bsub168";
+  my $region_ref = &run_BLAST( $query, $seq_length, $work_dir, $debug ) if ($prom_seq);
+
   my @prom_regions = @{ $region_ref } if ($region_ref);
 
+# If we have a region - check that it has a unique location
   my $region;
   if ( scalar(@prom_regions) > 1) {
     warn "Sequence is not unique: $prom_seq\n";
@@ -175,14 +185,51 @@ sub process_promoters {
     $region = $prom_regions[0];
   }
 
+# turn the region string back into its sub-parts - seems a bit clunky but hey...
   $region =~ m/(.+)\:(.+)\.\.(.+) (.+)/; 
-  my ($chr, $start, $end, $strand) = ($1, $2, $3, $4);
+  my ($chr, $start, $end, $strand) = ($1, $2, $3, $4) if ($region);
+
+### If we have a unique region, make a location and sequence items 
+  my ($location_item, $seq_item);
+  if ($region) {
+    $location_item = &make_item(
+	Location => (
+	  start => "$start",
+	  end => "$end",
+	  strand => "$strand",
+	  dataSets => [$data_set_item],
+	),
+    );
+
+############################################
+# If we have sequence, set info for sequence item
+    $seq_item = &make_item(
+      Sequence => (
+	'length' => $seq_length,
+	residues => $prom_seq,
+      ),
+    );
+  }
 
   my ($geneDBidentifier, $tfacDBidentifier, $sigmaDBidentifier);
   $geneDBidentifier = &resolver($gene_DBTBS, $region);
-  next unless ($geneDBidentifier);
+  next unless ($geneDBidentifier); # skip if we can't get a unique ID
+
   $tfacDBidentifier = &resolver($tfac, undef) if $tfac;
   $sigmaDBidentifier = &resolver($sigma, undef) if $sigma;
+
+############################################
+# Set info for gene - first, check if we've seen it before
+  my $gene_item;
+  unless (exists $seen_gene_items{$geneDBidentifier}) {
+    $gene_item = &make_item(
+      Gene => (
+	  primaryIdentifier => "$geneDBidentifier",
+      ),
+    );
+  }
+
+############################################
 
 # generate a unique identifier for each promoter
   my $promoter_id = $gene_DBTBS . "_" . $geneDBidentifier . "_" . $taxon_id;
@@ -190,26 +237,142 @@ sub process_promoters {
   
   my $promoter_uid = $promoter_id . "_" . $seen_promoters{$promoter_id};
 
+### Process the experimental evidence
   my $refsRef = &process_refs(\@refs);
   my @evidence = @{ $refsRef };
 
   say "UID: $promoter_uid" if ($debug);
 
-  say OUT_FILE "UID: $promoter_uid";
-  say OUT_FILE "Synonym: $id" if ($id);
-  say OUT_FILE "Gene: $gene_DBTBS $geneDBidentifier";
-  say OUT_FILE "Sigma: $sigma $sigmaDBidentifier" if ($sigma);
-  say OUT_FILE "Sequence: $prom_seq" if ($prom_seq);
-  say OUT_FILE "SeqLen: $seq_len" if ($prom_seq);
-  say OUT_FILE "Region: $chr, $start, $end, $strand" if ($region);
-  say OUT_FILE "Location: $location" if ($location);
-  say OUT_FILE "Tfac: $tfac $tfacDBidentifier" if ($tfac);
-  say OUT_FILE "Reg: $regulation" if ($regulation);
+  my $promoter_item = &make_item(
+      Promoter => (
+	  primaryIdentifier => $promoter_uid,
+	  chromosome => $chromosome_item,
+	  dataSets => [$data_set_item],
+      ),
+  );
 
-  if (@evidence) {
-    say OUT_FILE "Evidence: ", join("; ", @evidence);
+  $promoter_item->set( synonym => $synonym ) if ($synonym);
+  $promoter_item->set( evidence => $refsRef ) if ($refsRef);
+
+  if ($location_item) {
+    # Add sequence and location items to promoter if applicable
+    $promoter_item->set( chromosomeLocation => $location_item );
+    $promoter_item->set( sequence => $seq_item );
   }
-  
+
+### Start adding our gene objects - gene, tfac and sigma factor
+
+### Regulated gene items ###
+  if (exists $seen_gene_items{$geneDBidentifier}) {
+    $promoter_item->set( gene => $seen_gene_items{$geneDBidentifier} );
+  } else {
+    $promoter_item->set( gene => $gene_item );
+    $seen_gene_items{$geneDBidentifier} = $gene_item;
+  }
+
+### Transcription Factor items ###
+  my $tfac_item;
+  if ($tfacDBidentifier) {
+    unless (exists $seen_tfac_items{$tfacDBidentifier}) {
+  ############################################
+  # Set gene info for sigma - first, check if we've seen it before
+      unless (exists $seen_gene_items{$tfacDBidentifier}) {
+	$gene_item = &make_item(
+	  Gene => (
+	      primaryIdentifier => $tfacDBidentifier,
+	  ),
+	);
+      }
+
+############################################
+# Set info for Sigma Factor - first, check if we've seen it before
+      $tfac_item = &make_item(
+	TranscriptionFactor => (
+	    regulation => $regulation,
+	),
+      );
+
+      if (exists $seen_gene_items{$tfacDBidentifier}) {
+	$tfac_item->set( primaryIdentifier => $seen_gene_items{$tfacDBidentifier} );
+      } else {
+	$tfac_item->set( primaryIdentifier => $gene_item );
+	$seen_gene_items{$tfacDBidentifier} = $gene_item;
+      }
+    }
+
+    if (exists $seen_tfac_items{$tfacDBidentifier}) {
+      $promoter_item->set( transcriptionFactor => $seen_tfac_items{$tfacDBidentifier} );
+    } else {
+      $promoter_item->set( transcriptionFactor => $tfac_item );
+      $seen_tfac_items{$tfacDBidentifier} = $tfac_item;
+    }
+  }
+
+############################################
+
+### Sigma Factor Binding items ###
+
+  my $sigma_item;
+  if ($sigmaDBidentifier) {
+    unless (exists $seen_sigma_items{$sigmaDBidentifier}) {
+  ############################################
+  # Set gene info for sigma - first, check if we've seen it before
+      unless (exists $seen_gene_items{$sigmaDBidentifier}) {
+	$gene_item = &make_item(
+	  Gene => (
+	      primaryIdentifier => $sigmaDBidentifier,
+	  ),
+	);
+      }
+
+############################################
+# Set info for Sigma Factor - first, check if we've seen it before
+      $sigma_item = &make_item(
+	  SigmaBindingFactor => (),
+      );
+
+      if (exists $seen_gene_items{$sigmaDBidentifier}) {
+	$sigma_item->set( primaryIdentifier => $seen_gene_items{$sigmaDBidentifier} );
+      } else {
+	$sigma_item->set( primaryIdentifier => $gene_item );
+	$seen_gene_items{$sigmaDBidentifier} = $gene_item;
+      }
+    }
+
+    if (exists $seen_sigma_items{$sigmaDBidentifier}) {
+      $promoter_item->set( sigmaBindingFactors => [ $seen_sigma_items{$sigmaDBidentifier} ] );
+    } else {
+      $promoter_item->set( sigmaBindingFactors => [ $sigma_item ] );
+      $seen_sigma_items{$sigmaDBidentifier} = $sigma_item;
+    }
+  }
+
+############################################
+###  Add completed promoter item to collection for genes, tfac etc
+  push( @{ $seen_gene_items{$geneDBidentifier}->{'promoters'} }, $promoter_item ) if ($geneDBidentifier);
+  push( @{ $seen_tfac_items{$tfacDBidentifier}->{'promoters'} }, $promoter_item ) if ($tfacDBidentifier);
+  push( @{ $seen_sigma_items{$sigmaDBidentifier}->{'promoters'} }, $promoter_item ) if ($sigmaDBidentifier);
+
+############################################
+
+  if ($debug) {
+    say OUT_FILE "UID: $promoter_uid";
+    say OUT_FILE "Synonym: $id" if ($id);
+    say OUT_FILE "Gene: $gene_DBTBS $geneDBidentifier";
+    say OUT_FILE "Sigma: $sigma $sigmaDBidentifier" if ($sigma);
+    say OUT_FILE "Sequence: $prom_seq" if ($prom_seq);
+    say OUT_FILE "SeqLen: $seq_length" if ($prom_seq);
+    say OUT_FILE "Region: $chr, $start, $end, $strand" if ($region);
+    say OUT_FILE "Location: $location" if ($location);
+    say OUT_FILE "Tfac: $tfac $tfacDBidentifier" if ($tfac);
+    say OUT_FILE "Reg: $regulation" if ($regulation);
+
+    if (@evidence) {
+      say OUT_FILE "Evidence: ", join("; ", @evidence);
+    }
+  }
+
+
   $twig->purge();
 }
 
@@ -255,9 +418,9 @@ sub process_operon {
 # #   say OUT_FILE "TERMseq: ", $term_seq;
 # # 
 # #   my $term_query = ">$id\n$query_seq\n";
-# #   my $seq_len = &seq_length( $query_seq ) if ($query_seq);
+# #   my $seq_length = &seq_length( $query_seq ) if ($query_seq);
 # # 
-# #   my $region_ref = &run_BLAST( $term_query, $seq_len ) if ($query_seq);
+# #   my $region_ref = &run_BLAST( $term_query, $seq_length ) if ($query_seq);
 # #   my @term_regions = @{ $region_ref } if ($region_ref);
 # # 
 # #   say OUT_FILE "$id ", join("\.", @operon_genes), " $experiment";
@@ -276,6 +439,7 @@ sub process_refs {
   my @refs = @$arrRef;
 
   my @processed_refs;
+  my $processed_ref;
 
    foreach my $ref (@refs) {
     my $experiment = ( $ref->first_child( 'experiment' ) ) ? $ref->first_child( 'experiment' )->text : undef;
@@ -286,77 +450,69 @@ sub process_refs {
     my $genbank = ( $ref->first_child( 'genbank' ) ) ? $ref->first_child( 'genbank' )->text : undef;
     my $link = ( $ref->first_child( 'link' ) ) ? $ref->first_child( 'link' )->text : undef;
 
+    my $evidence_item = &make_item(
+      PromoterEvidence => (
+      ),
+    );
+
     my ($evidenceRefs, @evidence_codes);
     if ($experiment) {
       @evidence_codes = split(" ", $experiment);
       $evidenceRefs = &evidence_lookup(\@evidence_codes);
+
+      $evidence_item->set( evidenceCodes => $evidenceRefs );
     }
 
-    my @evidence_descriptions = @{ $evidenceRefs }; 
+# 	  publications => [ $publication_item ],
+#    my @evidence_descriptions = @{ $evidenceRefs }; 
 
     $author =~ s/\&amp\;/and/g;
     $author =~ s/, et al\.//g;
 
-#    say OUT_FILE "\t"; 
-#    say OUT_FILE $evidence if ($experiment);
-
-    if ($pmid) {
-      if (exists $seen_ref_items{$pmid}) {
-	say "Already seen $pmid. Reusing @{ $seen_refs{$pmid} }" if ($debug);
-#	say OUT_FILE "seen ref\t", @{ $seen_refs{$pmid} };
-	push(@processed_refs, $seen_ref_items{$pmid} );
-      } else {
-	my $publication_item = &make_item(
+    my $publication_item;
+    if ($pmid || $title) {
+      unless (exists $seen_ref_items{$pmid} || $seen_ref_items{$title}) {
+	$publication_item = &make_item(
 	  Publication => (
-	    pubMedId => $pmid,
-	    firstAuthor => $author,
-	    year => $year,
 	  ),
 	);
 
-	my $evidence_item = &make_item(
-	  PromoterEvidence => (
-	    publications => [ $publication_item ],
-	    evidenceCodes => $evidenceRefs,
-	  ),
-	);
-	$seen_ref_items{$pmid} = $evidence_item;
-	push(@processed_refs, $seen_ref_items{$pmid});
-	say OUT_FILE "new ref\t$author $year $pmid", join("; ", @evidence_descriptions) if ($debug);
+	if ($pmid) {
+	  $publication_item->set( pubMedId => $pmid );
+	} else {
+	  $publication_item->set( firstAuthor => $author );
+	  $publication_item->set( title => $title );
+	  $publication_item->set( year => $year );
+	}
+
+	$evidence_item->set( publications => [ $publication_item ], );
       }
-    } 
-    elsif ( $title ) {
-     if (exists $seen_ref_items{$title}) {
-	say "Already seen $title. Reusing @{ $seen_refs{$title} }" if ($debug);
-#	say OUT_FILE "seen ref\t", @{ $seen_refs{$title} };
-	push(@processed_refs, $seen_ref_items{$title});
+
+      if ($pmid) {
+	if (exists $seen_ref_items{$pmid}) {
+	  say "Already seen $pmid. Reusing..." if ($debug);
+	  $processed_ref = $seen_ref_items{$pmid};
+	} else {
+	  $processed_ref = $evidence_item;
+	  $seen_ref_items{$pmid} = $evidence_item;
+	}
+      } elsif ($title) {
+	if (exists $seen_ref_items{$title}) {
+	  say "Already seen $title. Reusing..." if ($debug);
+	  $processed_ref = $seen_ref_items{$title};
+	} else {
+	  $processed_ref = $evidence_item;
+	  $seen_ref_items{$title} = $evidence_item;
+	}
       } else {
-	my $publication_item = &make_item(
-	  Publication => (
-	    title => $title,
-	    firstAuthor => $author,
-	    year => $year,
-	  ),
-	);
-
-	my $evidence_item = &make_item(
-	  PromoterEvidence => (
-	    publications => [ $publication_item ],
-	    evidenceCodes => $evidenceRefs,
-	  ),
-	);
-	$seen_ref_items{$title} = $evidence_item;
-	push(@processed_refs, $seen_ref_items{$title});
+	say "Not pmid or title" if ($debug);
       }
-    } 
-    elsif ( $link ) {
-      say OUT_FILE "\t$author $link"; # only operon refs
-    } 
-    else {
-      say OUT_FILE "\t$genbank"; # only operon refs
+      push(@processed_refs, $processed_ref);
     }
+
   }
   return \@processed_refs;
+
 }
 
 
@@ -365,115 +521,138 @@ sub seq_length {
   my $length = length($in);
 }
 
-sub run_BLAST {
+# # sub run_BLAST {
+# # 
+# #   my ($query, $len) = @_;
+# # 
+# #   # Set working directory
+# #   my $work_dir = "/home/ml590/MIKE/InterMine/SynBioMine/DataSources/DATA/BLAST/Bsub168";
+# # 
+# #   ### TEST DATA ###
+# #   #my $query = ">test1\natgcagaccccgcacattcttatcgttgaagacgagttggtaacacg"; # test seq
+# #   #my $query = ">test2\natgctgcggggcattcaaaattgaagaaaaggtaacacg"; # test fail seq
+# #   # >nlpD\nTTCAGTAGGGTGCCTTGCACGGTAATTATGTCACTGG
+# #   # >gcvR\nTTGTATGCATGTTTTTTTTATGCTTTCCTTAAGAACA";
+# # 
+# #   # write query to a tmp file
+# #   open TMP_FILE, ">$work_dir/tmp_file.fa" or die $!; 
+# #   say TMP_FILE $query;
+# #   close TMP_FILE;
+# # 
+# #   # set BLAST params
+# #   #-task blastn-short
+# #   #say "BLASTing sequence: $part_sequence\n"; ###
+# #   my $blast_db = "$work_dir/Bsubtilis_168_refSeq";
+# #   my $blast_out;
+# # 
+# #   if ($len <= 30) {
+# #     warn "SHORT sequence ($len) - using blastn-short $query\n" if ($debug);
+# #     $blast_out = `blastn -query $work_dir/tmp_file.fa -db $blast_db -task blastn-short -evalue 1e-1 -dust no -ungapped -outfmt 6`;
+# #   }
+# #   else {
+# #     $blast_out = `blastn -query $work_dir/tmp_file.fa -db $blast_db -evalue 1e-1 -dust no -ungapped -outfmt 6`;
+# #   }
+# # 
+# #   say "Blast res: ", $blast_out if ($debug); ###
+# # 
+# #   my @blast_res;
+# #   if ($blast_out =~ m/\n/) {
+# #     @blast_res = split("\n", $blast_out);
+# #   } else {
+# #     push(@blast_res, $blast_out);
+# #   }
+# #   #say join("\n", @blast_res), "\n";
+# # 
+# #   # BLAST output 
+# #   # Field	 	Description
+# #   # 1	 	Query label.
+# #   # 2	 	Target (database sequence or cluster centroid) label.
+# #   # 3	 	Percent identity.
+# #   # 4	 	Alignment length.
+# #   # 5	 	Number of mismatches.
+# #   # 6	 	Number of gap opens.
+# #   # 7	 	1-based position of start in query. For translated searches (nucleotide queries, protein targets), query start<end for +ve frame and start>end for -ve frame.
+# #   # 8	 	1-based position of end in query.
+# #   # 9	 	1-based position of start in target. For untranslated nucleotide searches, target start<end for plus strand, start>end for minus strand.
+# #   # 10	 	1-based position of end in target.
+# #   # 11	 	E-value calculated using Karlin-Altschul statistics.
+# #   # 12	 	Bit score calculated using Karlin-Altschul statistics.
+# # 
+# #   my @regions;
+# #   for my $result (@blast_res) {
+# #     my ($q_name, $targ, $perc, $a_len, $mism, $gap, 
+# #       + $q_start, $q_end, $db_start, $db_end, $other) = split("\t", $result, 11);
+# # 
+# #   unlink "$work_dir/tmp_file.txt";
+# # 
+# #   # Test to see if we have results
+# #     unless ($perc) {
+# #       warn "No BLAST hits for QUERY: $query\n" if ($debug);
+# #       return;
+# #     }
+# # 
+# #   # grab host chromosome info ready for synbiomine query
+# #     my $chromosome;
+# #     if ($targ =~ /\|(NC_.+)\|/) {
+# #       $chromosome = $1;
+# #     } else {
+# #       warn "No Chromosome found for $targ\n" if ($debug);
+# #       return;
+# #     }
+# # 
+# #   # query region co-ordinates
+# #     my ($organism_start, $organism_end, $organism_strand);
+# # 
+# #   # check co-ord to get strand info
+# #     if ($db_start < $db_end) {
+# #       $organism_start = $db_start;
+# #       $organism_end = $db_end;
+# #       $organism_strand = "1";
+# #     } else {
+# #       $organism_start = $db_end;
+# #       $organism_end = $db_start;
+# #       $organism_strand = "-1";
+# #     }
+# # 
+# #     my $region = "$chromosome:$organism_start..$organism_end $organism_strand";
+# # 
+# #     if ($a_len != $len) {
+# #       warn "Partial match: $q_name match length ($a_len) less than query length ($len)\n" if ($debug);
+# #       return \@regions;
+# #     }
+# # 
+# #     if ($perc > 95) {
+# #       push(@regions, $region);
+# #       say "BlastRes used: ", $result if ($debug);
+# #     } else {
+# #       warn "$q_name: BLAST hit for $region below cutoff: ", $perc, " percent identity\n" if ($debug);
+# #       return \@regions;
+# #     }
+# #   }
+# #   return \@regions;
+# # }
 
-  my ($query, $len) = @_;
+sub resolver {
+  my ($symbol, $region) = @_;
+  my $gene_DBTBS = lcfirst($symbol);
 
-  # Set working directory
-  my $work_dir = "/home/ml590/MIKE/InterMine/SynBioMine/DataSources/DATA/BLAST/Bsub168";
+  my $geneLookupRef = &gene_lookup($gene_DBTBS, $region);
+  my @geneDBids = @{ $geneLookupRef } if ($geneLookupRef);
 
-  ### TEST DATA ###
-  #my $query = ">test1\natgcagaccccgcacattcttatcgttgaagacgagttggtaacacg"; # test seq
-  #my $query = ">test2\natgctgcggggcattcaaaattgaagaaaaggtaacacg"; # test fail seq
-  # >nlpD\nTTCAGTAGGGTGCCTTGCACGGTAATTATGTCACTGG
-  # >gcvR\nTTGTATGCATGTTTTTTTTATGCTTTCCTTAAGAACA";
-
-  # write query to a tmp file
-  open TMP_FILE, ">$work_dir/tmp_file.fa" or die $!; 
-  say TMP_FILE $query;
-  close TMP_FILE;
-
-  # set BLAST params
-  #-task blastn-short
-  #say "BLASTing sequence: $part_sequence\n"; ###
-  my $blast_db = "$work_dir/Bsubtilis_168_refSeq";
-  my $blast_out;
-
-  if ($len <= 30) {
-    warn "SHORT sequence ($len) - using blastn-short $query\n" if ($debug);
-    $blast_out = `blastn -query $work_dir/tmp_file.fa -db $blast_db -task blastn-short -evalue 1e-1 -dust no -ungapped -outfmt 6`;
-  }
-  else {
-    $blast_out = `blastn -query $work_dir/tmp_file.fa -db $blast_db -evalue 1e-1 -dust no -ungapped -outfmt 6`;
-  }
-
-  say "Blast res: ", $blast_out if ($debug); ###
-
-  my @blast_res;
-  if ($blast_out =~ m/\n/) {
-    @blast_res = split("\n", $blast_out);
+  my $geneDBidentifier;
+  if ($geneLookupRef) {
+    for my $identifier (@geneDBids) {
+      say "Success: $gene_DBTBS resolved to $identifier" if ($debug);
+      $geneDBidentifier = $identifier;
+      $seen_genes{$gene_DBTBS} = $identifier unless (exists $seen_genes{$gene_DBTBS});
+    }
   } else {
-    push(@blast_res, $blast_out);
+    warn "Fail: Nothing returned from gene lookup with: $gene_DBTBS\n" if ($debug);
+    return;
   }
-  #say join("\n", @blast_res), "\n";
+  
+  return $geneDBidentifier;
 
-  # BLAST output 
-  # Field	 	Description
-  # 1	 	Query label.
-  # 2	 	Target (database sequence or cluster centroid) label.
-  # 3	 	Percent identity.
-  # 4	 	Alignment length.
-  # 5	 	Number of mismatches.
-  # 6	 	Number of gap opens.
-  # 7	 	1-based position of start in query. For translated searches (nucleotide queries, protein targets), query start<end for +ve frame and start>end for -ve frame.
-  # 8	 	1-based position of end in query.
-  # 9	 	1-based position of start in target. For untranslated nucleotide searches, target start<end for plus strand, start>end for minus strand.
-  # 10	 	1-based position of end in target.
-  # 11	 	E-value calculated using Karlin-Altschul statistics.
-  # 12	 	Bit score calculated using Karlin-Altschul statistics.
-
-  my @regions;
-  for my $result (@blast_res) {
-    my ($q_name, $targ, $perc, $a_len, $mism, $gap, 
-      + $q_start, $q_end, $db_start, $db_end, $other) = split("\t", $result, 11);
-
-  unlink "$work_dir/tmp_file.txt";
-
-  # Test to see if we have results
-    unless ($perc) {
-      warn "No BLAST hits for QUERY: $query\n" if ($debug);
-      return;
-    }
-
-  # grab host chromosome info ready for synbiomine query
-    my $chromosome;
-    if ($targ =~ /\|(NC_.+)\|/) {
-      $chromosome = $1;
-    } else {
-      warn "No Chromosome found for $targ\n" if ($debug);
-      return;
-    }
-
-  # query region co-ordinates
-    my ($organism_start, $organism_end, $organism_strand);
-
-  # check co-ord to get strand info
-    if ($db_start < $db_end) {
-      $organism_start = $db_start;
-      $organism_end = $db_end;
-      $organism_strand = "1";
-    } else {
-      $organism_start = $db_end;
-      $organism_end = $db_start;
-      $organism_strand = "-1";
-    }
-
-    my $region = "$chromosome:$organism_start..$organism_end $organism_strand";
-
-    if ($a_len != $len) {
-      warn "Partial match: $q_name match length ($a_len) less than query length ($len)\n" if ($debug);
-      return \@regions;
-    }
-
-    if ($perc > 95) {
-      push(@regions, $region);
-      say "BlastRes used: ", $result if ($debug);
-    } else {
-      warn "$q_name: BLAST hit for $region below cutoff: ", $perc, " percent identity\n" if ($debug);
-      return \@regions;
-    }
-  }
-  return \@regions;
 }
 
 sub gene_lookup {
@@ -581,33 +760,13 @@ sub synbiomine_genes {
 
 }
 
-sub resolver {
-  my ($symbol, $region) = @_;
-  my $gene_DBTBS = lcfirst($symbol);
-
-  my $geneLookupRef = &gene_lookup($gene_DBTBS, $region);
-  my @geneDBids = @{ $geneLookupRef } if ($geneLookupRef);
-
-  my $geneDBidentifier;
-  if ($geneLookupRef) {
-    for my $identifier (@geneDBids) {
-      say "Success: $gene_DBTBS resolved to $identifier" if ($debug);
-      $geneDBidentifier = $identifier;
-      $seen_genes{$gene_DBTBS} = $identifier unless (exists $seen_genes{$gene_DBTBS});
-    }
-  } else {
-    warn "Fail: Nothing returned from gene lookup with: $gene_DBTBS\n" if ($debug);
-    return;
-  }
-  
-  return $geneDBidentifier;
-
-}
-
 sub evidence_lookup {
   
   my $evidenceRef = shift;
   my @evidence_codes = @{ $evidenceRef };
+
+## use a heredoc to hold formatted list
+# then use to poplulate a hash based on a simple RE
 
   my %evidence = <<END =~ /(\w+)\t(.+)/g;
 AR	DNA microarray and macroarray
@@ -630,11 +789,9 @@ NB	Northern Blot
 ND	No Data
 END
 
-
-
   my @evidenceCode_items;
   for my $code (@evidence_codes) {
-    say "Code: ", $code;
+    say OUT_FILE "Code: ", $code if ($debug);
     next unless (exists $evidence{$code});
 
     if (exists $evidenceCode_items{$code}) {

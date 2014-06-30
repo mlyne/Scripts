@@ -81,3 +81,4 @@ sub region_search {
   return ($org_short, \@genes);
 
 }
+1;

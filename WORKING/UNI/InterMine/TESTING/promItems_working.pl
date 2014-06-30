@@ -117,6 +117,65 @@ END
 
 }
 
+#    say OUT_FILE "\t"; 
+#    say OUT_FILE $evidence if ($experiment);
+
+#     if ($pmid) {
+#       if (exists $seen_ref_items{$pmid}) {
+# 	say "Already seen $pmid. Reusing @{ $seen_refs{$pmid} }" if ($debug);
+# #	say OUT_FILE "seen ref\t", @{ $seen_refs{$pmid} };
+# 	push(@processed_refs, $seen_ref_items{$pmid} );
+#       } else {
+# 	my $publication_item = &make_item(
+# 	  Publication => (
+# 	    pubMedId => $pmid,
+# 	    firstAuthor => $author,
+# 	    year => $year,
+# 	  ),
+# 	);
+# 
+# 	my $evidence_item = &make_item(
+# 	  PromoterEvidence => (
+# 	    publications => [ $publication_item ],
+# 	    evidenceCodes => $evidenceRefs,
+# 	  ),
+# 	);
+# 	$seen_ref_items{$pmid} = $evidence_item;
+# 	push(@processed_refs, $seen_ref_items{$pmid});
+# 	say OUT_FILE "new ref\t$author $year $pmid", join("; ", @evidence_descriptions) if ($debug);
+#       }
+#     } 
+#     elsif ( $title ) {
+#      if (exists $seen_ref_items{$title}) {
+# 	say "Already seen $title. Reusing @{ $seen_refs{$title} }" if ($debug);
+# #	say OUT_FILE "seen ref\t", @{ $seen_refs{$title} };
+# 	push(@processed_refs, $seen_ref_items{$title});
+#       } else {
+# 	my $publication_item = &make_item(
+# 	  Publication => (
+# 	    title => $title,
+# 	    firstAuthor => $author,
+# 	    year => $year,
+# 	  ),
+# 	);
+# 
+# 	my $evidence_item = &make_item(
+# 	  PromoterEvidence => (
+# 	    publications => [ $publication_item ],
+# 	    evidenceCodes => $evidenceRefs,
+# 	  ),
+# 	);
+# 	$seen_ref_items{$title} = $evidence_item;
+# 	push(@processed_refs, $seen_ref_items{$title});
+#       }
+#     } 
+#     elsif ( $link ) {
+#       say OUT_FILE "\t$author $link"; # only operon refs
+#     } 
+#     else {
+#       say OUT_FILE "\t$genbank"; # only operon refs
+#     }
+
 ######## helper subroutines:
 
 sub make_item {
