@@ -23,7 +23,7 @@ no warnings ('uninitialized');
 # my $region_ref = &run_BLAST($query, $len);
 
 # Set working directory
-# my $work_dir = "/home/ml590/MIKE/InterMine/SynBioMine/DataSources/DATA/BLAST/Bsub168";
+# my $work_dir = "/home/ml590/MIKE/InterMine/SynBioMine/DataSources/BLAST/Bsub168";
 
 sub run_BLAST {
 
@@ -114,7 +114,7 @@ sub run_BLAST {
     }
 
     my $region = "$chromosome:$organism_start..$organism_end $organism_strand";
-    say "$region" if ($debug);
+    say "Found region: $region" if ($debug);
 
     if ($a_len != $len) {
       warn "Partial match: $q_name match length ($a_len) less than query length ($len)\n" if ($debug);

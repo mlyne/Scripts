@@ -34,7 +34,7 @@ unless ( $ARGV[1] ) { die $usage };
 my ($expr_file, $model_file) = @ARGV;
 
 # synonyms file downloaded from bacilluscope: ids, symbols and synonyms extracted
-my $synonyms_file = "/home/ml590/MIKE/InterMine/SynBioMine/DataSources/DATA/bsub_id_symbol_synonyms_May2014.txt";
+my $synonyms_file = "/home/ml590/MIKE/InterMine/SynBioMine/DataSources/bsub_id_symbol_synonyms_May2014.txt";
 
 open(SYN_FILE, "< $synonyms_file") || die "cannot open $synonyms_file: $!\n";
 
@@ -98,7 +98,7 @@ my $accession = "GSE27219";
 my $seq_length = 101;
 
 my $chromosome = "NC_000964.3";
-my $work_dir = "/home/ml590/MIKE/InterMine/SynBioMine/DataSources/DATA/BLAST/Bsub168";
+my $work_dir = "/home/ml590/MIKE/InterMine/SynBioMine/DataSources/BLAST/Bsub168";
 
 my $model = new InterMine::Model(file => $model_file);
 my $doc = new InterMine::Item::Document(model => $model);
@@ -261,7 +261,7 @@ for my $entry (@matrix)
 	next unless ($sigmaBF_DBidentifier);
 
 	my $sigBF_gene_item = &gene_item($sigmaBF_DBidentifier) if ($sigmaBF_DBidentifier);
-	say "SigBF: $sigmaBF_DBidentifier has $sigBF_gene_item" if  ($debug);
+	say "SigBF: $sigmaBF_DBidentifier has $sigBF_gene_item" if ($debug);
 
 	if (exists $seen_sigma_BF_items{$sigmaBF_DBidentifier}) {
 	  $sig_BF_item = $seen_sigma_BF_items{$sigmaBF_DBidentifier};
