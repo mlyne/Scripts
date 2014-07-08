@@ -19,7 +19,10 @@ binmode(STDOUT, 'utf8');
 # Silence warnings when printing null fields
 no warnings ('uninitialized');
 
-my $usage = "Usage:dbtbs2itemsXML.pl DBTBS_XML.xml InterMine_model OUT_FILE
+my $usage = "Usage:dbtbs2itemsXML.pl DBTBS_XML.xml InterMine_model OUT_FILE 
+
+direct output to file e.g:\t> dbtbd_items.xml_file
+optionally, capture errors & warning:\t2> err
 
 ";
 
@@ -44,7 +47,7 @@ my %seen_ref_items; # track processed reference items
 my %seen_tfac_items; # track processed tfac items
 my %seen_sigma_items; # track processed tfac items
 my %evidenceCode_items;
-my %seen_publications_items;
+my %seen_publication_items;
 
 # synonyms file downloaded from bacilluscope: ids, symbols and synonyms extracted
 my $synonyms_file = "/home/ml590/MIKE/InterMine/SynBioMine/DataSources/bsub_id_symbol_synonyms_May2014.txt";
@@ -55,7 +58,7 @@ open(SYN_FILE, "< $synonyms_file") || die "cannot open $synonyms_file: $!\n";
 # process id, symbol, synonyms file
 my %id2synonym; # hash lookup for symbols/ synonyms
 
-
+# process the synonyms file and create look-up hash
 while (<SYN_FILE>) {
   chomp;
   my ($identifier, $symbol, $syn_line) = split("\t", $_);
@@ -86,28 +89,34 @@ while (<SYN_FILE>) {
 }
 close SYN_FILE;
 
+### show contents of look-up hash for debugging
 if ($debug) {
   foreach my $key (keys %id2synonym) {
     say $key, " : ", join("; ", @{ $id2synonym{$key} });
   }
 }
 
+# set up our oufile to check everything's working
 open OUT_FILE, ">$out_file" or die $!; 
 
+# set a few global values that we'll need
 my $taxon_id = "224308";
 my $title = "DBTBS - Regulatory features for Bacillus subtilis 168";
 my $url = "http://dbtbs.hgc.jp";
 my $chromosome = "NC_000964.3";
 
+# instantiate the model
 my $model = new InterMine::Model(file => $model_file);
 my $doc = new InterMine::Item::Document(model => $model);
 
+# make organism items
 my $org_item = make_item(
     Organism => (
         taxonId => $taxon_id,
     )
 );
 
+# make DataSource items
 my $data_source_item = make_item(
     DataSource => (
         name => $title,
@@ -115,20 +124,30 @@ my $data_source_item = make_item(
     ),
 );
 
-my $data_set_item = make_item(
+# make Promoter DataSet items
+my $promoter_data_set_item = make_item(
     DataSet => (
         name => "DBTBS Promoters for taxon id: $taxon_id",
 	dataSource => $data_source_item,
     ),
 );
 
+# make Operon DataSet items
+my $operon_data_set_item = make_item(
+    DataSet => (
+        name => "DBTBS Operons for taxon id: $taxon_id",
+	dataSource => $data_source_item,
+    ),
+);
+
+# make Chromosome items
 my $chromosome_item = make_item(
     Chromosome => (
         primaryIdentifier => $chromosome,
     ),
 );
 
-
+# Use Twig parser to process XML - via Twig handlers
 my $twig = XML::Twig->new(
     twig_handlers => {
         'dbtbs/promoter' => \&process_promoters,
@@ -146,6 +165,9 @@ exit(0);
 # 
 close OUT_FILE;
 
+### Sub routines for each of the Twig handlers
+
+### process the promoter entries
 sub process_promoters {
   my ($twig, $entry) = @_;
 
@@ -199,7 +221,7 @@ sub process_promoters {
 	  start => "$start",
 	  end => "$end",
 	  strand => "$strand",
-	  dataSets => [$data_set_item],
+	  dataSets => [$promoter_data_set_item],
 	),
     );
 
@@ -225,7 +247,7 @@ sub process_promoters {
   $sigmaDBidentifier = &resolver($sigma, undef) if $sigma;
 
 # generate a unique identifier for each promoter
-  my $promoter_id = $gene_DBTBS . "_" . $geneDBidentifier . "_" . $taxon_id;
+  my $promoter_id = $gene_DBTBS . "_" . $geneDBidentifier . "_dbtbs_" . $taxon_id;
   $seen_promoters{$promoter_id}++;
   
   my $promoter_uid = $promoter_id . "_" . $seen_promoters{$promoter_id};
@@ -240,7 +262,7 @@ sub process_promoters {
       Promoter => (
 	  primaryIdentifier => $promoter_uid,
 	  chromosome => $chromosome_item,
-	  dataSets => [$data_set_item],
+	  dataSets => [$promoter_data_set_item],
       ),
   );
 
@@ -350,6 +372,8 @@ sub process_promoters {
   $twig->purge();
 }
 
+### process the transcription factor entries
+## don't need so all code commented
 sub process_tfac {
   my ($twig, $entry) = @_;
 
@@ -368,6 +392,7 @@ sub process_tfac {
   $twig->purge();
 }
 
+### process the operon entries
 sub process_operon {
   my ($twig, $entry) = @_;
 
@@ -382,8 +407,7 @@ sub process_operon {
       Operon => (
 	primaryIdentifier => $operon_uid,
 	synonym => $id,
-	chromosome => $chromosome_item,
-	dataSets => [$data_set_item],
+	dataSets => [$operon_data_set_item],
       ),
   );
 
@@ -393,6 +417,7 @@ sub process_operon {
   my @operon_gene_items;
   foreach my $operon_gene (@operon_genes) {
     my $operon_geneDBid = &resolver($operon_gene, undef);
+    next unless ($operon_geneDBid);
   ############################################
 # Set info for gene - first, check if we've seen it before
     my $operon_gene_item = &gene_item($operon_geneDBid);
@@ -436,7 +461,7 @@ sub process_operon {
   }
 
   if (@evidence) {
-    say OUT_FILE "	OperonEvidence: ", join("; ", @evidence);
+    say OUT_FILE "	OperonEvidence: ", join("; ", @evidence) if ($debug);
   }
 
   my $comment = ( $entry->first_child( 'comment' ) ) ? $entry->first_child( 'comment' )->text : undef;
@@ -461,7 +486,8 @@ sub process_operon {
 	      primaryIdentifier => $terminator_uid,
 	      energy => $energy,
 	      stemloop => $term_seq,
-	      dataSets => [$data_set_item],
+	      chromosome => $chromosome_item,
+	      dataSets => [$operon_data_set_item],
 	    ),
       );
 
@@ -497,7 +523,7 @@ sub process_operon {
 	      start => $start,
 	      end => $end,
 	      strand => $strand,
-	      dataSets => [$data_set_item],
+	      dataSets => [$operon_data_set_item],
 	    ),
 	);
 
@@ -537,12 +563,20 @@ sub process_operon {
   $twig->purge();
 }
 
+### Whole bunch of other subroutines to save redundant code
+
+# Takes literature references and turns them into 'Evidence' items
 sub process_refs {
   my ($type, $arrRef, $experRef) = @_;
 
   my @refs = @{ $arrRef };
 
   my ($processed_ref, @processed_refs);
+
+  #### PLAYED AROUND WITH THIS SECTION - inconsistencies in the dbtbs file
+  # cause problems as promoters and operons handle references differently
+  # Promoters: multiple evidence codes per publication
+  # Operons: experiment is independent but multiple publications per evidence code
 
    foreach my $ref (@refs) {
     my $experiment = ( $ref->first_child( 'experiment' ) ) ? $ref->first_child( 'experiment' )->text : undef;
@@ -553,36 +587,48 @@ sub process_refs {
     my $genbank = ( $ref->first_child( 'genbank' ) ) ? $ref->first_child( 'genbank' )->text : undef;
     my $link = ( $ref->first_child( 'link' ) ) ? $ref->first_child( 'link' )->text : undef;
 
-    next unless ($pmid || $title);
+    next unless ($pmid || $title); # just track the publications we can model
 
-    # type is supplied to the subroutine and can be
-    # PromoterEvidence or OperonEvidence
+    # Evidence 'type' is supplied to the subroutine and can be
+    # either 'PromoterEvidence' or 'OperonEvidence'
     my $evidence_item = &make_item(
       $type => (
       ),
     );
 
-    # for some strange reason, dbtbs models reference evidence differently for 
-    # promoters vs. operons, so we need different rules
+    # For some reason, dbtbs models reference evidence differently for 
+    # promoters vs. operons, so we need to define different rules
     my ($evidenceRefs, @evidence_codes, $evidenceCode_item);
 
+    # First, we'll process evidence from promoters
     if ($experiment) {
-      # process evidence from promoters
+      
       @evidence_codes = split(" ", $experiment); # split to get 2 letter codes
       $evidenceRefs = &evidence_lookup(\@evidence_codes); # looks up the codes to get descriptions
       # creates a collection of evidenceCode items
-      $evidence_item->set( evidenceCodes => $evidenceRefs );
+      $evidence_item->set( evidenceCodes => $evidenceRefs ) if ( $evidenceRefs );
 
     } elsif ($experRef) {
-      # if we have a ref to an operon 'experiment' array
+      # Now, we'll process experimental evidence from operons
+      # check if we have a ref to an operon 'experiments' array
+
       my @operon_evidenceCode_items; # array to hold evidenceCode items
 
       # deref array ref and loop over our evidence strings
       for my $evidence ( @{ $experRef } )  {
 
 	say "Processing Exper: $evidence" if ($debug);
+	$evidence =~ s/Northern blot.+/Northern blotting/;
+	$evidence =~ s/\)//;
+	$evidence =~ s/\(//;
+	next if ($evidence =~ / opposite /); # info about strands isn't really evidence.
+	# Better described as a comment? Any, don't need it.
 
 	# check hash to see whether we've already made an evidenceCode item for this exper
+	# Difficult to follow so add a bunch of debug output code
+
+	# If we can, we want to re-use any evidence code items. 
+	# This said, might be a bit pointless as dbtbs file seems not to handle them consistently!
 	if (exists $evidenceCode_items{$evidence}) {
 	  say "Seen Exper before: $evidence" if ($debug);
 	  my $evidenceCode_item = $evidenceCode_items{$evidence}; # if yes, use the stored evidenceCode item
@@ -601,55 +647,47 @@ sub process_refs {
 	}
       }
       say "Adding evidenceCode items array as collection to evidence item" if ($debug);
-      $evidence_item->set( evidenceCodes => \@operon_evidenceCode_items );
+      $evidence_item->set( evidenceCodes => \@operon_evidenceCode_items ) if (@operon_evidenceCode_items);
     }
 
-    $author =~ s/\&amp\;/and/g;
-    $author =~ s/, et al\.//g;
+    $author =~ s/\&amp\;/and/g; # Some author fields look to have funny encodings
+    $author =~ s/, et al\.//g; # get rid of the et al.
 
-    my ($publication_item, @publications_items);
-    unless (exists $seen_ref_items{$pmid} || $seen_ref_items{$title}) {
-      $publication_item = &make_item(
-	Publication => (
-	),
-      );
-
-      if ($pmid) {
-	$publication_item->set( pubMedId => $pmid );
-	$seen_publications_items{$pmid} = $publication_item;
-      } else {
-	$publication_item->set( firstAuthor => $author );
-	$publication_item->set( title => $title );
-	$publication_item->set( year => $year );
-	$seen_publications_items{$title} = $publication_item;
-      }
-      push(@publications_items, $publication_item);
-      
-    }
   
-  #### PLAYED AROUND WITH THIS SECTION - problems as promoters and operons handle references differently
-  ### Promoters: multiple evidence codes per publication
-  ### Operons: independent but multiple publications per evidence code
-    $evidence_item->set( publications => \@publications_items, );
-
+    # Now process the publications ato get publications items
+    my ($publication_item, @publications_items);
     if ($pmid) {
-      if (exists $seen_ref_items{$pmid}) {
-	say "Already seen pmid: $pmid. Reusing..." if ($debug);
-	$processed_ref = $seen_ref_items{$pmid};
+      if (exists $seen_publication_items{$pmid} ) {
+	$publication_item = $seen_publication_items{$pmid};
+	push(@publications_items, $publication_item);
       } else {
-	$processed_ref = $evidence_item;
-	$seen_ref_items{$pmid} = $evidence_item;
+	$publication_item = &make_item(
+	  Publication => (
+	    pubMedId => $pmid,
+	  ),
+	);
+	push(@publications_items, $publication_item);
+	$seen_publication_items{$pmid} = $publication_item;
       }
     } elsif ($title) {
-      if (exists $seen_ref_items{$title}) {
-	say "Already seen title: $title. Reusing..." if ($debug);
-	$processed_ref = $seen_ref_items{$title};
+      if (exists $seen_publication_items{$title} ) {
+	$publication_item = $seen_publication_items{$title};
+	push(@publications_items, $publication_item);
       } else {
-	$processed_ref = $evidence_item;
-	$seen_ref_items{$title} = $evidence_item;
+	$publication_item = &make_item(
+	  Publication => (
+	    firstAuthor => $author,
+	    title => $title,
+	    year => $year,
+	  ),
+	);
+	push(@publications_items, $publication_item);
+	$seen_publication_items{$title} = $publication_item;
       }
-    } 
-    push(@processed_refs, $processed_ref);
+    }
+
+    $evidence_item->set( publications => \@publications_items, );
+    push(@processed_refs, $evidence_item);
 
   }
 
@@ -665,6 +703,10 @@ sub seq_length {
   my $length = length($in);
 }
 
+### Set of nested subroutines to produce to unique identifiers
+# &resolver, &gene_lookup, &synbiomine_genes
+# &resolver - track & serve resolved identifiers
+# Calls &gene_lookup
 sub resolver {
   my ($symbol, $region) = @_;
   my $gene_DBTBS = lcfirst($symbol);
@@ -688,6 +730,9 @@ sub resolver {
 
 }
 
+# &gene_lookup - checks whether the symbol resolves to just one unique identifier
+# if not, and if we have a sequence, BLAST seq, and use co-ordinates to find
+ # genes using SunBioMine's web services
 sub gene_lookup {
 
   my ($gene_DBTBS, $region) = @_;
@@ -794,6 +839,7 @@ sub synbiomine_genes {
 }
 
 ######## helper subroutines:
+### make gene items ###
 
 sub gene_item {
   my $id = shift;
