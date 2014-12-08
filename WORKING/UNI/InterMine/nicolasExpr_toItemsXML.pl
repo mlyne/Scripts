@@ -92,7 +92,7 @@ my ($id_h, $strand_h, $posV3_h, $posV3min_h, $posV3max_h,
   + $listShort_h, $listLong_h)  = split("\t", $headers);
 
 my $taxon_id = "224308";
-my $title = "Promoters - The condition-dependent transcriptome of Bacillus subtilis 168";
+my $title = "Regulatory Features - The condition-dependent transcriptome of Bacillus subtilis 168";
 my $pmid = "22383849";
 my $accession = "GSE27219";
 my $seq_length = 101;
@@ -121,15 +121,43 @@ my $publication_item = make_item(
     ),
 );
 
-my $evidence_item = &make_item(
+my $promoter_evidenceCode_item = &make_item(
+    PromoterEvidenceCode => (
+	name => "Promoters generated from around the start of detected transcriptional up-shifts - 101 bp spanning -60 bp to +40 bp",
+    ),
+);
+
+my $promoter_evidence_item = &make_item(
     PromoterEvidence => (
+	evidenceCodes => [ $promoter_evidenceCode_item ],
 	publications => [ $publication_item ],
     ),
 );
 
-my $data_set_item = make_item(
+my $operon_evidenceCode_item = &make_item(
+    OperonEvidenceCode => (
+	name => "Based on Transcriptional Units (TUs) predicted from RNA hybridisation to 22bp resolution tiled microarrays",
+    ),
+);
+
+my $operon_evidence_item = &make_item(
+    OperonEvidence => (
+	evidenceCodes => [ $operon_evidenceCode_item ],
+	publications => [ $publication_item ],
+    ),
+);
+
+my $promoter_data_set_item = make_item(
     DataSet => (
         name => "Promoters ($accession) for taxon id: $taxon_id",
+	publication => $publication_item,
+	dataSource => $data_source_item,
+    ),
+);
+
+my $operon_data_set_item = make_item(
+    DataSet => (
+        name => "Operons ($accession) for taxon id: $taxon_id",
 	publication => $publication_item,
 	dataSource => $data_source_item,
     ),
@@ -145,9 +173,10 @@ my %seen_genes; # store genes that have been resolved to unique identifiers
 my %seen_gene_items; # track processed gene items
 my %seen_pred_sigma_items; # track processed predicted sigma items
 my %seen_sigma_BF_items; # track processed sigma binding factor items
+my %seen_operon_ids;
+my %seen_operon_items;
 
-for my $entry (@matrix)
-{
+for my $entry (@matrix) {
 #  chomp $entry;
   my ($id, $strand, $posV3, $posV3min, $posV3max, $multdbtbs, 
   + $comp, $sig, $pcomp, $psig, $xcortree, $SigmaFactorBS, $chipUnb, 
@@ -174,10 +203,10 @@ for my $entry (@matrix)
     $region = $prom_regions[0];
   }
 
-# turn the region string back into its sub-parts - seems a bit clunky but hey...
+# turn the region string back into its sub-parts - 
+# seems a bit clunky but makes it easier to send around...
   $region =~ m/(.+)\:(.+)\.\.(.+) (.+)/; 
   my ($chr, $start_found, $end_found, $strand_found) = ($1, $2, $3, $4) if ($region);
-
 
   if ($start_found) {
 
@@ -197,34 +226,41 @@ for my $entry (@matrix)
       } 
     }
 
-    my @genes = split(", ", $listShort);
+    my @operon = split(", ", $listShort);
+    my @operon_symbols = grep (!/^S\d/ && !/^NA/, @operon);
+    my $first_gene_id = $operon_symbols[0] if (@operon_symbols);
 
-    my ($gene_id, $promoter_id);
-    for my $gene (@genes) {
-      next if ($gene =~ /^S\d+/);
-      next if ($gene =~ /^NA/);
-      $gene_id = $gene;
-      last;
-    }
+    say "Operon symbols - pre: ", join("-", @operon_symbols) if ($debug);
+
+# #     my ($first_gene_id, $promoter_id);
+# #     for my $gene (@genes) {
+# #       next if ($gene =~ /^S\d+/);
+# #       next if ($gene =~ /^NA/);
+# #       $first_gene_id = $gene;
+# #       last;
+# #     }
   
-    next unless $gene_id;
-    say "Working on symbol: $gene_id" if ($debug);
+    next unless $first_gene_id;
+    say "Working on symbol: $first_gene_id" if ($debug);
 
-    my $geneDBidentifier = &resolver($gene_id, $region);
+    my $geneDBidentifier = &resolver($first_gene_id, $region);
     next unless ($geneDBidentifier); # skip if we can't get a unique ID
-    $promoter_id = $id . "_" . $gene_id . "_" . $geneDBidentifier . "_" . $taxon_id;
+    my $promoter_id = $id . "_" . $first_gene_id . "_" . $geneDBidentifier . "_" . $taxon_id;
+
+    say "Operon symbols - post: ", join("-", @operon_symbols) if ($debug);
 
   ############################################
   # Set info for gene - first, check if we've seen it before
-    my $gene_item = &gene_item($geneDBidentifier);
+    my $gene_item = &make_gene_item($geneDBidentifier);
 
+# resolve symbols and process predicted sigma factors
     my ($sigmaDBidentifier, $pred_sig_item, @pred_sig_items);
     for my $factor (@pred_sig_factors) {
       my $factor_id = lcfirst($factor);
       $sigmaDBidentifier = &resolver($factor_id, undef);
       next unless ($sigmaDBidentifier);
       
-      my $pred_sig_gene_item = &gene_item($sigmaDBidentifier) if ($sigmaDBidentifier);
+      my $pred_sig_gene_item = &make_gene_item($sigmaDBidentifier) if ($sigmaDBidentifier);
       say "PredSig: $sigmaDBidentifier has $pred_sig_gene_item with $psig" if  ($debug);
 
       if (exists $seen_pred_sigma_items{$sigmaDBidentifier}) {
@@ -260,7 +296,7 @@ for my $entry (@matrix)
 	$sigmaBF_DBidentifier = &resolver($b_factor_id, undef);
 	next unless ($sigmaBF_DBidentifier);
 
-	my $sigBF_gene_item = &gene_item($sigmaBF_DBidentifier) if ($sigmaBF_DBidentifier);
+	my $sigBF_gene_item = &make_gene_item($sigmaBF_DBidentifier) if ($sigmaBF_DBidentifier);
 	say "SigBF: $sigmaBF_DBidentifier has $sigBF_gene_item" if ($debug);
 
 	if (exists $seen_sigma_BF_items{$sigmaBF_DBidentifier}) {
@@ -294,7 +330,7 @@ for my $entry (@matrix)
 	    start => $start_found,
 	    end => $end_found,
 	    strand => $strand_found,
-	    dataSets => [$data_set_item],
+	    dataSets => [$promoter_data_set_item],
 	),
     );
 
@@ -308,8 +344,8 @@ for my $entry (@matrix)
 	  chromosome => $chromosome_item,
 	  chromosomeLocation => $location_item,
 	  sequence => $seq_item,
-	  evidence => [$evidence_item],
-	  dataSets => [$data_set_item],
+	  evidence => [$promoter_evidence_item],
+	  dataSets => [$promoter_data_set_item],
        ),
    );
 
@@ -322,9 +358,13 @@ for my $entry (@matrix)
 	  chromosome: $chromosome_item,
 	  chromosomeLocation: $location_item,
 	  sequence: $seq_item,
-	  evidence:$evidence_item,
-	  dataSets: [$data_set_item]"
+	  evidence:$promoter_evidence_item,
+	  dataSets: [$promoter_data_set_item]"
   }
+
+  my $operon_item = &make_operon_items(\@operon_symbols);
+  say "Operon item for ", join("-", @operon_symbols), " is $operon_item" if ($debug);
+
 
 # #    for (@sig_BF_items) {
 # #     $_->{promoter} = $promoter_item;
@@ -335,13 +375,14 @@ for my $entry (@matrix)
 
   $promoter_item->set( predictedSigmaFactors => \@pred_sig_items ) if @pred_sig_items;
   $promoter_item->set( sigmaBindingFactors => \@sig_BF_items ) if @sig_BF_items;
+  $promoter_item->set( operon => $operon_item );
 
 ############################################
 ###  Add completed promoter item to collection for genes, tfac etc
   push( @{ $seen_gene_items{$geneDBidentifier}->{'promoters'} }, $promoter_item ) if ($geneDBidentifier);
   push( @{ $seen_pred_sigma_items{$sigmaDBidentifier}->{'promoters'} }, $promoter_item ) if ($sigmaDBidentifier);
   push( @{ $seen_sigma_BF_items{$sigmaBF_DBidentifier}->{'promoters'} }, $promoter_item ) if ($sigmaBF_DBidentifier);
-
+  push( @{ $operon_item->{'promoters'} }, $promoter_item );
 ############################################
 
  }
@@ -482,7 +523,7 @@ sub synbiomine_genes {
 
 ######## helper subroutines:
 
-sub gene_item {
+sub make_gene_item {
   my $id = shift;
 
   my $gene_item;
@@ -498,6 +539,43 @@ sub gene_item {
     $seen_gene_items{$id} = $gene_item;
   }
   return $gene_item;
+}
+
+sub make_operon_items {
+  
+  my $operonRef = shift;
+
+  my $operon_code = join("-", @{ $operonRef } );
+  my $operon_uid = $operon_code  . "_Nicolas2012_" . $taxon_id;
+  say "OperonUID: ", $operon_uid if ($debug);
+#  $seen_operon_ids{$operon_uid}++;
+
+  my ($operon_item, @operon_gene_items);
+  if ( exists $seen_operon_items{$operon_uid} ) {
+    $operon_item = $seen_operon_items{$operon_uid};
+  } else {
+      # Set info for Operon
+    $operon_item = &make_item(
+      Operon => (
+	primaryIdentifier => $operon_uid,
+	evidence => [ $operon_evidence_item ],
+	dataSets => [$operon_data_set_item],
+      ),
+    );
+
+    for my $gene_id ( @{ $operonRef } ) {
+      my $geneDBidentifier = &resolver($gene_id, undef);
+      next unless ($geneDBidentifier);
+      say "OperonGene: $gene_id is $geneDBidentifier" if ($debug);
+      my $gene_item = &make_gene_item($geneDBidentifier);
+      push (@{ $operon_item->{'genes'} }, $gene_item);
+#      push( @operon_gene_items, $gene_item );
+    }
+#    $operon_item->set( genes => \@operon_gene_items );
+    $seen_operon_items{$operon_uid} = $operon_item;
+  }
+#  return ($operon_uid, $operon_item);
+  return $operon_item;
 }
 
 sub make_item {

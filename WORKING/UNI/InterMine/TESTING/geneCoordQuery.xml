@@ -1,3 +1,0 @@
-<query model="genomic" view="Gene.primaryIdentifier Gene.chromosome.primaryIdentifier Gene.chromosomeLocation.start Gene.chromosomeLocation.end Gene.chromosomeLocation.strand Gene.organism.shortName" sortOrder="Gene.primaryIdentifier ASC" >
-  <constraint path="Gene" op="LOOKUP" value="BSU30400" extraValue="B. subtilis subsp. subtilis str. 168" code="A" />
-</query>

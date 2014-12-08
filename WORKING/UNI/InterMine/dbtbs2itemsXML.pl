@@ -39,6 +39,7 @@ unless ( $ARGV[2] ) { die $usage };
 my ($xml_file, $model_file, $out_file) = @ARGV;
 
 ### Keep a track of processed identifiers and items
+my %seen_tfac;
 my %seen_genes; # store genes that have been resolved to unique identifiers
 my %seen_refs; # store of refs that have already been processed
 my %seen_promoters; # store promoter ids so that we can create unique identifiers
@@ -148,10 +149,18 @@ my $chromosome_item = make_item(
 );
 
 # Use Twig parser to process XML - via Twig handlers
+my $twig_tf = XML::Twig->new(
+    twig_handlers => {
+        'dbtbs/tfac' => \&process_tfac,
+    },
+);
+
+$twig_tf->parsefile( "$xml_file" );
+
+# Use Twig parser to process XML - via Twig handlers
 my $twig = XML::Twig->new(
     twig_handlers => {
         'dbtbs/promoter' => \&process_promoters,
-        'dbtbs/tfacs' => \&process_tfac,
         'dbtbs/operon' => \&process_operon,
     },
 );
@@ -182,6 +191,14 @@ sub process_promoters {
   my $location = ( $entry->first_child( 'location' ) ) ? $entry->first_child( 'location' )->text : undef;
 
   my @refs = $entry->children( 'reference' );
+
+  say OUT_FILE "Looking for TFAC: $tfac ..." if ( ($debug) && ($tfac) );
+
+  my $tfac_family;
+  if ( ($tfac) && (exists $seen_tfac{$tfac}) ) {
+    $tfac_family = $seen_tfac{$tfac};
+    say OUT_FILE "FOUND TFAC: $tfac with $tfac_family" if $debug;
+  }
 
   $id =~ s/,/_/g;
   my $synonym = $id if ($id);
@@ -291,7 +308,7 @@ sub process_promoters {
   ############################################
   # Set gene info for sigma - first, check if we've seen it before
 
-    my $tfac_gene_item = &gene_item($tfacDBidentifier);
+      my $tfac_gene_item = &gene_item($tfacDBidentifier);
       unless (exists $seen_gene_items{$tfacDBidentifier}) {
 	$seen_gene_items{$tfacDBidentifier} = $tfac_gene_item;
       }
@@ -304,6 +321,11 @@ sub process_promoters {
 	    regulation => $regulation,
 	),
       );
+
+      if ($tfac_family) {
+	$tfac_item->set( tfFamily => $tfac_family );
+      }
+
     }
 
     if (exists $seen_tfac_items{$tfacDBidentifier}) {
@@ -379,8 +401,14 @@ sub process_tfac {
 
 # #  say OUT_FILE "TF: \t";
 
-# #   my $gene_tfac = ( $entry->first_child( 'gene' ) ) ? $entry->first_child( 'gene' )->text : undef;
-# #   my $tf_type = ( $entry->first_child( 'tf_type' ) ) ? $entry->first_child( 'tf_type' )->text : undef;
+  my $gene_tfac = ( $entry->first_child( 'gene' ) ) ? $entry->first_child( 'gene' )->text : undef;
+  my $tf_type = ( $entry->first_child( 'tf_type' ) ) ? $entry->first_child( 'tf_type' )->text : undef;
+
+  say OUT_FILE "TFAC: processing $gene_tfac" if ($debug);
+#  next unless $tf_type;
+  say OUT_FILE "TFAC type: $tf_type" if ( ($debug) && ($tf_type) );
+
+  $seen_tfac{$gene_tfac} = $tf_type if ($tf_type);
 # #   my $domain = ( $entry->first_child( 'domain' ) ) ? $entry->first_child( 'domain' )->text : undef;
 # #   my $tf_seq = ( $entry->first_child( 'sequence' ) ) ? $entry->first_child( 'sequence' )->text : undef;
 # #   my $comment = ( $entry->first_child( 'comment' ) ) ? $entry->first_child( 'comment' )->text : undef;
