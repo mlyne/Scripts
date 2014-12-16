@@ -37,7 +37,6 @@ unless ( $ARGV[0] ) { die $usage };
 my ($model_file, $out_dir) = @ARGV;
 $out_dir = ($out_dir) ? $out_dir : "\.";
 
-#my $taxon_id = ($org) ? $org : "224308";
 my $data_source_name = "GenomeNet";
 my $kegg_url = "http://www.kegg.jp/";
 
@@ -45,11 +44,6 @@ my $kegg_url = "http://www.kegg.jp/";
 my $model = new InterMine::Model(file => $model_file);
 my $doc = new InterMine::Item::Document(model => $model);
 
-# # my $org_item = make_item(
-# #     Organism => (
-# #         taxonId => $taxon_id,
-# #     )
-# # );
 
 my $data_source_item = make_item(
     DataSource => (
@@ -64,8 +58,6 @@ my $reactions_data_set_item = make_item(
 	dataSource => $data_source_item,
     ),
 );
-
-#open(ORG_FILE, "< $org_file") || die "cannot open $org_file: $!\n";
 
 say "Executing KEGG pathways script" if ($verbose);
 
@@ -88,6 +80,7 @@ say "All done - enjoy your results" if ($verbose);
 exit(0);
 
 ## sub routines ##
+# set up the user agent and request - return the content
 sub kegg_ws {
 
   my $url = shift;
@@ -104,6 +97,7 @@ sub kegg_ws {
 
 }
 
+# process the reaction content as a file handle
 sub process_reactions {
 
   my ($content) = shift;
@@ -112,14 +106,15 @@ sub process_reactions {
 
   while (<$str_fh>) {
     chomp;
-    $_ =~ s/^rn://;
-    my ($reaction, $nameString) = split("\t", $_);
-#    $reactions{$reaction} = $name;
+    $_ =~ s/^rn://; # remove reaction prefix
+    my ($reaction, $nameString) = split("\t", $_); # separate reaction id and name part
     say "line $reaction $nameString" if ($verbose);
 
-    $nameString =~ /(.+); (.+)/;
+# test to see if we have a two-part description [ name; equation ]
+# if two-part, set name and equation - else we'll just use nameString for both
     my ($name, $equation) = ($1, $2) if ($nameString =~ /(.+); (.+)/);
 
+# make the reaction items
     my $reaction_item = make_item(
       Reaction => (
 	identifier => $reaction,
@@ -132,44 +127,43 @@ sub process_reactions {
 	$reaction_item->set( equation => $equation, );
     } else {
       $reaction_item->set( name => $nameString, );
+      $reaction_item->set( equation => $nameString, );
     }
-    $seen_reaction_items{$reaction} = $reaction_item;
+    $seen_reaction_items{$reaction} = $reaction_item; # add to hash for re-use
   }
 
-  close ($str_fh);
+  close ($str_fh); # close the reactions file handle
 }
 
+# process the reaction/ pathway mapping content as a file handle
 sub process_mappings {
 
   my ($content) = shift;
 
-#  my $out_file = $org . "_gene_map.tab";
-# #   open (OUT_FILE, ">$out_dir/$out_file") or die $!;
-# #   say "Writing to $out_dir/$out_file" if ($verbose);
+  open my ($str_fh), '+<', \$content; # assign content to file handle 
 
-  open my ($str_fh), '+<', \$content; # process 
-
+# loop over content
   while (<$str_fh>) {
     chomp;
     next if ($_ =~ /map/);
-    $_ =~ s/path://;
+    $_ =~ s/path://; # strip prefixes
     $_ =~ s/rn:?//g;
 
-    my ($reaction, $pathway) = split("\t", $_);
+    my ($reaction, $pathway) = split("\t", $_); # split
     say "line $reaction - $pathway" if ($verbose);
 
-    my $reaction_item = &make_reaction_item($reaction);
-    next unless $reaction_item;
+    my $reaction_item = &fetch_reaction_item($reaction); # fetch the reaction item
+    next unless $reaction_item; # skip if the reaction item doesn't exist
 
-    my $pathway_item = &make_pathway_item($pathway, $reaction_item);
+    my $pathway_item = &make_pathway_item($pathway, $reaction_item); # make our pathway item
     if ($pathway_item) {
-    push( @{ $reaction_item->{'pathways'} }, $pathway_item); 
+    push( @{ $reaction_item->{'pathways'} }, $pathway_item); # append pathway item to pathways collection
     } else {
       warn "Ooops! didn't find a pathway item for $pathway\n";
     }
   }
 
-  close ($str_fh);
+  close ($str_fh); # close the pathway/reactions file handle
 }
 
 ######## helper subroutines:
@@ -177,35 +171,43 @@ sub process_mappings {
 sub make_item {
     my @args = @_;
     my $item = $doc->add_item(@args);
-#    if ($item->valid_field('organism')) {
+
+# we're organism agnostic
+#    if ($item->valid_field('organism')) {  
 #        $item->set(organism => $org_item);
 #    }
     return $item;
 }
 
-sub make_reaction_item {
+# check to see whether we've made a reaction items for that ID
+sub fetch_reaction_item {
   my $id = shift;
 
   my $reaction_item;
   if (exists $seen_reaction_items{$id}) {
-    $reaction_item = $seen_reaction_items{$id};
+    $reaction_item = $seen_reaction_items{$id}; # if we have, assign it
   } else {
-    warn "Error: no reaction found for $id\n";
+    warn "Error: no reaction found for $id\n"; # if not, report the error
     return;
   }
-  return $reaction_item;
+  return $reaction_item; # return the reaction item
 }
+
 
 sub make_pathway_item {
   my ($id, $reaction_item) = @_;
 
   my $pathway_item;
+
+# check to see whether we've made a pathway item for that ID
   if (exists $seen_pathway_items{$id}) {
     say "Processing pathway $id" if ($verbose);
 
+# pathway items have a collection of reactions
     push( @{ $seen_pathway_items{$id} ->{'reactions'} }, $reaction_item);
-    $pathway_item = $seen_pathway_items{$id};
+    $pathway_item = $seen_pathway_items{$id}; # if we have, assign it
   } else {
+# if not, report the error and make a new one
     say "Haven't seen pathway $id - making one" if ($verbose);
     $pathway_item = make_item(
       Pathway => (
@@ -213,7 +215,7 @@ sub make_pathway_item {
 	reactions => [ $reaction_item ],
       ),
     );
-    $seen_pathway_items{$id} = $pathway_item;
+    $seen_pathway_items{$id} = $pathway_item;  #assign the new one
   }
-  return $pathway_item;
+  return $pathway_item; # return the pathway item
 }
