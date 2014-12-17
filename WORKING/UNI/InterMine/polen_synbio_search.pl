@@ -4,11 +4,16 @@
 
 use strict;
 use warnings;
-use feature ':5.12';
+use feature ':5.12'; # let's us 'say' instead of 'print'
 use JSON;
 
 require LWP::UserAgent;
 use Getopt::Std;
+
+# Tell @INC where to find the modules
+use lib "/SAN_synbiomine/data/SYNBIO_data/user_perl_modules";
+
+# Load the modules
 use SynbioRegionSearch qw/regionSearch/;
 use SynbioFetchExpression qw/expressionResults/;
 
@@ -19,12 +24,28 @@ no warnings ('uninitialized');
 
 my $usage = "Usage: polenBlast.pl options [-p|-s]
 
+Polls the Polen client for new messages. If they're sequence objects, the sequence
+is Blasted against the genome to get the location and gene info. Using geneID, the
+script queries SynBioMine to retrieve any gene expression data for the gene.
+
+Currently, three different groups use Polen:
+\tCambridge : receive messages and itegrate content into SynBioMine, then publish URL
+\tUCL : publish links to part characterisation data
+\tNewcastle : receive part characterisation messages and publish messages on new models
+
+Output: Constructs a JSON message containing the part data. However,
+in future this should probably just provide a perma URL to the integrated object page
+in SynBioMine.
+
 Options:
 -h\tthis help
 -p(art)\tthe polen client should poll for a virtual part
 -s(heet\tthe polen client should poll for a data sheet
 
 -d(ebug)\tdebug mode - verbose
+
+Hard-coded Polen client jars are located:
+/SAN_synbiomine/data/SYNBIO_data/BLAST/EcoliMG1655
 \n";
 
 ### command line options ###
@@ -40,14 +61,14 @@ unless ( $part_flag | $dsheet_flag ) { die $usage }
 #unless ( $part_flag | $dsheet_flag ) { die $usage }
 
 # Set working directory
-my $work_dir = "/home/ml590/MIKE/InterMine/SynBioMine/DataSources/DATA/BLAST/MICROBES";
+my $work_dir = "/SAN_synbiomine/data/SYNBIO_data/BLAST/MICROBES";
 
 # Get POLEN datasheet message
 # my $test = "21"; # used for testing the dsid retrieval
 print "Polling for messages...\n" if $debug; ###
 my $message;
-$message = `java -jar $work_dir/../EcoliMG1665/polenClient.jar` if $dsheet_flag; # Datasheet message
-$message = `java -jar $work_dir/../EcoliMG1665/polenClient_PartSeq.jar` if $part_flag; # Part message
+$message = `java -jar $work_dir/../EcoliMG1655/polenClient.jar` if $dsheet_flag; # Datasheet message
+$message = `java -jar $work_dir/../EcoliMG1655/polenClient_PartSeq.jar` if $part_flag; # Part message
 
 # Who does the message come from?
 # Newcastle will publish part sequence

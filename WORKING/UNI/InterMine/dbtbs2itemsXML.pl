@@ -5,24 +5,41 @@ use warnings;
 use XML::Twig;
 use Getopt::Std;
 
+# we want to use say instead of print
 use feature ':5.12';
 
-use InterMine::Item::Document;
-use InterMine::Model;
+# need to tell it where to find the modules
+use lib "/SAN_synbiomine/data/SYNBIO_data/user_perl_modules";
 
+# Load module dependencies
 use BlastSynbio qw/run_BLAST/;
 use SynbioGene2Location qw/geneLocation/;
 use SynbioRegionSearch qw/regionSearch/;
+
+# Use IM items modules
+use InterMine::Item::Document;
+use InterMine::Model;
 
 # Print unicode to standard out
 binmode(STDOUT, 'utf8');
 # Silence warnings when printing null fields
 no warnings ('uninitialized');
 
-my $usage = "Usage:dbtbs2itemsXML.pl DBTBS_XML.xml InterMine_model OUT_FILE 
+my $usage = "Usage:dbtbs2itemsXML.pl DBTBS.xml InterMine_model OUT_FILE 
 
-direct output to file e.g:\t> dbtbd_items.xml_file
-optionally, capture errors & warning:\t2> err
+Synopsis: consumes a static file dbtbs.xml containing transcriptional regulatory
+information for Bacillus subtilis 168. Output creates items XML linking genes
+to regulatory info e.g. promoters, transcription factors, sigma factors,
+operons and terminators. 
+
+\tOUT_FILE : just to capture verbose output for testing
+
+We still need to redirect output to file e.g:\t> dbtbd_items.xml_file
+
+Optionally, capture errors & warning:\t2> err
+
+Note: These data are needed by Bacillus RegNet for orthologous regulation prediction
+across species/ strains.
 
 ";
 
@@ -50,16 +67,18 @@ my %seen_sigma_items; # track processed tfac items
 my %evidenceCode_items;
 my %seen_publication_items;
 
-# synonyms file downloaded from bacilluscope: ids, symbols and synonyms extracted
-my $synonyms_file = "/home/ml590/MIKE/InterMine/SynBioMine/DataSources/bsub_id_symbol_synonyms_May2014.txt";
-my $work_dir = "/home/ml590/MIKE/InterMine/SynBioMine/DataSources/BLAST/Bsub168";
+# We need a look-up file to convert synonym [old] symbols to  B. sub unique identifiers
+# synonyms file was downloaded from bacilluscope: ids, symbols and synonyms extracted
+my $synonyms_file = "/SAN_synbiomine/data/SYNBIO_data/promoters/Bsub/Bsub_synonyms/bsub_id_symbol_synonyms_May2014.txt";
 
+# open up the synonyms file
 open(SYN_FILE, "< $synonyms_file") || die "cannot open $synonyms_file: $!\n";
 
 # process id, symbol, synonyms file
 my %id2synonym; # hash lookup for symbols/ synonyms
 
-# process the synonyms file and create look-up hash
+# process the synonyms file and make a hash map
+# format is uniqueId\tsymbol\tsynonym1, synonym2, etc
 while (<SYN_FILE>) {
   chomp;
   my ($identifier, $symbol, $syn_line) = split("\t", $_);
@@ -105,6 +124,8 @@ my $taxon_id = "224308";
 my $title = "DBTBS - Regulatory features for Bacillus subtilis 168";
 my $url = "http://dbtbs.hgc.jp";
 my $chromosome = "NC_000964.3";
+
+my $work_dir = "/SAN_synbiomine/data/SYNBIO_data/BLAST/Bsub168"; # our blast database
 
 # instantiate the model
 my $model = new InterMine::Model(file => $model_file);
@@ -165,7 +186,7 @@ my $twig = XML::Twig->new(
     },
 );
 
-$twig->parsefile( "$xml_file" );
+$twig->parsefile( "$xml_file" ); # call to parse the XML file
 
 
 $doc->close(); # writes the xml
@@ -203,6 +224,9 @@ sub process_promoters {
   $id =~ s/,/_/g;
   my $synonym = $id if ($id);
   
+# the promoter sequence is in a strange format - highlighting binding site
+# Need to strip-out extra chars so we can Blast the seq
+
   $prom_seq =~ tr|[A-Z]|[a-z]|;
   $prom_seq =~ s|\{(.+?)\}|uc($1)|eg;
   $prom_seq =~ s|\/(.+)\/|uc($1)|eg;
@@ -211,8 +235,6 @@ sub process_promoters {
   my $seq_length = &seq_length( $prom_seq ) if ($prom_seq);
 
 # BLAST promoter seq against B. sub genome to get location
-# Set working directory
-#  my $work_dir = "/home/ml590/MIKE/InterMine/SynBioMine/DataSources/BLAST/Bsub168";
   my $region_ref = &run_BLAST( $query, $seq_length, $work_dir, $debug ) if ($prom_seq);
 
   my @prom_regions = @{ $region_ref } if ($region_ref);
