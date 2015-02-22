@@ -8,7 +8,7 @@ use XML::Twig;
 use feature ':5.12';
 
 my $base = "http://plus.europepmc.org/GristAPI/rest/get/query=";
-my $query = "pi:peakman";
+my $query = "aff:\"king's college london\"";
 #my $query = "aff:london & pi:peakman";
 my $format = "&resultType=core";
 my $url = $base . $query . $format;
@@ -41,9 +41,12 @@ sub handler {
 
 sub process_record {
   my ($twig, $entry) = @_;
+
+  my $person = $entry->first_descendant('Person') if ( $entry->first_descendant('Person') );
+  my $surname = $person->first_child('FamilyName')->text if ( $person->first_child('FamilyName') );
+  my $firstname = $person->first_child('GivenName')->text if ($person->first_child('GivenName') );
   
-  my $surname = $entry->first_descendant('Person')->first_child('FamilyName')->text;
-  my $firstname = $entry->first_descendant('Person')->first_child('GivenName')->text;
+  my $pi = ($surname) ? ("$firstname $surname") : "no pi";
   
   # Grant
   my $grant = $entry->first_descendant('Grant');
@@ -63,10 +66,8 @@ sub process_record {
   my $duration = ($start) ? "$start-$end" : "not defined";
   my $value = ($amount) ? $amount : "not defined";
   
-  say "PI name: $firstname $surname";
-  say $funder, " : ", $id, " : ", $title;
-  say $grantType, " : ", $duration, " : ", $value;
-  say $abstract;
-  say "";
+  say $pi, "\t", $funder, "\t", $id, "\t", $title, 
+    "\t", $grantType, "\t", $duration, "\t", $value,
+    "\t", $abstract;
 }
 
