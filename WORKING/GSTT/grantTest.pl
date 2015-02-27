@@ -7,11 +7,22 @@ use XML::Twig;
 
 use feature ':5.12';
 
-my $base = "http://plus.europepmc.org/GristAPI/rest/get/query=";
 my $query = "aff:\"king's college london\"";
+my $respRef = &gist( $query );
+&pages( $respRef );
+
+exit(1);
+
+sub gist {
+
+my ($query, $page_no) = @_;
+my $page_q = "&page=$page_no" if ($page_no);
+
+my $base = "http://plus.europepmc.org/GristAPI/rest/get/query=";
 #my $query = "aff:london & pi:peakman";
 my $format = "&resultType=core";
-my $url = $base . $query . $format;
+my $url = ($page_no) ? ($base . $query . $format . $page_q) : ($base . $query . $format);
+#say $url;
 
 my $agent = LWP::UserAgent->new;
 
@@ -22,11 +33,45 @@ $response->is_success or say "Error: " .
 $response->code . " " . $response->message;
 
 my $content = $response->content;
+return \$content if ($content);
 #say $content;
 
-&handler($content);
+}
 
-exit(1);
+sub pages {
+
+  my $respRef = shift;
+  my $response = $$respRef;
+  my $twig = new XML::Twig( twig_handlers => { 'Response' => \&get_pages });
+  $twig->parse( $response );
+
+}
+
+sub get_pages {
+  my ($twig, $entry) = @_;
+
+  my $entries = $entry->first_child('HitCount')->text if ( $entry->first_child('HitCount') );
+  my $pageCalc = int($entries / 25);
+  my $pages = ($pageCalc >= 1) ? $pageCalc : 1;
+#  $pages = 2; # for testing
+  say "Entries: $entries\tPages:  $pages";
+  
+  $twig->purge();
+  
+  if ($pages) {
+    for (my $i=1; $i <= $pages; $i++) {
+#      say $i;
+      my $respRef = &gist( $query, $i );
+      my $content = $$respRef;
+      &handler( $content );
+      
+#      say $response, "\n\n";
+ #     &process_record( $response );
+    }
+  }
+}
+
+
 
 sub handler {
 
@@ -69,5 +114,7 @@ sub process_record {
   say $pi, "\t", $funder, "\t", $id, "\t", $title, 
     "\t", $grantType, "\t", $duration, "\t", $value,
     "\t", $abstract;
+    
+  $twig->purge();
 }
 
