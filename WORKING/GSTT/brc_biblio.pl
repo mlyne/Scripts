@@ -11,10 +11,14 @@ use feature ':5.12';
 # Silence warnings when printing null fields
 no warnings ('uninitialized');
 
-my $usage = "Usage:brc_biblio.pl termFile biblioFile 
+my $usage = "Usage:brc_biblio.pl termFile biblioFile outFile
 
-termFile format: # \t term
+termFile format: # \t Journal abbreviation TAB journal title
 biblioFile format: # \t TAB separated publications file
+
+outFile \t TAB separated publications file with two additional columns at the end:
+Journal Abbreviation
+Journal Title
 
 Finds identical matches to a term set in a bibliography file\n";
 
@@ -27,12 +31,14 @@ my $outFile = $ARGV[2];
 open(OUT_FILE, "> $outFile") || die "cannot open $outFile: $!\n";
 binmode(OUT_FILE, 'utf8');
 
-open(T1_FILE, "< $tFile1") || die "cannot open $tFile1: $!\n";
 my @terms;
 my %abbrHash = ();
 my %jTitleHash = ();
 my %origTitleHash = ();
 my %foundAbbr =();
+
+open(T1_FILE, "< $tFile1") || die "cannot open $tFile1: $!\n";
+
 
 while (<T1_FILE>) {
   chomp;
@@ -42,7 +48,7 @@ while (<T1_FILE>) {
   $lcAbbr =~ s/\.//g;
   my $lcTitle = lc($title);
   $abbrHash{$lcAbbr} = $lcTitle;
-  $jTitleHash{$lcTitle}++;
+  $jTitleHash{$lcTitle} = $lcAbbr;
   
   $origTitleHash{$lcTitle} = $title;
 }
@@ -60,7 +66,7 @@ while (<T2_FILE>) {
   if ($line =~ /Publiction_ID\t(.+)/) {
     $bibHeaders = $line;
     print OUT_FILE $bibHeaders;
-    print OUT_FILE "New_Journal\n";
+    print OUT_FILE "\tJournal_abbr\tJournal_title\n";
     last;
   }
 }
@@ -74,7 +80,8 @@ while (<T2_FILE>) {
   next if ($line =~ /Publiction_ID\t(.+)/) ; 
   
   my @fields = split("\t", $line);
-  my $journal_1 = $fields[6];
+  my $journal_1 = $fields[5];
+  # NoTE: not sure if fieds have changed was: $journal_1 = $fields[6];
   
 #   my ($Publiction_ID, $OLDPublication_ID, $Publication, $Publication_title, $Report_date, 
 #   + $Report_Descriptions, $Journal_1, $BRC_PI_main, $Other_BRC_PI_1, $Other_BRC_PI_2,
@@ -86,8 +93,9 @@ while (<T2_FILE>) {
   
   my $journal = lc($journal_1);
   $journal =~ s/\.//g;
+  $journal =~ s/\"//g;
   
-  print OUT_FILE join("\t", @fields);
+  print OUT_FILE join("\t", @fields); # remove for testing
   
 #   print OUT_FILE $Publiction_ID, $OLDPublication_ID, $Publication, $Publication_title, $Report_date, 
 #   + $Report_Descriptions, $Journal_1, $BRC_PI_main, $Other_BRC_PI_1, $Other_BRC_PI_2,
@@ -97,27 +105,41 @@ while (<T2_FILE>) {
 #   + $Cluster, $Cluster_4, $Trainee_author, $Training_scheme, $Is_tranee_first_author,
 #   + $Annual_Report, $RD_Board_Report;
   
+  # Test if we've already seen this example 
+  # - if we have we'll have put it in %foundAbbr for a quick lookup
    if ( exists $foundAbbr{$journal} )
    {
       my $trueTitle = $foundAbbr{$journal};
+      
+      # OUTPUT abbrev TAB title
+ #     print OUT_FILE "Found: "; # used for testing
       say OUT_FILE "\t", $trueTitle;
       next;
    }   
   
+  # cases where the Journal column contains an abbrev
    if ( exists $abbrHash{$journal} )
    {
       my $newTitle = $abbrHash{$journal};
       my $trueTitle = $origTitleHash{$newTitle};
-      say OUT_FILE "\t", $trueTitle;
-      $foundAbbr{$journal} = $trueTitle;
+      
+      # OUTPUT abbrev TAB title
+#      print OUT_FILE "Abbrev: "; # used for testing
+      say OUT_FILE "\t", $journal, "\t", $trueTitle;
+      $foundAbbr{$journal} = "$journal\t$trueTitle";
       next;
    } 
+   
+   # cases where the Journal column contains a Journal title
    elsif ( exists $jTitleHash{$journal} )
    {
       my $trueTitle = $origTitleHash{$journal};
-       say OUT_FILE "\t", $trueTitle;
-       $foundAbbr{$journal} = $trueTitle;
-       next;
+      
+      # OUTPUT abbrev TAB title
+#      print OUT_FILE "Title: ";  # used for testing 
+      say OUT_FILE "\t", $jTitleHash{$journal}, "\t", $trueTitle;
+      $foundAbbr{$journal} = "$jTitleHash{$journal}\t$trueTitle";
+      next;
    } else {
        say OUT_FILE "\t", "Not found: $journal";
    }
