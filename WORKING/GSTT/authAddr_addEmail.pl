@@ -15,6 +15,8 @@ no warnings ('uninitialized');
 my $usage = "Usage:authAddr_addEmail.pl authFreqAddr PI.file > out
 
 Format: TAB seperated auth address file
+PI_list : $f_names, $s_name, $email, $user
+Auth freq: $freq, $auth, $cat, $addr, $a_email
 id[TAB]Freq[TAB]Auth[TAB]Address
 \n";
 
@@ -38,8 +40,8 @@ while (<PIFILE>)
 {
   next if ($_ =~ /\#/);
   chomp;
-  my (undef, $f_name, $s_name, $email_1, $email_2, $rest) = split(/\t/, $_, 6);
-  $piHash{$s_name} = [$f_name, $s_name, $email_1, $email_2, $rest];
+  my ($f_names, $s_name, $email, $user) = split(/\t/, $_);
+  $piHash{$s_name} = [$f_names, $s_name, $email, $user];
   
 }
 close (PIFILE);
@@ -47,10 +49,10 @@ close (PIFILE);
 #my ($id, $freq, $auth, $addr, $a_email); 
 while (<AFILE>) 
 {
-  next if ($_ =~ /Paper Count/);
+  next if ($_ =~ /name.firstName/);
   chomp;
   
-  my ( $freq, $auth, $cat, $addr, $a_email, undef ) = split(/\t/, $_);
+  my ( $freq, $auth, $cat, $addr, $a_email) = split(/\t/, $_);
 #  say "$freq, $auth, $cat, $addr, $a_email";
   
   if ($a_email) { say OUT_FILE $_ ; next; }
